@@ -2,10 +2,13 @@ import fs from 'node:fs';
 import { test } from '@playwright/test';
 test('test', async ({ page }) => {
   await page.goto('http://127.0.0.1:5500/tests/index.html');
-  const cardList = page.locator('#PokemonCardList ol li');
+  const cardList = page.locator('.w-pkc-data-list-element');
+
   const cardData = await cardList.evaluateAll((elements) => {
+    console.log('elements', elements);
     return elements.map((element) => {
       const image = element.querySelector('._thumb img')?.getAttribute('src');
+      console.log('image', image);
       const body = element.querySelector('._body');
       const name = body?.querySelector('._name a')?.textContent;
       const hp = body?.querySelector('._hp ._v')?.textContent;

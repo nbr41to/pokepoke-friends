@@ -6,7 +6,7 @@ type CardType =
 
 type PokemonCard = {
   id: string;
-  type: CardType;
+  type: 'pokemon';
   name: string;
   image: string;
   hp: number;
@@ -18,4 +18,12 @@ type PokemonCard = {
   abilityDescription2?: string; // 技2の説明
   abilityEnergy2?: Record<string, number>; // 技2に必要なエネルギー
   trait?: string; // 特性
+};
+
+type TrainerCard = {
+  id: string;
+  type: CardType;
+  name: string;
+  image: string;
+  description: string;
 };
