@@ -1,0 +1,7636 @@
+[
+  {
+    "id": "478665",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s318.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ちょっとせいちょう",
+      "text": "自分のエネルギーゾーンから草エネルギーを1個出し、このポケモンにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "478970",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s327.png",
+    "hp": "130",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "サイコキネシス",
+      "text": "相手のバトルポケモンのエネルギーの数×20ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "478970",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s388.png",
+    "hp": "130",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "サイコキネシス",
+      "text": "相手のバトルポケモンのエネルギーの数×20ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "478969",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s328.png",
+    "hp": "130",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "パワフルブルーム",
+      "text": "このポケモンのエネルギーの数ぶんコインを投げ、表の数×50ダメージ。",
+      "power": "50×"
+    }
+  },
+  {
+    "id": "478969",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s403.png",
+    "hp": "130",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "パワフルブルーム",
+      "text": "このポケモンのエネルギーの数ぶんコインを投げ、表の数×50ダメージ。",
+      "power": "50×"
+    }
+  },
+  {
+    "id": "478969",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s397.png",
+    "hp": "130",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "パワフルブルーム",
+      "text": "このポケモンのエネルギーの数ぶんコインを投げ、表の数×50ダメージ。",
+      "power": "50×"
+    }
+  },
+  {
+    "id": "478669",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s324.png",
+    "hp": "70",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "478968",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s329.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "478967",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s330.png",
+    "hp": "110",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "みつりんのぬし",
+      "text": "このポケモンがいるかぎり、自分の場の草ポケモンについているすべての草エネルギーは、それぞれ草エネルギー2個ぶんとしてはたらく。この特性は重ならない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478967",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s389.png",
+    "hp": "110",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "みつりんのぬし",
+      "text": "このポケモンがいるかぎり、自分の場の草ポケモンについているすべての草エネルギーは、それぞれ草エネルギー2個ぶんとしてはたらく。この特性は重ならない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478667",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s322.png",
+    "hp": "60",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478966",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s331.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ゆれるほうし",
+      "text": "相手のバトルポケモンをねむりにする。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "478670",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s319.png",
+    "hp": "100",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "エナジーウィップ",
+      "text": "追加で草エネルギーが3個ついているなら、70ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "478965",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s332.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ふみつけ",
+      "text": "コインを1回投げオモテなら、30ダメージ追加。",
+      "power": "10+"
+    }
+  },
+  {
+    "id": "478964",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s333.png",
+    "hp": "100",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "つきあげる",
+      "text": "コインを1回投げオモテなら、60ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "478664",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s317.png",
+    "hp": "80",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "だいもんじ",
+      "text": "このポケモンから炎エネルギーを2個トラッシュ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "478668",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s323.png",
+    "hp": "80",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "478963",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s334.png",
+    "hp": "120",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "かさいりゅう",
+      "text": "このポケモンから炎エネルギーを2個トラッシュし、相手のポケモン1匹に80ダメージ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "478962",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s335.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ベノムショック",
+      "text": "相手のバトルポケモンがどくなら、40ダメージ追加。",
+      "power": "10+"
+    }
+  },
+  {
+    "id": "478962",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s390.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ベノムショック",
+      "text": "相手のバトルポケモンがどくなら、40ダメージ追加。",
+      "power": "10+"
+    }
+  },
+  {
+    "id": "478961",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s336.png",
+    "hp": "80",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "どくのツメ",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "478960",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s337.png",
+    "hp": "30",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "はねにげ",
+      "text": "このポケモンをベンチポケモンと入れ替える。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478959",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s338.png",
+    "hp": "180",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あばれうずしお",
+      "text": "おたがいのポケモン全員についているエネルギーからランダムに1個トラッシュ。",
+      "power": "140"
+    }
+  },
+  {
+    "id": "478959",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s394.png",
+    "hp": "180",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あばれうずしお",
+      "text": "おたがいのポケモン全員についているエネルギーからランダムに1個トラッシュ。",
+      "power": "140"
+    }
+  },
+  {
+    "id": "478663",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s314.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "おしながす",
+      "text": "自分の番に何回でも使える。自分のベンチの水ポケモンから水エネルギーを1個、バトル場の水ポケモンにつけ替える。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478663",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s391.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "おしながす",
+      "text": "自分の番に何回でも使える。自分のベンチの水ポケモンから水エネルギーを1個、バトル場の水ポケモンにつけ替える。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478958",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s339.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478957",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s340.png",
+    "hp": "80",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "アクアライナー",
+      "text": "相手のベンチポケモン1匹に50ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478956",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s341.png",
+    "hp": "80",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "478955",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s342.png",
+    "hp": "130",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "かみくだく",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "478954",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s343.png",
+    "hp": "80",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ダイビング",
+      "text": "コインを1回投げオモテなら、次の相手の番、このポケモンは技のダメージや効果を受けない。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "478717",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s326.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "エレキサークル",
+      "text": "自分のベンチの雷ポケモンの数×10ダメージ。",
+      "power": "10×"
+    }
+  },
+  {
+    "id": "478953",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s344.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ギガスパーク",
+      "text": "相手のベンチポケモン全員にも20ダメージ。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "478952",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s345.png",
+    "hp": "70",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "サンダーアロー",
+      "text": "相手のポケモン1匹に40ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "478951",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s346.png",
+    "hp": "40",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "478950",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s347.png",
+    "hp": "80",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "エレキネット",
+      "text": "次の相手の番、このワザを受けたポケモンはにげるができない。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "478638",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s313.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "でんきショック",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "478638",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s392.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "でんきショック",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466493",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s348.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "サイコリポート",
+      "text": "相手の手札のオモテをすべて見る。",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478637",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s311.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478637",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s396.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478637",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s398.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478637",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s402.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478949",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s349.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "スパイクドロー",
+      "text": "自分の山札を1枚引く。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "478948",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s350.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478947",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s351.png",
+    "hp": "90",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "マインドジャック",
+      "text": "相手のベンチポケモンの数×20ダメージ追加。",
+      "power": "10+"
+    }
+  },
+  {
+    "id": "478946",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s352.png",
+    "hp": "40",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "みつめる",
+      "text": "相手のバトルポケモンをねむりにする。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "478945",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s353.png",
+    "hp": "70",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "リーフドレイン",
+      "text": "このポケモンのHPを10回復。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "478944",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s354.png",
+    "hp": "120",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ブルームシャイン",
+      "text": "自分のポケモン全員のHPを20回復。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "478943",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s355.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478942",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s356.png",
+    "hp": "100",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "478941",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s357.png",
+    "hp": "50",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "きあいづき",
+      "text": "コインを1回投げウラなら、このワザは失敗。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "478940",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s358.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "478939",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s359.png",
+    "hp": "70",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "478938",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s360.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "478937",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s361.png",
+    "hp": "160",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ガードプレス",
+      "text": "次の相手の番、このポケモンが受けるワザのダメージを-30する。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "478636",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s312.png",
+    "hp": "140",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "げんしのさだめ",
+      "text": "このポケモンがいるかぎり、相手は手札からポケモンを出して、バトルポケモンを進化させられない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478636",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s387.png",
+    "hp": "140",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "げんしのさだめ",
+      "text": "このポケモンがいるかぎり、相手は手札からポケモンを出して、バトルポケモンを進化させられない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478636",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s400.png",
+    "hp": "140",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "げんしのさだめ",
+      "text": "このポケモンがいるかぎり、相手は手札からポケモンを出して、バトルポケモンを進化させられない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478672",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s315.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "リベンジ",
+      "text": "前の相手の番、ワザのダメージで、自分のポケモンが<card>きぜつ</card>していたなら、60ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "478672",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s393.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "リベンジ",
+      "text": "前の相手の番、ワザのダメージで、自分のポケモンが<card>きぜつ</card>していたなら、60ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "478936",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s362.png",
+    "hp": "120",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "90"
+    }
+  },
+  {
+    "id": "478935",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s363.png",
+    "hp": "70",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ぶんれつ",
+      "text": "自分の山札から「ドガース」をランダムに1枚、ベンチに出す。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "478934",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s364.png",
+    "hp": "110",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "えんまく",
+      "text": "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "478933",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s365.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478932",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s366.png",
+    "hp": "90",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "478931",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s367.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478930",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s368.png",
+    "hp": "90",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくばり",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478929",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s369.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ベノムショック",
+      "text": "相手のバトルポケモンがどくなら、50ダメージ追加。",
+      "power": "70+"
+    }
+  },
+  {
+    "id": "478928",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s370.png",
+    "hp": "100",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "さめはだ",
+      "text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンに20ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "478927",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s371.png",
+    "hp": "50",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "478926",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s372.png",
+    "hp": "90",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "478925",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s373.png",
+    "hp": "170",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "けちらしサイクロン",
+      "text": "相手のベンチポケモンの数×20ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "478925",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s404.png",
+    "hp": "170",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "けちらしサイクロン",
+      "text": "相手のベンチポケモンの数×20ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "478671",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s316.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "とうしのタックル",
+      "text": "相手のバトルポケモンが「ポケモンex」なら、80ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "478924",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s374.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "れんぞくステップ",
+      "text": "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
+      "power": "20×"
+    }
+  },
+  {
+    "id": "478923",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s375.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ものまね",
+      "text": "自分の手札をすべて山札にもどす。相手の手札の枚数ぶん、自分の山札を引く。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "478715",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s325.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "478922",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s376.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "478921",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s377.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "478921",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s399.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "478677",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s320.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "478677",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s395.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "478666",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s321.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "478666",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s401.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466507",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s231.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466680",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s39.png",
+    "hp": "60",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466679",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s79.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466679",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s239.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466678",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s80.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "アロマスリープ",
+      "text": "相手のバトルポケモンをねむりにする。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "466673",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s41.png",
+    "hp": "60",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466672",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s84.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466671",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s85.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "かおりのわな",
+      "text": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のベンチのたねポケモンを1匹選び、バトルポケモンと入れ替える。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466670",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s86.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466669",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s87.png",
+    "hp": "130",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ふみつけ",
+      "text": "コインを1回投げオモテなら、30ダメージ追加。",
+      "power": "30+"
+    }
+  },
+  {
+    "id": "466668",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s88.png",
+    "hp": "160",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "トロピカルスイング",
+      "text": "コインを1回投げオモテなら、40ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "466668",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s258.png",
+    "hp": "160",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "トロピカルスイング",
+      "text": "コインを1回投げオモテなら、40ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "466667",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s89.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "すいとる",
+      "text": "このポケモンのHPを10回復。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466665",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s240.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ダブルホーン",
+      "text": "コインを2回投げ、オモテの数×50ダメージ。",
+      "power": "50×"
+    }
+  },
+  {
+    "id": "466660",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s95.png",
+    "hp": "70",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ふいをつく",
+      "text": "コインを1回投げウラなら、このワザは失敗。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466659",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s96.png",
+    "hp": "120",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "466658",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s97.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ひのこ",
+      "text": "このポケモンから炎エネルギーを1個トラッシュ。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466658",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s241.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ひのこ",
+      "text": "このポケモンから炎エネルギーを1個トラッシュ。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466657",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s98.png",
+    "hp": "90",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "464541",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s43.png",
+    "hp": "150",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ほのおのうず",
+      "text": "このポケモンから炎エネルギーを2個トラッシュ。",
+      "power": "150"
+    }
+  },
+  {
+    "id": "464221",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s2.png",
+    "hp": "180",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "464221",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s68.png",
+    "hp": "180",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "464221",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s282.png",
+    "hp": "180",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "464220",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s3.png",
+    "hp": "50",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "しっぽをふる",
+      "text": "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンはワザが使えない。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466656",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s99.png",
+    "hp": "90",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "かえんほうしゃ",
+      "text": "このポケモンから炎エネルギーを1個トラッシュ。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "466653",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s242.png",
+    "hp": "100",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "464364",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s46.png",
+    "hp": "80",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "466652",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s47.png",
+    "hp": "120",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "かえんほうしゃ",
+      "text": "このポケモンから炎エネルギーを1個トラッシュ。",
+      "power": "110"
+    }
+  },
+  {
+    "id": "466651",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s102.png",
+    "hp": "100",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ゴッドバード",
+      "text": "コインを1回投げウラなら、このワザは失敗。",
+      "power": "130"
+    }
+  },
+  {
+    "id": "464198",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s103.png",
+    "hp": "140",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "れっかのまい",
+      "text": "コインを3回投げ、オモテの数ぶんの炎エネルギーを自分のエネルギーゾーンから出し、ベンチの炎ポケモンに好きなようにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "464198",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s25.png",
+    "hp": "140",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "れっかのまい",
+      "text": "コインを3回投げ、オモテの数ぶんの炎エネルギーを自分のエネルギーゾーンから出し、ベンチの炎ポケモンに好きなようにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "464198",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s277.png",
+    "hp": "140",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "れっかのまい",
+      "text": "コインを3回投げ、オモテの数ぶんの炎エネルギーを自分のエネルギーゾーンから出し、ベンチの炎ポケモンに好きなようにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466642",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s110.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466641",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s111.png",
+    "hp": "90",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466640",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s112.png",
+    "hp": "150",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "はんげき",
+      "text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンに20ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466627",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s124.png",
+    "hp": "50",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466626",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s125.png",
+    "hp": "90",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466625",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s126.png",
+    "hp": "130",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "90"
+    }
+  },
+  {
+    "id": "466625",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s261.png",
+    "hp": "130",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "90"
+    }
+  },
+  {
+    "id": "464197",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s128.png",
+    "hp": "100",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ハイドロポンプ",
+      "text": "追加で水エネルギーが3個ついているなら、70ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "464197",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s26.png",
+    "hp": "100",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ハイドロポンプ",
+      "text": "追加で水エネルギーが3個ついているなら、70ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "466620",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s133.png",
+    "hp": "50",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466619",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s134.png",
+    "hp": "90",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "466618",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s135.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466617",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s136.png",
+    "hp": "80",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "464194",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s29.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "みずしゅりけん",
+      "text": "自分の番に1回使える。相手のポケモン1匹に20ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466616",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s137.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466596",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s55.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "テレポート",
+      "text": "このポケモンをベンチポケモンと入れ替える。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466595",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s153.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "466594",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s154.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "サイコキネシス",
+      "text": "相手のバトルポケモンのエネルギーの数×30ダメージ追加。",
+      "power": "60+"
+    }
+  },
+  {
+    "id": "466594",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s245.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "サイコキネシス",
+      "text": "相手のバトルポケモンのエネルギーの数×30ダメージ追加。",
+      "power": "60+"
+    }
+  },
+  {
+    "id": "464190",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s246.png",
+    "hp": "70",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466576",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s171.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466575",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s57.png",
+    "hp": "90",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "やりかえす",
+      "text": "このポケモンがダメージを受けているなら、60ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "466574",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s58.png",
+    "hp": "70",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466573",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s172.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "466572",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s173.png",
+    "hp": "150",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "100"
+    }
+  },
+  {
+    "id": "466571",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s174.png",
+    "hp": "180",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "120"
+    }
+  },
+  {
+    "id": "466571",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s267.png",
+    "hp": "180",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "120"
+    }
+  },
+  {
+    "id": "466571",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s280.png",
+    "hp": "180",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "120"
+    }
+  },
+  {
+    "id": "466563",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s181.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466560",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s184.png",
+    "hp": "90",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466559",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s185.png",
+    "hp": "140",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "きゅうけつ",
+      "text": "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "466541",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s201.png",
+    "hp": "70",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "かみくだく",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466538",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s63.png",
+    "hp": "60",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ためる",
+      "text": "自分のエネルギーゾーンから鋼エネルギーを1個出し、このポケモンにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466537",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s204.png",
+    "hp": "130",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ハードコート",
+      "text": "このポケモンが受けるワザのダメージを-20する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466531",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s211.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466530",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s212.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ドリルライナー",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "464196",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s216.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ネコにこばん",
+      "text": "自分の山札を1枚引く。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "464196",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s27.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ネコにこばん",
+      "text": "自分の山札を1枚引く。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466526",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s217.png",
+    "hp": "90",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "シャドークロー",
+      "text": "コインを1回投げオモテなら、相手の手札からランダムに1枚トラッシュ。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "464203",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s20.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ピヨピヨパンチ",
+      "text": "コインを2回投げ、オモテの数×30ダメージ。",
+      "power": "30×"
+    }
+  },
+  {
+    "id": "466519",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s221.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "464202",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s21.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466508",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s230.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "464443",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s66.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "464443",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s270.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466505",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s233.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466505",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s272.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "464363",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s236.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "464363",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s67.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483538",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s429.png",
+    "hp": "70",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483537",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s430.png",
+    "hp": "130",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "メガドレイン",
+      "text": "このポケモンのHPを30回復。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "483537",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s570.png",
+    "hp": "130",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "メガドレイン",
+      "text": "このポケモンのHPを30回復。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "483536",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s431.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483535",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s432.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "エアスラッシュ",
+      "text": "このポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "483535",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s590.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "エアスラッシュ",
+      "text": "このポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "483535",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s605.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "エアスラッシュ",
+      "text": "このポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "483526",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s441.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "なかまをよぶ",
+      "text": "自分の山札からたねポケモンをランダムに1枚、ベンチに出す。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483526",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s571.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "なかまをよぶ",
+      "text": "自分の山札からたねポケモンをランダムに1枚、ベンチに出す。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483525",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s442.png",
+    "hp": "100",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "482936",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s411.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "はっぱサイクロン",
+      "text": "次の自分の番、このポケモンはワザが使えない。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "483522",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s445.png",
+    "hp": "60",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "かおるはなぞの",
+      "text": "自分の番に1回使える。自分のポケモン全員のHPを10回復。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483522",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s573.png",
+    "hp": "60",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "かおるはなぞの",
+      "text": "自分の番に1回使える。自分のポケモン全員のHPを10回復。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483514",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s453.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "483513",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s454.png",
+    "hp": "110",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あついしぼう",
+      "text": "このポケモンが、炎または水ポケモンから受けるワザのダメージを-20する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483512",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s455.png",
+    "hp": "160",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あついしぼう",
+      "text": "このポケモンが、炎または水ポケモンから受けるワザのダメージを-30する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483512",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s574.png",
+    "hp": "160",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あついしぼう",
+      "text": "このポケモンが、炎または水ポケモンから受けるワザのダメージを-30する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483491",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s476.png",
+    "hp": "80",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "じゅうでん",
+      "text": "自分のエネルギーゾーンから雷エネルギーを1個出し、このポケモンにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483201",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s477.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "エキサイトボルト",
+      "text": "追加で雷エネルギーが2個ついているなら、80ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "483490",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s478.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "かくれる",
+      "text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483490",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s577.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "かくれる",
+      "text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483489",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s479.png",
+    "hp": "90",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "483488",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s480.png",
+    "hp": "130",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ボルテージアロー",
+      "text": "このポケモンから雷エネルギーをすべてトラッシュし、相手のポケモン1匹に120ダメージ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "482946",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s410.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ガジェットスパーク",
+      "text": "このポケモンに「ポケモンのどうぐ」がついているなら、40ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "482946",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s593.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ガジェットスパーク",
+      "text": "このポケモンに「ポケモンのどうぐ」がついているなら、40ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "482946",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s607.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ガジェットスパーク",
+      "text": "このポケモンに「ポケモンのどうぐ」がついているなら、40ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "483482",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s487.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "テレポート",
+      "text": "このポケモンをベンチポケモンと入れ替える。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483481",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s488.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483480",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s489.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483479",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s490.png",
+    "hp": "90",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "483478",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s491.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "シャドーホール",
+      "text": "自分の番に何回でも使える。ダメージを受けている自分のポケモンを1匹選び、選んだポケモンが受けているダメージをすべて、このポケモンに移し替える。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483477",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s492.png",
+    "hp": "50",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ふくらむ",
+      "text": "次の相手の番、このポケモンが受けるワザのダメージを-20する。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "483477",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s579.png",
+    "hp": "50",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ふくらむ",
+      "text": "次の相手の番、このポケモンが受けるワザのダメージを-20する。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "483476",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s493.png",
+    "hp": "100",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483474",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s580.png",
+    "hp": "70",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ゴッドブラスト",
+      "text": "このワザは、自分のベンチに「ユクシー」「アグノム」がいるときにしか使えない。このポケモンからエネルギーをすべてトラッシュ。",
+      "power": "160"
+    }
+  },
+  {
+    "id": "483468",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s501.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483467",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s502.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "アクロバット",
+      "text": "コインを2回投げ、オモテの数×20ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "483466",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s503.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "483463",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s506.png",
+    "hp": "90",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "483462",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s507.png",
+    "hp": "150",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "もろはのずつき",
+      "text": "このワザのダメージで、相手のバトルポケモンがきぜつしたなら、このポケモンにも50ダメージ。",
+      "power": "130"
+    }
+  },
+  {
+    "id": "483461",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s508.png",
+    "hp": "120",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "483460",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s509.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "482937",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s510.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ファイティングコーチ",
+      "text": "このポケモンがいるかぎり、自分の闘ポケモンが使うワザの、相手のバトルポケモンへのダメージを+20する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "482937",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s416.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ファイティングコーチ",
+      "text": "このポケモンがいるかぎり、自分の闘ポケモンが使うワザの、相手のバトルポケモンへのダメージを+20する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483457",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s513.png",
+    "hp": "170",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "エナジーブレード",
+      "text": "相手のバトルポケモンのエネルギーの数×20ダメージ追加。",
+      "power": "70+"
+    }
+  },
+  {
+    "id": "483457",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s595.png",
+    "hp": "170",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "エナジーブレード",
+      "text": "相手のバトルポケモンのエネルギーの数×20ダメージ追加。",
+      "power": "70+"
+    }
+  },
+  {
+    "id": "483457",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s609.png",
+    "hp": "170",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "エナジーブレード",
+      "text": "相手のバトルポケモンのエネルギーの数×20ダメージ追加。",
+      "power": "70+"
+    }
+  },
+  {
+    "id": "483456",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s514.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "482947",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s412.png",
+    "hp": "100",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ちょくげきひこう",
+      "text": "相手のポケモン1匹に50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483451",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s519.png",
+    "hp": "70",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "483450",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s520.png",
+    "hp": "100",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくガス",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "483446",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s524.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "みんなでしばく",
+      "text": "自分の場のポケモンの数ぶんコインを投げ、オモテの数×20ダメージ。",
+      "power": "20×"
+    }
+  },
+  {
+    "id": "483446",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s586.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "みんなでしばく",
+      "text": "自分の場のポケモンの数ぶんコインを投げ、オモテの数×20ダメージ。",
+      "power": "20×"
+    }
+  },
+  {
+    "id": "483445",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s525.png",
+    "hp": "90",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "みんなでしばく",
+      "text": "自分の場のポケモンの数ぶんコインを投げ、オモテの数×40ダメージ。",
+      "power": "40×"
+    }
+  },
+  {
+    "id": "483444",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s526.png",
+    "hp": "110",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ダークホール",
+      "text": "相手のバトルポケモンをねむりにする。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483443",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s527.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ナイトメアオーラ",
+      "text": "自分のエネルギーゾーンからこのポケモンに悪エネルギーをつけるたび、相手のバトルポケモンに20ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483443",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s597.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ナイトメアオーラ",
+      "text": "自分のエネルギーゾーンからこのポケモンに悪エネルギーをつけるたび、相手のバトルポケモンに20ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483443",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s611.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ナイトメアオーラ",
+      "text": "自分のエネルギーゾーンからこのポケモンに悪エネルギーをつけるたび、相手のバトルポケモンに20ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483442",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s529.png",
+    "hp": "110",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "90"
+    }
+  },
+  {
+    "id": "483438",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s533.png",
+    "hp": "60",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483437",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s534.png",
+    "hp": "120",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ガードプレス",
+      "text": "次の相手の番、このポケモンが受けるワザのダメージを-20する。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "482945",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s405.png",
+    "hp": "150",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "メタルターボ",
+      "text": "自分のエネルギーゾーンから鋼エネルギーを2個出し、ベンチポケモン1匹につける。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "482945",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s598.png",
+    "hp": "150",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "メタルターボ",
+      "text": "自分のエネルギーゾーンから鋼エネルギーを2個出し、ベンチポケモン1匹につける。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "482945",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s614.png",
+    "hp": "150",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "メタルターボ",
+      "text": "自分のエネルギーゾーンから鋼エネルギーを2個出し、ベンチポケモン1匹につける。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483435",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s536.png",
+    "hp": "120",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "こうてつタックル",
+      "text": "このポケモンにも20ダメージ。",
+      "power": "110"
+    }
+  },
+  {
+    "id": "483435",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s619.png",
+    "hp": "120",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "こうてつタックル",
+      "text": "このポケモンにも20ダメージ。",
+      "power": "110"
+    }
+  },
+  {
+    "id": "483401",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s550.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "いかりのまえば",
+      "text": "相手のバトルポケモンの残りHPを、半分(切り捨て)にする。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483401",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s587.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "いかりのまえば",
+      "text": "相手のバトルポケモンの残りHPを、半分(切り捨て)にする。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483400",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s551.png",
+    "hp": "110",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483399",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s552.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "483398",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s553.png",
+    "hp": "90",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "とびげり",
+      "text": "相手のベンチポケモン1匹にも20ダメージ。",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483393",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s589.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "レイジングハンマー",
+      "text": "このポケモンが受けているダメージぶん、ダメージ追加。",
+      "power": "50+"
+    }
+  },
+  {
+    "id": "483392",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s559.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483390",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s561.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483385",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s565.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483385",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s601.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483384",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s567.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483384",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s602.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483383",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s568.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483383",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s603.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483217",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s425.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "482943",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s407.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483532",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s435.png",
+    "hp": "100",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483531",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s436.png",
+    "hp": "160",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ハードプラント",
+      "text": "次の自分の番、このポケモンは「ハードプラント」が使えない。",
+      "power": "150"
+    }
+  },
+  {
+    "id": "483530",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s437.png",
+    "hp": "60",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483529",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s438.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "トランスメロディ",
+      "text": "相手のバトルポケモンをこんらんにする。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "483524",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s443.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ウィップダウン",
+      "text": "コインを1回投げオモテなら、50ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "483524",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s572.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ウィップダウン",
+      "text": "コインを1回投げオモテなら、50ダメージ追加。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "483521",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s446.png",
+    "hp": "80",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "もえあがる",
+      "text": "自分のエネルギーゾーンから炎エネルギーを1個出し、このポケモンにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483520",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s447.png",
+    "hp": "130",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "バーストインフェルノ",
+      "text": "相手のバトルポケモンをやけどにする。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "482942",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s408.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483517",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s450.png",
+    "hp": "80",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483516",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s451.png",
+    "hp": "170",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "フレアドライブ",
+      "text": "このポケモンから炎エネルギーをすべてトラッシュ。",
+      "power": "140"
+    }
+  },
+  {
+    "id": "483516",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s591.png",
+    "hp": "170",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "フレアドライブ",
+      "text": "このポケモンから炎エネルギーをすべてトラッシュ。",
+      "power": "140"
+    }
+  },
+  {
+    "id": "483516",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s606.png",
+    "hp": "170",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "フレアドライブ",
+      "text": "このポケモンから炎エネルギーをすべてトラッシュ。",
+      "power": "140"
+    }
+  },
+  {
+    "id": "483511",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s456.png",
+    "hp": "110",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "クリスタルボディ",
+      "text": "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "482941",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s409.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ひとやすみ",
+      "text": "このポケモンのHPを20回復。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483510",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s457.png",
+    "hp": "90",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483509",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s458.png",
+    "hp": "150",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "アクアジェット",
+      "text": "相手のベンチポケモン1匹にも30ダメージ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "483506",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s461.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483505",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s462.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "だくりゅう",
+      "text": "相手のベンチポケモン1匹にも20ダメージ。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483505",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s575.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "だくりゅう",
+      "text": "相手のベンチポケモン1匹にも20ダメージ。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483500",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s467.png",
+    "hp": "90",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "れいとうビーム",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "482944",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s406.png",
+    "hp": "150",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "482944",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s592.png",
+    "hp": "150",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "482944",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s613.png",
+    "hp": "150",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483497",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s470.png",
+    "hp": "50",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "うみのおくりもの",
+      "text": "自分のベンチポケモンを2匹選び、エネルギーゾーンから水エネルギーを出し、1個ずつつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483497",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s576.png",
+    "hp": "50",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "うみのおくりもの",
+      "text": "自分のベンチポケモンを2匹選び、エネルギーゾーンから水エネルギーを出し、1個ずつつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "483487",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s481.png",
+    "hp": "70",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "アサルトレーザー",
+      "text": "相手のバトルポケモンに「ポケモンのどうぐ」がついているなら、30ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "483487",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s578.png",
+    "hp": "70",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "アサルトレーザー",
+      "text": "相手のバトルポケモンに「ポケモンのどうぐ」がついているなら、30ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "483484",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s485.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483483",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s486.png",
+    "hp": "140",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "マジカルトリップ",
+      "text": "相手のバトルポケモンをこんらんにする。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "483483",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s594.png",
+    "hp": "140",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "マジカルトリップ",
+      "text": "相手のバトルポケモンをこんらんにする。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "483483",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s608.png",
+    "hp": "140",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "マジカルトリップ",
+      "text": "相手のバトルポケモンをこんらんにする。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "483472",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s497.png",
+    "hp": "120",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ふゆう",
+      "text": "このポケモンにエネルギーがついているなら、このポケモンのにげるためのエネルギーを、すべてなくす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483472",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s581.png",
+    "hp": "120",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ふゆう",
+      "text": "このポケモンにエネルギーがついているなら、このポケモンのにげるためのエネルギーを、すべてなくす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "482938",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s415.png",
+    "hp": "110",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ムーンライトゲイン",
+      "text": "このポケモンのHPを20回復。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "482938",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s582.png",
+    "hp": "110",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ムーンライトゲイン",
+      "text": "このポケモンのHPを20回復。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "483471",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s498.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "483470",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s499.png",
+    "hp": "110",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "483469",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s500.png",
+    "hp": "160",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "マウンテンスイング",
+      "text": "自分の山札の上から3枚トラッシュ。",
+      "power": "150"
+    }
+  },
+  {
+    "id": "483469",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s583.png",
+    "hp": "160",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "マウンテンスイング",
+      "text": "自分の山札の上から3枚トラッシュ。",
+      "power": "150"
+    }
+  },
+  {
+    "id": "483459",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s511.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483459",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s584.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483458",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s512.png",
+    "hp": "140",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "120"
+    }
+  },
+  {
+    "id": "483455",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s515.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ダブルひっかき",
+      "text": "コインを2回投げ、オモテの数×20ダメージ。",
+      "power": "20×"
+    }
+  },
+  {
+    "id": "483454",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s516.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "スクラッチネイル",
+      "text": "相手のバトルポケモンがダメージを受けているなら、40ダメージ追加。",
+      "power": "30+"
+    }
+  },
+  {
+    "id": "483454",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s596.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "スクラッチネイル",
+      "text": "相手のバトルポケモンがダメージを受けているなら、40ダメージ追加。",
+      "power": "30+"
+    }
+  },
+  {
+    "id": "483454",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s610.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "スクラッチネイル",
+      "text": "相手のバトルポケモンがダメージを受けているなら、40ダメージ追加。",
+      "power": "30+"
+    }
+  },
+  {
+    "id": "483449",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s521.png",
+    "hp": "80",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "うずまくわざわい",
+      "text": "相手のポケモン全員に10ダメージ。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "483449",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s585.png",
+    "hp": "80",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "うずまくわざわい",
+      "text": "相手のポケモン全員に10ダメージ。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "483441",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s530.png",
+    "hp": "100",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "483440",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s531.png",
+    "hp": "160",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "がんめんガード",
+      "text": "このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンが受けるワザのダメージを-100する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483439",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s532.png",
+    "hp": "110",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "アイアンヘッド",
+      "text": "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。",
+      "power": "50+"
+    }
+  },
+  {
+    "id": "482939",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s414.png",
+    "hp": "60",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483434",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s537.png",
+    "hp": "90",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483433",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s538.png",
+    "hp": "140",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "あらけずり",
+      "text": "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を1枚引く。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483433",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s618.png",
+    "hp": "140",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "あらけずり",
+      "text": "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を1枚引く。",
+      "power": ""
+    }
+  },
+  {
+    "id": "483432",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s539.png",
+    "hp": "80",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "483431",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s540.png",
+    "hp": "160",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ベロベロラッシュ",
+      "text": "ウラが出るまでコインを投げ、オモテの数×40ダメージ追加。",
+      "power": "100+"
+    }
+  },
+  {
+    "id": "483431",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s599.png",
+    "hp": "160",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ベロベロラッシュ",
+      "text": "ウラが出るまでコインを投げ、オモテの数×40ダメージ追加。",
+      "power": "100+"
+    }
+  },
+  {
+    "id": "483431",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s612.png",
+    "hp": "160",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ベロベロラッシュ",
+      "text": "ウラが出るまでコインを投げ、オモテの数×40ダメージ追加。",
+      "power": "100+"
+    }
+  },
+  {
+    "id": "483429",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s542.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483428",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s543.png",
+    "hp": "80",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "483427",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s544.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "バグビーム",
+      "text": "相手の次に発生するエネルギーのタイプを、草炎水雷超闘悪鋼の中からランダムな1つに変える。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "483404",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s547.png",
+    "hp": "50",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ついばむ",
+      "text": "ダメージを与える前に、相手のバトルポケモンから「ポケモンのどうぐ」をトラッシュ。",
+      "power": "20"
+    }
+  },
+  {
+    "id": "483403",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s548.png",
+    "hp": "80",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "483402",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s549.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "わしづかみ",
+      "text": "次の相手の番、このワザを受けたポケモンはにげるができない。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "483402",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s617.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "わしづかみ",
+      "text": "次の相手の番、このワザを受けたポケモンはにげるができない。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "483397",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s554.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "きどる",
+      "text": "コインを1回投げウラなら、このワザは失敗。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "483397",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s588.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "きどる",
+      "text": "コインを1回投げウラなら、このワザは失敗。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "483396",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s555.png",
+    "hp": "110",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "じゃまする",
+      "text": "相手の手札のオモテをすべて見て、その中からカードを1枚選び、山札にもどす。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "483395",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s556.png",
+    "hp": "70",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "みだれづき",
+      "text": "コインを3回投げ、オモテの数×20ダメージ。",
+      "power": "20×"
+    }
+  },
+  {
+    "id": "483391",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s560.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483386",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s564.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483386",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s600.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "482940",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s566.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "482940",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s413.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483382",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s569.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483382",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s604.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483389",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s562.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "483388",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s563.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466686",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s74.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ともだちをさがす",
+      "text": "自分の山札から草ポケモンをランダムに1枚、手札に加える。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466685",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s38.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466684",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s75.png",
+    "hp": "120",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "パウダーヒール",
+      "text": "自分の番に1回使える。自分のポケモン全員のHPを20回復。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466677",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s40.png",
+    "hp": "70",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466676",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s81.png",
+    "hp": "120",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "80"
+    }
+  },
+  {
+    "id": "466655",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s100.png",
+    "hp": "70",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466654",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s101.png",
+    "hp": "130",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ヒートタックル",
+      "text": "このポケモンにも20ダメージ。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "464540",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s44.png",
+    "hp": "150",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "もうかのとっしん",
+      "text": "このポケモンにも20ダメージ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "464540",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s259.png",
+    "hp": "150",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "もうかのとっしん",
+      "text": "このポケモンにも20ダメージ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "464218",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s5.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "464218",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s69.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466645",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s107.png",
+    "hp": "80",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466644",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s108.png",
+    "hp": "150",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ハイドロポンプ",
+      "text": "追加で水エネルギーが2個ついているなら、60ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "464539",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s50.png",
+    "hp": "180",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "464539",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s260.png",
+    "hp": "180",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466637",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s115.png",
+    "hp": "80",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466636",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s116.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "90"
+    }
+  },
+  {
+    "id": "466632",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s120.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466630",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s121.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ウォーターアロー",
+      "text": "相手のポケモン1匹に50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466629",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s122.png",
+    "hp": "40",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466628",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s123.png",
+    "hp": "100",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "つのでつつく",
+      "text": "コインを1回投げウラなら、このワザは失敗。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "464215",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s8.png",
+    "hp": "30",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466624",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s127.png",
+    "hp": "150",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "はかいこうせん",
+      "text": "相手のバトルポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "466624",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s243.png",
+    "hp": "150",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "はかいこうせん",
+      "text": "相手のバトルポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "466623",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s129.png",
+    "hp": "90",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466622",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s130.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "こだいのうずしお",
+      "text": "次の相手の番、このワザを受けたポケモンはワザが使えない。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "464213",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s10.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "464192",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s32.png",
+    "hp": "100",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "10まんボルト",
+      "text": "このポケモンからエネルギーをすべてトラッシュ。",
+      "power": "140"
+    }
+  },
+  {
+    "id": "464212",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s11.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "エレキサークル",
+      "text": "自分のベンチの雷ポケモンの数×30ダメージ。",
+      "power": "30×"
+    }
+  },
+  {
+    "id": "464212",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s263.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "エレキサークル",
+      "text": "自分のベンチの雷ポケモンの数×30ダメージ。",
+      "power": "30×"
+    }
+  },
+  {
+    "id": "464212",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s31.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "エレキサークル",
+      "text": "自分のベンチの雷ポケモンの数×30ダメージ。",
+      "power": "30×"
+    }
+  },
+  {
+    "id": "466612",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s141.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466611",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s142.png",
+    "hp": "80",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ボルトチャージ",
+      "text": "自分の番に1回使える。自分のエネルギーゾーンから雷エネルギーを1個出し、このポケモンにつける。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466610",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s143.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466609",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s144.png",
+    "hp": "80",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "466609",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s244.png",
+    "hp": "80",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "464191",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s33.png",
+    "hp": "70",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "かみなりパンチ",
+      "text": "コインを1回投げオモテなら、40ダメージ追加。ウラなら、このポケモンにも20ダメージ。",
+      "power": "40+"
+    }
+  },
+  {
+    "id": "466608",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s51.png",
+    "hp": "90",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ミサイルばり",
+      "text": "コインを4回投げ、オモテの数×40ダメージ。",
+      "power": "40×"
+    }
+  },
+  {
+    "id": "466607",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s145.png",
+    "hp": "100",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "らくらい",
+      "text": "自分のベンチポケモン1匹にも30ダメージ。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "466606",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s52.png",
+    "hp": "130",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466606",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s264.png",
+    "hp": "130",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466606",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s278.png",
+    "hp": "130",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466598",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s54.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466597",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s152.png",
+    "hp": "100",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466590",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s158.png",
+    "hp": "70",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466589",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s159.png",
+    "hp": "100",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ねむりのふりこ",
+      "text": "自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンをねむりにする。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466578",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s56.png",
+    "hp": "50",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466578",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s247.png",
+    "hp": "50",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466577",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s170.png",
+    "hp": "70",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "あなをほる",
+      "text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466570",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s175.png",
+    "hp": "70",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466569",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s176.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "466568",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s177.png",
+    "hp": "160",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "すてみタックル",
+      "text": "このポケモンにも50ダメージ。",
+      "power": "150"
+    }
+  },
+  {
+    "id": "466567",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s178.png",
+    "hp": "110",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "464538",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s60.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466558",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s186.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466553",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s191.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "なかまをよぶ",
+      "text": "自分の山札から「ニドラン♂」をランダムに1枚、ベンチに出す。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466552",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s192.png",
+    "hp": "80",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466551",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s193.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ラブラブアタック",
+      "text": "自分のベンチの「ニドキング」の数×50ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "466551",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s249.png",
+    "hp": "140",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ラブラブアタック",
+      "text": "自分のベンチの「ニドキング」の数×50ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "466550",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s194.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466549",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s61.png",
+    "hp": "90",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466548",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s195.png",
+    "hp": "150",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくのつの",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "466548",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s250.png",
+    "hp": "150",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくのつの",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "466529",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s213.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466528",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s214.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "466527",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s215.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "スリーピーソング",
+      "text": "相手のバトルポケモンをねむりにする。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "466527",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s269.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "スリーピーソング",
+      "text": "相手のバトルポケモンをねむりにする。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "466527",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s281.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "スリーピーソング",
+      "text": "相手のバトルポケモンをねむりにする。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "464204",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s19.png",
+    "hp": "120",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "464202",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s224.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "464202",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s71.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "464200",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s23.png",
+    "hp": "150",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "464200",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s256.png",
+    "hp": "150",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "466509",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s229.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466506",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s232.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466506",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s271.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "464188",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s36.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "464188",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s275.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466502",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s237.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466502",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s276.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "491391",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s754.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ふえる",
+      "text": "自分の山札から「ビードル」をランダムに1枚、ベンチに出す。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "491391",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s835.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ふえる",
+      "text": "自分の山札から「ビードル」をランダムに1枚、ベンチに出す。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "491390",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s755.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "いとをはく",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491390",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s836.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "いとをはく",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+      "power": "20"
+    }
+  },
+  {
+    "id": "490568",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s731.png",
+    "hp": "170",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "クラッシュスピア",
+      "text": "相手のバトルポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "490568",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s817.png",
+    "hp": "170",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "クラッシュスピア",
+      "text": "相手のバトルポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "490568",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s842.png",
+    "hp": "170",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "クラッシュスピア",
+      "text": "相手のバトルポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "490561",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s741.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ギロチンラッシュ",
+      "text": "ウラが出るまでコインを投げ、オモテの数×40ダメージ追加。",
+      "power": "50+"
+    }
+  },
+  {
+    "id": "490564",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s738.png",
+    "hp": "60",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "ともだちをさがす",
+      "text": "自分の山札から草ポケモンをランダムに1枚、手札に加える。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "491389",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s756.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "491388",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s757.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "とうしのツメ",
+      "text": "相手のバトルポケモンが「ポケモンex」なら、70ダメージを追加。",
+      "power": "60+"
+    }
+  },
+  {
+    "id": "491388",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s812.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "とうしのツメ",
+      "text": "相手のバトルポケモンが「ポケモンex」なら、70ダメージを追加。",
+      "power": "60+"
+    }
+  },
+  {
+    "id": "491387",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s758.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491387",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s837.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491386",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s759.png",
+    "hp": "90",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "491386",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s838.png",
+    "hp": "90",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "490574",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s725.png",
+    "hp": "180",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "もえあがる",
+      "text": "自分のエネルギーゾーンから炎エネルギーを3個出し、このポケモンにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "490574",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s818.png",
+    "hp": "180",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "もえあがる",
+      "text": "自分のエネルギーゾーンから炎エネルギーを3個出し、このポケモンにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "490574",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s733.png",
+    "hp": "180",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "もえあがる",
+      "text": "自分のエネルギーゾーンから炎エネルギーを3個出し、このポケモンにつける。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "491385",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s760.png",
+    "hp": "70",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491384",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s761.png",
+    "hp": "120",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "えんばく",
+      "text": "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "491383",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s762.png",
+    "hp": "110",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "ブレイズタックル",
+      "text": "このポケモンにも10ダメージ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "491382",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s763.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "491381",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s764.png",
+    "hp": "100",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "491380",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s765.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "491380",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s813.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "491379",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s766.png",
+    "hp": "90",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ウォーターアロー",
+      "text": "相手のポケモン1匹に30ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "490563",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s767.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "とびだす",
+      "text": "相手のポケモンがランダムに1匹選ばれ、選ばれたポケモンに、30ダメージ。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "490563",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s739.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "とびだす",
+      "text": "相手のポケモンがランダムに1匹選ばれ、選ばれたポケモンに、30ダメージ。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "490571",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s728.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あちこちとびだす",
+      "text": "相手のポケモンがランダムに3回選ばれ、選ばれたポケモン全員に、選ばれた回数×50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "490571",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s819.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あちこちとびだす",
+      "text": "相手のポケモンがランダムに3回選ばれ、選ばれたポケモン全員に、選ばれた回数×50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "490571",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s843.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あちこちとびだす",
+      "text": "相手のポケモンがランダムに3回選ばれ、選ばれたポケモン全員に、選ばれた回数×50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "491378",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s768.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "オーシャンサイクロン",
+      "text": "相手のベンチポケモン全員にも10ダメージ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "491378",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s839.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "オーシャンサイクロン",
+      "text": "相手のベンチポケモン全員にも10ダメージ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "490565",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s769.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "てったいしじ",
+      "text": "このポケモンがいるかぎり、自分のバトル場の「ヘイラッシャ」のにげるためのエネルギーを、すべてなくす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "490565",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s737.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "てったいしじ",
+      "text": "このポケモンがいるかぎり、自分のバトル場の「ヘイラッシャ」のにげるためのエネルギーを、すべてなくす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "490572",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s727.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "10まんボルト",
+      "text": "このポケモンからエネルギーをすべてトラッシュ。",
+      "power": "150"
+    }
+  },
+  {
+    "id": "490572",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s820.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "10まんボルト",
+      "text": "このポケモンからエネルギーをすべてトラッシュ。",
+      "power": "150"
+    }
+  },
+  {
+    "id": "490572",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s830.png",
+    "hp": "120",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "10まんボルト",
+      "text": "このポケモンからエネルギーをすべてトラッシュ。",
+      "power": "150"
+    }
+  },
+  {
+    "id": "491377",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s770.png",
+    "hp": "70",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "491376",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s771.png",
+    "hp": "90",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ローリングアタック",
+      "text": "コインを1回投げオモテなら、30ダメージ追加。",
+      "power": "50+"
+    }
+  },
+  {
+    "id": "490566",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s735.png",
+    "hp": "70",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "プラズマ",
+      "text": "自分のエネルギーゾーンから雷エネルギーを1個出し、ベンチの雷ポケモンにつける。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "490566",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s736.png",
+    "hp": "70",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "プラズマ",
+      "text": "自分のエネルギーゾーンから雷エネルギーを1個出し、ベンチの雷ポケモンにつける。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "491375",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s772.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491374",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s773.png",
+    "hp": "90",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "491373",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s774.png",
+    "hp": "140",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "はんげき",
+      "text": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンに20ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "491372",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s775.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491371",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s776.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "491370",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s777.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "サイコサプレッション",
+      "text": "エネルギーがついている相手のベンチポケモン全員にも20ダメージ。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "491369",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s778.png",
+    "hp": "90",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ジャグリング",
+      "text": "コインを4回投げ、オモテの数×20ダメージ。",
+      "power": "20×"
+    }
+  },
+  {
+    "id": "491368",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s779.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491367",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s780.png",
+    "hp": "90",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "490573",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s726.png",
+    "hp": "150",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "はくうのさけび",
+      "text": "自分の番に1回使えて、使ったなら、番は終わる。自分のエネルギーゾーンから超エネルギーを1個出し、このポケモンにつける。",
+      "power": ""
+    }
+  },
+  {
+    "id": "490573",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s821.png",
+    "hp": "150",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "はくうのさけび",
+      "text": "自分の番に1回使えて、使ったなら、番は終わる。自分のエネルギーゾーンから超エネルギーを1個出し、このポケモンにつける。",
+      "power": ""
+    }
+  },
+  {
+    "id": "490573",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s834.png",
+    "hp": "150",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "はくうのさけび",
+      "text": "自分の番に1回使えて、使ったなら、番は終わる。自分のエネルギーゾーンから超エネルギーを1個出し、このポケモンにつける。",
+      "power": ""
+    }
+  },
+  {
+    "id": "491366",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s781.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "はこにかくれる",
+      "text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "491365",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s782.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491364",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s783.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ぶんなぐる",
+      "text": "コインを1回投げオモテなら、30ダメージ追加。",
+      "power": "30+"
+    }
+  },
+  {
+    "id": "491363",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s784.png",
+    "hp": "150",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "パワープレス",
+      "text": "追加で闘エネルギーが2個ついているなら、50ダメージ追加。",
+      "power": "70+"
+    }
+  },
+  {
+    "id": "491362",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s785.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "491361",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s786.png",
+    "hp": "90",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "90"
+    }
+  },
+  {
+    "id": "491360",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s787.png",
+    "hp": "70",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "491360",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s840.png",
+    "hp": "70",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "490570",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s729.png",
+    "hp": "150",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "はどうだん",
+      "text": "相手のベンチポケモン1匹にも30ダメージ。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "490570",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s822.png",
+    "hp": "150",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "はどうだん",
+      "text": "相手のベンチポケモン1匹にも30ダメージ。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "490570",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s734.png",
+    "hp": "150",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "はどうだん",
+      "text": "相手のベンチポケモン1匹にも30ダメージ。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "491359",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s788.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "にどげり",
+      "text": "コインを2回投げ、オモテの数×50ダメージ。",
+      "power": "50×"
+    }
+  },
+  {
+    "id": "491358",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s789.png",
+    "hp": "70",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "491357",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s790.png",
+    "hp": "110",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくのキバ",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "491356",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s791.png",
+    "hp": "50",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくづき",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "490569",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s730.png",
+    "hp": "160",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ベノムショック",
+      "text": "相手のバトルポケモンがどくなら、60ダメージ追加。",
+      "power": "60+"
+    }
+  },
+  {
+    "id": "490569",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s823.png",
+    "hp": "160",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ベノムショック",
+      "text": "相手のバトルポケモンがどくなら、60ダメージ追加。",
+      "power": "60+"
+    }
+  },
+  {
+    "id": "490569",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s831.png",
+    "hp": "160",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ベノムショック",
+      "text": "相手のバトルポケモンがどくなら、60ダメージ追加。",
+      "power": "60+"
+    }
+  },
+  {
+    "id": "491355",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s792.png",
+    "hp": "80",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "あやしいひかり",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "491354",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s793.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491353",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s794.png",
+    "hp": "90",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくぬり",
+      "text": "自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンをどくにする。",
+      "power": ""
+    }
+  },
+  {
+    "id": "491353",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s814.png",
+    "hp": "90",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくぬり",
+      "text": "自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンをどくにする。",
+      "power": ""
+    }
+  },
+  {
+    "id": "491352",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s795.png",
+    "hp": "60",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491351",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s796.png",
+    "hp": "90",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "がんばりハンマー",
+      "text": "コインを1回投げオモテなら、30ダメージ追加。",
+      "power": "30+"
+    }
+  },
+  {
+    "id": "490575",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s724.png",
+    "hp": "170",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ごうかいスタンプ",
+      "text": "コインを1回投げオモテなら、80ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "490575",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s824.png",
+    "hp": "170",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ごうかいスタンプ",
+      "text": "コインを1回投げオモテなら、80ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "490575",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s832.png",
+    "hp": "170",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ごうかいスタンプ",
+      "text": "コインを1回投げオモテなら、80ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "490562",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s797.png",
+    "hp": "70",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "490562",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s740.png",
+    "hp": "70",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "491350",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s798.png",
+    "hp": "110",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "スピンドリフト",
+      "text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "491350",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s841.png",
+    "hp": "110",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "スピンドリフト",
+      "text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "491349",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s799.png",
+    "hp": "120",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ゴージャスサーフ",
+      "text": "このポケモンの鋼エネルギーの数ぶんコインを投げ、オモテの数×50ダメージ。",
+      "power": "50×"
+    }
+  },
+  {
+    "id": "491349",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s815.png",
+    "hp": "120",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ゴージャスサーフ",
+      "text": "このポケモンの鋼エネルギーの数ぶんコインを投げ、オモテの数×50ダメージ。",
+      "power": "50×"
+    }
+  },
+  {
+    "id": "491348",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s800.png",
+    "hp": "50",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "491347",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s801.png",
+    "hp": "90",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "491346",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s802.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491345",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s803.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "やすらぎのうた",
+      "text": "自分の番に1回使える。自分のバトルポケモンのHPを20回復。",
+      "power": ""
+    }
+  },
+  {
+    "id": "491345",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s816.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "やすらぎのうた",
+      "text": "自分の番に1回使える。自分のバトルポケモンのHPを20回復。",
+      "power": ""
+    }
+  },
+  {
+    "id": "491344",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s804.png",
+    "hp": "80",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "491343",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s805.png",
+    "hp": "130",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "491342",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s806.png",
+    "hp": "70",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "490567",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s732.png",
+    "hp": "160",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "のびのびプレス",
+      "text": "このポケモンのHPを30回復。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "490567",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s825.png",
+    "hp": "160",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "のびのびプレス",
+      "text": "このポケモンのHPを30回復。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "490567",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s833.png",
+    "hp": "160",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "のびのびプレス",
+      "text": "このポケモンのHPを30回復。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "491341",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s807.png",
+    "hp": "50",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "491340",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s808.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "491339",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s809.png",
+    "hp": "80",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "オーバーアクセル",
+      "text": "次の自分の番、このポケモンの「オーバーアクセル」のダメージを+20する。",
+      "power": "20"
+    }
+  },
+  {
+    "id": "490559",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s743.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "490559",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s826.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "491336",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s810.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "491336",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s827.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "490560",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s742.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "490560",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s828.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "491335",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s811.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "491335",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s829.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466497",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s844.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "486923",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s636.png",
+    "hp": "100",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "いっぽんなげ",
+      "text": "コインを2回投げ、すべてオモテなら、70ダメージ追加。",
+      "power": "50+"
+    }
+  },
+  {
+    "id": "486922",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s637.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486921",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s638.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "486920",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s639.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486919",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s640.png",
+    "hp": "100",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "とつげき",
+      "text": "このポケモンにも30ダメージ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "486918",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s641.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486917",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s642.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "なやみのタネ",
+      "text": "相手のバトルポケモンをこんらんにする。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "486916",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s643.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "やどりぎのタネ",
+      "text": "このポケモンのHPを20回復。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "486435",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s624.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "パワーリンク",
+      "text": "自分の場に「アルセウス」または「アルセウスex」がいるなら、このポケモンが使うワザの相手のバトルポケモンへのダメージを+30する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486433",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s622.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "もりのいぶき",
+      "text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分のエネルギーゾーンから草エネルギーを1個出し、草ポケモンにつける。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486433",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s701.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "もりのいぶき",
+      "text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分のエネルギーゾーンから草エネルギーを1個出し、草ポケモンにつける。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486433",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s710.png",
+    "hp": "140",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "もりのいぶき",
+      "text": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分のエネルギーゾーンから草エネルギーを1個出し、草ポケモンにつける。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486915",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s644.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486914",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s645.png",
+    "hp": "100",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "おいつめる",
+      "text": "次の相手の番、このワザを受けたポケモンはにげるができない",
+      "power": "60"
+    }
+  },
+  {
+    "id": "486914",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s695.png",
+    "hp": "100",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "おいつめる",
+      "text": "次の相手の番、このワザを受けたポケモンはにげるができない",
+      "power": "60"
+    }
+  },
+  {
+    "id": "486436",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s625.png",
+    "hp": "110",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "スピードリンク",
+      "text": "自分の場に「アルセウス」または「アルセウスex」がいるなら、このポケモンがにげるためのエネルギーを、すべてなくす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486913",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s646.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486913",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s696.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486912",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s647.png",
+    "hp": "100",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "486911",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s648.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486910",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s649.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "あばれる",
+      "text": "コインを1回投げてオモテなら、60ダメージ追加。ウラなら、このポケモンにも20ダメージ。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "486909",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s650.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486908",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s651.png",
+    "hp": "90",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ふぶき",
+      "text": "相手のベンチポケモン全員にも10ダメージ。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "486907",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s652.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486437",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s626.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ハッスルリンク",
+      "text": "自分の場に「アルセウス」または「アルセウスex」がいるなら、このポケモンがワザを使うためのエネルギーを無色エネルギー1個ぶん少なくする。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486434",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s702.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "スノーフィールド",
+      "text": "このポケモンがバトル場にいるかぎり、ポケモンチェックのたび、相手のバトルポケモンに10ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486434",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s623.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "スノーフィールド",
+      "text": "このポケモンがバトル場にいるかぎり、ポケモンチェックのたび、相手のバトルポケモンに10ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486434",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s711.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "スノーフィールド",
+      "text": "このポケモンがバトル場にいるかぎり、ポケモンチェックのたび、相手のバトルポケモンに10ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486906",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s653.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ゾーンブレイク",
+      "text": "コインを1回投げオモテなら、60ダメージ追加。",
+      "power": "60+"
+    }
+  },
+  {
+    "id": "486905",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s654.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "みずのはどう",
+      "text": "相手のポケモンをねむりにする。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "486904",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s655.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "スパーク",
+      "text": "相手のベンチポケモン1匹にも10ダメージ。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "486438",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s627.png",
+    "hp": "90",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "ガードリンク",
+      "text": "自分の場に「アルセウス」または「アルセウスex」がいるなら、このポケモンが受けるワザのダメージを-30する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486903",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s656.png",
+    "hp": "60",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486902",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s657.png",
+    "hp": "90",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "フラッシュ",
+      "text": "次の相手の番、このワザを受けたポケモンがワザを使う時、相手はコインを1回投げる。ウラなら、そのワザは失敗。",
+      "power": "40"
+    }
+  },
+  {
+    "id": "486901",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s658.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486900",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s659.png",
+    "hp": "100",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "ムーンフォース",
+      "text": "次の番、このワザを受けたポケモンが使うワザのダメージを-30する。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "486899",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s660.png",
+    "hp": "50",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "おどろかす",
+      "text": "コインを1回投げオモテなら、相手の手札をランダムに1枚、オモテを見て、相手の山札にもどす。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "486898",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s661.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "486897",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s662.png",
+    "hp": "140",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "さいみんはどう",
+      "text": "相手のバトルポケモンをねむりにする。",
+      "power": "70"
+    }
+  },
+  {
+    "id": "486446",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s635.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "CHECK【チェック】",
+      "text": "自分の番に1回使える。自分または相手のどちらかを選び、選ばれたプレイヤーの山札の上から1枚見て、もとにもどす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486446",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s697.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "CHECK【チェック】",
+      "text": "自分の番に1回使える。自分または相手のどちらかを選び、選ばれたプレイヤーの山札の上から1枚見て、もとにもどす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486439",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s628.png",
+    "hp": "70",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "スピードリンク",
+      "text": "自分の場に「アルセウス」または「アルセウスex」がいるなら、このポケモンがにげるためのエネルギーを、すべてなくす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486896",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s663.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "とうしのずつき",
+      "text": "相手のバトルポケモンが「ポケモンex」なら、30ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "486896",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s698.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "とうしのずつき",
+      "text": "相手のバトルポケモンが「ポケモンex」なら、30ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "486895",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s664.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486894",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s665.png",
+    "hp": "120",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ローリングスピン",
+      "text": "次の自分の番、このポケモンの「ローリングスピン」のダメージを+60する。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "486893",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s666.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486892",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s667.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "486440",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s629.png",
+    "hp": "160",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "パワーリンク",
+      "text": "自分の場に「アルセウス」または「アルセウスex」がいるなら、このポケモンが使うワザの相手のバトルポケモンへのダメージを+30する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486891",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s668.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "486890",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s669.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486889",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s670.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "いっぱつげり",
+      "text": "コインを1回投げウラなら、このワザは失敗。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "486888",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s671.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486887",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s672.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486432",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s621.png",
+    "hp": "170",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ちょくげきだん",
+      "text": "相手のポケモン1匹に50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "486432",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s703.png",
+    "hp": "170",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ちょくげきだん",
+      "text": "相手のポケモン1匹に50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "486432",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s712.png",
+    "hp": "170",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ちょくげきだん",
+      "text": "相手のポケモン1匹に50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "486886",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s673.png",
+    "hp": "50",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486885",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s674.png",
+    "hp": "80",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486441",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s630.png",
+    "hp": "110",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "トリックリンク",
+      "text": "自分の場に「アルセウス」または「アルセウスex」がいるなら、自分の番に1回つかえる。相手のバトルポケモンに30ダメージ。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486884",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s675.png",
+    "hp": "60",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486883",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s676.png",
+    "hp": "100",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくどく",
+      "text": "相手のバトルポケモンをどくにする。このどくのダメージは20になる。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "486882",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s677.png",
+    "hp": "60",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486882",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s699.png",
+    "hp": "60",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486881",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s678.png",
+    "hp": "90",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486442",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s631.png",
+    "hp": "140",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "ガードリンク",
+      "text": "自分の場に「アルセウス」または「アルセウスex」がいるなら、このポケモンが受けるワザのダメージを-30する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486880",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s679.png",
+    "hp": "70",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "てっこつくだき",
+      "text": "相手のバトルポケモンが鋼ポケモンなら、30ダメージ追加。",
+      "power": "20+"
+    }
+  },
+  {
+    "id": "486879",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s680.png",
+    "hp": "160",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "プロテクトユニット",
+      "text": "次の相手の番、このポケモンが受けるワザのダメージを-20する。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "486879",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s704.png",
+    "hp": "160",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "プロテクトユニット",
+      "text": "次の相手の番、このポケモンが受けるワザのダメージを-20する。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "486879",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s713.png",
+    "hp": "160",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "プロテクトユニット",
+      "text": "次の相手の番、このポケモンが受けるワザのダメージを-20する。",
+      "power": "90"
+    }
+  },
+  {
+    "id": "486878",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s681.png",
+    "hp": "60",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "486877",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s682.png",
+    "hp": "120",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "サイコキネシス",
+      "text": "相手のバトルポケモンのエネルギーの数×20ダメージ追加。",
+      "power": "50+"
+    }
+  },
+  {
+    "id": "486876",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s683.png",
+    "hp": "120",
+    "type": "_icon _icon-metal",
+    "ability1": {
+      "name": "タイムクラッシュ",
+      "text": "コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "486875",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s684.png",
+    "hp": "120",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "クライシスダイブ",
+      "text": "このポケモンからエネルギーをランダムに2個トラッシュ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "486874",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s685.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486873",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s686.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "たおれこむ",
+      "text": "このポケモンをねむりにする。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "486872",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s687.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486871",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s688.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "サイレントウイング",
+      "text": "相手の手札のオモテをすべて見る。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "486870",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s689.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "486869",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s690.png",
+    "hp": "80",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "486868",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s691.png",
+    "hp": "150",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "ブレイブバード",
+      "text": "このポケモンにも20ダメージ。",
+      "power": "130"
+    }
+  },
+  {
+    "id": "486443",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s632.png",
+    "hp": "70",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "スカイサポート",
+      "text": "このポケモンがベンチにいるかぎり、自分のバトル場のたねポケモンのにげるためのエネルギーを、1個少なくする",
+      "power": ""
+    }
+  },
+  {
+    "id": "486443",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s700.png",
+    "hp": "70",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "スカイサポート",
+      "text": "このポケモンがベンチにいるかぎり、自分のバトル場のたねポケモンのにげるためのエネルギーを、1個少なくする",
+      "power": ""
+    }
+  },
+  {
+    "id": "486867",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s692.png",
+    "hp": "120",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "パワーブラスト",
+      "text": "このポケモンからエネルギーをランダムに1個トラッシュ。",
+      "power": "100"
+    }
+  },
+  {
+    "id": "486431",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s620.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "しんわのかがやき",
+      "text": "このポケモンは特殊状態にならない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486431",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s705.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "しんわのかがやき",
+      "text": "このポケモンは特殊状態にならない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486431",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s714.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "しんわのかがやき",
+      "text": "このポケモンは特殊状態にならない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486431",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s715.png",
+    "hp": "140",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "しんわのかがやき",
+      "text": "このポケモンは特殊状態にならない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "486445",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s634.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "486445",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s706.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "486866",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s693.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "486866",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s707.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "486865",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s694.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "486865",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s708.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "486444",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s633.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "486444",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s709.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "464222",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s1.png",
+    "hp": "70",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "464222",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s238.png",
+    "hp": "70",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466688",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s72.png",
+    "hp": "90",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "466687",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s73.png",
+    "hp": "160",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "メガドレイン",
+      "text": "このポケモンのHPを30回復。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "464365",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s37.png",
+    "hp": "190",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "464365",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s257.png",
+    "hp": "190",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "466683",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s76.png",
+    "hp": "50",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466682",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s77.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466681",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s78.png",
+    "hp": "120",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "70"
+    }
+  },
+  {
+    "id": "466675",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s82.png",
+    "hp": "60",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466674",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s83.png",
+    "hp": "80",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "どくのこな",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466666",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s90.png",
+    "hp": "70",
+    "type": "_icon _icon-grass",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466649",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s48.png",
+    "hp": "60",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466648",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s105.png",
+    "hp": "90",
+    "type": "_icon _icon-fire",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "466639",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s113.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466638",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s114.png",
+    "hp": "110",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "どくのしょくしゅ",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "464216",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s7.png",
+    "hp": "60",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466635",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s117.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "シェルアーマー",
+      "text": "このポケモンが受けるワザのダメージを-10する。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466634",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s118.png",
+    "hp": "70",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466633",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s119.png",
+    "hp": "120",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "ひっさつクラブ",
+      "text": "コインを2回投げ、すべてオモテなら、80ダメージ追加。",
+      "power": "80+"
+    }
+  },
+  {
+    "id": "464214",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s9.png",
+    "hp": "130",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "バブルドレイン",
+      "text": "このポケモンのHPを30回復。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "466621",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s131.png",
+    "hp": "100",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "れいとうビーム",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+      "power": "60"
+    }
+  },
+  {
+    "id": "464193",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s132.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "464193",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s30.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "464193",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s262.png",
+    "hp": "140",
+    "type": "_icon _icon-water",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466603",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s53.png",
+    "hp": "30",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466602",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s148.png",
+    "hp": "80",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466601",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s149.png",
+    "hp": "140",
+    "type": "_icon _icon-lightning",
+    "ability1": {
+      "name": "かみなりのキバ",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+      "power": "80"
+    }
+  },
+  {
+    "id": "466593",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s155.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "464209",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s14.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466592",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s156.png",
+    "hp": "130",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "いやがらせ",
+      "text": "次の相手の番、相手は手札からサポートを出して使えない。",
+      "power": "50"
+    }
+  },
+  {
+    "id": "466591",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s157.png",
+    "hp": "170",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "かげのじゅばく",
+      "text": "このポケモンがバトル場にいるかぎり、相手は手札からサポートを出して使えない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466591",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s265.png",
+    "hp": "170",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "かげのじゅばく",
+      "text": "このポケモンがバトル場にいるかぎり、相手は手札からサポートを出して使えない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466591",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s279.png",
+    "hp": "170",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "かげのじゅばく",
+      "text": "このポケモンがバトル場にいるかぎり、相手は手札からサポートを出して使えない。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466588",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s160.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "バリアアタック",
+      "text": "次の相手の番、このポケモンが受けるワザのダメージを-20する。",
+      "power": "30"
+    }
+  },
+  {
+    "id": "466587",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s161.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "サイコキネシス",
+      "text": "相手のバトルポケモンのエネルギーの数×20ダメージ追加。",
+      "power": "30+"
+    }
+  },
+  {
+    "id": "466586",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s162.png",
+    "hp": "120",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "パワーブラスト",
+      "text": "このポケモンから超エネルギーを2個トラッシュ。",
+      "power": "120"
+    }
+  },
+  {
+    "id": "464208",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s15.png",
+    "hp": "150",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "464208",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s266.png",
+    "hp": "150",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "464208",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s70.png",
+    "hp": "150",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "50"
+    }
+  },
+  {
+    "id": "466585",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s163.png",
+    "hp": "60",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "464189",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s35.png",
+    "hp": "80",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "464207",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s16.png",
+    "hp": "110",
+    "type": "_icon _icon-psychic",
+    "ability1": {
+      "name": "トランスシェイド",
+      "text": "自分の番に1回使える。自分のエネルギーゾーンから超エネルギーを1個出し、バトル場の超ポケモンにつける。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466566",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s59.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "なきごえ",
+      "text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージを-20する。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466566",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s248.png",
+    "hp": "60",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "なきごえ",
+      "text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージを-20する。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466565",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s179.png",
+    "hp": "100",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466564",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s180.png",
+    "hp": "140",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ホネブーメラン",
+      "text": "コインを2回投げ、オモテの数×80ダメージ。",
+      "power": "80×"
+    }
+  },
+  {
+    "id": "466564",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s268.png",
+    "hp": "140",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "ホネブーメラン",
+      "text": "コインを2回投げ、オモテの数×80ダメージ。",
+      "power": "80×"
+    }
+  },
+  {
+    "id": "464206",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s17.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "のびるキック",
+      "text": "相手のベンチポケモン1匹に30ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466562",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s182.png",
+    "hp": "80",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "60"
+    }
+  },
+  {
+    "id": "466561",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s183.png",
+    "hp": "120",
+    "type": "_icon _icon-fighting",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "100"
+    }
+  },
+  {
+    "id": "466547",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s196.png",
+    "hp": "50",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466546",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s197.png",
+    "hp": "70",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466546",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s251.png",
+    "hp": "70",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466545",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s62.png",
+    "hp": "70",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "どくガス",
+      "text": "相手のバトルポケモンをどくにする。",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466544",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s198.png",
+    "hp": "130",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "ベノムショック",
+      "text": "相手のバトルポケモンがどくなら、50ダメージ追加。",
+      "power": "70+"
+    }
+  },
+  {
+    "id": "466543",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s199.png",
+    "hp": "70",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466542",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s200.png",
+    "hp": "110",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "もれだすガス",
+      "text": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをどくにする。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466542",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s252.png",
+    "hp": "110",
+    "type": "_icon _icon-darkness",
+    "ability1": {
+      "name": "もれだすガス",
+      "text": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをどくにする。",
+      "power": ""
+    }
+  },
+  {
+    "id": "464205",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s18.png",
+    "hp": "70",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "40"
+    }
+  },
+  {
+    "id": "466536",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s205.png",
+    "hp": "100",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "80"
+    }
+  },
+  {
+    "id": "466535",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s206.png",
+    "hp": "160",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "りゅうせいぐん",
+      "text": "相手のポケモンがランダムに4回選ばれ、選ばれたポケモン全員に、選ばれた回数×50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466535",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s253.png",
+    "hp": "160",
+    "type": "_icon _icon-dragon",
+    "ability1": {
+      "name": "りゅうせいぐん",
+      "text": "相手のポケモンがランダムに4回選ばれ、選ばれたポケモン全員に、選ばれた回数×50ダメージ。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466534",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s207.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "10"
+    }
+  },
+  {
+    "id": "466533",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s208.png",
+    "hp": "80",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "30"
+    }
+  },
+  {
+    "id": "464195",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s209.png",
+    "hp": "130",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "おいはらう",
+      "text": "自分の番に1回使える。相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+      "power": ""
+    }
+  },
+  {
+    "id": "464195",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s28.png",
+    "hp": "130",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "おいはらう",
+      "text": "自分の番に1回使える。相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+      "power": ""
+    }
+  },
+  {
+    "id": "466521",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s220.png",
+    "hp": "90",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "れんぞくベロベロ",
+      "text": "ウラが出るまでコインを投げ、オモテの数×60ダメージ。",
+      "power": "60×"
+    }
+  },
+  {
+    "id": "466518",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s222.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "どこでもコピー",
+      "text": "相手の場のポケモンが持っているワザを1つ選び、このワザとして使う。選んだワザに必要なエネルギーがこのポケモンについていなければ、このワザは失敗。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466518",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s254.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "どこでもコピー",
+      "text": "相手の場のポケモンが持っているワザを1つ選び、このワザとして使う。選んだワザに必要なエネルギーがこのポケモンについていなければ、このワザは失敗。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "464202",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s223.png",
+    "hp": "60",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": "20"
+    }
+  },
+  {
+    "id": "466515",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s225.png",
+    "hp": "50",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "データスキャン",
+      "text": "自分の番に1回使える。自分の山札を上から1枚見て、もとにもどす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "466515",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s255.png",
+    "hp": "50",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "データスキャン",
+      "text": "自分の番に1回使える。自分の山札を上から1枚見て、もとにもどす。",
+      "power": ""
+    }
+  },
+  {
+    "id": "464201",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s22.png",
+    "hp": "100",
+    "type": "_icon _icon-colorless",
+    "ability1": {
+      "name": "げんしのはばたき",
+      "text": "コインを1回投げオモテなら、相手のバトルポケモンを山札にもどす。",
+      "power": "-"
+    }
+  },
+  {
+    "id": "466507",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s231.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466504",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s234.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466504",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s273.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466503",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s235.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  },
+  {
+    "id": "466503",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/s274.png",
+    "hp": "",
+    "type": "",
+    "ability1": {
+      "name": "",
+      "text": "",
+      "power": ""
+    }
+  }
+]
