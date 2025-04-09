@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ポケモンの笛",
+    "rarity": "ノーマル",
+    "effect": "相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。",
+    "acquisition": "幻のいる島",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l325.png",
+    "id": "325"
+  },
+  {
+    "name": "幻の石板",
+    "rarity": "ノーマル",
+    "effect": "自分の山札を上から1枚見て、そのカードが超ポケモンなら、手札に加える。超ポケモンでないなら、山札の下にもどす。",
+    "acquisition": "幻のいる島",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l376.png",
+    "id": "376"
+  },
+  {
+    "name": "ひみつのコハク",
+    "rarity": "ノーマル",
+    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
+    "acquisition": "幻のいる島",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l231.png",
+    "id": "231"
+  },
+  {
+    "name": "こうらの化石",
+    "rarity": "ノーマル",
+    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
+    "acquisition": "最強の遺伝子リザードン",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l230.png",
+    "id": "230"
+  },
+  {
+    "name": "ずがいの化石",
+    "rarity": "ノーマル",
+    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
+    "acquisition": "時空の激闘ディアルガ",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l559.png",
+    "id": "559"
+  },
+  {
+    "name": "ポケモン通信",
+    "rarity": "ノーマル",
+    "effect": "自分の手札からポケモンを1枚選び、山札にあるランダムなポケモン1枚と入れ替える。",
+    "acquisition": "時空の激闘ディアルガ",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l561.png",
+    "id": "561"
+  },
+  {
+    "name": "たての化石",
+    "rarity": "ノーマル",
+    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
+    "acquisition": "時空の激闘パルキア",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l560.png",
+    "id": "560"
+  },
+  {
+    "name": "かいの化石",
+    "rarity": "ノーマル",
+    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
+    "acquisition": "最強の遺伝子ピカチュウ",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l229.png",
+    "id": "229"
+  },
+  {
+    "name": "モンスターボール",
+    "rarity": "ウルトラレア",
+    "effect": "自分の山札からたねポケモンをランダムに1枚、手札に加える。",
+    "acquisition": "シャイニングハイ",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l844.png",
+    "id": "844"
+  }
+]

@@ -6,7 +6,11 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "scraping:pokemon": "bun run tests/pokemon.ts",
+    "scraping:items": "bun run tests/trainers/items.ts",
+    "scraping:supports": "bun run tests/trainers/supports.ts",
+    "scraping:tools": "bun run tests/trainers/tools.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
