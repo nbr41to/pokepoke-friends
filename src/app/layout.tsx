@@ -3,7 +3,7 @@ import { Hachi_Maru_Pop } from 'next/font/google';
 import Link from 'next/link';
 import { FaUsers } from 'react-icons/fa6';
 import { FaUserPlus } from 'react-icons/fa6';
-import { TbPokeball } from 'react-icons/tb';
+import { TbListSearch, TbPokeball } from 'react-icons/tb';
 import '@/styles/globals.css';
 
 export const hachiMaruPop = Hachi_Maru_Pop({
@@ -50,6 +50,12 @@ export default function RootLayout({
             </Link>
             <Link href="/" className="grow h-full grid place-content-center">
               <FaUserPlus size={24} />
+            </Link>
+            <Link
+              href="/search"
+              className="grow h-full grid place-content-center"
+            >
+              <TbListSearch size={24} />
             </Link>
           </nav>
         </footer>

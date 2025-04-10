@@ -8,18 +8,21 @@ test('test', async ({ page }) => {
     return elements.map((element) => {
       const id = element
         .querySelector('._thumb icard')
-        ?.getAttribute('data-aid');
+        ?.getAttribute('data-cid');
       const image = element.querySelector('._thumb img')?.getAttribute('src');
       const body = element.querySelector('._body');
       const name = body?.querySelector('._name a')?.textContent;
       const hp = body?.querySelector('._hp ._v')?.textContent;
       const type = body
         ?.querySelector('._icon')
-        ?.className.replace(/_icon _icon- /, '');
+        ?.className.replace('_icon _icon-', '');
       const contexts = body?.querySelectorAll('._context ._column-table');
       const quantityText = contexts?.[0]?.querySelector('.req')?.textContent;
-      const quantity = quantityText?.replace('✕', '');
-      const costType = contexts?.[0]?.querySelector('.req')?.textContent;
+      const quantity = quantityText?.replace('✕', '') || null;
+      const costType = contexts?.[0]
+        ?.querySelector('.req')
+        ?.querySelector('._icon')
+        ?.className.replace('_icon _icon-', '');
 
       return {
         id,
@@ -31,7 +34,7 @@ test('test', async ({ page }) => {
           name: contexts?.[0]?.querySelector('card')?.textContent,
           text: contexts?.[0]?.querySelector('card')?.getAttribute('data-txt'),
           power: contexts?.[0]?.querySelector('._val')?.textContent,
-          costs: contexts?.[0]?.querySelector('.req')?.textContent,
+          costs: `${costType}${quantityText}`,
         },
         ability2: {
           name: contexts?.[1]?.querySelector('card')?.textContent,
@@ -43,6 +46,6 @@ test('test', async ({ page }) => {
   });
 
   // jsonファイルに保存
-  fs.writeFileSync('cardData.json', JSON.stringify(cardData, null, 2));
+  fs.writeFileSync('./tests/cardData.json', JSON.stringify(cardData, null, 2));
   // console.log(cardData);
 });

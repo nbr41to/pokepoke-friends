@@ -1,5 +1,29 @@
 [
   {
+    "name": "ずがいの化石",
+    "rarity": "ノーマル",
+    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
+    "acquisition": "時空の激闘ディアルガ",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l559.png",
+    "id": "559"
+  },
+  {
+    "name": "ポケモン通信",
+    "rarity": "ノーマル",
+    "effect": "自分の手札からポケモンを1枚選び、山札にあるランダムなポケモン1枚と入れ替える。",
+    "acquisition": "時空の激闘ディアルガ",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l561.png",
+    "id": "561"
+  },
+  {
+    "name": "たての化石",
+    "rarity": "ノーマル",
+    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
+    "acquisition": "時空の激闘パルキア",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l560.png",
+    "id": "560"
+  },
+  {
     "name": "ポケモンの笛",
     "rarity": "ノーマル",
     "effect": "相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。",
@@ -32,28 +56,60 @@
     "id": "230"
   },
   {
-    "name": "ずがいの化石",
-    "rarity": "ノーマル",
-    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
-    "acquisition": "時空の激闘ディアルガ",
-    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l559.png",
-    "id": "559"
+    "name": "きずぐすり",
+    "rarity": "",
+    "effect": "自分のポケモン1匹のHPを20回復。",
+    "acquisition": "PROMO-A",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l287.png",
+    "id": "287"
   },
   {
-    "name": "ポケモン通信",
-    "rarity": "ノーマル",
-    "effect": "自分の手札からポケモンを1枚選び、山札にあるランダムなポケモン1枚と入れ替える。",
-    "acquisition": "時空の激闘ディアルガ",
-    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l561.png",
-    "id": "561"
+    "name": "スピーダー",
+    "rarity": "",
+    "effect": "この番、自分のバトルポケモンのにげるためのエネルギーを、1個少なくする。",
+    "acquisition": "PROMO-A",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l288.png",
+    "id": "288"
   },
   {
-    "name": "たての化石",
-    "rarity": "ノーマル",
-    "effect": "このカードは、HP40の無色タイプのたねポケモンとして、場に出すことができる。自分の番の中でなら、場に出ているこのカードをトラッシュしてよい。このカードはにげるができない。",
-    "acquisition": "時空の激闘パルキア",
-    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l560.png",
-    "id": "560"
+    "name": "ハンドスコープ",
+    "rarity": "",
+    "effect": "相手の手札のオモテをすべて見る。",
+    "acquisition": "PROMO-A",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l289.png",
+    "id": "289"
+  },
+  {
+    "name": "ポケモン図鑑",
+    "rarity": "",
+    "effect": "自分の山札を上から3枚見て、もとにもどす。",
+    "acquisition": "PROMO-A",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l290.png",
+    "id": "290"
+  },
+  {
+    "name": "ポケモン図鑑",
+    "rarity": "",
+    "effect": "自分の山札を上から3枚見て、もとにもどす。",
+    "acquisition": "PROMO-A",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l294.png",
+    "id": "294"
+  },
+  {
+    "name": "モンスターボール",
+    "rarity": "",
+    "effect": "自分の山札からたねポケモンをランダムに1枚、手札に加える。",
+    "acquisition": "PROMO-A",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l291.png",
+    "id": "291"
+  },
+  {
+    "name": "レッドカード",
+    "rarity": "",
+    "effect": "相手の手札をすべて山札にもどす。相手は山札を3枚引く。",
+    "acquisition": "PROMO-A",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l292.png",
+    "id": "292"
   },
   {
     "name": "かいの化石",
