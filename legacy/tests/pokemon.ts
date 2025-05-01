@@ -19,27 +19,32 @@ const processHtmlFile = (filePath: string): Card[] => {
   const dom = new JSDOM(html);
   const document = dom.window.document;
 
-  return Array.from(document.querySelectorAll('.w-pkc-data-list-element')).map((element: Element) => {
-    const id = element.querySelector('icard')?.getAttribute('data-aid') || '';
-    const image = element.querySelector('img')?.getAttribute('src') || '';
-    const hp = element.querySelector('._hp ._v')?.textContent || '';
-    const type = element.querySelector('._icon')?.className || '';
-    
-    const abilityElement = element.querySelector('._column-table');
-    const ability1 = {
-      name: abilityElement?.querySelector('._name card')?.textContent || '',
-      text: abilityElement?.querySelector('._name card')?.getAttribute('data-txt') || '',
-      power: abilityElement?.querySelector('._val')?.textContent || ''
-    };
+  return Array.from(document.querySelectorAll('.w-pkc-data-list-element')).map(
+    (element: Element) => {
+      const id = element.querySelector('icard')?.getAttribute('data-aid') || '';
+      const image = element.querySelector('img')?.getAttribute('src') || '';
+      const hp = element.querySelector('._hp ._v')?.textContent || '';
+      const type = element.querySelector('._icon')?.className || '';
 
-    return {
-      id,
-      image,
-      hp,
-      type,
-      ability1
-    };
-  });
+      const abilityElement = element.querySelector('._column-table');
+      const ability1 = {
+        name: abilityElement?.querySelector('._name card')?.textContent || '',
+        text:
+          abilityElement
+            ?.querySelector('._name card')
+            ?.getAttribute('data-txt') || '',
+        power: abilityElement?.querySelector('._val')?.textContent || '',
+      };
+
+      return {
+        id,
+        image,
+        hp,
+        type,
+        ability1,
+      };
+    }
+  );
 };
 
 const cardsDir = path.join(__dirname, 'cards');
@@ -52,7 +57,7 @@ if (!fs.existsSync(outputDir)) {
 
 const allCards: Card[] = [];
 
-fs.readdirSync(cardsDir).forEach(file => {
+fs.readdirSync(cardsDir).forEach((file) => {
   if (file.endsWith('.html')) {
     const inputPath = path.join(cardsDir, file);
     const cards = processHtmlFile(inputPath);

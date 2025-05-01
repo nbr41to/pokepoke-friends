@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+/**
+ * Models
+ */
+model SearchType {
+  key   String @unique
+  label String
+}
+
+enum PokemonType {
+  grass // 草
+  fire // 炎
+  water // 水
+  electric // 雷
+  fighting // 闘
+  psychic // 超
+  darkness // 悪
+  metal // 鋼
+
+  dragon // ドラゴン
+  normal // ノーマル
+}
+
+model Pokemon {
+  uid              String       @id @unique
+  hp               Int
+  ability          String?
+  move1Name        String
+  move1Damage      Int
+  move1Description String?
+  move2Name        String?
+  move2Damage      Int?
+  move2Description String?
+  retreatCost      Int?
+  weakness         PokemonType?
+  Card             Card?
+}
+
+/**
+ * Core
+ */
+model Card {
+  uid         String   @id @unique
+  name        String
+  image       String
+  description String?
+  Pokemon     Pokemon? @relation(fields: [uid], references: [uid])
+}
