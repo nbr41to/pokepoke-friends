@@ -9,6 +9,24 @@ export default function Page() {
     <div className="">
       <div>
         <ToggleGroup type="multiple">
+          {Array.from({ length: 10 }, (_, index) => (
+            <ToggleGroupItem
+              key={index}
+              defaultChecked
+              value={`type-${index}`}
+              aria-label="Toggle bold"
+              className="data-[state=off]:opacity-60 data-[state=off]:grayscale"
+            >
+              <Image
+                src={`/type${index + 1}.png`}
+                alt={`Type ${index}`}
+                width={20}
+                height={20}
+              />
+            </ToggleGroupItem>
+          ))}
+        </ToggleGroup>
+        <ToggleGroup type="multiple">
           <ToggleGroupItem
             defaultChecked
             value="pokemon"
@@ -42,7 +60,7 @@ export default function Page() {
       {cards.map((card) => (
         <div
           key={card.id}
-          className="flex flex-col items-center justify-center p-4 border rounded-lg shadow-md"
+          className="flex flex-col items-center justify-center rounded-lg border p-4 shadow-md"
         >
           <h2 className="text-lg font-bold">{card.name}</h2>
           <Image

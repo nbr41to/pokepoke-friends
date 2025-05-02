@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={`${hachiMaruPop.variable} antialiased`}>
         <div className="mx-auto max-w-2xl">
           <Header />
-          <div className="min-h-screen pb-12">{children}</div>
+          <div className="min-h-screen pb-16">{children}</div>
           <Footer />
         </div>
       </body>
