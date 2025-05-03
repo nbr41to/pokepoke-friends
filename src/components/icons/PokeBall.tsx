@@ -24,16 +24,16 @@ export const PokeBall: React.FC<PokeBallProps> = ({
         r="114.5"
         fill="#ffffff"
         stroke="#000000"
-        strokeWidth="20"
+        strokeWidth="24"
       />
-      <path d="M27,134.5 H241" stroke="#000000" strokeWidth="20" />
+      <path d="M27,134.5 H241" stroke="#000000" strokeWidth="24" />
       <circle
         cx="134.5"
         cy="134.5"
         r="46"
         fill="#ffffff"
         stroke="#000000"
-        strokeWidth="15"
+        strokeWidth="16"
       />
       <circle
         cx="134.5"
@@ -41,7 +41,7 @@ export const PokeBall: React.FC<PokeBallProps> = ({
         r="25"
         fill="#ffffff"
         stroke="#000000"
-        strokeWidth="10"
+        strokeWidth="12"
       />
     </svg>
   );

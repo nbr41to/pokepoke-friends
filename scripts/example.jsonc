@@ -1,0 +1,21 @@
+{
+  "name": "Poliwrath", // card-text-name
+  "url": "https://pocket.limitlesstcg.com/cards/A1/1", // card-text-name
+  "card_type": "Pokémon", // card-text-type
+  "evole_stage": "Stage 2", // card-text-type
+  "hp": 150, // card-text-title
+  "pokemon_type": "Water", // card-text-title
+  "ability_name": "Counterattack", // card-text-ability-info
+  "ability_description": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.", // card-text-ability-effect
+  "attacks": [
+    {
+      "energy": "WCC", // ptcg-symbol
+      "name": "Mega Punch", // card-text-attack-info
+      "damage": "80", // card-text-attack-info
+      "description": null, // card-text-attack-effect
+    },
+  ],
+  "weakness": "Lightning", // card-text-wrr
+  "retreat": 2, // card-text-wrr
+  "numbering": "A1 #61", // card-set-info
+}
