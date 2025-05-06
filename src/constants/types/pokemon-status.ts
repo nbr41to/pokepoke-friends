@@ -5,14 +5,14 @@ export const POKEMON_MOVE_POWER_LIST = [
 export type PokemonMovePower = (typeof POKEMON_MOVE_POWER_LIST)[number];
 export const POKEMON_MOVE_ENERGY = {
   G: 'grass', // くさ
-  F: 'fire', // ほのお
+  R: 'fire', // ほのお
   W: 'water', // みず
-  E: 'electric', // でんき
+  L: 'electric', // でんき
   P: 'psychic', // エスパー
-  C: 'fighting', // かくとう
+  F: 'fighting', // かくとう
   D: 'darkness', // あく
-  S: 'steel', // はがね
-  N: 'normal', // ノーマル
+  M: 'steel', // はがね
+  C: 'normal', // ノーマル
 } as const;
 
 export const POKEMON_HITPOINTS_LIST = [

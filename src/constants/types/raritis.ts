@@ -23,13 +23,13 @@ export const CARD_RARUTIES_LIST = [
 ] as const;
 
 export const CARD_RARUTIES_LABEL = {
-  [CARD_RARUTIES.DIA_1]: '♦1',
-  [CARD_RARUTIES.DIA_2]: '♦2',
-  [CARD_RARUTIES.DIA_3]: '♦3',
-  [CARD_RARUTIES.DIA_4]: '♦4',
-  [CARD_RARUTIES.STAR_1]: '★1',
-  [CARD_RARUTIES.STAR_2]: '★2',
-  [CARD_RARUTIES.STAR_3]: '★3',
+  [CARD_RARUTIES.DIA_1]: '♦',
+  [CARD_RARUTIES.DIA_2]: '♦♦',
+  [CARD_RARUTIES.DIA_3]: '♦♦♦',
+  [CARD_RARUTIES.DIA_4]: '♦♦♦♦',
+  [CARD_RARUTIES.STAR_1]: '★',
+  [CARD_RARUTIES.STAR_2]: '★★',
+  [CARD_RARUTIES.STAR_3]: '★★★',
   [CARD_RARUTIES.CROWN]: '♚',
   [CARD_RARUTIES.PROMO]: 'PROMO',
 } as const;

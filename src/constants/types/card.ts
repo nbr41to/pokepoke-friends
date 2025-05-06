@@ -1,13 +1,14 @@
 import type { CardType } from './card-types';
 import type { PokemonEvolveStage } from './pokemon-status';
 import type { PokemonType } from './pokemon-types';
+import type { CardRarity } from './raritis';
 
 type CardBase = {
   id: number; // カードの連番
   cardNumber: string; // カード番号 A1/001/226
   name: string; // カードの名前
   nameEn: string; // カードの英語名
-  rarity: string; // カードのレアリティ
+  rarity: CardRarity; // カードのレアリティ
   image: string; // カードの画像URL
 };
 export type PokemonCard = CardBase & {
