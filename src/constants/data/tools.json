@@ -1,0 +1,26 @@
+[
+  {
+    "id": "425",
+    "cardType": "trainer-pokemon-tool",
+    "name": "大きなマント",
+    "description": "このカードをつけているポケモンの最大HPを+20する。",
+    "packTitle": "時空の激闘ディアルガ",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l425.png"
+  },
+  {
+    "id": "562",
+    "cardType": "trainer-pokemon-tools",
+    "name": "ゴツゴツメット",
+    "description": "このカードをつけているポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンに20ダメージ。",
+    "packTitle": "時空の激闘パルキア",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l562.png"
+  },
+  {
+    "id": "563",
+    "cardType": "trainer-pokemon-tool",
+    "name": "ラムのみ",
+    "description": "おたがいの番の終わりに、このカードをつけているポケモンが特殊状態なら、そのポケモンの特殊状態をすべて回復。その後、このカードをトラッシュ。",
+    "packTitle": "時空の激闘パルキア",
+    "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l563.png"
+  }
+]

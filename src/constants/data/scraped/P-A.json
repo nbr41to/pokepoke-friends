@@ -1,0 +1,1743 @@
+[
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "card_type": "Trainer",
+    "description": "Heal 20 damage from 1 of your Pokémon.",
+    "evole_stage": "Item",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_001_EN.webp",
+    "name": "Potion",
+    "numbering": "P-A #1",
+    "pack": "Common",
+    "rarity": "Shop",
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/1"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "card_type": "Trainer",
+    "description": "During this turn, the Retreat Cost of your Active Pokémon is 1 less.",
+    "evole_stage": "Item",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_002_EN.webp",
+    "name": "X Speed",
+    "numbering": "P-A #2",
+    "pack": "Common",
+    "rarity": "Shop",
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/2"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "card_type": "Trainer",
+    "description": "Your opponent reveals their hand.",
+    "evole_stage": "Item",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_003_EN.webp",
+    "name": "Hand Scope",
+    "numbering": "P-A #3",
+    "pack": "Common",
+    "rarity": "Shop",
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/3"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "card_type": "Trainer",
+    "description": "Look at the top 3 cards of your deck.",
+    "evole_stage": "Item",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_004_EN.webp",
+    "name": "Pokédex",
+    "numbering": "P-A #4",
+    "pack": "Common",
+    "rarity": "Shop",
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/4"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "card_type": "Trainer",
+    "description": "Put 1 random Basic Pokemon from your deck into your hand.",
+    "evole_stage": "Item",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_005_EN.webp",
+    "name": "Poké Ball",
+    "numbering": "P-A #5",
+    "pack": "Common",
+    "rarity": "Shop",
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/5"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "card_type": "Trainer",
+    "description": "Your opponent shuffles their hand into their deck and draws 3 cards.",
+    "evole_stage": "Item",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_006_EN.webp",
+    "name": "Red Card",
+    "numbering": "P-A #6",
+    "pack": "Common",
+    "rarity": "Shop",
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/6"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "card_type": "Trainer",
+    "description": "Draw 2 cards.",
+    "evole_stage": "Supporter",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_007_EN.webp",
+    "name": "Professor's Research",
+    "numbering": "P-A #7",
+    "pack": "Common",
+    "rarity": "Shop",
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/7"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "card_type": "Trainer",
+    "description": "Look at the top 3 cards of your deck.",
+    "evole_stage": "Item",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_008_EN.webp",
+    "name": "Pokédex",
+    "numbering": "P-A #8",
+    "pack": "Common",
+    "rarity": "Campaign",
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/8"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Gnaw",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_009_EN.webp",
+    "name": "Pikachu",
+    "numbering": "P-A #9",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "Premium Missions",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/9",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "PPCC",
+        "name": "Power Blast",
+        "damage": "120",
+        "description": "Discard 2[P]Energy from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_010_EN.webp",
+    "name": "Mewtwo",
+    "numbering": "P-A #10",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "Premium Missions",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/10",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Gentle Slap",
+        "damage": "60",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_011_EN.webp",
+    "name": "Chansey",
+    "numbering": "P-A #11",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "Wonder Pick",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/11",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Pay Day",
+        "damage": "10",
+        "description": "Draw 1 card."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_012_EN.webp",
+    "name": "Meowth",
+    "numbering": "P-A #12",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/12",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": "Once during your turn, you may heal 20 damage from each of your Pokémon.",
+    "ability_name": "Powder Heal",
+    "attacks": [
+      {
+        "energy": "GCC",
+        "name": "Gust",
+        "damage": "60",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_013_EN.webp",
+    "name": "Butterfree",
+    "numbering": "P-A #13",
+    "pack": "Promo pack",
+    "pokemon_type": "Grass",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/13",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "WWC",
+        "name": "Bubble Drain",
+        "damage": "80",
+        "description": "Heal 20 damage from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_014_EN.webp",
+    "name": "Lapras ex",
+    "numbering": "P-A #14",
+    "pack": "Promo pack",
+    "pokemon_type": "Water",
+    "rarity": "Promo pack",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/14",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Gnaw",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_015_EN.webp",
+    "name": "Pikachu",
+    "numbering": "P-A #15",
+    "pack": "Promo pack",
+    "pokemon_type": "Lightning",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/15",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "P",
+        "name": "Slap",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_016_EN.webp",
+    "name": "Clefairy",
+    "numbering": "P-A #16",
+    "pack": "Promo pack",
+    "pokemon_type": "Psychic",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/16",
+    "weakness": "Metal"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "F",
+        "name": "Reckless Charge",
+        "damage": "30",
+        "description": "This Pokémon also does 10 damage to itself."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 50,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_017_EN.webp",
+    "name": "Mankey",
+    "numbering": "P-A #17",
+    "pack": "Promo pack",
+    "pokemon_type": "Fighting",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/17",
+    "weakness": "Psychic"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "GGCC",
+        "name": "Mega Drain",
+        "damage": "80",
+        "description": "Heal 30 damage from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 160,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_018_EN.webp",
+    "name": "Venusaur",
+    "numbering": "P-A #18",
+    "pack": "Promo pack",
+    "pokemon_type": "Grass",
+    "rarity": "Promo pack",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/18",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon.",
+    "ability_name": "Water Shuriken",
+    "attacks": [
+      {
+        "energy": "WC",
+        "name": "Mist Slash",
+        "damage": "60",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_019_EN.webp",
+    "name": "Greninja",
+    "numbering": "P-A #19",
+    "pack": "Promo pack",
+    "pokemon_type": "Water",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/19",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "P",
+        "name": "Surprise Attack",
+        "damage": "50",
+        "description": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_020_EN.webp",
+    "name": "Haunter",
+    "numbering": "P-A #20",
+    "pack": "Promo pack",
+    "pokemon_type": "Psychic",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/20",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FFF",
+        "name": "Land Crush",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_021_EN.webp",
+    "name": "Onix",
+    "numbering": "P-A #21",
+    "pack": "Promo pack",
+    "pokemon_type": "Fighting",
+    "rarity": "Promo pack",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/21",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Sing",
+        "damage": null,
+        "description": "Your opponent's Active Pokémon is now Asleep."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_022_EN.webp",
+    "name": "Jigglypuff",
+    "numbering": "P-A #22",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/22",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "GC",
+        "name": "Vine Whip",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_023_EN.webp",
+    "name": "Bulbasaur",
+    "numbering": "P-A #23",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/23",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Lightning Ball",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_024_EN.webp",
+    "name": "Magnemite",
+    "numbering": "P-A #24",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/24",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "R",
+        "name": "Inferno Dance",
+        "damage": null,
+        "description": "Flip 3 coins. Take an amount of[R]Energy from your Energy Zone equal to the number of heads and attach it to your Benched[R]Pokémon in any way you like."
+      },
+      {
+        "energy": "RCC",
+        "name": "Heat Blast",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_025_EN.webp",
+    "name": "Moltres ex",
+    "numbering": "P-A #25",
+    "pack": "Common",
+    "pokemon_type": "Fire",
+    "rarity": "Premium Missions",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/25",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Gnaw",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_026_EN.webp",
+    "name": "Pikachu",
+    "numbering": "P-A #26",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "Campaign",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/26",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Tackle",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_027_EN.webp",
+    "name": "Snivy",
+    "numbering": "P-A #27",
+    "pack": "Promo pack",
+    "pokemon_type": "Grass",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/27",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "RRC",
+        "name": "Volcanic Ash",
+        "damage": null,
+        "description": "Discard 2[R]Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_028_EN.webp",
+    "name": "Volcarona",
+    "numbering": "P-A #28",
+    "pack": "Promo pack",
+    "pokemon_type": "Fire",
+    "rarity": "Promo pack",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/28",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "WWC",
+        "name": "Hydro Pump",
+        "damage": "80+",
+        "description": "If this Pokémon has at least 2 extra[W]Energy attached, this attack does 60 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_029_EN.webp",
+    "name": "Blastoise",
+    "numbering": "P-A #29",
+    "pack": "Promo pack",
+    "pokemon_type": "Water",
+    "rarity": "Promo pack",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/29",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Growl",
+        "damage": null,
+        "description": "During your opponent's next turn, attacks used by the Defending Pokémon do −20 damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_030_EN.webp",
+    "name": "Eevee",
+    "numbering": "P-A #30",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/30",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Do the Wave",
+        "damage": "30x",
+        "description": "This attack does 30 damage for each of your Benched Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_031_EN.webp",
+    "name": "Cinccino",
+    "numbering": "P-A #31",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/31",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "R",
+        "name": "Ember",
+        "damage": "30",
+        "description": "Discard a[R]Energy from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_032_EN.webp",
+    "name": "Charmander",
+    "numbering": "P-A #32",
+    "pack": "Common",
+    "pokemon_type": "Fire",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/32",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "W",
+        "name": "Water Gun",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_033_EN.webp",
+    "name": "Squirtle",
+    "numbering": "P-A #33",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/33",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Nap",
+        "damage": null,
+        "description": "Heal 20 damage from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_034_EN.webp",
+    "name": "Piplup",
+    "numbering": "P-A #34",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "Premium Missions",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/34",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "GC",
+        "name": "Bite",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_035_EN.webp",
+    "name": "Turtwig",
+    "numbering": "P-A #35",
+    "pack": "Promo pack",
+    "pokemon_type": "Grass",
+    "rarity": "Promo pack",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/35",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "LL",
+        "name": "Exciting Voltage",
+        "damage": "40+",
+        "description": "If this Pokémon has at least 2 extra[L]Energy attached, this attack does 80 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_036_EN.webp",
+    "name": "Electivire",
+    "numbering": "P-A #36",
+    "pack": "Promo pack",
+    "pokemon_type": "Lightning",
+    "rarity": "Promo pack",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/36",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": "Whenever you attach a[P]Energy from your Energy Zone to this Pokémon, heal 20 damage from this Pokémon.",
+    "ability_name": "Lunar Plumage",
+    "attacks": [
+      {
+        "energy": "PPC",
+        "name": "Psychic Flash",
+        "damage": "80",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_037_EN.webp",
+    "name": "Cresselia ex",
+    "numbering": "P-A #37",
+    "pack": "Promo pack",
+    "pokemon_type": "Psychic",
+    "rarity": "Promo pack",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/37",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "P",
+        "name": "Confuse Ray",
+        "damage": null,
+        "description": "Your opponent's Active Pokémon is now Confused."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_038_EN.webp",
+    "name": "Misdreavus",
+    "numbering": "P-A #38",
+    "pack": "Promo pack",
+    "pokemon_type": "Psychic",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/38",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "M",
+        "name": "Metal Arms",
+        "damage": "20+",
+        "description": "If this Pokémon has a Pokémon Tool attached, this attack does 30 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_039_EN.webp",
+    "name": "Skarmory",
+    "numbering": "P-A #39",
+    "pack": "Promo pack",
+    "pokemon_type": "Metal",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/39",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "R",
+        "name": "Scratch",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_040_EN.webp",
+    "name": "Chimchar",
+    "numbering": "P-A #40",
+    "pack": "Common",
+    "pokemon_type": "Fire",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/40",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "P",
+        "name": "Pound",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 50,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_041_EN.webp",
+    "name": "Togepi",
+    "numbering": "P-A #41",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/41",
+    "weakness": "Metal"
+  },
+  {
+    "ability_description": "Whenever you attach a[D]Energy from your Energy Zone to this Pokémon, do 20 damage to your opponent's Active Pokémon.",
+    "ability_name": "Nightmare Aura",
+    "attacks": [
+      {
+        "energy": "DDC",
+        "name": "Dark Prism",
+        "damage": "80",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_042_EN.webp",
+    "name": "Darkrai ex",
+    "numbering": "P-A #42",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "Premium Missions",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/42",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "GG",
+        "name": "Leech Seed",
+        "damage": "60",
+        "description": "Heal 20 damage from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_043_EN.webp",
+    "name": "Cherrim",
+    "numbering": "P-A #43",
+    "pack": "Promo pack",
+    "pokemon_type": "Grass",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/43",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks.",
+    "ability_name": "Resilience Link",
+    "attacks": [
+      {
+        "energy": "LL",
+        "name": "Spark",
+        "damage": "40",
+        "description": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_044_EN.webp",
+    "name": "Raichu",
+    "numbering": "P-A #44",
+    "pack": "Promo pack",
+    "pokemon_type": "Lightning",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/44",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Iron Defense",
+        "damage": null,
+        "description": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_045_EN.webp",
+    "name": "Nosepass",
+    "numbering": "P-A #45",
+    "pack": "Promo pack",
+    "pokemon_type": "Fighting",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/45",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "F",
+        "name": "Tackle",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_046_EN.webp",
+    "name": "Gible",
+    "numbering": "P-A #46",
+    "pack": "Promo pack",
+    "pokemon_type": "Fighting",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/46",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": "This Pokémon takes −30 damage from attacks from[F]Pokémon.",
+    "ability_name": "Defensive Whirlwind",
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Wing Attack",
+        "damage": "90",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_047_EN.webp",
+    "name": "Staraptor",
+    "numbering": "P-A #47",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/47",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "W",
+        "name": "Oceanic Gift",
+        "damage": null,
+        "description": "Choose 2 of your Benched Pokémon. For each of those Pokémon, take a[W]Energy from your Energy Zone and attach it to that Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 50,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_048_EN.webp",
+    "name": "Manaphy",
+    "numbering": "P-A #48",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/48",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCCC",
+        "name": "Collapse",
+        "damage": "100",
+        "description": "This Pokémon is now Asleep."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_049_EN.webp",
+    "name": "Snorlax",
+    "numbering": "P-A #49",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "Wonder Pick",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/49",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "PC",
+        "name": "Psychic Sphere",
+        "damage": "50",
+        "description": null
+      },
+      {
+        "energy": "PPCC",
+        "name": "Psydrive",
+        "damage": "150",
+        "description": "Discard 2[P]Energy from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_050_EN.webp",
+    "name": "Mewtwo ex",
+    "numbering": "P-A #50",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "#50",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/50",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Overacceleration",
+        "damage": "20",
+        "description": "During your next turn, this Pokémon's Overacceleration attack does +20 damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_051_EN.webp",
+    "name": "Cyclizar",
+    "numbering": "P-A #51",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "Missions",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/51",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Cry for Help",
+        "damage": null,
+        "description": "Put 1 random[G]Pokémon from your deck into your hand."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_052_EN.webp",
+    "name": "Sprigatito",
+    "numbering": "P-A #52",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "Premium Missions",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/52",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "W",
+        "name": "Attack the Wound",
+        "damage": "10+",
+        "description": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_053_EN.webp",
+    "name": "Floatzel",
+    "numbering": "P-A #53",
+    "pack": "Promo pack",
+    "pokemon_type": "Water",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/53",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
+    "ability_name": "Counterattack",
+    "attacks": [
+      {
+        "energy": "LL",
+        "name": "Electric Punch",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_054_EN.webp",
+    "name": "Pawmot",
+    "numbering": "P-A #54",
+    "pack": "Promo pack",
+    "pokemon_type": "Lightning",
+    "rarity": "Promo pack",
+    "retreat": 0,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/54",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FF",
+        "name": "Power Press",
+        "damage": "70+",
+        "description": "If this Pokémon has at least 2 extra[F]Energy attached, this attack does 50 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_055_EN.webp",
+    "name": "Machamp",
+    "numbering": "P-A #55",
+    "pack": "Promo pack",
+    "pokemon_type": "Fighting",
+    "rarity": "Promo pack",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/55",
+    "weakness": "Psychic"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "Poison Sting",
+        "damage": null,
+        "description": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_056_EN.webp",
+    "name": "Ekans",
+    "numbering": "P-A #56",
+    "pack": "Promo pack",
+    "pokemon_type": "Darkness",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/56",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Headbutt",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_057_EN.webp",
+    "name": "Bidoof",
+    "numbering": "P-A #57",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "Promo pack",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/57",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Plasma",
+        "damage": "10",
+        "description": "Take a[L]Energy from your Energy Zone and attach it to 1 of your Benched[L]Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_058_EN.webp",
+    "name": "Pachirisu",
+    "numbering": "P-A #58",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/58",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FF",
+        "name": "Punch",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_059_EN.webp",
+    "name": "Riolu",
+    "numbering": "P-A #59",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "Wonder Pick",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/59",
+    "weakness": "Psychic"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Growth Spurt",
+        "damage": null,
+        "description": "Take a[G]Energy from your Energy Zone and attach it to this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 50,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_060_EN.webp",
+    "name": "Exeggcute",
+    "numbering": "P-A #60",
+    "pack": "Promo pack",
+    "pokemon_type": "Grass",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/60",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Flop",
+        "damage": "10",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_061_EN.webp",
+    "name": "Froakie",
+    "numbering": "P-A #61",
+    "pack": "Promo pack",
+    "pokemon_type": "Water",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/61",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Leek Slap",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_062_EN.webp",
+    "name": "Farfetch'd",
+    "numbering": "P-A #62",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/62",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCCC",
+        "name": "Spiral Rush",
+        "damage": "70+",
+        "description": "Flip a coin until you get tails. This attack does 30 more damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_063_EN.webp",
+    "name": "Rayquaza",
+    "numbering": "P-A #63",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/63",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCCC",
+        "name": "Draco Meteor",
+        "damage": null,
+        "description": "1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 40 damage to it."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_064_EN.webp",
+    "name": "Rayquaza ex",
+    "numbering": "P-A #64",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "Promo pack",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/64",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCCC",
+        "name": "Draco Meteor",
+        "damage": null,
+        "description": "1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 40 damage to it."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_065_EN.webp",
+    "name": "Rayquaza ex",
+    "numbering": "P-A #65",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "Missions",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/65",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "PC",
+        "name": "Shadow Hit",
+        "damage": "60",
+        "description": "This attack also does 20 damage to 1 of your Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_066_EN.webp",
+    "name": "Mimikyu",
+    "numbering": "P-A #66",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "Premium Missions",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/66",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Teleport",
+        "damage": null,
+        "description": "Switch this Pokémon with 1 of your Benched Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_067_EN.webp",
+    "name": "Cosmog",
+    "numbering": "P-A #67",
+    "pack": "Promo pack",
+    "pokemon_type": "Psychic",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/67",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FFC",
+        "name": "Crunch",
+        "damage": "80",
+        "description": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_068_EN.webp",
+    "name": "Lycanroc",
+    "numbering": "P-A #68",
+    "pack": "Promo pack",
+    "pokemon_type": "Fighting",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/68",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "GCC",
+        "name": "Tropical Hammer",
+        "damage": "150",
+        "description": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_069_EN.webp",
+    "name": "Alolan Exeggutor",
+    "numbering": "P-A #69",
+    "pack": "Promo pack",
+    "pokemon_type": "Grass",
+    "rarity": "Promo pack",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/69",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "WWW",
+        "name": "Blizzard",
+        "damage": "60",
+        "description": "This attack also does 20 damage to each of your opponent's Benched Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_070_EN.webp",
+    "name": "Alolan Ninetales",
+    "numbering": "P-A #70",
+    "pack": "Promo pack",
+    "pokemon_type": "Water",
+    "rarity": "Promo pack",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/70",
+    "weakness": "Metal"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Punch",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_071_EN.webp",
+    "name": "Crabrawler",
+    "numbering": "P-A #71",
+    "pack": "Promo pack",
+    "pokemon_type": "Fighting",
+    "rarity": "Promo pack",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/71",
+    "weakness": "Psychic"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "Poison Gas",
+        "damage": null,
+        "description": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_072_EN.webp",
+    "name": "Alolan Grimer",
+    "numbering": "P-A #72",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "Wonder Pick",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/72",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Beak Blast",
+        "damage": "80",
+        "description": "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_073_EN.webp",
+    "name": "Toucannon",
+    "numbering": "P-A #73",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "Wonder Pick",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/73",
+    "weakness": "Lightning"
+  }
+]
