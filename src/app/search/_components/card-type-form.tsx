@@ -2,7 +2,7 @@
 
 import PokeBall from '@/components/icons/PokeBall';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { CARD_TYPE, type CardType } from '@/constants/data/card-types';
+import { CARD_TYPE, type CardType } from '@/constants/types/card-types';
 import { HardHat, SquareUserRound, Wrench } from 'lucide-react';
 import { useSearchQuery } from '../_utils/use-search-query';
 

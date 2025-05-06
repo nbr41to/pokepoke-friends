@@ -1,12 +1,12 @@
 'use client';
 
-import { CARD_TYPE_LIST } from '@/constants/data/card-types';
+import { CARD_TYPE_LIST } from '@/constants/types/card-types';
 import {
   POKEMON_HITPOINTS_LIST,
   POKEMON_MOVE_POWER_LIST,
-} from '@/constants/data/pokemon-status';
-import { POKEMON_TYPE_LIST } from '@/constants/data/pokemon-types';
-import { CARD_RARUTIES_LIST } from '@/constants/data/raritis';
+} from '@/constants/types/pokemon-status';
+import { POKEMON_TYPE_LIST } from '@/constants/types/pokemon-types';
+import { CARD_RARUTIES_LIST } from '@/constants/types/raritis';
 import { xorDecrypt, xorEncrypt } from '@/utils/crypto';
 import { useQueryState } from 'nuqs';
 

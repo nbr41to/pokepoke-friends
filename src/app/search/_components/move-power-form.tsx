@@ -1,5 +1,5 @@
 'use client';
-import { POKEMON_MOVE_POWER_LIST } from '@/constants/data/pokemon-status';
+import { POKEMON_MOVE_POWER_LIST } from '@/constants/types/pokemon-status';
 import { useSearchQuery } from '../_utils/use-search-query';
 import { CounterForm } from './counter-form';
 

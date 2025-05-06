@@ -1,13 +1,14 @@
-import type { CardType } from './data/card-types';
-import type { PokemonEvolveStage } from './data/pokemon-status';
-import type { PokemonType } from './data/pokemon-types';
+import type { CardType } from './card-types';
+import type { PokemonEvolveStage } from './pokemon-status';
+import type { PokemonType } from './pokemon-types';
 
 type CardBase = {
-  id: number; // カードのID
+  id: number; // カードの連番
   cardNumber: string; // カード番号 A1/001/226
   name: string; // カードの名前
   nameEn: string; // カードの英語名
   rarity: string; // カードのレアリティ
+  image: string; // カードの画像URL
 };
 export type PokemonCard = CardBase & {
   cardType: Extract<CardType, 'pokemon'>; // カードの種類
@@ -22,7 +23,8 @@ export type PokemonCard = CardBase & {
   move2energy: string | null; // わざ2の必要エネルギー
   move2power: number | null; // わざ2の威力
   move2description: string | null; // わざ2の説明
-  ability: string | null; // 特性
+  abilityName: string | null; // 特性
+  abilityDescription: string | null; // 特性
   retreat: number; // にげるエネルギー
   weakness: PokemonType | null; // 弱点タイプ
 };

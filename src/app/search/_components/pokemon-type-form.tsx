@@ -5,7 +5,7 @@ import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import {
   POKEMON_TYPE_LIST,
   type PokemonType,
-} from '@/constants/data/pokemon-types';
+} from '@/constants/types/pokemon-types';
 import { cn } from '@/utils/classnames';
 import { LoaderPinwheel, X } from 'lucide-react';
 import Image from 'next/image';

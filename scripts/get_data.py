@@ -9,11 +9,12 @@ import re
 
 def scrape_pokemon_cards():
     """
-    指定されたURLからcards-textクラスのdivの下にあるcardをすべて取得するスクレイピング関数
+    指定されたURLからcards-fullクラスの下にあるカードをすべて取得するスクレイピング関数
     example.jsonc形式に合わせてデータを抽出する
     """
     # スクレイピング対象のURL
-    url = "https://pocket.limitlesstcg.com/cards/A1?unique=cards&display=text"
+    series = "A1"
+    url = f"https://pocket.limitlesstcg.com/cards/{series}?display=full"
     
     try:
         # リクエストを送信してHTMLを取得
@@ -26,18 +27,18 @@ def scrape_pokemon_cards():
         # BeautifulSoupでHTMLを解析
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # cards-textクラスを持つdivを検索
-        cards_text_div = soup.find('div', class_='cards-text')
+        # cards-fullクラスを持つdivを検索
+        cards_full_div = soup.find('div', class_='cards-full')
         
-        if not cards_text_div:
-            print("cards-textクラスのdivが見つかりませんでした。")
+        if not cards_full_div:
+            print("cards-fullクラスのdivが見つかりませんでした。")
             return None
         
-        # cards-textクラスのdivの下にあるcardをすべて取得
-        cards = cards_text_div.find_all('div', class_='card')
+        # cards-fullクラスのdivの下にあるcard-page-mainをすべて取得
+        cards = cards_full_div.find_all('div', class_='card-page-main')
         
         if not cards:
-            print("card要素が見つかりませんでした。")
+            print("card-page-main要素が見つかりませんでした。")
             return None
             
         # 結果を出力
@@ -47,6 +48,37 @@ def scrape_pokemon_cards():
         cards_data = []
         for card in cards:
             card_info = {}
+            
+            # 画像URLを取得
+            card_image_elem = card.select_one('.card-image img')
+            if card_image_elem and 'src' in card_image_elem.attrs:
+                card_info['image'] = card_image_elem['src']
+            
+            # カードプリント情報から番号とパックを取得
+            card_prints = card.select_one('.card-prints-current')
+            if card_prints:
+                prints_details = card_prints.select_one('.prints-current-details')
+                if prints_details:
+                    details_text = prints_details.get_text(strip=True)
+                    
+                    # 番号を取得 (例: "#61 · ◊◊◊ · Charizard pack" -> "A1 #61")
+                    number_match = re.search(r'#(\d+)', details_text)
+                    if number_match:
+                        set_info = prints_details.find_previous('img', class_='set')
+                        set_id = set_info.get('alt') if set_info else ''
+                        card_info['numbering'] = f"{set_id} #{number_match.group(1)}"
+                    
+                    # パックを取得
+                    pack_match = re.search(r'·\s+(.*?)\s+pack', details_text)
+                    if pack_match:
+                        card_info['pack'] = f"{pack_match.group(1)} pack"
+                    else:
+                        card_info['pack'] = "Common"
+                    
+                    # レアリティを取得
+                    rarity_match = re.search(r'#\d+\s+·\s+([◊☆]+)', details_text)
+                    if rarity_match:
+                        card_info['rarity'] = rarity_match.group(1)
             
             # card-textを取得
             card_text_div = card.find('div', class_='card-text')
@@ -145,33 +177,36 @@ def scrape_pokemon_cards():
                         attack['energy'] = energy
                         
                         # 攻撃名とダメージを取得
-                        # '+' や 'x' などの特殊な表記に対応する
-                        attack_parts = attack_text.split('ptcg-symbol')[-1].strip()
+                        # ptcg-symbolの内容が攻撃名に混入しないよう処理
+                        attack_parts = attack_info_elem.get_text()
+                        # energyシンボルを除いたテキスト部分を取得
+                        attack_text_parts = []
+                        for child in attack_info_elem.children:
+                            if child.name != "span" or "ptcg-symbol" not in child.get("class", []):
+                                attack_text_parts.append(child.get_text() if hasattr(child, "get_text") else str(child))
+                        attack_text = "".join(attack_text_parts).strip()
                         
-                        # ダメージと名前を正規表現で抽出
-                        name_damage_match = re.search(r'([^0-9+x]*)(?:\s*([+x]))?(?:\s*(\d+))?$', attack_parts)
-                        
-                        if name_damage_match:
-                            name_part = name_damage_match.group(1).strip()
-                            special_symbol = name_damage_match.group(2)  # '+' や 'x' などの特殊記号
-                            damage_part = name_damage_match.group(3)     # ダメージの数値部分
+                        # 英気表現：半角スペースと数字で技名とダメージを区切る
+                        # 例: "Mega Punch 80" -> name="Mega Punch", damage="80"
+                        # 例: "Tackle 30+" -> name="Tackle", damage="30+"
+                        last_space_index = attack_text.rfind(' ')
+                        if last_space_index != -1 and any(c.isdigit() for c in attack_text[last_space_index+1:]):
+                            # 最後のスペースの後に数字が含まれている場合
+                            attack_name = attack_text[:last_space_index].strip()
+                            attack_damage = attack_text[last_space_index+1:].strip()
                             
-                            # 技名の抽出（特殊記号が技名の一部になっている場合を修正）
-                            if name_part:
-                                attack['name'] = name_part
-                            elif special_symbol:
-                                # 特殊記号のみの場合は技名を適切に設定（例：GGCCFireball+）
-                                attack['name'] = energy + (special_symbol if special_symbol else '')
-                            
-                            # ダメージの設定
-                            if damage_part:
-                                # 通常のダメージ表記
-                                attack['damage'] = damage_part
-                            elif special_symbol:
-                                # 特殊な表記の場合（例：40+, ×30）はdescriptionに含まれる
-                                attack['damage'] = None
+                            # 技名が空ではない場合のみ設定
+                            if attack_name:
+                                attack['name'] = attack_name
+                                attack['damage'] = attack_damage
                             else:
-                                attack['damage'] = None
+                                # 技名が空の場合、特殊な攻撃名を設定
+                                attack['name'] = "Special Attack"
+                                attack['damage'] = attack_damage
+                        else:
+                            # スペースと数字の組み合わせがない場合は全体を技名とする
+                            attack['name'] = attack_text
+                            attack['damage'] = None
                     
                     # 技の効果テキストを取得 (card-text-attack-effect)
                     effect_elem = attack_elem.select_one('.card-text-attack-effect')
@@ -196,27 +231,23 @@ def scrape_pokemon_cards():
                 # 弱点・後退コストを取得 (card-text-wrr)
                 wrr_elem = third_section.select_one('.card-text-wrr')
                 if wrr_elem:
-                    wrr_text = wrr_elem.get_text(strip=True)
+                    # HTML内容を直接取得して行ごとに分割する（<br />タグを考慮）
+                    wrr_html = str(wrr_elem)
                     
-                    # 弱点を抽出 - "Retreat: " 以降は削除
-                    weakness_match = re.search(r'Weakness:\s*([^<\n]+?)(?:\s+Retreat:|$)', wrr_text)
+                    # 弱点を抽出（最初の行のみ）
+                    weakness_match = re.search(r'Weakness:\s*([^<\n]+)', wrr_html)
                     if weakness_match:
                         card_info['weakness'] = weakness_match.group(1).strip()
                     
                     # 後退コストを抽出
-                    retreat_match = re.search(r'Retreat:\s*(\d+)', wrr_text)
+                    retreat_match = re.search(r'Retreat:\s*(\d+)', wrr_html)
                     if retreat_match:
                         card_info['retreat'] = int(retreat_match.group(1))
             
-            # カードセット情報を取得 (card-set-info)
-            card_set_info_elem = card.select_one('.card-set-info')
-            if card_set_info_elem:
-                card_info['numbering'] = card_set_info_elem.get_text(strip=True)
-                
             cards_data.append(card_info)
         
         # データをJSONとして保存
-        save_path = Path(__file__).parent.parent / "src" / "constants" / "data" / "scraped-cards.json"
+        save_path = Path(__file__).parent.parent / "src" / "constants" / "data" / "scraped" / f"{series}.json"
         save_path.parent.mkdir(parents=True, exist_ok=True)
         
         with open(save_path, 'w', encoding='utf-8') as f:
@@ -225,9 +256,6 @@ def scrape_pokemon_cards():
         print(f"データを {save_path} に保存しました。合計 {len(cards_data)} 枚のカード情報を抽出しました。")
         return cards_data
         
-    except requests.exceptions.RequestException as e:
-        print(f"リクエスト中にエラーが発生しました: {e}")
-        return None
     except Exception as e:
         print(f"エラーが発生しました: {e}")
         return None

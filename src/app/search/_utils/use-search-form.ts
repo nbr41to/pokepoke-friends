@@ -1,5 +1,5 @@
-import { CARD_TYPE_LIST } from '@/constants/data/card-types';
-import { POKEMON_TYPE_LIST } from '@/constants/data/pokemon-types';
+import { CARD_TYPE_LIST } from '@/constants/types/card-types';
+import { POKEMON_TYPE_LIST } from '@/constants/types/pokemon-types';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm, useFormContext } from 'react-hook-form';
 import { z } from 'zod';
