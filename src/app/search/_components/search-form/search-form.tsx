@@ -1,20 +1,26 @@
 'use client';
 
+import { AcquisitionForm } from './acquisition-form';
 import { CardTypeForm } from './card-type-form';
 import { HitpointsForm } from './hitpoints-form';
 import { KeywordForm } from './keyword-form';
 import { MovePowerForm } from './move-power-form';
 import { PokemonTypeForm } from './pokemon-type-form';
 import { RarityForm } from './rarity-form';
+import { RetreatCostForm } from './retreat-cost-form';
 
-export const CardFilterForm = () => {
+export const SearchForm = () => {
   return (
-    <div className="flex flex-col items-center gap-y-3">
+    <div className="space-y-3 p-2">
       <PokemonTypeForm />
-      <CardTypeForm />
+      <div className="flex items-center gap-3">
+        <CardTypeForm />
+        <RarityForm />
+      </div>
       <HitpointsForm />
       <MovePowerForm />
-      <RarityForm />
+      <RetreatCostForm />
+      <AcquisitionForm />
       <KeywordForm />
     </div>
   );

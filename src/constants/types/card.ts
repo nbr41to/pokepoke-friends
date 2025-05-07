@@ -13,6 +13,7 @@ type CardBase = {
 };
 export type PokemonCard = CardBase & {
   cardType: Extract<CardType, 'pokemon'>; // カードの種類
+  description: null;
   hp: number; // HP
   type: PokemonType;
   evolveStage: PokemonEvolveStage; // 進化段階
@@ -33,6 +34,21 @@ export type PokemonCard = CardBase & {
 type TrainersCard = CardBase & {
   cardType: Exclude<CardType, 'pokemon'>; // カードの種類
   description: string; // カードの効果
+  move1name: null;
+  move1energy: null;
+  move1power: null;
+  move1description: null;
+  move2name: null;
+  move2energy: null;
+  move2power: null;
+  move2description: null;
+  abilityName: null;
+  abilityDescription: null;
+  hp: null;
+  type: null;
+  evolveStage: null;
+  retreat: null;
+  weakness: null;
 };
 
 export type Card = PokemonCard | TrainersCard;

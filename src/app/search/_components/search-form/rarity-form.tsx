@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { CARD_RARUTIES_LIST, type CardRarity } from '@/constants/types/raritis';
 import { cn } from '@/utils/classnames';
-import { Bubbles, Crown, Diamond, Star, X } from 'lucide-react';
-import { useSearchQuery } from '../_utils/use-search-query';
+import { Crown, Diamond, Star, X } from 'lucide-react';
+import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const RarityForm = () => {
   const { query, setQuery } = useSearchQuery();
@@ -21,6 +21,7 @@ export const RarityForm = () => {
         type="multiple"
         value={query.rarities}
         onValueChange={handleOnValueChange}
+        className="border"
       >
         {CARD_RARUTIES_LIST.map((rarity, index) => (
           <ToggleGroupItem
@@ -60,7 +61,9 @@ export const RarityForm = () => {
           });
         }}
       >
-        <Bubbles className={cn('size-5', isCleared ? 'block' : 'hidden')} />
+        <span className={cn('text-gray-600', isCleared ? 'block' : 'hidden')}>
+          ALL
+        </span>
         <X className={cn('size-5', isCleared ? 'hidden' : 'block')} />
       </Button>
     </div>

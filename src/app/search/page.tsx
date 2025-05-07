@@ -1,14 +1,14 @@
-import { CardFilterForm } from './_components/card-filter-form';
-import { CardList } from './_components/card-list';
+import { SearchForm } from './_components/search-form';
+import { SearchResults } from './_components/search-results/search-results';
 
 export default function Page() {
   return (
     <div className="">
       <div>
-        <CardFilterForm />
+        <SearchForm />
       </div>
 
-      <CardList />
+      <SearchResults />
     </div>
   );
 }

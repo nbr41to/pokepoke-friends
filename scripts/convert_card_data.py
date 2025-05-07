@@ -78,13 +78,10 @@ def convert_damage_to_power(damage: Optional[str]) -> Optional[int]:
         return int(match.group(1))
     return None
 
-def extract_trainer_description(card: Dict[str, Any]) -> str:
-    """トレーナーカードの説明文を抽出する"""
-    # スクレイピングされたdescriptionがあれば、それを使用
-    if card.get('description'):
-        return card.get('description')
-    # なければ仮の説明を返す
-    return f"{card.get('name')}のトレーナーカード効果"
+def extract_card_description(card: Dict[str, Any]) -> Optional[str]:
+    """カードの説明文を抽出する（nullの場合はそのまま返す）"""
+    # 常に元データの description をそのまま返す（nullも含む）
+    return card.get('description')
 
 def convert_card_data(source_file: str, target_file: str) -> None:
     """カードデータを変換する"""
@@ -159,7 +156,7 @@ def convert_card_data(source_file: str, target_file: str) -> None:
             trainer_card = {
                 **card_base,
                 "cardType": TRAINER_TYPE_MAPPING.get(card.get('evole_stage', 'Item'), 'trainers-goods'),
-                "description": extract_trainer_description(card)
+                "description": extract_card_description(card)
             }
             converted_cards.append(trainer_card)
 
@@ -207,17 +204,8 @@ if __name__ == "__main__":
     success_count = 0
     
     for series_id in series_list:
-        print(f"[{series_list.index(series_id) + 1}/{len(series_list)}] {series_id}のカードデータを変換中...")
+        print(f"[{series_list.index(series_id) + 1}/{len(series_list)}] {series_idのカードデータを変換中...")
         if process_series(series_id, script_dir):
             success_count += 1
     
     print(f"変換が完了しました！{success_count}/{len(series_list)}シリーズのデータを変換しました。")
-    
-    # A1.jsonを以前と同じ場所にも出力（後方互換性のため）
-    a1_source = script_dir / "../src/constants/data/converted/A1.json"
-    a1_legacy = script_dir / "../src/constants/data/A1.json"
-    
-    if a1_source.exists():
-        import shutil
-        shutil.copy(str(a1_source), str(a1_legacy))
-        print(f"A1のデータを互換性のために {a1_legacy} にもコピーしました。")

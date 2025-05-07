@@ -7,9 +7,9 @@ import {
   type PokemonType,
 } from '@/constants/types/pokemon-types';
 import { cn } from '@/utils/classnames';
-import { LoaderPinwheel, X } from 'lucide-react';
+import { X } from 'lucide-react';
 import Image from 'next/image';
-import { useSearchQuery } from '../_utils/use-search-query';
+import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const PokemonTypeForm = () => {
   const { query, setQuery } = useSearchQuery();
@@ -25,6 +25,7 @@ export const PokemonTypeForm = () => {
         type="multiple"
         value={query.pokemonTypes}
         onValueChange={handleOnValueChange}
+        className="border"
       >
         {POKEMON_TYPE_LIST.map((type, index) => (
           <ToggleGroupItem
@@ -52,9 +53,9 @@ export const PokemonTypeForm = () => {
           });
         }}
       >
-        <LoaderPinwheel
-          className={cn('size-5', isCleared ? 'block' : 'hidden')}
-        />
+        <span className={cn('text-gray-600', isCleared ? 'block' : 'hidden')}>
+          ALL
+        </span>
         <X className={cn('size-5', isCleared ? 'hidden' : 'block')} />
       </Button>
     </div>

@@ -1,7 +1,7 @@
 'use client';
 
 import { Input } from '@/components/ui/input';
-import { useSearchQuery } from '../_utils/use-search-query';
+import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const KeywordForm = () => {
   const { query, setQuery } = useSearchQuery();
