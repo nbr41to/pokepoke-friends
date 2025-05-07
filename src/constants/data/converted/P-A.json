@@ -82,7 +82,7 @@
   {
     "id": 9,
     "cardNumber": "P-A #9",
-    "name": "Pikachu",
+    "name": "ピカチュウ",
     "nameEn": "Pikachu",
     "rarity": "Premium Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_009_EN.webp",
@@ -107,7 +107,7 @@
   {
     "id": 10,
     "cardNumber": "P-A #10",
-    "name": "Mewtwo",
+    "name": "ミュウツー",
     "nameEn": "Mewtwo",
     "rarity": "Premium Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_010_EN.webp",
@@ -132,7 +132,7 @@
   {
     "id": 11,
     "cardNumber": "P-A #11",
-    "name": "Chansey",
+    "name": "ラッキー",
     "nameEn": "Chansey",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_011_EN.webp",
@@ -157,7 +157,7 @@
   {
     "id": 12,
     "cardNumber": "P-A #12",
-    "name": "Meowth",
+    "name": "ニャース",
     "nameEn": "Meowth",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_012_EN.webp",
@@ -182,7 +182,7 @@
   {
     "id": 13,
     "cardNumber": "P-A #13",
-    "name": "Butterfree",
+    "name": "バタフリー",
     "nameEn": "Butterfree",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_013_EN.webp",
@@ -207,7 +207,7 @@
   {
     "id": 14,
     "cardNumber": "P-A #14",
-    "name": "Lapras ex",
+    "name": "ラプラス ex",
     "nameEn": "Lapras ex",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_014_EN.webp",
@@ -232,7 +232,7 @@
   {
     "id": 15,
     "cardNumber": "P-A #15",
-    "name": "Pikachu",
+    "name": "ピカチュウ",
     "nameEn": "Pikachu",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_015_EN.webp",
@@ -257,7 +257,7 @@
   {
     "id": 16,
     "cardNumber": "P-A #16",
-    "name": "Clefairy",
+    "name": "ピッピ",
     "nameEn": "Clefairy",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_016_EN.webp",
@@ -282,7 +282,7 @@
   {
     "id": 17,
     "cardNumber": "P-A #17",
-    "name": "Mankey",
+    "name": "マンキー",
     "nameEn": "Mankey",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_017_EN.webp",
@@ -307,7 +307,7 @@
   {
     "id": 18,
     "cardNumber": "P-A #18",
-    "name": "Venusaur",
+    "name": "フシギバナ",
     "nameEn": "Venusaur",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_018_EN.webp",
@@ -332,7 +332,7 @@
   {
     "id": 19,
     "cardNumber": "P-A #19",
-    "name": "Greninja",
+    "name": "ゲッコウガ",
     "nameEn": "Greninja",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_019_EN.webp",
@@ -357,7 +357,7 @@
   {
     "id": 20,
     "cardNumber": "P-A #20",
-    "name": "Haunter",
+    "name": "ゴースト",
     "nameEn": "Haunter",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_020_EN.webp",
@@ -382,7 +382,7 @@
   {
     "id": 21,
     "cardNumber": "P-A #21",
-    "name": "Onix",
+    "name": "イワーク",
     "nameEn": "Onix",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_021_EN.webp",
@@ -407,7 +407,7 @@
   {
     "id": 22,
     "cardNumber": "P-A #22",
-    "name": "Jigglypuff",
+    "name": "プリン",
     "nameEn": "Jigglypuff",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_022_EN.webp",
@@ -432,7 +432,7 @@
   {
     "id": 23,
     "cardNumber": "P-A #23",
-    "name": "Bulbasaur",
+    "name": "フシギダネ",
     "nameEn": "Bulbasaur",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_023_EN.webp",
@@ -457,7 +457,7 @@
   {
     "id": 24,
     "cardNumber": "P-A #24",
-    "name": "Magnemite",
+    "name": "コイル",
     "nameEn": "Magnemite",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_024_EN.webp",
@@ -482,7 +482,7 @@
   {
     "id": 25,
     "cardNumber": "P-A #25",
-    "name": "Moltres ex",
+    "name": "ファイヤー ex",
     "nameEn": "Moltres ex",
     "rarity": "Premium Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_025_EN.webp",
@@ -507,7 +507,7 @@
   {
     "id": 26,
     "cardNumber": "P-A #26",
-    "name": "Pikachu",
+    "name": "ピカチュウ",
     "nameEn": "Pikachu",
     "rarity": "Campaign",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_026_EN.webp",
@@ -532,7 +532,7 @@
   {
     "id": 27,
     "cardNumber": "P-A #27",
-    "name": "Snivy",
+    "name": "ツタージャ",
     "nameEn": "Snivy",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_027_EN.webp",
@@ -557,7 +557,7 @@
   {
     "id": 28,
     "cardNumber": "P-A #28",
-    "name": "Volcarona",
+    "name": "ウルガモス",
     "nameEn": "Volcarona",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_028_EN.webp",
@@ -582,7 +582,7 @@
   {
     "id": 29,
     "cardNumber": "P-A #29",
-    "name": "Blastoise",
+    "name": "カメックス",
     "nameEn": "Blastoise",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_029_EN.webp",
@@ -607,7 +607,7 @@
   {
     "id": 30,
     "cardNumber": "P-A #30",
-    "name": "Eevee",
+    "name": "イーブイ",
     "nameEn": "Eevee",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_030_EN.webp",
@@ -632,7 +632,7 @@
   {
     "id": 31,
     "cardNumber": "P-A #31",
-    "name": "Cinccino",
+    "name": "チラチーノ",
     "nameEn": "Cinccino",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_031_EN.webp",
@@ -657,7 +657,7 @@
   {
     "id": 32,
     "cardNumber": "P-A #32",
-    "name": "Charmander",
+    "name": "ヒトカゲ",
     "nameEn": "Charmander",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_032_EN.webp",
@@ -682,7 +682,7 @@
   {
     "id": 33,
     "cardNumber": "P-A #33",
-    "name": "Squirtle",
+    "name": "ゼニガメ",
     "nameEn": "Squirtle",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_033_EN.webp",
@@ -707,7 +707,7 @@
   {
     "id": 34,
     "cardNumber": "P-A #34",
-    "name": "Piplup",
+    "name": "ポッチャマ",
     "nameEn": "Piplup",
     "rarity": "Premium Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_034_EN.webp",
@@ -732,7 +732,7 @@
   {
     "id": 35,
     "cardNumber": "P-A #35",
-    "name": "Turtwig",
+    "name": "ナエトル",
     "nameEn": "Turtwig",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_035_EN.webp",
@@ -757,7 +757,7 @@
   {
     "id": 36,
     "cardNumber": "P-A #36",
-    "name": "Electivire",
+    "name": "エレキブル",
     "nameEn": "Electivire",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_036_EN.webp",
@@ -782,7 +782,7 @@
   {
     "id": 37,
     "cardNumber": "P-A #37",
-    "name": "Cresselia ex",
+    "name": "クレセリア ex",
     "nameEn": "Cresselia ex",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_037_EN.webp",
@@ -807,7 +807,7 @@
   {
     "id": 38,
     "cardNumber": "P-A #38",
-    "name": "Misdreavus",
+    "name": "ムウマ",
     "nameEn": "Misdreavus",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_038_EN.webp",
@@ -832,7 +832,7 @@
   {
     "id": 39,
     "cardNumber": "P-A #39",
-    "name": "Skarmory",
+    "name": "エアームド",
     "nameEn": "Skarmory",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_039_EN.webp",
@@ -857,7 +857,7 @@
   {
     "id": 40,
     "cardNumber": "P-A #40",
-    "name": "Chimchar",
+    "name": "ヒコザル",
     "nameEn": "Chimchar",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_040_EN.webp",
@@ -882,7 +882,7 @@
   {
     "id": 41,
     "cardNumber": "P-A #41",
-    "name": "Togepi",
+    "name": "トゲピー",
     "nameEn": "Togepi",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_041_EN.webp",
@@ -907,7 +907,7 @@
   {
     "id": 42,
     "cardNumber": "P-A #42",
-    "name": "Darkrai ex",
+    "name": "ダークライ ex",
     "nameEn": "Darkrai ex",
     "rarity": "Premium Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_042_EN.webp",
@@ -932,7 +932,7 @@
   {
     "id": 43,
     "cardNumber": "P-A #43",
-    "name": "Cherrim",
+    "name": "チェリム",
     "nameEn": "Cherrim",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_043_EN.webp",
@@ -957,7 +957,7 @@
   {
     "id": 44,
     "cardNumber": "P-A #44",
-    "name": "Raichu",
+    "name": "ライチュウ",
     "nameEn": "Raichu",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_044_EN.webp",
@@ -982,7 +982,7 @@
   {
     "id": 45,
     "cardNumber": "P-A #45",
-    "name": "Nosepass",
+    "name": "ノズパス",
     "nameEn": "Nosepass",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_045_EN.webp",
@@ -1007,7 +1007,7 @@
   {
     "id": 46,
     "cardNumber": "P-A #46",
-    "name": "Gible",
+    "name": "フカマル",
     "nameEn": "Gible",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_046_EN.webp",
@@ -1032,7 +1032,7 @@
   {
     "id": 47,
     "cardNumber": "P-A #47",
-    "name": "Staraptor",
+    "name": "ムクホーク",
     "nameEn": "Staraptor",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_047_EN.webp",
@@ -1057,7 +1057,7 @@
   {
     "id": 48,
     "cardNumber": "P-A #48",
-    "name": "Manaphy",
+    "name": "マナフィ",
     "nameEn": "Manaphy",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_048_EN.webp",
@@ -1082,7 +1082,7 @@
   {
     "id": 49,
     "cardNumber": "P-A #49",
-    "name": "Snorlax",
+    "name": "カビゴン",
     "nameEn": "Snorlax",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_049_EN.webp",
@@ -1107,7 +1107,7 @@
   {
     "id": 50,
     "cardNumber": "P-A #50",
-    "name": "Mewtwo ex",
+    "name": "ミュウツー ex",
     "nameEn": "Mewtwo ex",
     "rarity": "#50",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_050_EN.webp",
@@ -1132,7 +1132,7 @@
   {
     "id": 51,
     "cardNumber": "P-A #51",
-    "name": "Cyclizar",
+    "name": "モトトカゲ",
     "nameEn": "Cyclizar",
     "rarity": "Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_051_EN.webp",
@@ -1157,7 +1157,7 @@
   {
     "id": 52,
     "cardNumber": "P-A #52",
-    "name": "Sprigatito",
+    "name": "ニャオハ",
     "nameEn": "Sprigatito",
     "rarity": "Premium Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_052_EN.webp",
@@ -1182,7 +1182,7 @@
   {
     "id": 53,
     "cardNumber": "P-A #53",
-    "name": "Floatzel",
+    "name": "フローゼル",
     "nameEn": "Floatzel",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_053_EN.webp",
@@ -1207,7 +1207,7 @@
   {
     "id": 54,
     "cardNumber": "P-A #54",
-    "name": "Pawmot",
+    "name": "パーモット",
     "nameEn": "Pawmot",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_054_EN.webp",
@@ -1232,7 +1232,7 @@
   {
     "id": 55,
     "cardNumber": "P-A #55",
-    "name": "Machamp",
+    "name": "カイリキー",
     "nameEn": "Machamp",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_055_EN.webp",
@@ -1257,7 +1257,7 @@
   {
     "id": 56,
     "cardNumber": "P-A #56",
-    "name": "Ekans",
+    "name": "アーボ",
     "nameEn": "Ekans",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_056_EN.webp",
@@ -1282,7 +1282,7 @@
   {
     "id": 57,
     "cardNumber": "P-A #57",
-    "name": "Bidoof",
+    "name": "ビッパ",
     "nameEn": "Bidoof",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_057_EN.webp",
@@ -1307,7 +1307,7 @@
   {
     "id": 58,
     "cardNumber": "P-A #58",
-    "name": "Pachirisu",
+    "name": "パチリス",
     "nameEn": "Pachirisu",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_058_EN.webp",
@@ -1332,7 +1332,7 @@
   {
     "id": 59,
     "cardNumber": "P-A #59",
-    "name": "Riolu",
+    "name": "リオル",
     "nameEn": "Riolu",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_059_EN.webp",
@@ -1357,7 +1357,7 @@
   {
     "id": 60,
     "cardNumber": "P-A #60",
-    "name": "Exeggcute",
+    "name": "タマタマ",
     "nameEn": "Exeggcute",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_060_EN.webp",
@@ -1382,7 +1382,7 @@
   {
     "id": 61,
     "cardNumber": "P-A #61",
-    "name": "Froakie",
+    "name": "ケロマツ",
     "nameEn": "Froakie",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_061_EN.webp",
@@ -1432,7 +1432,7 @@
   {
     "id": 63,
     "cardNumber": "P-A #63",
-    "name": "Rayquaza",
+    "name": "レックウザ",
     "nameEn": "Rayquaza",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_063_EN.webp",
@@ -1457,7 +1457,7 @@
   {
     "id": 64,
     "cardNumber": "P-A #64",
-    "name": "Rayquaza ex",
+    "name": "レックウザ ex",
     "nameEn": "Rayquaza ex",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_064_EN.webp",
@@ -1482,7 +1482,7 @@
   {
     "id": 65,
     "cardNumber": "P-A #65",
-    "name": "Rayquaza ex",
+    "name": "レックウザ ex",
     "nameEn": "Rayquaza ex",
     "rarity": "Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_065_EN.webp",
@@ -1507,7 +1507,7 @@
   {
     "id": 66,
     "cardNumber": "P-A #66",
-    "name": "Mimikyu",
+    "name": "ミミッキュ",
     "nameEn": "Mimikyu",
     "rarity": "Premium Missions",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_066_EN.webp",
@@ -1532,7 +1532,7 @@
   {
     "id": 67,
     "cardNumber": "P-A #67",
-    "name": "Cosmog",
+    "name": "コスモッグ",
     "nameEn": "Cosmog",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_067_EN.webp",
@@ -1557,7 +1557,7 @@
   {
     "id": 68,
     "cardNumber": "P-A #68",
-    "name": "Lycanroc",
+    "name": "ルガルガン",
     "nameEn": "Lycanroc",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_068_EN.webp",
@@ -1632,7 +1632,7 @@
   {
     "id": 71,
     "cardNumber": "P-A #71",
-    "name": "Crabrawler",
+    "name": "マケンカニ",
     "nameEn": "Crabrawler",
     "rarity": "Promo pack",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_071_EN.webp",
@@ -1682,7 +1682,7 @@
   {
     "id": 73,
     "cardNumber": "P-A #73",
-    "name": "Toucannon",
+    "name": "ドデカバシ",
     "nameEn": "Toucannon",
     "rarity": "Wonder Pick",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_073_EN.webp",

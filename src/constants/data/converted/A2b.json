@@ -2,7 +2,7 @@
   {
     "id": 1,
     "cardNumber": "A2b #1",
-    "name": "Weedle",
+    "name": "ビードル",
     "nameEn": "Weedle",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_001_EN.webp",
@@ -27,7 +27,7 @@
   {
     "id": 2,
     "cardNumber": "A2b #2",
-    "name": "Kakuna",
+    "name": "コクーン",
     "nameEn": "Kakuna",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_002_EN.webp",
@@ -52,7 +52,7 @@
   {
     "id": 3,
     "cardNumber": "A2b #3",
-    "name": "Beedrill ex",
+    "name": "スピアー ex",
     "nameEn": "Beedrill ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_003_EN.webp",
@@ -77,7 +77,7 @@
   {
     "id": 4,
     "cardNumber": "A2b #4",
-    "name": "Pinsir",
+    "name": "カイロス",
     "nameEn": "Pinsir",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_004_EN.webp",
@@ -102,7 +102,7 @@
   {
     "id": 5,
     "cardNumber": "A2b #5",
-    "name": "Sprigatito",
+    "name": "ニャオハ",
     "nameEn": "Sprigatito",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_005_EN.webp",
@@ -127,7 +127,7 @@
   {
     "id": 6,
     "cardNumber": "A2b #6",
-    "name": "Floragato",
+    "name": "ニャローテ",
     "nameEn": "Floragato",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_006_EN.webp",
@@ -152,7 +152,7 @@
   {
     "id": 7,
     "cardNumber": "A2b #7",
-    "name": "Meowscarada",
+    "name": "マスカーニャ",
     "nameEn": "Meowscarada",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_007_EN.webp",
@@ -177,7 +177,7 @@
   {
     "id": 8,
     "cardNumber": "A2b #8",
-    "name": "Charmander",
+    "name": "ヒトカゲ",
     "nameEn": "Charmander",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_008_EN.webp",
@@ -202,7 +202,7 @@
   {
     "id": 9,
     "cardNumber": "A2b #9",
-    "name": "Charmeleon",
+    "name": "リザード",
     "nameEn": "Charmeleon",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_009_EN.webp",
@@ -227,7 +227,7 @@
   {
     "id": 10,
     "cardNumber": "A2b #10",
-    "name": "Charizard ex",
+    "name": "リザードン ex",
     "nameEn": "Charizard ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_010_EN.webp",
@@ -252,7 +252,7 @@
   {
     "id": 11,
     "cardNumber": "A2b #11",
-    "name": "Magmar",
+    "name": "ブーバー",
     "nameEn": "Magmar",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_011_EN.webp",
@@ -277,7 +277,7 @@
   {
     "id": 12,
     "cardNumber": "A2b #12",
-    "name": "Magmortar",
+    "name": "ブーバーン",
     "nameEn": "Magmortar",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_012_EN.webp",
@@ -327,7 +327,7 @@
   {
     "id": 14,
     "cardNumber": "A2b #14",
-    "name": "Tentacool",
+    "name": "メノクラゲ",
     "nameEn": "Tentacool",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_014_EN.webp",
@@ -352,7 +352,7 @@
   {
     "id": 15,
     "cardNumber": "A2b #15",
-    "name": "Tentacruel",
+    "name": "ドククラゲ",
     "nameEn": "Tentacruel",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_015_EN.webp",
@@ -377,7 +377,7 @@
   {
     "id": 16,
     "cardNumber": "A2b #16",
-    "name": "Buizel",
+    "name": "ブイゼル",
     "nameEn": "Buizel",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_016_EN.webp",
@@ -402,7 +402,7 @@
   {
     "id": 17,
     "cardNumber": "A2b #17",
-    "name": "Floatzel",
+    "name": "フローゼル",
     "nameEn": "Floatzel",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_017_EN.webp",
@@ -427,7 +427,7 @@
   {
     "id": 18,
     "cardNumber": "A2b #18",
-    "name": "Wiglett",
+    "name": "ウミディグダ",
     "nameEn": "Wiglett",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_018_EN.webp",
@@ -452,7 +452,7 @@
   {
     "id": 19,
     "cardNumber": "A2b #19",
-    "name": "Wugtrio ex",
+    "name": "ウミトリオ ex",
     "nameEn": "Wugtrio ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_019_EN.webp",
@@ -477,7 +477,7 @@
   {
     "id": 20,
     "cardNumber": "A2b #20",
-    "name": "Dondozo",
+    "name": "ヘイラッシャ",
     "nameEn": "Dondozo",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_020_EN.webp",
@@ -502,7 +502,7 @@
   {
     "id": 21,
     "cardNumber": "A2b #21",
-    "name": "Tatsugiri",
+    "name": "シャリタツ",
     "nameEn": "Tatsugiri",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_021_EN.webp",
@@ -527,7 +527,7 @@
   {
     "id": 22,
     "cardNumber": "A2b #22",
-    "name": "Pikachu ex",
+    "name": "ピカチュウ ex",
     "nameEn": "Pikachu ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_022_EN.webp",
@@ -552,7 +552,7 @@
   {
     "id": 23,
     "cardNumber": "A2b #23",
-    "name": "Voltorb",
+    "name": "ビリリダマ",
     "nameEn": "Voltorb",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_023_EN.webp",
@@ -577,7 +577,7 @@
   {
     "id": 24,
     "cardNumber": "A2b #24",
-    "name": "Electrode",
+    "name": "マルマイン",
     "nameEn": "Electrode",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_024_EN.webp",
@@ -602,7 +602,7 @@
   {
     "id": 25,
     "cardNumber": "A2b #25",
-    "name": "Pachirisu",
+    "name": "パチリス",
     "nameEn": "Pachirisu",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_025_EN.webp",
@@ -627,7 +627,7 @@
   {
     "id": 26,
     "cardNumber": "A2b #26",
-    "name": "Pawmi",
+    "name": "パモ",
     "nameEn": "Pawmi",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_026_EN.webp",
@@ -652,7 +652,7 @@
   {
     "id": 27,
     "cardNumber": "A2b #27",
-    "name": "Pawmo",
+    "name": "パモット",
     "nameEn": "Pawmo",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_027_EN.webp",
@@ -677,7 +677,7 @@
   {
     "id": 28,
     "cardNumber": "A2b #28",
-    "name": "Pawmot",
+    "name": "パーモット",
     "nameEn": "Pawmot",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_028_EN.webp",
@@ -702,7 +702,7 @@
   {
     "id": 29,
     "cardNumber": "A2b #29",
-    "name": "Abra",
+    "name": "ケーシィ",
     "nameEn": "Abra",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_029_EN.webp",
@@ -727,7 +727,7 @@
   {
     "id": 30,
     "cardNumber": "A2b #30",
-    "name": "Kadabra",
+    "name": "ユンゲラー",
     "nameEn": "Kadabra",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_030_EN.webp",
@@ -752,7 +752,7 @@
   {
     "id": 31,
     "cardNumber": "A2b #31",
-    "name": "Alakazam",
+    "name": "フーディン",
     "nameEn": "Alakazam",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_031_EN.webp",
@@ -777,7 +777,7 @@
   {
     "id": 32,
     "cardNumber": "A2b #32",
-    "name": "Mr. Mime",
+    "name": "バリヤード",
     "nameEn": "Mr. Mime",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_032_EN.webp",
@@ -802,7 +802,7 @@
   {
     "id": 33,
     "cardNumber": "A2b #33",
-    "name": "Drifloon",
+    "name": "フワンテ",
     "nameEn": "Drifloon",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_033_EN.webp",
@@ -827,7 +827,7 @@
   {
     "id": 34,
     "cardNumber": "A2b #34",
-    "name": "Drifblim",
+    "name": "フワライド",
     "nameEn": "Drifblim",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_034_EN.webp",
@@ -852,7 +852,7 @@
   {
     "id": 35,
     "cardNumber": "A2b #35",
-    "name": "Giratina ex",
+    "name": "ギラティナ ex",
     "nameEn": "Giratina ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_035_EN.webp",
@@ -877,7 +877,7 @@
   {
     "id": 36,
     "cardNumber": "A2b #36",
-    "name": "Gimmighoul",
+    "name": "コレクレー",
     "nameEn": "Gimmighoul",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_036_EN.webp",
@@ -902,7 +902,7 @@
   {
     "id": 37,
     "cardNumber": "A2b #37",
-    "name": "Machop",
+    "name": "ワンリキー",
     "nameEn": "Machop",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_037_EN.webp",
@@ -927,7 +927,7 @@
   {
     "id": 38,
     "cardNumber": "A2b #38",
-    "name": "Machoke",
+    "name": "ゴーリキー",
     "nameEn": "Machoke",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_038_EN.webp",
@@ -952,7 +952,7 @@
   {
     "id": 39,
     "cardNumber": "A2b #39",
-    "name": "Machamp",
+    "name": "カイリキー",
     "nameEn": "Machamp",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_039_EN.webp",
@@ -977,7 +977,7 @@
   {
     "id": 40,
     "cardNumber": "A2b #40",
-    "name": "Hitmonlee",
+    "name": "サワムラー",
     "nameEn": "Hitmonlee",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_040_EN.webp",
@@ -1002,7 +1002,7 @@
   {
     "id": 41,
     "cardNumber": "A2b #41",
-    "name": "Hitmonchan",
+    "name": "エビワラー",
     "nameEn": "Hitmonchan",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_041_EN.webp",
@@ -1027,7 +1027,7 @@
   {
     "id": 42,
     "cardNumber": "A2b #42",
-    "name": "Riolu",
+    "name": "リオル",
     "nameEn": "Riolu",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_042_EN.webp",
@@ -1052,7 +1052,7 @@
   {
     "id": 43,
     "cardNumber": "A2b #43",
-    "name": "Lucario ex",
+    "name": "ルカリオ ex",
     "nameEn": "Lucario ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_043_EN.webp",
@@ -1077,7 +1077,7 @@
   {
     "id": 44,
     "cardNumber": "A2b #44",
-    "name": "Flamigo",
+    "name": "カラミンゴ",
     "nameEn": "Flamigo",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_044_EN.webp",
@@ -1102,7 +1102,7 @@
   {
     "id": 45,
     "cardNumber": "A2b #45",
-    "name": "Ekans",
+    "name": "アーボ",
     "nameEn": "Ekans",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_045_EN.webp",
@@ -1127,7 +1127,7 @@
   {
     "id": 46,
     "cardNumber": "A2b #46",
-    "name": "Arbok",
+    "name": "アーボック",
     "nameEn": "Arbok",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_046_EN.webp",
@@ -1202,7 +1202,7 @@
   {
     "id": 49,
     "cardNumber": "A2b #49",
-    "name": "Spiritomb",
+    "name": "ミカルゲ",
     "nameEn": "Spiritomb",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_049_EN.webp",
@@ -1227,7 +1227,7 @@
   {
     "id": 50,
     "cardNumber": "A2b #50",
-    "name": "Shroodle",
+    "name": "シルシュルー",
     "nameEn": "Shroodle",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_050_EN.webp",
@@ -1252,7 +1252,7 @@
   {
     "id": 51,
     "cardNumber": "A2b #51",
-    "name": "Grafaiai",
+    "name": "タギングル",
     "nameEn": "Grafaiai",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_051_EN.webp",
@@ -1277,7 +1277,7 @@
   {
     "id": 52,
     "cardNumber": "A2b #52",
-    "name": "Tinkatink",
+    "name": "カヌチャン",
     "nameEn": "Tinkatink",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_052_EN.webp",
@@ -1302,7 +1302,7 @@
   {
     "id": 53,
     "cardNumber": "A2b #53",
-    "name": "Tinkatuff",
+    "name": "ナカヌチャン",
     "nameEn": "Tinkatuff",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_053_EN.webp",
@@ -1327,7 +1327,7 @@
   {
     "id": 54,
     "cardNumber": "A2b #54",
-    "name": "Tinkaton ex",
+    "name": "デカヌチャン ex",
     "nameEn": "Tinkaton ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_054_EN.webp",
@@ -1352,7 +1352,7 @@
   {
     "id": 55,
     "cardNumber": "A2b #55",
-    "name": "Varoom",
+    "name": "ブロロン",
     "nameEn": "Varoom",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_055_EN.webp",
@@ -1377,7 +1377,7 @@
   {
     "id": 56,
     "cardNumber": "A2b #56",
-    "name": "Revavroom",
+    "name": "ブロロローム",
     "nameEn": "Revavroom",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_056_EN.webp",
@@ -1402,7 +1402,7 @@
   {
     "id": 57,
     "cardNumber": "A2b #57",
-    "name": "Gholdengo",
+    "name": "サーフゴー",
     "nameEn": "Gholdengo",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_057_EN.webp",
@@ -1427,7 +1427,7 @@
   {
     "id": 58,
     "cardNumber": "A2b #58",
-    "name": "Rattata",
+    "name": "コラッタ",
     "nameEn": "Rattata",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_058_EN.webp",
@@ -1452,7 +1452,7 @@
   {
     "id": 59,
     "cardNumber": "A2b #59",
-    "name": "Raticate",
+    "name": "ラッタ",
     "nameEn": "Raticate",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_059_EN.webp",
@@ -1477,7 +1477,7 @@
   {
     "id": 60,
     "cardNumber": "A2b #60",
-    "name": "Jigglypuff",
+    "name": "プリン",
     "nameEn": "Jigglypuff",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_060_EN.webp",
@@ -1502,7 +1502,7 @@
   {
     "id": 61,
     "cardNumber": "A2b #61",
-    "name": "Wigglytuff",
+    "name": "プクリン",
     "nameEn": "Wigglytuff",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_061_EN.webp",
@@ -1527,7 +1527,7 @@
   {
     "id": 62,
     "cardNumber": "A2b #62",
-    "name": "Lickitung",
+    "name": "ベロリンガ",
     "nameEn": "Lickitung",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_062_EN.webp",
@@ -1552,7 +1552,7 @@
   {
     "id": 63,
     "cardNumber": "A2b #63",
-    "name": "Lickilicky",
+    "name": "ベロベルト",
     "nameEn": "Lickilicky",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_063_EN.webp",
@@ -1577,7 +1577,7 @@
   {
     "id": 64,
     "cardNumber": "A2b #64",
-    "name": "Bidoof",
+    "name": "ビッパ",
     "nameEn": "Bidoof",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_064_EN.webp",
@@ -1602,7 +1602,7 @@
   {
     "id": 65,
     "cardNumber": "A2b #65",
-    "name": "Bibarel ex",
+    "name": "ビーダル ex",
     "nameEn": "Bibarel ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_065_EN.webp",
@@ -1627,7 +1627,7 @@
   {
     "id": 66,
     "cardNumber": "A2b #66",
-    "name": "Buneary",
+    "name": "ミミロル",
     "nameEn": "Buneary",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_066_EN.webp",
@@ -1652,7 +1652,7 @@
   {
     "id": 67,
     "cardNumber": "A2b #67",
-    "name": "Lopunny",
+    "name": "ミミロップ",
     "nameEn": "Lopunny",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_067_EN.webp",
@@ -1677,7 +1677,7 @@
   {
     "id": 68,
     "cardNumber": "A2b #68",
-    "name": "Cyclizar",
+    "name": "モトトカゲ",
     "nameEn": "Cyclizar",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_068_EN.webp",
@@ -1742,7 +1742,7 @@
   {
     "id": 73,
     "cardNumber": "A2b #73",
-    "name": "Meowscarada",
+    "name": "マスカーニャ",
     "nameEn": "Meowscarada",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_073_EN.webp",
@@ -1767,7 +1767,7 @@
   {
     "id": 74,
     "cardNumber": "A2b #74",
-    "name": "Buizel",
+    "name": "ブイゼル",
     "nameEn": "Buizel",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_074_EN.webp",
@@ -1792,7 +1792,7 @@
   {
     "id": 75,
     "cardNumber": "A2b #75",
-    "name": "Tatsugiri",
+    "name": "シャリタツ",
     "nameEn": "Tatsugiri",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_075_EN.webp",
@@ -1817,7 +1817,7 @@
   {
     "id": 76,
     "cardNumber": "A2b #76",
-    "name": "Grafaiai",
+    "name": "タギングル",
     "nameEn": "Grafaiai",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_076_EN.webp",
@@ -1842,7 +1842,7 @@
   {
     "id": 77,
     "cardNumber": "A2b #77",
-    "name": "Gholdengo",
+    "name": "サーフゴー",
     "nameEn": "Gholdengo",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_077_EN.webp",
@@ -1867,7 +1867,7 @@
   {
     "id": 78,
     "cardNumber": "A2b #78",
-    "name": "Wigglytuff",
+    "name": "プクリン",
     "nameEn": "Wigglytuff",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_078_EN.webp",
@@ -1892,7 +1892,7 @@
   {
     "id": 79,
     "cardNumber": "A2b #79",
-    "name": "Beedrill ex",
+    "name": "スピアー ex",
     "nameEn": "Beedrill ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_079_EN.webp",
@@ -1917,7 +1917,7 @@
   {
     "id": 80,
     "cardNumber": "A2b #80",
-    "name": "Charizard ex",
+    "name": "リザードン ex",
     "nameEn": "Charizard ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_080_EN.webp",
@@ -1942,7 +1942,7 @@
   {
     "id": 81,
     "cardNumber": "A2b #81",
-    "name": "Wugtrio ex",
+    "name": "ウミトリオ ex",
     "nameEn": "Wugtrio ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_081_EN.webp",
@@ -1967,7 +1967,7 @@
   {
     "id": 82,
     "cardNumber": "A2b #82",
-    "name": "Pikachu ex",
+    "name": "ピカチュウ ex",
     "nameEn": "Pikachu ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_082_EN.webp",
@@ -1992,7 +1992,7 @@
   {
     "id": 83,
     "cardNumber": "A2b #83",
-    "name": "Giratina ex",
+    "name": "ギラティナ ex",
     "nameEn": "Giratina ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_083_EN.webp",
@@ -2017,7 +2017,7 @@
   {
     "id": 84,
     "cardNumber": "A2b #84",
-    "name": "Lucario ex",
+    "name": "ルカリオ ex",
     "nameEn": "Lucario ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_084_EN.webp",
@@ -2067,7 +2067,7 @@
   {
     "id": 86,
     "cardNumber": "A2b #86",
-    "name": "Tinkaton ex",
+    "name": "デカヌチャン ex",
     "nameEn": "Tinkaton ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_086_EN.webp",
@@ -2092,7 +2092,7 @@
   {
     "id": 87,
     "cardNumber": "A2b #87",
-    "name": "Bibarel ex",
+    "name": "ビーダル ex",
     "nameEn": "Bibarel ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_087_EN.webp",
@@ -2157,7 +2157,7 @@
   {
     "id": 92,
     "cardNumber": "A2b #92",
-    "name": "Pikachu ex",
+    "name": "ピカチュウ ex",
     "nameEn": "Pikachu ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_092_EN.webp",
@@ -2207,7 +2207,7 @@
   {
     "id": 94,
     "cardNumber": "A2b #94",
-    "name": "Tinkaton ex",
+    "name": "デカヌチャン ex",
     "nameEn": "Tinkaton ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_094_EN.webp",
@@ -2232,7 +2232,7 @@
   {
     "id": 95,
     "cardNumber": "A2b #95",
-    "name": "Bibarel ex",
+    "name": "ビーダル ex",
     "nameEn": "Bibarel ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_095_EN.webp",
@@ -2257,7 +2257,7 @@
   {
     "id": 96,
     "cardNumber": "A2b #96",
-    "name": "Giratina ex",
+    "name": "ギラティナ ex",
     "nameEn": "Giratina ex",
     "rarity": "s3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_096_EN.webp",
@@ -2282,7 +2282,7 @@
   {
     "id": 97,
     "cardNumber": "A2b #97",
-    "name": "Weedle",
+    "name": "ビードル",
     "nameEn": "Weedle",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_097_EN.webp",
@@ -2307,7 +2307,7 @@
   {
     "id": 98,
     "cardNumber": "A2b #98",
-    "name": "Kakuna",
+    "name": "コクーン",
     "nameEn": "Kakuna",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_098_EN.webp",
@@ -2332,7 +2332,7 @@
   {
     "id": 99,
     "cardNumber": "A2b #99",
-    "name": "Charmander",
+    "name": "ヒトカゲ",
     "nameEn": "Charmander",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_099_EN.webp",
@@ -2357,7 +2357,7 @@
   {
     "id": 100,
     "cardNumber": "A2b #100",
-    "name": "Charmeleon",
+    "name": "リザード",
     "nameEn": "Charmeleon",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_100_EN.webp",
@@ -2382,7 +2382,7 @@
   {
     "id": 101,
     "cardNumber": "A2b #101",
-    "name": "Wiglett",
+    "name": "ウミディグダ",
     "nameEn": "Wiglett",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_101_EN.webp",
@@ -2407,7 +2407,7 @@
   {
     "id": 102,
     "cardNumber": "A2b #102",
-    "name": "Dondozo",
+    "name": "ヘイラッシャ",
     "nameEn": "Dondozo",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_102_EN.webp",
@@ -2432,7 +2432,7 @@
   {
     "id": 103,
     "cardNumber": "A2b #103",
-    "name": "Pachirisu",
+    "name": "パチリス",
     "nameEn": "Pachirisu",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_103_EN.webp",
@@ -2457,7 +2457,7 @@
   {
     "id": 104,
     "cardNumber": "A2b #104",
-    "name": "Riolu",
+    "name": "リオル",
     "nameEn": "Riolu",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_104_EN.webp",
@@ -2482,7 +2482,7 @@
   {
     "id": 105,
     "cardNumber": "A2b #105",
-    "name": "Varoom",
+    "name": "ブロロン",
     "nameEn": "Varoom",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_105_EN.webp",
@@ -2507,7 +2507,7 @@
   {
     "id": 106,
     "cardNumber": "A2b #106",
-    "name": "Revavroom",
+    "name": "ブロロローム",
     "nameEn": "Revavroom",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_106_EN.webp",
@@ -2532,7 +2532,7 @@
   {
     "id": 107,
     "cardNumber": "A2b #107",
-    "name": "Beedrill ex",
+    "name": "スピアー ex",
     "nameEn": "Beedrill ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_107_EN.webp",
@@ -2557,7 +2557,7 @@
   {
     "id": 108,
     "cardNumber": "A2b #108",
-    "name": "Charizard ex",
+    "name": "リザードン ex",
     "nameEn": "Charizard ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_108_EN.webp",
@@ -2582,7 +2582,7 @@
   {
     "id": 109,
     "cardNumber": "A2b #109",
-    "name": "Wugtrio ex",
+    "name": "ウミトリオ ex",
     "nameEn": "Wugtrio ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_109_EN.webp",
@@ -2607,7 +2607,7 @@
   {
     "id": 110,
     "cardNumber": "A2b #110",
-    "name": "Lucario ex",
+    "name": "ルカリオ ex",
     "nameEn": "Lucario ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_110_EN.webp",

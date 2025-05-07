@@ -19,6 +19,7 @@
 
 # production
 /build
+gw.html
 
 # misc
 .DS_Store

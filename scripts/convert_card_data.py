@@ -54,6 +54,46 @@ RARITY_MAPPING = {
 # 変換対象のシリーズリスト（デフォルト）
 DEFAULT_SERIES_LIST = ["A1", "A1a", "A2", "A2a", "A2b", "A3", "P-A"]
 
+def load_pokemon_names(script_dir: Path) -> Dict[str, str]:
+    """ポケモンの英語名と日本語名のマッピングを読み込む"""
+    pokemon_names_file = script_dir / "../src/constants/data/pokemon_names.json"
+    try:
+        with open(pokemon_names_file, 'r', encoding='utf-8') as f:
+            pokemon_names_data = json.load(f)
+        
+        # 英語名をキー、日本語名を値とする辞書を作成
+        en_to_ja = {entry["en"]: entry["ja"] for entry in pokemon_names_data}
+        return en_to_ja
+    except Exception as e:
+        print(f"警告: ポケモン名のマッピングファイルの読み込みに失敗しました: {e}")
+        return {}
+
+def convert_pokemon_name(name: str, pokemon_names_map: Dict[str, str]) -> str:
+    """ポケモン名を英語から日本語に変換する
+    マッピングに存在しない場合は、元の名前をそのまま返す
+    「ex」や特別な接尾辞がある場合は、基本名のみを翻訳し、接尾辞はそのまま保持する"""
+    # 「ex」などの接尾辞を検出
+    ex_suffix_match = re.search(r'\s+(ex|EX|V|VMAX|VSTAR|GX)$', name)
+    suffix = ""
+    base_name = name
+    
+    # 接尾辞がある場合、基本名と接尾辞を分離
+    if ex_suffix_match:
+        suffix = ex_suffix_match.group(0)  # 空白を含む接尾辞（例: " ex"）
+        base_name = name[:ex_suffix_match.start()]
+    
+    # 名前の先頭に数字やアルファベットがある場合、それを除去して検索（例: "1.Bulbasaur" -> "Bulbasaur"）
+    cleaned_name = re.sub(r'^[\d\W]+\.?\s*', '', base_name)
+    
+    # 基本名を翻訳
+    translated_base = pokemon_names_map.get(cleaned_name, base_name)
+    
+    # 接尾辞がある場合は、翻訳した基本名に接尾辞を再結合
+    if suffix:
+        return translated_base + suffix
+    
+    return translated_base
+
 def convert_pokemon_type(pokemon_type: Optional[str]) -> Optional[str]:
     """ポケモンタイプを変換する"""
     if pokemon_type is None or pokemon_type.lower() == "none":
@@ -90,17 +130,23 @@ def convert_card_data(source_file: str, target_file: str) -> None:
     # JSONファイルを読み込む
     with open(source_file, 'r', encoding='utf-8') as f:
         cards_data = json.load(f)
-
+    
+    # ポケモン名のマッピングを読み込む
+    pokemon_names_map = load_pokemon_names(Path(__file__).parent)
+    
     converted_cards = []
     card_id = 1  # 連番ID
 
     for card in cards_data:
+        # 英語名を取得
+        english_name = card.get('name', '')
+        
         # 基本情報
         card_base = {
             "id": card_id,
             "cardNumber": card.get('numbering', ''),
-            "name": card.get('name', ''),
-            "nameEn": card.get('name', ''),  # 英語名は元データと同じにする
+            "name": convert_pokemon_name(english_name, pokemon_names_map),  # 英語名を日本語名に変換
+            "nameEn": english_name,  # 英語名は元データのままで保持
             "rarity": convert_rarity(card.get('rarity', '')),
             "image": card.get('image', ''),
             "description": extract_card_description(card)  # すべてのカードタイプにdescriptionを追加
