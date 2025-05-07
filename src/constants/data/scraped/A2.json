@@ -3034,7 +3034,7 @@
     "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/A2/121",
-    "weakness": "none"
+    "weakness": null
   },
   {
     "ability_description": null,
@@ -3059,7 +3059,7 @@
     "rarity": "◊◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/A2/122",
-    "weakness": "none"
+    "weakness": null
   },
   {
     "ability_description": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw a card.",
@@ -3084,7 +3084,7 @@
     "rarity": "◊◊◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/A2/123",
-    "weakness": "none"
+    "weakness": null
   },
   {
     "ability_description": null,
@@ -4240,7 +4240,7 @@
     "rarity": "☆",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/A2/175",
-    "weakness": "none"
+    "weakness": null
   },
   {
     "ability_description": null,

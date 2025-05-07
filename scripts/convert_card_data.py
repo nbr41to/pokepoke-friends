@@ -54,8 +54,10 @@ RARITY_MAPPING = {
 # 変換対象のシリーズリスト（デフォルト）
 DEFAULT_SERIES_LIST = ["A1", "A1a", "A2", "A2a", "A2b", "A3", "P-A"]
 
-def convert_pokemon_type(pokemon_type: str) -> str:
+def convert_pokemon_type(pokemon_type: Optional[str]) -> Optional[str]:
     """ポケモンタイプを変換する"""
+    if pokemon_type is None or pokemon_type.lower() == "none":
+        return None
     return POKEMON_TYPE_MAPPING.get(pokemon_type, "normal")
 
 def convert_evolve_stage(evolve_stage: str) -> str:
@@ -101,6 +103,7 @@ def convert_card_data(source_file: str, target_file: str) -> None:
             "nameEn": card.get('name', ''),  # 英語名は元データと同じにする
             "rarity": convert_rarity(card.get('rarity', '')),
             "image": card.get('image', ''),
+            "description": extract_card_description(card)  # すべてのカードタイプにdescriptionを追加
         }
 
         # カードタイプを判別
@@ -114,7 +117,7 @@ def convert_card_data(source_file: str, target_file: str) -> None:
                 "type": convert_pokemon_type(card.get('pokemon_type', 'Colorless')),
                 "evolveStage": convert_evolve_stage(card.get('evole_stage', 'Basic')),
                 "retreat": card.get('retreat', 0),
-                "weakness": convert_pokemon_type(card.get('weakness', None)) if card.get('weakness') else None,
+                "weakness": convert_pokemon_type(card.get('weakness')) if card.get('weakness') else None,
                 "abilityName": card.get('ability_name'),
                 "abilityDescription": card.get('ability_description')
             }
@@ -156,7 +159,6 @@ def convert_card_data(source_file: str, target_file: str) -> None:
             trainer_card = {
                 **card_base,
                 "cardType": TRAINER_TYPE_MAPPING.get(card.get('evole_stage', 'Item'), 'trainers-goods'),
-                "description": extract_card_description(card)
             }
             converted_cards.append(trainer_card)
 
@@ -204,8 +206,11 @@ if __name__ == "__main__":
     success_count = 0
     
     for series_id in series_list:
-        print(f"[{series_list.index(series_id) + 1}/{len(series_list)}] {series_idのカードデータを変換中...")
+        print(f"[{series_list.index(series_id) + 1}/{len(series_list)}] {series_id}を変換中...")
         if process_series(series_id, script_dir):
             success_count += 1
-    
-    print(f"変換が完了しました！{success_count}/{len(series_list)}シリーズのデータを変換しました。")
+        else:
+            print(f"エラー: {series_id}の変換に失敗しました。")
+    print(f"変換が完了しました。成功したシリーズ: {success_count}/{len(series_list)}")
+    print("スクリプトを終了します。")
+    sys.exit(0)

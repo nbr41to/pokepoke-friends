@@ -303,7 +303,15 @@ def scrape_pokemon_cards(series):
                     # 弱点を抽出（最初の行のみ）
                     weakness_match = re.search(r'Weakness:\s*([^<\n]+)', wrr_html)
                     if weakness_match:
-                        card_info['weakness'] = weakness_match.group(1).strip()
+                        weakness_value = weakness_match.group(1).strip()
+                        # 'none' または空の場合は null に設定
+                        if weakness_value.lower() == 'none' or not weakness_value:
+                            card_info['weakness'] = None
+                        else:
+                            card_info['weakness'] = weakness_value
+                    else:
+                        # 弱点が見つからない場合は明示的に null を設定
+                        card_info['weakness'] = None
                     
                     # 後退コストを抽出
                     retreat_match = re.search(r'Retreat:\s*(\d+)', wrr_html)

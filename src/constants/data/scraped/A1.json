@@ -4614,7 +4614,7 @@
     "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/A1/183",
-    "weakness": "none"
+    "weakness": null
   },
   {
     "ability_description": null,
@@ -4639,7 +4639,7 @@
     "rarity": "◊◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/A1/184",
-    "weakness": "none"
+    "weakness": null
   },
   {
     "ability_description": null,
@@ -4664,7 +4664,7 @@
     "rarity": "◊◊◊",
     "retreat": 3,
     "url": "https://pocket.limitlesstcg.com/cards/A1/185",
-    "weakness": "none"
+    "weakness": null
   },
   {
     "ability_description": null,
@@ -6010,7 +6010,7 @@
     "rarity": "☆",
     "retreat": 3,
     "url": "https://pocket.limitlesstcg.com/cards/A1/244",
-    "weakness": "none"
+    "weakness": null
   },
   {
     "ability_description": "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench.(Your opponent chooses the new Active Pokémon.)",
