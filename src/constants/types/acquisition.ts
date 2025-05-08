@@ -30,7 +30,7 @@ export const ACQUISITION_LABEL = {
   [ACQUISITION.A2_a]: '超克の光',
   [ACQUISITION.A2_b]: 'シャイニングハイ',
   [ACQUISITION.A3]: '双天の守護者',
-  [ACQUISITION.P_A]: 'Promo-A',
+  [ACQUISITION.P_A]: 'PROMO-A',
 } as const;
 
 export const ACQUISITION_OPTIONS = [

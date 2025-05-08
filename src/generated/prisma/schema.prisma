@@ -1,0 +1,75 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Card {
+  id                 String              @id @unique
+  numbering          String              @unique
+  name               String
+  rarity             CardRarity
+  image              String
+  cardType           CardType
+  description        String?
+  hp                 Int?
+  type               PokemonType?
+  evolveStage        PokemonEvolveStage?
+  move1name          String?
+  move1energy        String?
+  move1power         String?
+  move1description   String?
+  move2name          String?
+  move2energy        String?
+  move2power         String?
+  move2description   String?
+  abilityName        String?
+  abilityDescription String?
+  retreat            Int?
+  weakness           PokemonType?
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+}
+
+enum PokemonType {
+  grass
+  fire
+  water
+  electric
+  fighting
+  psychic
+  darkness
+  steel
+  dragon
+  normal
+}
+
+enum CardType {
+  pokemon
+  trainers_goods         @map("trainers-goods")
+  trainers_support       @map("trainers-support")
+  trainers_pokemon_tools @map("trainers-pokemon-tools")
+}
+
+enum CardRarity {
+  d1
+  d2
+  d3
+  d4
+  s1
+  s2
+  s3
+  crown
+  promo
+}
+
+enum PokemonEvolveStage {
+  base
+  stage1
+  stage2
+}

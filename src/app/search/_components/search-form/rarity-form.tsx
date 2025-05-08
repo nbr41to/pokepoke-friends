@@ -2,7 +2,10 @@
 
 import { Button } from '@/components/ui/button';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { CARD_RARUTIES_LIST, type CardRarity } from '@/constants/types/raritis';
+import {
+  CARD_RARUTIES_LIST,
+  type CardRarity,
+} from '@/constants/types/rarities';
 import { cn } from '@/utils/classnames';
 import { Crown, Diamond, Star, X } from 'lucide-react';
 import { useSearchQuery } from '../../_utils/use-search-query';

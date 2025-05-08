@@ -4,7 +4,7 @@ import { EnergyIcons } from '@/components/enegy-icons';
 import PokeBall from '@/components/icons/PokeBall';
 import type { Card } from '@/constants/types/card';
 import { CARD_TYPE } from '@/constants/types/card-types';
-import { CARD_RARUTIES_LABEL } from '@/constants/types/raritis';
+import { CARD_RARUTIES_LABEL } from '@/constants/types/rarities';
 import { HardHat, Sprout, SquareUserRound, Wrench } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';

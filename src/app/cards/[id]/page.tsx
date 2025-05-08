@@ -1,6 +1,6 @@
 import { CARD_DATA } from '@/constants/data/converted';
 import Image from 'next/image';
-import GW_DATA from './gw.json';
+import GW_DATA from '@/constants/data/scraped/gw/gw.json';
 
 export default async function Page({
   params,

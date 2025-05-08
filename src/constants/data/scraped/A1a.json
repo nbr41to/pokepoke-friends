@@ -11,7 +11,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
     "evole_stage": "Basic",
     "hp": 50,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_001_EN.webp",
@@ -36,7 +36,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Each of Exeggutor’s three heads is thinking different thoughts. The three don’t seem to be very interested in one another.",
     "evole_stage": "Stage 1",
     "hp": 130,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_002_EN.webp",
@@ -86,7 +86,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_004_EN.webp",
@@ -111,7 +111,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
     "evole_stage": "Stage 1",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_005_EN.webp",
@@ -136,7 +136,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It only gives its all against strong opponents who are not fazed by the glare from Serperior’s noble eyes.",
     "evole_stage": "Stage 2",
     "hp": 110,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_006_EN.webp",
@@ -161,7 +161,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Pokémon living in the forest eat the delicious caps on Morelull’s head. The caps regrow overnight.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_007_EN.webp",
@@ -186,7 +186,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips.",
     "evole_stage": "Stage 1",
     "hp": 90,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_008_EN.webp",
@@ -211,7 +211,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.",
     "evole_stage": "Basic",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_009_EN.webp",
@@ -236,7 +236,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It can’t run properly when it’s newly born. As it races around with others of its kind, its legs grow stronger.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_010_EN.webp",
@@ -261,7 +261,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
     "evole_stage": "Stage 1",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_011_EN.webp",
@@ -286,7 +286,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_012_EN.webp",
@@ -311,7 +311,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_013_EN.webp",
@@ -336,7 +336,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
     "evole_stage": "Stage 1",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_014_EN.webp",
@@ -361,7 +361,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_015_EN.webp",
@@ -386,7 +386,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
     "evole_stage": "Stage 1",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_016_EN.webp",
@@ -411,7 +411,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
     "evole_stage": "Basic",
     "hp": 30,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_017_EN.webp",
@@ -461,7 +461,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid’s.",
     "evole_stage": "Stage 1",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_019_EN.webp",
@@ -486,7 +486,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "The line running down its side can store sunlight. It shines vividly at night.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_020_EN.webp",
@@ -511,7 +511,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "With its shining light, it lures its prey close. However, the light also happens to attract ferocious fish Pokémon—its natural predators.",
     "evole_stage": "Stage 1",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_021_EN.webp",
@@ -536,7 +536,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its large front tooth is still growing in. When the tooth itches, this Pokémon will bite another Chewtle’s horn, and the two Pokémon will tussle.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_022_EN.webp",
@@ -561,7 +561,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its massive, jagged teeth can crush a boulder in a single bite. This Pokémon has an extremely vicious disposition.",
     "evole_stage": "Stage 1",
     "hp": 130,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_023_EN.webp",
@@ -586,7 +586,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_024_EN.webp",
@@ -611,7 +611,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_025_EN.webp",
@@ -636,7 +636,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
     "evole_stage": "Stage 1",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_026_EN.webp",
@@ -661,7 +661,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_027_EN.webp",
@@ -686,7 +686,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Joltik can be found clinging to other Pokémon. It’s soaking up static electricity because it can’t produce a charge on its own.",
     "evole_stage": "Basic",
     "hp": 40,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_028_EN.webp",
@@ -711,7 +711,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis.",
     "evole_stage": "Stage 1",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_029_EN.webp",
@@ -736,7 +736,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It’s small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people’s homes and charge itself.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_030_EN.webp",
@@ -761,7 +761,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_031_EN.webp",
@@ -817,7 +817,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians’ emissaries.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_033_EN.webp",
@@ -842,7 +842,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_034_EN.webp",
@@ -867,7 +867,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
     "evole_stage": "Stage 1",
     "hp": 90,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_035_EN.webp",
@@ -892,7 +892,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon can draw forth the power hidden within blooming wild flowers. It is particularly fond of red flowers.",
     "evole_stage": "Basic",
     "hp": 40,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_036_EN.webp",
@@ -917,7 +917,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon draws forth what power is left in withered flowers to make them healthy again. It holds a red flower.",
     "evole_stage": "Stage 1",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_037_EN.webp",
@@ -942,7 +942,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon creates an impressive flower garden in its territory. It draws forth the power of the red flowers around its neck.",
     "evole_stage": "Stage 2",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_038_EN.webp",
@@ -967,7 +967,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It eats its own weight in sugar every day. If it doesn’t get enough sugar, it becomes incredibly grumpy.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_039_EN.webp",
@@ -992,7 +992,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "By taking in a person’s scent, it can sniff out their mental and physical condition. It’s hoped that this skill will have many medical applications.",
     "evole_stage": "Stage 1",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_040_EN.webp",
@@ -1017,7 +1017,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
     "evole_stage": "Basic",
     "hp": 50,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_041_EN.webp",
@@ -1042,7 +1042,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
     "evole_stage": "Stage 1",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_042_EN.webp",
@@ -1067,7 +1067,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Geodude that have lived a long life have had all their edges smoothed out until they’re totally round. They also have a calm, quiet disposition.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_043_EN.webp",
@@ -1092,7 +1092,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came.",
     "evole_stage": "Stage 1",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_044_EN.webp",
@@ -1117,7 +1117,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When Golem grow old, they stop shedding their shells. Those that have lived a long, long time have shells green with moss.",
     "evole_stage": "Stage 2",
     "hp": 160,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_045_EN.webp",
@@ -1167,7 +1167,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it’s imitating.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_047_EN.webp",
@@ -1192,7 +1192,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon’s habitat.",
     "evole_stage": "Basic",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_048_EN.webp",
@@ -1217,7 +1217,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_049_EN.webp",
@@ -1242,7 +1242,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
     "evole_stage": "Stage 1",
     "hp": 110,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_050_EN.webp",
@@ -1267,7 +1267,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_051_EN.webp",
@@ -1292,7 +1292,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
     "evole_stage": "Stage 1",
     "hp": 90,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_052_EN.webp",
@@ -1317,7 +1317,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_053_EN.webp",
@@ -1342,7 +1342,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph.",
     "evole_stage": "Stage 1",
     "hp": 90,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_054_EN.webp",
@@ -1367,7 +1367,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws’ toxic spikes.",
     "evole_stage": "Stage 2",
     "hp": 140,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_055_EN.webp",
@@ -1392,7 +1392,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Druddigon lives in caves, but it never skips sunbathing—it won’t be able to move if its body gets too cold.",
     "evole_stage": "Basic",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_056_EN.webp",
@@ -1417,7 +1417,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
     "evole_stage": "Basic",
     "hp": 50,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_057_EN.webp",
@@ -1442,7 +1442,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
     "evole_stage": "Stage 1",
     "hp": 90,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_058_EN.webp",
@@ -1492,7 +1492,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When Tauros begins whipping itself with its tails, it’s a warning that the Pokémon is about to charge with astounding speed.",
     "evole_stage": "Basic",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_060_EN.webp",
@@ -1517,7 +1517,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_061_EN.webp",
@@ -1542,7 +1542,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It mimics the cries of other Pokémon to trick them into thinking it’s one of them. This way they won’t attack it.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_062_EN.webp",
@@ -1558,7 +1558,8 @@
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Play this card as if it were a 40-HP Basic[C]Pokémon.At any time during your turn, you may discard this card from play.This card can't retreat.",
     "evole_stage": "Item",
     "hp": 40,
@@ -1566,73 +1567,101 @@
     "name": "Old Amber",
     "numbering": "A1a #63",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "◊",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/63"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/63",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Put a Basic Pokémon from your opponent's discard pile onto their Bench.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_064_EN.webp",
     "name": "Pokémon Flute",
     "numbering": "A1a #64",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "◊◊",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/64"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/64",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Look at the top card of your deck. If that card is a[P]Pokémon, put it into your hand. If it is not a[P]Pokémon, put it on the bottom of your deck.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_065_EN.webp",
     "name": "Mythical Slab",
     "numbering": "A1a #65",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "◊◊",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/65"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/65",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
     "description": "Put your Mew ex in the Active Spot into your hand.",
     "evole_stage": "Supporter",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_066_EN.webp",
     "name": "Budding Expeditioner",
     "numbering": "A1a #66",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "◊◊",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/66"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/66",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
     "description": "During your opponent's next turn, all of your Pokémon take −10 damage from attacks from your opponent's Pokémon.",
     "evole_stage": "Supporter",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_067_EN.webp",
     "name": "Blue",
     "numbering": "A1a #67",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "◊◊",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/67"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/67",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
     "description": "During this turn, the Retreat Cost of your Active Pokémon is 2 less.",
     "evole_stage": "Supporter",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_068_EN.webp",
     "name": "Leaf",
     "numbering": "A1a #68",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "◊◊",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/68"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/68",
+    "weakness": null
   },
   {
     "ability_description": null,
@@ -1646,7 +1675,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Each of Exeggutor’s three heads is thinking different thoughts. The three don’t seem to be very interested in one another.",
     "evole_stage": "Stage 1",
     "hp": 130,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_069_EN.webp",
@@ -1671,7 +1700,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It only gives its all against strong opponents who are not fazed by the glare from Serperior’s noble eyes.",
     "evole_stage": "Stage 2",
     "hp": 110,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_070_EN.webp",
@@ -1696,7 +1725,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_071_EN.webp",
@@ -1721,7 +1750,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid’s.",
     "evole_stage": "Stage 1",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_072_EN.webp",
@@ -1746,7 +1775,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It’s small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people’s homes and charge itself.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_073_EN.webp",
@@ -1771,7 +1800,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it’s imitating.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_074_EN.webp",
@@ -1918,41 +1947,56 @@
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
     "description": "Put your Mew ex in the Active Spot into your hand.",
     "evole_stage": "Supporter",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_080_EN.webp",
     "name": "Budding Expeditioner",
     "numbering": "A1a #80",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "☆☆",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/80"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/80",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
     "description": "During your opponent's next turn, all of your Pokémon take −10 damage from attacks from your opponent's Pokémon.",
     "evole_stage": "Supporter",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_081_EN.webp",
     "name": "Blue",
     "numbering": "A1a #81",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "☆☆",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/81"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/81",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
     "description": "During this turn, the Retreat Cost of your Active Pokémon is 2 less.",
     "evole_stage": "Supporter",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_082_EN.webp",
     "name": "Leaf",
     "numbering": "A1a #82",
     "pack": "Mew pack",
+    "pokemon_type": null,
     "rarity": "☆☆",
-    "url": "https://pocket.limitlesstcg.com/cards/A1a/82"
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A1a/82",
+    "weakness": null
   },
   {
     "ability_description": null,

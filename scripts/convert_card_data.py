@@ -104,21 +104,21 @@ def convert_evolve_stage(evolve_stage: str) -> str:
     """進化段階を変換する"""
     return EVOLVE_STAGE_MAPPING.get(evolve_stage, "base")
 
-def convert_rarity(rarity: str) -> str:
+def convert_rarity(rarity: str, series_id: str) -> str:
     """レア度を CardRarity 型に変換する"""
+    # P-Aシリーズの場合、レアリティを"promo"に設定
+    if series_id == "P-A":
+        return "promo"
     # マッピングにある場合はそれを返す
     # ない場合は元の値をそのまま返す（このあとCardRarity型にマッチするか処理される）
     return RARITY_MAPPING.get(rarity, rarity)
 
-def convert_damage_to_power(damage: Optional[str]) -> Optional[int]:
-    """ダメージ文字列をパワー数値に変換する"""
+def convert_damage_to_power(damage: Optional[str]) -> Optional[str]:
+    """ダメージ文字列をパワー文字列として返す（80+や30xのような表記を保持）"""
     if damage is None:
         return None
-    # 数値部分のみを抽出
-    match = re.search(r'^(\d+)', damage)
-    if match:
-        return int(match.group(1))
-    return None
+    # ダメージ文字列をそのまま返す（先頭の空白があれば除去）
+    return damage.strip() if damage else None
 
 def extract_card_description(card: Dict[str, Any]) -> Optional[str]:
     """カードの説明文を抽出する（nullの場合はそのまま返す）"""
@@ -136,7 +136,10 @@ def convert_card_data(source_file: str, target_file: str) -> None:
     
     converted_cards = []
     card_id = 1  # 連番ID
-
+    
+    # シリーズIDを取得（ファイル名からシリーズIDを抽出）
+    series_id = Path(source_file).stem
+    
     for card in cards_data:
         # 英語名を取得
         english_name = card.get('name', '')
@@ -147,7 +150,7 @@ def convert_card_data(source_file: str, target_file: str) -> None:
             "cardNumber": card.get('numbering', ''),
             "name": convert_pokemon_name(english_name, pokemon_names_map),  # 英語名を日本語名に変換
             "nameEn": english_name,  # 英語名は元データのままで保持
-            "rarity": convert_rarity(card.get('rarity', '')),
+            "rarity": convert_rarity(card.get('rarity', ''), series_id),  # シリーズIDを渡して、P-Aの場合はpromoにする
             "image": card.get('image', ''),
             "description": extract_card_description(card)  # すべてのカードタイプにdescriptionを追加
         }

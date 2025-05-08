@@ -2,7 +2,7 @@
 import type { Acquisition } from '@/constants/types/acquisition';
 import type { CardType } from '@/constants/types/card-types';
 import type { PokemonType } from '@/constants/types/pokemon-types';
-import type { CardRarity } from '@/constants/types/raritis';
+import type { CardRarity } from '@/constants/types/rarities';
 import { xorDecrypt, xorEncrypt } from '@/utils/crypto';
 import { useQueryState } from 'nuqs';
 

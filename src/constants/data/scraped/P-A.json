@@ -2,106 +2,146 @@
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Heal 20 damage from 1 of your Pokémon.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_001_EN.webp",
     "name": "Potion",
     "numbering": "P-A #1",
     "pack": "Common",
-    "rarity": "Shop",
-    "url": "https://pocket.limitlesstcg.com/cards/P-A/1"
+    "pokemon_type": null,
+    "rarity": "◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/1",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "During this turn, the Retreat Cost of your Active Pokémon is 1 less.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_002_EN.webp",
     "name": "X Speed",
     "numbering": "P-A #2",
     "pack": "Common",
-    "rarity": "Shop",
-    "url": "https://pocket.limitlesstcg.com/cards/P-A/2"
+    "pokemon_type": null,
+    "rarity": "◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/2",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Your opponent reveals their hand.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_003_EN.webp",
     "name": "Hand Scope",
     "numbering": "P-A #3",
     "pack": "Common",
-    "rarity": "Shop",
-    "url": "https://pocket.limitlesstcg.com/cards/P-A/3"
+    "pokemon_type": null,
+    "rarity": "◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/3",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Look at the top 3 cards of your deck.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_004_EN.webp",
     "name": "Pokédex",
     "numbering": "P-A #4",
     "pack": "Common",
-    "rarity": "Shop",
-    "url": "https://pocket.limitlesstcg.com/cards/P-A/4"
+    "pokemon_type": null,
+    "rarity": "◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/4",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Put 1 random Basic Pokemon from your deck into your hand.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_005_EN.webp",
     "name": "Poké Ball",
     "numbering": "P-A #5",
     "pack": "Common",
-    "rarity": "Shop",
-    "url": "https://pocket.limitlesstcg.com/cards/P-A/5"
+    "pokemon_type": null,
+    "rarity": "◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/5",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Your opponent shuffles their hand into their deck and draws 3 cards.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_006_EN.webp",
     "name": "Red Card",
     "numbering": "P-A #6",
     "pack": "Common",
-    "rarity": "Shop",
-    "url": "https://pocket.limitlesstcg.com/cards/P-A/6"
+    "pokemon_type": null,
+    "rarity": "◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/6",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
     "description": "Draw 2 cards.",
     "evole_stage": "Supporter",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_007_EN.webp",
     "name": "Professor's Research",
     "numbering": "P-A #7",
     "pack": "Common",
-    "rarity": "Shop",
-    "url": "https://pocket.limitlesstcg.com/cards/P-A/7"
+    "pokemon_type": null,
+    "rarity": "◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/7",
+    "weakness": null
   },
   {
     "ability_description": null,
     "ability_name": null,
-    "card_type": "Trainer",
+    "attacks": [],
+    "card_type": "Trainer - Item",
     "description": "Look at the top 3 cards of your deck.",
     "evole_stage": "Item",
+    "hp": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_008_EN.webp",
     "name": "Pokédex",
     "numbering": "P-A #8",
     "pack": "Common",
-    "rarity": "Campaign",
-    "url": "https://pocket.limitlesstcg.com/cards/P-A/8"
+    "pokemon_type": null,
+    "rarity": "◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/8",
+    "weakness": null
   },
   {
     "ability_description": null,
@@ -115,7 +155,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_009_EN.webp",
@@ -123,7 +163,7 @@
     "numbering": "P-A #9",
     "pack": "Common",
     "pokemon_type": "Lightning",
-    "rarity": "Premium Missions",
+    "rarity": "PROMO",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/9",
     "weakness": "Fighting"
@@ -140,7 +180,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
     "evole_stage": "Basic",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_010_EN.webp",
@@ -148,7 +188,7 @@
     "numbering": "P-A #10",
     "pack": "Common",
     "pokemon_type": "Psychic",
-    "rarity": "Premium Missions",
+    "rarity": "PROMO",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/10",
     "weakness": "Darkness"
@@ -165,7 +205,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
     "evole_stage": "Basic",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_011_EN.webp",
@@ -173,7 +213,7 @@
     "numbering": "P-A #11",
     "pack": "Common",
     "pokemon_type": "Colorless",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 3,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/11",
     "weakness": "Fighting"
@@ -190,7 +230,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_012_EN.webp",
@@ -198,7 +238,7 @@
     "numbering": "P-A #12",
     "pack": "Common",
     "pokemon_type": "Colorless",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/12",
     "weakness": "Fighting"
@@ -215,7 +255,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
     "evole_stage": "Stage 2",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_013_EN.webp",
@@ -223,7 +263,7 @@
     "numbering": "P-A #13",
     "pack": "Promo pack",
     "pokemon_type": "Grass",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/13",
     "weakness": "Fire"
@@ -248,7 +288,7 @@
     "numbering": "P-A #14",
     "pack": "Promo pack",
     "pokemon_type": "Water",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 3,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/14",
     "weakness": "Lightning"
@@ -265,7 +305,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_015_EN.webp",
@@ -273,7 +313,7 @@
     "numbering": "P-A #15",
     "pack": "Promo pack",
     "pokemon_type": "Lightning",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/15",
     "weakness": "Fighting"
@@ -290,7 +330,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_016_EN.webp",
@@ -298,7 +338,7 @@
     "numbering": "P-A #16",
     "pack": "Promo pack",
     "pokemon_type": "Psychic",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/16",
     "weakness": "Metal"
@@ -315,7 +355,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
     "evole_stage": "Basic",
     "hp": 50,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_017_EN.webp",
@@ -323,7 +363,7 @@
     "numbering": "P-A #17",
     "pack": "Promo pack",
     "pokemon_type": "Fighting",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/17",
     "weakness": "Psychic"
@@ -340,7 +380,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
     "evole_stage": "Stage 2",
     "hp": 160,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_018_EN.webp",
@@ -348,7 +388,7 @@
     "numbering": "P-A #18",
     "pack": "Promo pack",
     "pokemon_type": "Grass",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 3,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/18",
     "weakness": "Fire"
@@ -365,7 +405,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It creates throwing stars out of compressed water.  When it spins them and throws them at high speed,  these stars can split metal in two.",
     "evole_stage": "Stage 2",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_019_EN.webp",
@@ -373,7 +413,7 @@
     "numbering": "P-A #19",
     "pack": "Promo pack",
     "pokemon_type": "Water",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/19",
     "weakness": "Lightning"
@@ -390,7 +430,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
     "evole_stage": "Stage 1",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_020_EN.webp",
@@ -398,7 +438,7 @@
     "numbering": "P-A #20",
     "pack": "Promo pack",
     "pokemon_type": "Psychic",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/20",
     "weakness": "Darkness"
@@ -415,7 +455,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
     "evole_stage": "Basic",
     "hp": 110,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_021_EN.webp",
@@ -423,7 +463,7 @@
     "numbering": "P-A #21",
     "pack": "Promo pack",
     "pokemon_type": "Fighting",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 4,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/21",
     "weakness": "Grass"
@@ -440,7 +480,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_022_EN.webp",
@@ -448,7 +488,7 @@
     "numbering": "P-A #22",
     "pack": "Promo pack",
     "pokemon_type": "Colorless",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/22",
     "weakness": "Fighting"
@@ -465,7 +505,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_023_EN.webp",
@@ -473,7 +513,7 @@
     "numbering": "P-A #23",
     "pack": "Common",
     "pokemon_type": "Grass",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/23",
     "weakness": "Fire"
@@ -490,7 +530,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_024_EN.webp",
@@ -498,7 +538,7 @@
     "numbering": "P-A #24",
     "pack": "Common",
     "pokemon_type": "Lightning",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/24",
     "weakness": "Fighting"
@@ -529,7 +569,7 @@
     "numbering": "P-A #25",
     "pack": "Common",
     "pokemon_type": "Fire",
-    "rarity": "Premium Missions",
+    "rarity": "PROMO",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/25",
     "weakness": "Lightning"
@@ -546,7 +586,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_026_EN.webp",
@@ -554,7 +594,7 @@
     "numbering": "P-A #26",
     "pack": "Common",
     "pokemon_type": "Lightning",
-    "rarity": "Campaign",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/26",
     "weakness": "Fighting"
@@ -571,7 +611,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_027_EN.webp",
@@ -579,7 +619,7 @@
     "numbering": "P-A #27",
     "pack": "Promo pack",
     "pokemon_type": "Grass",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/27",
     "weakness": "Fire"
@@ -596,7 +636,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
     "evole_stage": "Stage 1",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_028_EN.webp",
@@ -604,7 +644,7 @@
     "numbering": "P-A #28",
     "pack": "Promo pack",
     "pokemon_type": "Fire",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/28",
     "weakness": "Water"
@@ -621,7 +661,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
     "evole_stage": "Stage 2",
     "hp": 150,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_029_EN.webp",
@@ -629,7 +669,7 @@
     "numbering": "P-A #29",
     "pack": "Promo pack",
     "pokemon_type": "Water",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 3,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/29",
     "weakness": "Lightning"
@@ -646,7 +686,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_030_EN.webp",
@@ -654,7 +694,7 @@
     "numbering": "P-A #30",
     "pack": "Promo pack",
     "pokemon_type": "Colorless",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/30",
     "weakness": "Fighting"
@@ -671,7 +711,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won’t tolerate even a speck of the stuff.",
     "evole_stage": "Stage 1",
     "hp": 90,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_031_EN.webp",
@@ -679,7 +719,7 @@
     "numbering": "P-A #31",
     "pack": "Promo pack",
     "pokemon_type": "Colorless",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/31",
     "weakness": "Fighting"
@@ -696,7 +736,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_032_EN.webp",
@@ -704,7 +744,7 @@
     "numbering": "P-A #32",
     "pack": "Common",
     "pokemon_type": "Fire",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/32",
     "weakness": "Water"
@@ -721,7 +761,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_033_EN.webp",
@@ -729,7 +769,7 @@
     "numbering": "P-A #33",
     "pack": "Common",
     "pokemon_type": "Water",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/33",
     "weakness": "Lightning"
@@ -746,7 +786,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It doesn’t like to be taken care of. It’s difficult to bond with since it won’t listen to its Trainer.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_034_EN.webp",
@@ -754,7 +794,7 @@
     "numbering": "P-A #34",
     "pack": "Common",
     "pokemon_type": "Water",
-    "rarity": "Premium Missions",
+    "rarity": "PROMO",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/34",
     "weakness": "Lightning"
@@ -771,7 +811,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It uses its whole body to photosynthesize when exposed to sunlight. Its shell is made from hardened soil.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_035_EN.webp",
@@ -779,7 +819,7 @@
     "numbering": "P-A #35",
     "pack": "Promo pack",
     "pokemon_type": "Grass",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/35",
     "weakness": "Fire"
@@ -796,7 +836,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
     "evole_stage": "Stage 1",
     "hp": 120,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_036_EN.webp",
@@ -804,7 +844,7 @@
     "numbering": "P-A #36",
     "pack": "Promo pack",
     "pokemon_type": "Lightning",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 3,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/36",
     "weakness": "Fighting"
@@ -829,7 +869,7 @@
     "numbering": "P-A #37",
     "pack": "Promo pack",
     "pokemon_type": "Psychic",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/37",
     "weakness": "Darkness"
@@ -846,7 +886,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_038_EN.webp",
@@ -854,7 +894,7 @@
     "numbering": "P-A #38",
     "pack": "Promo pack",
     "pokemon_type": "Psychic",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/38",
     "weakness": "Darkness"
@@ -871,7 +911,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "People fashion swords from Skarmory’s shed feathers, so this Pokémon is a popular element in heraldic designs.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_039_EN.webp",
@@ -879,7 +919,7 @@
     "numbering": "P-A #39",
     "pack": "Promo pack",
     "pokemon_type": "Metal",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/39",
     "weakness": "Lightning"
@@ -896,7 +936,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its fiery rear end is fueled by gas made in its belly. Even rain can’t extinguish the fire.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_040_EN.webp",
@@ -904,7 +944,7 @@
     "numbering": "P-A #40",
     "pack": "Common",
     "pokemon_type": "Fire",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/40",
     "weakness": "Water"
@@ -921,7 +961,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
     "evole_stage": "Basic",
     "hp": 50,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_041_EN.webp",
@@ -929,7 +969,7 @@
     "numbering": "P-A #41",
     "pack": "Common",
     "pokemon_type": "Psychic",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/41",
     "weakness": "Metal"
@@ -954,7 +994,7 @@
     "numbering": "P-A #42",
     "pack": "Common",
     "pokemon_type": "Darkness",
-    "rarity": "Premium Missions",
+    "rarity": "PROMO",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/42",
     "weakness": "Grass"
@@ -971,7 +1011,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "After absorbing plenty of sunlight, Cherrim takes this form. It’s full of energy while it’s like this, and its liveliness will go on until sundown.",
     "evole_stage": "Stage 1",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_043_EN.webp",
@@ -979,7 +1019,7 @@
     "numbering": "P-A #43",
     "pack": "Promo pack",
     "pokemon_type": "Grass",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/43",
     "weakness": "Fire"
@@ -996,7 +1036,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
     "evole_stage": "Stage 1",
     "hp": 90,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_044_EN.webp",
@@ -1004,7 +1044,7 @@
     "numbering": "P-A #44",
     "pack": "Promo pack",
     "pokemon_type": "Lightning",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/44",
     "weakness": "Fighting"
@@ -1021,7 +1061,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It moves less than an inch a year, but when it’s in a jam, it will spin and drill down into the ground in a split second.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_045_EN.webp",
@@ -1029,7 +1069,7 @@
     "numbering": "P-A #45",
     "pack": "Promo pack",
     "pokemon_type": "Fighting",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/45",
     "weakness": "Grass"
@@ -1046,7 +1086,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_046_EN.webp",
@@ -1054,7 +1094,7 @@
     "numbering": "P-A #46",
     "pack": "Promo pack",
     "pokemon_type": "Fighting",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/46",
     "weakness": "Grass"
@@ -1071,7 +1111,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
     "evole_stage": "Stage 2",
     "hp": 140,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_047_EN.webp",
@@ -1079,7 +1119,7 @@
     "numbering": "P-A #47",
     "pack": "Promo pack",
     "pokemon_type": "Colorless",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/47",
     "weakness": "Lightning"
@@ -1096,7 +1136,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
     "evole_stage": "Basic",
     "hp": 50,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_048_EN.webp",
@@ -1104,7 +1144,7 @@
     "numbering": "P-A #48",
     "pack": "Common",
     "pokemon_type": "Water",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/48",
     "weakness": "Lightning"
@@ -1121,7 +1161,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
     "evole_stage": "Basic",
     "hp": 140,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_049_EN.webp",
@@ -1129,7 +1169,7 @@
     "numbering": "P-A #49",
     "pack": "Common",
     "pokemon_type": "Colorless",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 4,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/49",
     "weakness": "Fighting"
@@ -1160,7 +1200,7 @@
     "numbering": "P-A #50",
     "pack": "Common",
     "pokemon_type": "Psychic",
-    "rarity": "#50",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/50",
     "weakness": "Darkness"
@@ -1177,7 +1217,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
     "evole_stage": "Basic",
     "hp": 80,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_051_EN.webp",
@@ -1185,7 +1225,7 @@
     "numbering": "P-A #51",
     "pack": "Common",
     "pokemon_type": "Colorless",
-    "rarity": "Missions",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/51",
     "weakness": "Fighting"
@@ -1202,7 +1242,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_052_EN.webp",
@@ -1210,7 +1250,7 @@
     "numbering": "P-A #52",
     "pack": "Common",
     "pokemon_type": "Grass",
-    "rarity": "Premium Missions",
+    "rarity": "PROMO",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/52",
     "weakness": "Fire"
@@ -1227,7 +1267,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
     "evole_stage": "Stage 1",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_053_EN.webp",
@@ -1235,7 +1275,7 @@
     "numbering": "P-A #53",
     "pack": "Promo pack",
     "pokemon_type": "Water",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/53",
     "weakness": "Lightning"
@@ -1252,7 +1292,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
     "evole_stage": "Stage 2",
     "hp": 140,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_054_EN.webp",
@@ -1260,7 +1300,7 @@
     "numbering": "P-A #54",
     "pack": "Promo pack",
     "pokemon_type": "Lightning",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 0,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/54",
     "weakness": "Fighting"
@@ -1277,7 +1317,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
     "evole_stage": "Stage 2",
     "hp": 150,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_055_EN.webp",
@@ -1285,7 +1325,7 @@
     "numbering": "P-A #55",
     "pack": "Promo pack",
     "pokemon_type": "Fighting",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/55",
     "weakness": "Psychic"
@@ -1302,7 +1342,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_056_EN.webp",
@@ -1310,7 +1350,7 @@
     "numbering": "P-A #56",
     "pack": "Promo pack",
     "pokemon_type": "Darkness",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/56",
     "weakness": "Fighting"
@@ -1327,7 +1367,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_057_EN.webp",
@@ -1335,7 +1375,7 @@
     "numbering": "P-A #57",
     "pack": "Promo pack",
     "pokemon_type": "Colorless",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/57",
     "weakness": "Fighting"
@@ -1352,7 +1392,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It’s one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_058_EN.webp",
@@ -1360,7 +1400,7 @@
     "numbering": "P-A #58",
     "pack": "Common",
     "pokemon_type": "Lightning",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/58",
     "weakness": "Fighting"
@@ -1377,7 +1417,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "They communicate with one another using their auras. They are able to run all through the night.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_059_EN.webp",
@@ -1385,7 +1425,7 @@
     "numbering": "P-A #59",
     "pack": "Common",
     "pokemon_type": "Fighting",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/59",
     "weakness": "Psychic"
@@ -1402,7 +1442,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
     "evole_stage": "Basic",
     "hp": 50,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_060_EN.webp",
@@ -1410,7 +1450,7 @@
     "numbering": "P-A #60",
     "pack": "Promo pack",
     "pokemon_type": "Grass",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/60",
     "weakness": "Fire"
@@ -1427,7 +1467,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_061_EN.webp",
@@ -1435,7 +1475,7 @@
     "numbering": "P-A #61",
     "pack": "Promo pack",
     "pokemon_type": "Water",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/61",
     "weakness": "Lightning"
@@ -1452,7 +1492,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_062_EN.webp",
@@ -1460,7 +1500,7 @@
     "numbering": "P-A #62",
     "pack": "Promo pack",
     "pokemon_type": "Colorless",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/62",
     "weakness": "Lightning"
@@ -1477,7 +1517,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
     "evole_stage": "Basic",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_063_EN.webp",
@@ -1485,7 +1525,7 @@
     "numbering": "P-A #63",
     "pack": "Promo pack",
     "pokemon_type": "Colorless",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/63",
     "weakness": "Lightning"
@@ -1510,7 +1550,7 @@
     "numbering": "P-A #64",
     "pack": "Promo pack",
     "pokemon_type": "Colorless",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/64",
     "weakness": "Lightning"
@@ -1535,7 +1575,7 @@
     "numbering": "P-A #65",
     "pack": "Common",
     "pokemon_type": "Colorless",
-    "rarity": "Missions",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/65",
     "weakness": "Lightning"
@@ -1552,7 +1592,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "There was a scientist who peeked under Mimikyu’s old rag in the name of research. The scientist died of a mysterious disease.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_066_EN.webp",
@@ -1560,7 +1600,7 @@
     "numbering": "P-A #66",
     "pack": "Common",
     "pokemon_type": "Psychic",
-    "rarity": "Premium Missions",
+    "rarity": "PROMO",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/66",
     "weakness": "Darkness"
@@ -1577,7 +1617,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn’t seem to care.",
     "evole_stage": "Basic",
     "hp": 60,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_067_EN.webp",
@@ -1585,7 +1625,7 @@
     "numbering": "P-A #67",
     "pack": "Promo pack",
     "pokemon_type": "Psychic",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/67",
     "weakness": "Darkness"
@@ -1602,7 +1642,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Lycanroc attacks its prey with its sharp claws and fangs. It loyally obeys the instructions of a Trainer it trusts.",
     "evole_stage": "Stage 1",
     "hp": 100,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_068_EN.webp",
@@ -1610,7 +1650,7 @@
     "numbering": "P-A #68",
     "pack": "Promo pack",
     "pokemon_type": "Fighting",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/68",
     "weakness": "Grass"
@@ -1627,7 +1667,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "Blazing sunlight has brought out the true form and powers of this Pokémon.",
     "evole_stage": "Stage 1",
     "hp": 150,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_069_EN.webp",
@@ -1635,7 +1675,7 @@
     "numbering": "P-A #69",
     "pack": "Promo pack",
     "pokemon_type": "Grass",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 4,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/69",
     "weakness": "Fire"
@@ -1652,7 +1692,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "A deity resides in the snowy mountains where this Pokémon lives. In ancient times, it was worshiped as that deity’s incarnation.",
     "evole_stage": "Stage 1",
     "hp": 110,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_070_EN.webp",
@@ -1660,7 +1700,7 @@
     "numbering": "P-A #70",
     "pack": "Promo pack",
     "pokemon_type": "Water",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/70",
     "weakness": "Metal"
@@ -1677,7 +1717,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "This Pokémon punches trees and eats the berries that drop down, training itself and getting food at the same time.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_071_EN.webp",
@@ -1685,7 +1725,7 @@
     "numbering": "P-A #71",
     "pack": "Promo pack",
     "pokemon_type": "Fighting",
-    "rarity": "Promo pack",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/71",
     "weakness": "Psychic"
@@ -1702,7 +1742,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "There are a hundred or so of them living in Alola’s waste-disposal site. They’re all hard workers who eat a lot of trash.",
     "evole_stage": "Basic",
     "hp": 70,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_072_EN.webp",
@@ -1710,7 +1750,7 @@
     "numbering": "P-A #72",
     "pack": "Common",
     "pokemon_type": "Darkness",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/72",
     "weakness": "Fighting"
@@ -1727,7 +1767,7 @@
       }
     ],
     "card_type": "Pokémon",
-    "description": null,
+    "description": "They smack beaks with others of their kind to communicate. The strength and number of hits tell each other how they feel.",
     "evole_stage": "Stage 2",
     "hp": 140,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_073_EN.webp",
@@ -1735,7 +1775,7 @@
     "numbering": "P-A #73",
     "pack": "Common",
     "pokemon_type": "Colorless",
-    "rarity": "Wonder Pick",
+    "rarity": "◊",
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/73",
     "weakness": "Lightning"
