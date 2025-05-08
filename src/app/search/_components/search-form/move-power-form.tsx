@@ -1,0 +1,36 @@
+'use client';
+import { POKEMON_MOVE_POWER_LIST } from '@/constants/types/pokemon-status';
+import { useSearchQuery } from '../../_utils/use-search-query';
+import { CounterForm } from './counter-form';
+
+export const MovePowerForm = () => {
+  const { query, setQuery } = useSearchQuery();
+
+  const handleOnValueChangeMin = (value: number | null) => {
+    setQuery({ ...query, movePower: [value, query.movePower[1]] });
+  };
+  const handleOnValueChangeMax = (value: number | null) => {
+    setQuery({ ...query, movePower: [query.movePower[0], value] });
+  };
+
+  return (
+    <div className="flex flex-wrap items-center gap-3">
+      <span className="w-20 text-right text-sm">わざ威力</span>
+      <div className="flex flex-grow items-center gap-x-1">
+        <CounterForm
+          options={[...POKEMON_MOVE_POWER_LIST]}
+          value={query.movePower[0]}
+          onValueChange={handleOnValueChangeMin}
+          label="わざ威力最小"
+        />
+        <span>〜</span>
+        <CounterForm
+          options={[...POKEMON_MOVE_POWER_LIST]}
+          value={query.movePower[1]}
+          onValueChange={handleOnValueChangeMax}
+          label="わざ威力最大"
+        />
+      </div>
+    </div>
+  );
+};
