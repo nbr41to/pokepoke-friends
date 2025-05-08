@@ -2,102 +2,83 @@
 
 import { Button } from '@/components/ui/button';
 import { Toggle } from '@/components/ui/toggle';
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import type { CARD_DATA } from '@/constants/data/converted';
 import JA_DATA from '@/constants/data/scraped/gw/gw.json';
 import { ACQUISITION_LABEL } from '@/constants/types/acquisition';
-import type { Card as OriginCard } from '@/constants/types/card';
 import type { Card } from '@/generated/prisma';
-import { Database, Filter, Languages } from 'lucide-react';
+import { cn } from '@/utils/classnames';
+import { Database, Eye, Filter, Search, SearchCheckIcon } from 'lucide-react';
 import { useCallback, useMemo, useState } from 'react';
 import { mergedData } from '../_utils';
-import { insertCards } from '../actions';
+import { upsertCards } from '../actions';
 import { MergeInserter } from './merge-inserter';
 
 /* 日本語のJSONを統合してDBに流し込む */
 type Props = {
-  cards: OriginCard[];
+  cards: typeof CARD_DATA;
   jaCards: typeof JA_DATA;
   dbCards: Card[];
 };
 export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
-  const [hiddenCondition, setHiddenCondition] = useState({
-    existDatabase: false,
-    byRarity: false,
-    nameOnly: false,
-    onlyJaData: false,
+  const [condition, setCondition] = useState({
+    hiddenExistDatabase: false,
+    hiddenMultiMatch: true,
+    matchCondition: 'rarity', // 'rarity & name & same pack' | 'name & same pack' | 'name'
   });
 
   const filteredCardAggregates = useMemo(() => {
-    const filteredCards = cards.filter((card) => {
-      // DBに登録されていないカードのフィルタリング
-      const isInDatabase = dbCards.some(
-        (dbCard) => dbCard.numbering === card.cardNumber.replace(/\ /g, ''),
-      );
-      // 日本語のマッチするデータの検索
-      const cardPackLabel =
-        ACQUISITION_LABEL[
-          card.cardNumber.split(' ')[0] as keyof typeof ACQUISITION_LABEL
-        ];
-      const matchedJaCards = jaCards.filter((jaData) =>
-        (jaData.name + jaData.acquisition_pack).startsWith(
-          (card.name + cardPackLabel).replace(/ /g, ''),
-        ),
-      );
-      // 更にレアリティがマッチする日本語のカードを探す
-      const moreRarityMatched = matchedJaCards.filter(
-        (jaData) => jaData.rarity === card.rarity,
-      );
-      // 名前だけでマッチする日本語のデータを探す
-      const nameOnlyMatched = JA_DATA.filter(
-        (jaData) => jaData.name === card.name,
-      );
+    const aggregate = cards
+      .map((card) => {
+        // 日本語のマッチするデータの検索
+        const cardPackLabel =
+          ACQUISITION_LABEL[
+            card.cardNumber.split(' ')[0] as keyof typeof ACQUISITION_LABEL
+          ];
+        const matchedJaCards = jaCards.filter((jaData) =>
+          (jaData.name + jaData.acquisition_pack).startsWith(
+            (card.name + cardPackLabel).replace(/ /g, ''),
+          ),
+        );
+        // 更にレアリティがマッチする日本語のカードを探す
+        const moreRarityMatched = matchedJaCards.filter(
+          (jaData) => jaData.rarity === card.rarity,
+        );
+        // 名前だけでマッチする日本語のデータを探す
+        const nameOnlyMatched = JA_DATA.filter(
+          (jaData) => jaData.name === card.name.replace(/ /g, ''),
+        );
 
-      return (
-        (hiddenCondition.existDatabase ? !isInDatabase : true) && // DBに登録されていないカードをフィルタリング
-        (hiddenCondition.onlyJaData // マッチする日本語のデータが1つのものを表示
-          ? (hiddenCondition.byRarity ? moreRarityMatched : matchedJaCards) // Rarityでマッチさせるかどうか
-              .length === 1
-          : true) &&
-        (hiddenCondition.nameOnly
-          ? nameOnlyMatched.length > 0 // 名前だけでマッチする日本語のデータを探す
-          : true)
-      );
-    });
+        return {
+          scraped: card,
+          matchedCards:
+            condition.matchCondition === 'rarity'
+              ? moreRarityMatched
+              : condition.matchCondition === 'pack'
+                ? matchedJaCards
+                : nameOnlyMatched,
+        };
+      })
+      .filter((card) => {
+        // DBに登録されていないカードのフィルタリング
+        const isInDatabase = dbCards.some(
+          (dbCard) =>
+            dbCard.numbering === card.scraped.cardNumber.replace(/\ /g, ''),
+        );
+        const isMultiMatch = card.matchedCards.length !== 1;
 
-    const aggregate = filteredCards.map((card) => {
-      // 日本語のマッチするデータの検索
-      const cardPackLabel =
-        ACQUISITION_LABEL[
-          card.cardNumber.split(' ')[0] as keyof typeof ACQUISITION_LABEL
-        ];
-      const matchedJaCards = jaCards.filter((jaData) =>
-        (jaData.name + jaData.acquisition_pack).startsWith(
-          (card.name + cardPackLabel).replace(/ /g, ''),
-        ),
-      );
-      // 更にレアリティがマッチする日本語のカードを探す
-      const moreRarityMatched = matchedJaCards.filter(
-        (jaData) => jaData.rarity === card.rarity,
-      );
-      // 名前だけでマッチする日本語のデータを探す
-      const nameOnlyMatched = JA_DATA.filter(
-        (jaData) => jaData.name === card.name,
-      );
-
-      return {
-        scraped: card,
-        matchedCards: hiddenCondition.byRarity
-          ? moreRarityMatched
-          : hiddenCondition.nameOnly
-            ? nameOnlyMatched
-            : matchedJaCards,
-      };
-    });
+        return condition.hiddenExistDatabase
+          ? !isInDatabase
+          : true && condition.hiddenMultiMatch
+            ? !isMultiMatch
+            : true;
+      });
 
     return aggregate;
-  }, [cards, jaCards, dbCards, hiddenCondition]);
+  }, [cards, jaCards, dbCards, condition]);
 
   const handleOnSave = useCallback(async () => {
-    await insertCards(
+    await upsertCards(
       filteredCardAggregates
         .map((aggregate) => {
           if (aggregate.matchedCards.length === 0) return;
@@ -109,59 +90,71 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
 
   return (
     <div>
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-x-2">
+      <div className="bg-background sticky top-0 z-10 flex items-center justify-between border-b p-2 backdrop-blur-md">
+        <div className="flex items-center gap-x-3">
           <Filter size={20} />
           <Toggle
+            className="border"
             onClick={() => {
-              setHiddenCondition((prev) => ({
+              setCondition((prev) => ({
                 ...prev,
-                existDatabase: !prev.existDatabase,
+                hiddenExistDatabase: !prev.hiddenExistDatabase,
               }));
             }}
-            aria-label="DBに登録されているカードを非表示"
-            pressed={hiddenCondition.existDatabase}
+            pressed={condition.hiddenExistDatabase}
           >
             <Database />
           </Toggle>
           <Toggle
+            className="border"
             onClick={() => {
-              setHiddenCondition((prev) => ({
+              setCondition((prev) => ({
                 ...prev,
-                byRarity: !prev.byRarity,
+                hiddenMultiMatch: !prev.hiddenMultiMatch,
               }));
             }}
-            aria-label="レアリティでマッチする日本語のデータを表示"
-            pressed={hiddenCondition.byRarity}
+            pressed={condition.hiddenMultiMatch}
           >
-            Rare
+            <SearchCheckIcon />
           </Toggle>
-          <Toggle
-            onClick={() => {
-              setHiddenCondition((prev) => ({
+          <ToggleGroup
+            className="border"
+            type="single"
+            value={condition.matchCondition}
+            onValueChange={(value) =>
+              setCondition((prev) => ({
                 ...prev,
-                nameOnly: !prev.nameOnly,
-              }));
-            }}
-            aria-label="名前だけでマッチする日本語のデータを表示"
-            pressed={hiddenCondition.nameOnly}
+                matchCondition: value,
+              }))
+            }
           >
-            Name
-          </Toggle>
-          <Toggle
-            onClick={() => {
-              setHiddenCondition((prev) => ({
-                ...prev,
-                onlyJaData: !prev.onlyJaData,
-              }));
-            }}
-            aria-label="マッチする日本語のデータが1つのものを表示"
-            pressed={hiddenCondition.onlyJaData}
-          >
-            <Languages />
-          </Toggle>
-          <span>
+            <ToggleGroupItem value="rarity">Rare</ToggleGroupItem>
+            <ToggleGroupItem value="pack">Pack</ToggleGroupItem>
+            <ToggleGroupItem value="name">Name</ToggleGroupItem>
+          </ToggleGroup>
+
+          <span className="flex items-center gap-x-1">
+            <Eye size={20} />
             {filteredCardAggregates.length} / {cards.length} 件
+          </span>
+
+          <span className="flex items-center gap-x-1">
+            <Search size={20} />
+            <span
+              className={cn(
+                filteredCardAggregates.map(
+                  (aggregate) => aggregate.matchedCards.length > 0,
+                ).length !== filteredCardAggregates.length &&
+                  'font-bold text-red-500',
+              )}
+            >
+              {
+                filteredCardAggregates.map(
+                  (aggregate) => aggregate.matchedCards.length > 0,
+                ).length
+              }
+            </span>{' '}
+            / {filteredCardAggregates.length} 件
           </span>
         </div>
 
@@ -169,7 +162,7 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
           disabled={filteredCardAggregates.length === 0}
           onClick={handleOnSave}
         >
-          表示されているものをDBに保存
+          DBに保存 / 上書き
         </Button>
       </div>
 

@@ -1,5 +1,5 @@
-import { CARD_DATA } from '@/constants/data/converted';
-import type { Card } from '@/constants/types/card';
+import CARD_DATA from '@/constants/data/all_cards.json';
+import type { Card } from '@/generated/prisma';
 import { useMemo } from 'react';
 import { useSearchQuery } from '../../_utils/use-search-query';
 
@@ -11,6 +11,17 @@ export const useFilterdCards = () => {
       CARD_DATA.filter((card) => {
         const { cardTypes, pokemonTypes, rarities, hitpoints, movePower } =
           query;
+        const { move1power, move2power } = card;
+        const move1powerNum = move1power
+          ? move1power?.endsWith('×') || move1power?.endsWith('+')
+            ? Number.parseInt(move1power.slice(0, -1))
+            : Number.parseInt(move1power)
+          : null;
+        const move2powerNum = move2power
+          ? move2power?.endsWith('×') || move2power?.endsWith('+')
+            ? Number.parseInt(move2power.slice(0, -1))
+            : Number.parseInt(move2power)
+          : null;
         /* cardTypesのfilterを未使用であるか、cardTypesがpokemonで絞り込んでいる場合に表示をポケモンだけにする */
         const isPokemonOnly =
           cardTypes.length === 0 || cardTypes.includes('pokemon');
@@ -20,12 +31,12 @@ export const useFilterdCards = () => {
           hitpoints[1] !== null && card.hp && card.hp <= hitpoints[1];
         const moreThanMinMovePower =
           movePower[0] !== null &&
-          ((card.move1power && card.move1power >= movePower[0]) ||
-            (card.move2power && card.move2power >= movePower[0]));
+          ((move1powerNum && move1powerNum >= movePower[0]) ||
+            (move2powerNum && move2powerNum >= movePower[0]));
         const lessThanMaxMovePower =
           movePower[1] !== null &&
-          ((card.move1power && card.move1power <= movePower[1]) ||
-            (card.move2power && card.move2power <= movePower[1]));
+          ((move1powerNum && move1powerNum <= movePower[1]) ||
+            (move2powerNum && move2powerNum <= movePower[1]));
 
         return (
           /**

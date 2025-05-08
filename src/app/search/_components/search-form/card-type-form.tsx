@@ -2,7 +2,8 @@
 
 import PokeBall from '@/components/icons/PokeBall';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { CARD_TYPE, type CardType } from '@/constants/types/card-types';
+import type { CardType } from '@/constants/types/card-types';
+import { $Enums } from '@/generated/prisma';
 import { HardHat, SquareUserRound, Wrench } from 'lucide-react';
 import { useSearchQuery } from '../../_utils/use-search-query';
 
@@ -20,16 +21,19 @@ export const CardTypeForm = () => {
       onValueChange={handleOnValueChange}
       className="border"
     >
-      <ToggleGroupItem defaultChecked value={CARD_TYPE.POKEMON}>
+      <ToggleGroupItem defaultChecked value={$Enums.CardType.pokemon}>
         <PokeBall className="size-5" />
       </ToggleGroupItem>
-      <ToggleGroupItem defaultChecked value={CARD_TYPE.TRAINERS_SUPPORT}>
+      <ToggleGroupItem defaultChecked value={$Enums.CardType.trainers_support}>
         <SquareUserRound className="size-5" />
       </ToggleGroupItem>
-      <ToggleGroupItem defaultChecked value={CARD_TYPE.TRAINERS_GOODS}>
+      <ToggleGroupItem defaultChecked value={$Enums.CardType.trainers_goods}>
         <Wrench className="size-5" />
       </ToggleGroupItem>
-      <ToggleGroupItem defaultChecked value={CARD_TYPE.TRAINERS_POKEMON_TOOLS}>
+      <ToggleGroupItem
+        defaultChecked
+        value={$Enums.CardType.trainers_pokemon_tools}
+      >
         <HardHat className="size-5" />
       </ToggleGroupItem>
     </ToggleGroup>

@@ -2,9 +2,9 @@
 
 import { EnergyIcons } from '@/components/enegy-icons';
 import PokeBall from '@/components/icons/PokeBall';
-import type { Card } from '@/constants/types/card';
 import { CARD_TYPE } from '@/constants/types/card-types';
 import { CARD_RARUTIES_LABEL } from '@/constants/types/rarities';
+import { $Enums, type Card } from '@/generated/prisma';
 import { HardHat, Sprout, SquareUserRound, Wrench } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,7 +16,7 @@ export const CardListItem = ({ card }: Props) => {
   return (
     <Link
       className="flex items-center gap-x-1 py-1 transition-colors hover:bg-gray-100"
-      href={`/cards/${card.cardNumber.replace(' #', '_')}`}
+      href={`/cards/${card.numbering.replace('#', '_')}`}
     >
       <Image
         src={card.image}
@@ -29,16 +29,16 @@ export const CardListItem = ({ card }: Props) => {
       <div className="mb-auto grow space-y-1">
         <div className="flex items-center justify-between px-2 py-1">
           <div className="flex items-center gap-x-2">
-            {card.cardType === CARD_TYPE.POKEMON && (
+            {card.cardType === $Enums.CardType.pokemon && (
               <PokeBall className="size-4" />
             )}
-            {card.cardType === CARD_TYPE.TRAINERS_SUPPORT && (
+            {card.cardType === $Enums.CardType.trainers_support && (
               <SquareUserRound className="size-4" />
             )}
-            {card.cardType === CARD_TYPE.TRAINERS_GOODS && (
+            {card.cardType === $Enums.CardType.trainers_goods && (
               <Wrench className="size-5" />
             )}
-            {card.cardType === CARD_TYPE.TRAINERS_POKEMON_TOOLS && (
+            {card.cardType === $Enums.CardType.trainers_pokemon_tools && (
               <HardHat className="size-5" />
             )}
 
@@ -65,7 +65,7 @@ export const CardListItem = ({ card }: Props) => {
           </div>
 
           <div className="flex items-end gap-x-2">
-            <span className="text-xs">{card.cardNumber}</span>
+            <span className="text-xs">{card.numbering}</span>
             <span>
               {
                 CARD_RARUTIES_LABEL[
@@ -77,7 +77,7 @@ export const CardListItem = ({ card }: Props) => {
         </div>
 
         {/* わざ1 */}
-        {card.move1name && (
+        {card.move1name && card.move1energy && (
           <div className="px-2 py-1">
             <p className="flex items-center gap-x-1 text-sm text-gray-600">
               <EnergyIcons energies={card.move1energy} />

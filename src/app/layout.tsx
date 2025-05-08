@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="ja" className="touch-manipulation">
       <body className={`${hachiMaruPop.variable} antialiased`}>
         <NuqsAdapter>
-          <div className="mx-auto max-w-2xl">
+          <div className="mx-auto max-w-2xl md:max-w-full">
             <Header />
             <div className="min-h-screen pb-16">{children}</div>
             <Footer />

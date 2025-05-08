@@ -1,6 +1,6 @@
 'use client';
 
-import type { Card } from '@/constants/types/card';
+import type { Card } from '@/generated/prisma';
 import Image from 'next/image';
 
 type Props = {
@@ -10,7 +10,7 @@ export const GridList = ({ cards }: Props) => {
   return (
     <div className="flex flex-wrap gap-1">
       {cards.map((card) => (
-        <div key={card.id + card.cardNumber} className="relative">
+        <div key={card.numbering} className="relative">
           <Image
             src={card.image}
             alt={card.name}

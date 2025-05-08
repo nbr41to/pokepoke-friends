@@ -1,10 +1,25 @@
+import type { CARD_DATA } from '@/constants/data/converted';
 import type JA_DATA from '@/constants/data/scraped/gw/gw.json';
-import type { Card } from '@/constants/types/card';
 import type { Prisma } from '@/generated/prisma';
 
-export const mergedData = (scraped: Card, ja: (typeof JA_DATA)[number]) =>
+/**
+ * カード番号の数字部分を3桁にゼロ埋めする関数
+ * 例: "1" -> "001", "12" -> "012", "123" -> "123"
+ */
+function padCardNumber(cardNumber: string): string {
+  const num = cardNumber.trim();
+  return num.padStart(3, '0');
+}
+
+export const mergedData = (
+  scraped: (typeof CARD_DATA)[number],
+  ja: (typeof JA_DATA)[number],
+) =>
   ({
-    id: scraped.cardNumber.replace(/\ #/g, 'n'),
+    id: [
+      scraped.cardNumber.split(' #')[0],
+      padCardNumber(scraped.cardNumber.split(' #')[1]),
+    ].join('#'),
     numbering: scraped.cardNumber.replace(/\ /g, ''),
     name: scraped.name,
     rarity: scraped.rarity,
