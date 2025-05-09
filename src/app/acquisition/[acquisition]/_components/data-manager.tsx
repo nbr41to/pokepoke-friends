@@ -49,6 +49,12 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
           (jaData) => jaData.name === card.name.replace(/ /g, ''),
         );
 
+        // 現在のDBに保存されているカード
+        const currentSaved =
+          dbCards.find(
+            (dbCard) => dbCard.numbering === card.cardNumber.replace(/\ /g, ''),
+          ) || null;
+
         return {
           scraped: card,
           matchedCards:
@@ -57,21 +63,16 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
               : condition.matchCondition === 'pack'
                 ? matchedJaCards
                 : nameOnlyMatched,
+          current: currentSaved,
         };
       })
       .filter((card) => {
-        // DBに登録されていないカードのフィルタリング
-        const isInDatabase = dbCards.some(
-          (dbCard) =>
-            dbCard.numbering === card.scraped.cardNumber.replace(/\ /g, ''),
-        );
-        const isMultiMatch = card.matchedCards.length !== 1;
+        const isSingleMatch = card.matchedCards.length === 1;
 
-        return condition.hiddenExistDatabase
-          ? !isInDatabase
-          : true && condition.hiddenMultiMatch
-            ? !isMultiMatch
-            : true;
+        return (
+          (condition.hiddenExistDatabase ? !card.current : true) &&
+          (condition.hiddenMultiMatch ? isSingleMatch : true)
+        );
       });
 
     return aggregate;
@@ -170,6 +171,7 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
         {filteredCardAggregates.map((aggregate) => (
           <MergeInserter
             key={aggregate.scraped.id}
+            current={aggregate.current}
             card={aggregate.scraped}
             matchedCards={aggregate.matchedCards}
           />

@@ -1,7 +1,7 @@
 'use client';
 
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { Grid, TableProperties } from 'lucide-react';
+import { Grid2X2, Grid3X3, TableProperties } from 'lucide-react';
 import { useState } from 'react';
 import { CardList } from './card-list';
 import { GridList } from './grid-list';
@@ -22,7 +22,10 @@ export const SearchResults = () => {
           className="border"
         >
           <ToggleGroupItem value="grid" aria-label="Grid view">
-            <Grid className="size-5" />
+            <Grid2X2 className="size-5" />
+          </ToggleGroupItem>
+          <ToggleGroupItem value="grid" aria-label="Grid view">
+            <Grid3X3 className="size-5" />
           </ToggleGroupItem>
           <ToggleGroupItem value="list" aria-label="List view">
             <TableProperties className="size-5" />
