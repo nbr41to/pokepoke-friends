@@ -4,6 +4,7 @@ import { EnergyIcons } from '@/components/enegy-icons';
 import { Button } from '@/components/ui/button';
 import type { CARD_DATA } from '@/constants/data/converted';
 import type JA_DATA from '@/constants/data/scraped/gw/gw.json';
+import type { Card } from '@/generated/prisma';
 import { cn } from '@/utils/classnames';
 import { ChevronRight } from 'lucide-react';
 import Image from 'next/image';
@@ -14,10 +15,11 @@ import { insertCard } from '../actions';
 
 /* 日本語のJSONを統合してDBに流し込む */
 type Props = {
+  current: Card | null;
   card: (typeof CARD_DATA)[number];
   matchedCards: typeof JA_DATA;
 };
-export const MergeInserter = ({ card, matchedCards }: Props) => {
+export const MergeInserter = ({ current, card, matchedCards }: Props) => {
   const [selected, setSelected] = useState(matchedCards?.[0]);
   const params = useMemo(() => {
     return mergedData(card, selected);
@@ -29,7 +31,7 @@ export const MergeInserter = ({ card, matchedCards }: Props) => {
 
   return (
     <div key={card.id} className="flex gap-x-3 py-2">
-      <div className="flex-none space-y-1">
+      <div className="group relative flex-none space-y-1">
         <Image
           src={card.image}
           alt="card"
@@ -38,6 +40,17 @@ export const MergeInserter = ({ card, matchedCards }: Props) => {
           style={{ width: 'auto', height: '120px' }}
           unoptimized
         />
+        {current && (
+          <Image
+            className="absolute top-16 right-0 group-hover:opacity-0"
+            src={current.image}
+            alt="card"
+            width={30}
+            height={60}
+            style={{ width: 'auto', height: '60px' }}
+            unoptimized
+          />
+        )}
         <p className="max-w-21 text-sm font-bold">
           {card.cardNumber}
           <br />
