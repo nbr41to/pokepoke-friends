@@ -22,7 +22,7 @@ export const mergedData = (
     ].join('#'),
     numbering: scraped.cardNumber.replace(/\ /g, ''),
     name: scraped.name,
-    rarity: scraped.rarity,
+    rarity: scraped.rarity.toLowerCase(),
     cardType: scraped.cardType.replace(/-/g, '_'),
     hp: scraped.hp,
     type: scraped.type,

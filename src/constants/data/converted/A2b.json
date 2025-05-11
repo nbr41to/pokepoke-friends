@@ -302,7 +302,7 @@
   {
     "id": 13,
     "cardNumber": "A2b #13",
-    "name": "Paldean Tauros",
+    "name": "パルデアケンタロス",
     "nameEn": "Paldean Tauros",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_013_EN.webp",
@@ -1152,7 +1152,7 @@
   {
     "id": 47,
     "cardNumber": "A2b #47",
-    "name": "Paldean Wooper",
+    "name": "パルデアウパー",
     "nameEn": "Paldean Wooper",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_047_EN.webp",
@@ -1177,7 +1177,7 @@
   {
     "id": 48,
     "cardNumber": "A2b #48",
-    "name": "Paldean Clodsire ex",
+    "name": "パルデアドオー ex",
     "nameEn": "Paldean Clodsire ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_048_EN.webp",
@@ -1702,7 +1702,7 @@
   {
     "id": 69,
     "cardNumber": "A2b #69",
-    "name": "Iono",
+    "name": "ナンジャモ",
     "nameEn": "Iono",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_069_EN.webp",
@@ -1712,7 +1712,7 @@
   {
     "id": 70,
     "cardNumber": "A2b #70",
-    "name": "ポケモンセンターのおねえさん",
+    "name": "ポケモンセンターのお姉さん",
     "nameEn": "Pokémon Center Lady",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_070_EN.webp",
@@ -2042,7 +2042,7 @@
   {
     "id": 85,
     "cardNumber": "A2b #85",
-    "name": "Paldean Clodsire ex",
+    "name": "パルデアドオー ex",
     "nameEn": "Paldean Clodsire ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_085_EN.webp",
@@ -2117,7 +2117,7 @@
   {
     "id": 88,
     "cardNumber": "A2b #88",
-    "name": "Iono",
+    "name": "ナンジャモ",
     "nameEn": "Iono",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_088_EN.webp",
@@ -2127,7 +2127,7 @@
   {
     "id": 89,
     "cardNumber": "A2b #89",
-    "name": "ポケモンセンターのおねえさん",
+    "name": "ポケモンセンターのお姉さん",
     "nameEn": "Pokémon Center Lady",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_089_EN.webp",
@@ -2182,7 +2182,7 @@
   {
     "id": 93,
     "cardNumber": "A2b #93",
-    "name": "Paldean Clodsire ex",
+    "name": "パルデアドオー ex",
     "nameEn": "Paldean Clodsire ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_093_EN.webp",
@@ -2632,7 +2632,7 @@
   {
     "id": 111,
     "cardNumber": "A2b #111",
-    "name": "Poké Ball",
+    "name": "モンスターボール",
     "nameEn": "Poké Ball",
     "rarity": "crown",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_111_EN.webp",

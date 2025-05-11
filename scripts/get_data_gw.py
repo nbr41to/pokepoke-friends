@@ -6,6 +6,7 @@ import os
 from bs4 import BeautifulSoup
 import re
 from typing import Dict, List, Optional, Union, Any
+import glob  # 追加: ファイル検索のため
 
 
 def parse_pokemon_card(card_element) -> Dict[str, Any]:
@@ -184,20 +185,33 @@ def main():
     # プロジェクトのルートディレクトリ（スクリプトの親ディレクトリ）
     project_root = os.path.dirname(script_dir)
     
-    # 入力と出力のパスを設定
-    html_file_path = os.path.join(script_dir, "gw.html")
+    # 入力パターンと出力のパスを設定
+    html_file_pattern = os.path.join(script_dir, "ja-*.html")
     output_file = os.path.join(project_root, "scripts/gw.json")
     # output_file = os.path.join(project_root, "src/constants/data/scraped/GW.json") #ここは変更しないでください
     
-    # HTMLからカード情報を取得
-    cards_data = scrape_cards_from_html(html_file_path)
+    # 「ja-」で始まるすべてのHTMLファイルを検索
+    html_files = glob.glob(html_file_pattern)
     
-    # 取得したデータを表示
-    for i, card in enumerate(cards_data):
-        print(f"カード {i+1}: {card['name']}")
+    if not html_files:
+        print("「ja-」で始まるHTMLファイルが見つかりませんでした")
+        return
+    
+    # 全カードのデータを格納するリスト
+    all_cards_data = []
+    
+    # 各HTMLファイルからカード情報を取得して集約
+    for html_file in html_files:
+        print(f"スクレイピング中: {os.path.basename(html_file)}")
+        cards_data = scrape_cards_from_html(html_file)
+        all_cards_data.extend(cards_data)
+        print(f"{len(cards_data)}件のカード情報を取得しました")
+    
+    # 取得したデータの概要を表示
+    print(f"合計{len(all_cards_data)}件のカード情報を取得しました")
     
     # JSONファイルに保存
-    save_to_json(cards_data, output_file)
+    save_to_json(all_cards_data, output_file)
 
 
 if __name__ == "__main__":
