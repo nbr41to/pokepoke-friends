@@ -15,7 +15,7 @@ export const KeywordForm = () => {
       value={query.keywords}
       onChange={(e) => handleOnValueChange(e.target.value)}
       placeholder="キーワード検索"
-      className="w-full max-w-[300px] text-sm"
+      className="h-[42px] w-full max-w-[694px] text-sm"
     />
   );
 };

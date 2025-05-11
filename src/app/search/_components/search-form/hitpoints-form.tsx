@@ -14,9 +14,11 @@ export const HitpointsForm = () => {
   };
 
   return (
-    <div className="flex flex-wrap items-center gap-3">
-      <span className="w-20 text-right text-sm">HP</span>
-      <div className="flex flex-grow items-center gap-x-1">
+    <div className="flex flex-col items-center justify-center gap-x-3 gap-y-1 sm:flex-row">
+      <span className="w-full text-center text-sm font-bold sm:w-20 sm:text-right">
+        HP
+      </span>
+      <div className="flex items-center gap-x-1">
         <CounterForm
           options={[...POKEMON_HITPOINTS_LIST]}
           value={query.hitpoints[0]}

@@ -1,5 +1,5 @@
 import type { CARD_DATA } from '@/constants/data/converted';
-import type JA_DATA from '@/constants/data/scraped/gw/gw.json';
+import type JA_DATA from '@/constants/data/scraped/ja/ja.json';
 import type { Prisma } from '@/generated/prisma';
 
 /**
@@ -22,7 +22,7 @@ export const mergedData = (
     ].join('#'),
     numbering: scraped.cardNumber.replace(/\ /g, ''),
     name: scraped.name,
-    rarity: scraped.rarity,
+    rarity: scraped.rarity.toLowerCase(),
     cardType: scraped.cardType.replace(/-/g, '_'),
     hp: scraped.hp,
     type: scraped.type,
@@ -35,6 +35,7 @@ export const mergedData = (
     weakness: scraped.weakness,
     // jaData
     image: ja?.image_url ?? scraped.image,
+    packName: ja?.acquisition_pack,
     description: ja?.description ?? scraped.description,
     move1name: ja?.move1_name ?? scraped.move1name,
     move1description: ja?.move1_description ?? scraped.move1description,

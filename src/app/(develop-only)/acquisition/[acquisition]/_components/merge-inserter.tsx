@@ -3,13 +3,14 @@
 import { EnergyIcons } from '@/components/enegy-icons';
 import { Button } from '@/components/ui/button';
 import type { CARD_DATA } from '@/constants/data/converted';
-import type JA_DATA from '@/constants/data/scraped/gw/gw.json';
+import type JA_DATA from '@/constants/data/scraped/ja/ja.json';
 import type { Card } from '@/generated/prisma';
 import { cn } from '@/utils/classnames';
 import { ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
+import { toast } from 'sonner';
 import { mergedData } from '../_utils';
 import { insertCard } from '../actions';
 
@@ -28,6 +29,35 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
   useEffect(() => {
     setSelected(matchedCards?.[0]);
   }, [matchedCards]);
+
+  const [loading, setLoading] = useState(false);
+  const handleOnSave = useCallback(async () => {
+    if (loading) return;
+    setLoading(true);
+    const result = await insertCard(params);
+    if (result) {
+      toast.success(`${result.id} ${result.name}の登録に成功しました`);
+    } else {
+      toast.error(`${params.id} ${params.name}の登録に失敗しました`);
+    }
+    setLoading(false);
+  }, [params, loading]);
+
+  const handleOnDirectSave = useCallback(
+    async (data: (typeof JA_DATA)[number]) => {
+      if (loading) return;
+      setLoading(true);
+
+      const result = await insertCard(mergedData(card, data));
+      if (result) {
+        toast.success(`${result.id} ${result.name}の登録に成功しました`);
+      } else {
+        toast.error(`${data.id} ${data.name}の登録に失敗しました`);
+      }
+      setLoading(false);
+    },
+    [card, loading],
+  );
 
   return (
     <div key={card.id} className="flex gap-x-3 py-2">
@@ -61,24 +91,36 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
       <ChevronRight className="mt-14 size-6" />
 
       {matchedCards.map((data) => (
-        <button
-          type="button"
-          key={data.id}
-          className={cn(
-            'h-fit flex-none cursor-pointer rounded outline-4 outline-offset-2 outline-white/0 focus:outline-red-600',
-            selected?.id === data.id ? 'outline-green-600' : '',
-          )}
-          onClick={() => setSelected(data)}
+        <div
+          key={card.id + data.id}
+          className="flex flex-col items-center gap-y-2"
         >
-          <Image
-            src={data.image_url}
-            alt="card"
-            width={86}
-            height={120}
-            style={{ width: 'auto', height: '120px' }}
-            unoptimized
-          />
-        </button>
+          <button
+            type="button"
+            className={cn(
+              'h-fit flex-none cursor-pointer rounded outline-4 outline-offset-2 outline-white/0 focus:outline-red-600',
+              selected?.id === data.id ? 'outline-green-600' : '',
+            )}
+            onClick={() => setSelected(data)}
+          >
+            <Image
+              src={data.image_url}
+              alt="card"
+              width={86}
+              height={120}
+              style={{ width: 'auto', height: '120px' }}
+              unoptimized
+            />
+          </button>
+          <Button
+            size="sm"
+            variant="outline"
+            disabled={loading}
+            onClick={() => handleOnDirectSave(data)}
+          >
+            DBに登録
+          </Button>
+        </div>
       ))}
 
       <div className="pl-1">
@@ -121,8 +163,8 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
         <Button
           size="lg"
           className="mt-auto ml-auto"
-          disabled={!selected}
-          onClick={() => insertCard(params)}
+          disabled={!selected || loading}
+          onClick={handleOnSave}
         >
           Insert
         </Button>

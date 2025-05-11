@@ -5,6 +5,7 @@ import { Hachi_Maru_Pop } from 'next/font/google';
 import { NuqsAdapter } from 'nuqs/adapters/next/app';
 
 import '@/styles/globals.css';
+import { Toaster } from '@/components/ui/sonner';
 
 const hachiMaruPop = Hachi_Maru_Pop({
   variable: '--font-noto-sans-jp',
@@ -33,6 +34,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </NuqsAdapter>
+        <Toaster />
       </body>
     </html>
   );

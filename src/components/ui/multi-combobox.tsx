@@ -34,6 +34,7 @@ interface Props {
   placeholder?: string;
   emptyMessage?: string;
   maxHeight?: number;
+  className?: string;
 }
 
 export function MultiCombobox({
@@ -43,6 +44,7 @@ export function MultiCombobox({
   placeholder = 'アイテムを選択...',
   emptyMessage = '該当する項目がありません',
   maxHeight = 300,
+  className,
 }: Props) {
   const [open, setOpen] = React.useState(false);
   const [inputValue, setInputValue] = React.useState('');
@@ -108,7 +110,10 @@ export function MultiCombobox({
           // biome-ignore lint/a11y/useSemanticElements: <explanation>
           role="combobox"
           aria-expanded={open}
-          className="hover:bg-background h-auto min-h-[42px] w-full justify-between py-2"
+          className={cn(
+            'hover:bg-background h-auto min-h-[42px] w-full justify-between py-2',
+            className,
+          )}
         >
           <div className="flex flex-wrap items-center gap-1">
             {value.length > 0 ? (

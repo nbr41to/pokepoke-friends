@@ -20,7 +20,7 @@ export const PokemonTypeForm = () => {
   const isCleared = query.pokemonTypes.length === 0;
 
   return (
-    <div className="flex gap-x-1">
+    <div className="flex justify-center gap-x-1">
       <ToggleGroup
         type="multiple"
         value={query.pokemonTypes}

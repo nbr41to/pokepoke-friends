@@ -3,7 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import {
-  CARD_RARUTIES_LIST,
+  CARD_RARITIES_LIST,
   type CardRarity,
 } from '@/constants/types/rarities';
 import { cn } from '@/utils/classnames';
@@ -26,7 +26,7 @@ export const RarityForm = () => {
         onValueChange={handleOnValueChange}
         className="border"
       >
-        {CARD_RARUTIES_LIST.map((rarity, index) => (
+        {CARD_RARITIES_LIST.map((rarity) => (
           <ToggleGroupItem
             key={rarity}
             value={rarity}
@@ -60,7 +60,7 @@ export const RarityForm = () => {
         onClick={() => {
           setQuery({
             ...query,
-            rarities: isCleared ? [...CARD_RARUTIES_LIST] : [],
+            rarities: isCleared ? [...CARD_RARITIES_LIST] : [],
           });
         }}
       >

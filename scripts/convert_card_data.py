@@ -33,7 +33,7 @@ EVOLVE_STAGE_MAPPING = {
 TRAINER_TYPE_MAPPING = {
     "Item": "trainers-goods",
     "Supporter": "trainers-support",
-    "Pokémon Tool": "trainers-pokemon-tools",
+    "Tool": "trainers-pokemon-tools",
 }
 
 # レア度のマッピング
@@ -82,11 +82,30 @@ def convert_pokemon_name(name: str, pokemon_names_map: Dict[str, str]) -> str:
         suffix = ex_suffix_match.group(0)  # 空白を含む接尾辞（例: " ex"）
         base_name = name[:ex_suffix_match.start()]
     
+    # 特有のポケモン名をPrefixを検出（例: "Origin Forme Dialga", "Alolan Vulpix", "Paldean Wooper"）
+    prefix = ""
+    # オリジンフォルムのポケモン名を検出（例: "Origin Forme Dialga"）
+    if base_name.startswith("Origin Forme "):
+        prefix = "オリジン"  # 日本語の接頭辞
+        base_name = base_name[len("Origin Forme "):]  # "Origin Forme "を取り除く
+    # アローラ地方のポケモン名を検出（例: "Alolan Wooper"）
+    elif base_name.startswith("Alolan "):
+        prefix = "アローラ"  # 日本語の接頭辞
+        base_name = base_name[len("Alolan "):]  # "Alolan "を取り除く
+    # パルデア地方のポケモン名を検出（例: "Paldean Wooper"）
+    elif base_name.startswith("Paldean "):
+        prefix = "パルデア"  # 日本語の接頭辞
+        base_name = base_name[len("Paldean "):]  # "Paldean "を取り除く
+    
     # 名前の先頭に数字やアルファベットがある場合、それを除去して検索（例: "1.Bulbasaur" -> "Bulbasaur"）
     cleaned_name = re.sub(r'^[\d\W]+\.?\s*', '', base_name)
     
     # 基本名を翻訳
     translated_base = pokemon_names_map.get(cleaned_name, base_name)
+    
+    # 地域特有の接頭辞がある場合、それを追加
+    if prefix:
+        translated_base = prefix + translated_base
     
     # 接尾辞がある場合は、翻訳した基本名に接尾辞を再結合
     if suffix:
@@ -106,8 +125,8 @@ def convert_evolve_stage(evolve_stage: str) -> str:
 
 def convert_rarity(rarity: str, series_id: str) -> str:
     """レア度を CardRarity 型に変換する"""
-    # P-Aシリーズの場合、レアリティを"promo"に設定
-    if series_id == "P-A":
+    # P_Aシリーズの場合、レアリティを"promo"に設定
+    if series_id == "P_A":
         return "promo"
     # マッピングにある場合はそれを返す
     # ない場合は元の値をそのまま返す（このあとCardRarity型にマッチするか処理される）
@@ -150,7 +169,7 @@ def convert_card_data(source_file: str, target_file: str) -> None:
             "cardNumber": card.get('numbering', ''),
             "name": convert_pokemon_name(english_name, pokemon_names_map),  # 英語名を日本語名に変換
             "nameEn": english_name,  # 英語名は元データのままで保持
-            "rarity": convert_rarity(card.get('rarity', ''), series_id),  # シリーズIDを渡して、P-Aの場合はpromoにする
+            "rarity": convert_rarity(card.get('rarity', ''), series_id),  # シリーズIDを渡して、P_Aの場合はpromoにする
             "image": card.get('image', ''),
             "description": extract_card_description(card)  # すべてのカードタイプにdescriptionを追加
         }

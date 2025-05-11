@@ -282,8 +282,8 @@ export namespace Prisma {
   export import Exact = $Public.Exact
 
   /**
-   * Prisma Client JS version: 6.6.0
-   * Query Engine version: f676762280b54cd07c770017ed3711ddde35f37a
+   * Prisma Client JS version: 6.7.0
+   * Query Engine version: 3cff47a7f5d65c3ea74883f1d736e41d68ce91ed
    */
   export type PrismaVersion = {
     client: string
@@ -969,6 +969,7 @@ export namespace Prisma {
     rarity: $Enums.CardRarity | null
     image: string | null
     cardType: $Enums.CardType | null
+    packName: string | null
     description: string | null
     hp: number | null
     type: $Enums.PokemonType | null
@@ -996,6 +997,7 @@ export namespace Prisma {
     rarity: $Enums.CardRarity | null
     image: string | null
     cardType: $Enums.CardType | null
+    packName: string | null
     description: string | null
     hp: number | null
     type: $Enums.PokemonType | null
@@ -1023,6 +1025,7 @@ export namespace Prisma {
     rarity: number
     image: number
     cardType: number
+    packName: number
     description: number
     hp: number
     type: number
@@ -1062,6 +1065,7 @@ export namespace Prisma {
     rarity?: true
     image?: true
     cardType?: true
+    packName?: true
     description?: true
     hp?: true
     type?: true
@@ -1089,6 +1093,7 @@ export namespace Prisma {
     rarity?: true
     image?: true
     cardType?: true
+    packName?: true
     description?: true
     hp?: true
     type?: true
@@ -1116,6 +1121,7 @@ export namespace Prisma {
     rarity?: true
     image?: true
     cardType?: true
+    packName?: true
     description?: true
     hp?: true
     type?: true
@@ -1230,6 +1236,7 @@ export namespace Prisma {
     rarity: $Enums.CardRarity
     image: string
     cardType: $Enums.CardType
+    packName: string | null
     description: string | null
     hp: number | null
     type: $Enums.PokemonType | null
@@ -1276,6 +1283,7 @@ export namespace Prisma {
     rarity?: boolean
     image?: boolean
     cardType?: boolean
+    packName?: boolean
     description?: boolean
     hp?: boolean
     type?: boolean
@@ -1303,6 +1311,7 @@ export namespace Prisma {
     rarity?: boolean
     image?: boolean
     cardType?: boolean
+    packName?: boolean
     description?: boolean
     hp?: boolean
     type?: boolean
@@ -1330,6 +1339,7 @@ export namespace Prisma {
     rarity?: boolean
     image?: boolean
     cardType?: boolean
+    packName?: boolean
     description?: boolean
     hp?: boolean
     type?: boolean
@@ -1357,6 +1367,7 @@ export namespace Prisma {
     rarity?: boolean
     image?: boolean
     cardType?: boolean
+    packName?: boolean
     description?: boolean
     hp?: boolean
     type?: boolean
@@ -1377,7 +1388,7 @@ export namespace Prisma {
     updatedAt?: boolean
   }
 
-  export type CardOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "numbering" | "name" | "rarity" | "image" | "cardType" | "description" | "hp" | "type" | "evolveStage" | "move1name" | "move1energy" | "move1power" | "move1description" | "move2name" | "move2energy" | "move2power" | "move2description" | "abilityName" | "abilityDescription" | "retreat" | "weakness" | "createdAt" | "updatedAt", ExtArgs["result"]["card"]>
+  export type CardOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "numbering" | "name" | "rarity" | "image" | "cardType" | "packName" | "description" | "hp" | "type" | "evolveStage" | "move1name" | "move1energy" | "move1power" | "move1description" | "move2name" | "move2energy" | "move2power" | "move2description" | "abilityName" | "abilityDescription" | "retreat" | "weakness" | "createdAt" | "updatedAt", ExtArgs["result"]["card"]>
 
   export type $CardPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     name: "Card"
@@ -1389,6 +1400,7 @@ export namespace Prisma {
       rarity: $Enums.CardRarity
       image: string
       cardType: $Enums.CardType
+      packName: string | null
       description: string | null
       hp: number | null
       type: $Enums.PokemonType | null
@@ -1836,6 +1848,7 @@ export namespace Prisma {
     readonly rarity: FieldRef<"Card", 'CardRarity'>
     readonly image: FieldRef<"Card", 'String'>
     readonly cardType: FieldRef<"Card", 'CardType'>
+    readonly packName: FieldRef<"Card", 'String'>
     readonly description: FieldRef<"Card", 'String'>
     readonly hp: FieldRef<"Card", 'Int'>
     readonly type: FieldRef<"Card", 'PokemonType'>
@@ -2241,6 +2254,7 @@ export namespace Prisma {
     rarity: 'rarity',
     image: 'image',
     cardType: 'cardType',
+    packName: 'packName',
     description: 'description',
     hp: 'hp',
     type: 'type',
@@ -2418,6 +2432,7 @@ export namespace Prisma {
     rarity?: EnumCardRarityFilter<"Card"> | $Enums.CardRarity
     image?: StringFilter<"Card"> | string
     cardType?: EnumCardTypeFilter<"Card"> | $Enums.CardType
+    packName?: StringNullableFilter<"Card"> | string | null
     description?: StringNullableFilter<"Card"> | string | null
     hp?: IntNullableFilter<"Card"> | number | null
     type?: EnumPokemonTypeNullableFilter<"Card"> | $Enums.PokemonType | null
@@ -2445,6 +2460,7 @@ export namespace Prisma {
     rarity?: SortOrder
     image?: SortOrder
     cardType?: SortOrder
+    packName?: SortOrderInput | SortOrder
     description?: SortOrderInput | SortOrder
     hp?: SortOrderInput | SortOrder
     type?: SortOrderInput | SortOrder
@@ -2475,6 +2491,7 @@ export namespace Prisma {
     rarity?: EnumCardRarityFilter<"Card"> | $Enums.CardRarity
     image?: StringFilter<"Card"> | string
     cardType?: EnumCardTypeFilter<"Card"> | $Enums.CardType
+    packName?: StringNullableFilter<"Card"> | string | null
     description?: StringNullableFilter<"Card"> | string | null
     hp?: IntNullableFilter<"Card"> | number | null
     type?: EnumPokemonTypeNullableFilter<"Card"> | $Enums.PokemonType | null
@@ -2502,6 +2519,7 @@ export namespace Prisma {
     rarity?: SortOrder
     image?: SortOrder
     cardType?: SortOrder
+    packName?: SortOrderInput | SortOrder
     description?: SortOrderInput | SortOrder
     hp?: SortOrderInput | SortOrder
     type?: SortOrderInput | SortOrder
@@ -2537,6 +2555,7 @@ export namespace Prisma {
     rarity?: EnumCardRarityWithAggregatesFilter<"Card"> | $Enums.CardRarity
     image?: StringWithAggregatesFilter<"Card"> | string
     cardType?: EnumCardTypeWithAggregatesFilter<"Card"> | $Enums.CardType
+    packName?: StringNullableWithAggregatesFilter<"Card"> | string | null
     description?: StringNullableWithAggregatesFilter<"Card"> | string | null
     hp?: IntNullableWithAggregatesFilter<"Card"> | number | null
     type?: EnumPokemonTypeNullableWithAggregatesFilter<"Card"> | $Enums.PokemonType | null
@@ -2564,6 +2583,7 @@ export namespace Prisma {
     rarity: $Enums.CardRarity
     image: string
     cardType: $Enums.CardType
+    packName?: string | null
     description?: string | null
     hp?: number | null
     type?: $Enums.PokemonType | null
@@ -2591,6 +2611,7 @@ export namespace Prisma {
     rarity: $Enums.CardRarity
     image: string
     cardType: $Enums.CardType
+    packName?: string | null
     description?: string | null
     hp?: number | null
     type?: $Enums.PokemonType | null
@@ -2618,6 +2639,7 @@ export namespace Prisma {
     rarity?: EnumCardRarityFieldUpdateOperationsInput | $Enums.CardRarity
     image?: StringFieldUpdateOperationsInput | string
     cardType?: EnumCardTypeFieldUpdateOperationsInput | $Enums.CardType
+    packName?: NullableStringFieldUpdateOperationsInput | string | null
     description?: NullableStringFieldUpdateOperationsInput | string | null
     hp?: NullableIntFieldUpdateOperationsInput | number | null
     type?: NullableEnumPokemonTypeFieldUpdateOperationsInput | $Enums.PokemonType | null
@@ -2645,6 +2667,7 @@ export namespace Prisma {
     rarity?: EnumCardRarityFieldUpdateOperationsInput | $Enums.CardRarity
     image?: StringFieldUpdateOperationsInput | string
     cardType?: EnumCardTypeFieldUpdateOperationsInput | $Enums.CardType
+    packName?: NullableStringFieldUpdateOperationsInput | string | null
     description?: NullableStringFieldUpdateOperationsInput | string | null
     hp?: NullableIntFieldUpdateOperationsInput | number | null
     type?: NullableEnumPokemonTypeFieldUpdateOperationsInput | $Enums.PokemonType | null
@@ -2672,6 +2695,7 @@ export namespace Prisma {
     rarity: $Enums.CardRarity
     image: string
     cardType: $Enums.CardType
+    packName?: string | null
     description?: string | null
     hp?: number | null
     type?: $Enums.PokemonType | null
@@ -2699,6 +2723,7 @@ export namespace Prisma {
     rarity?: EnumCardRarityFieldUpdateOperationsInput | $Enums.CardRarity
     image?: StringFieldUpdateOperationsInput | string
     cardType?: EnumCardTypeFieldUpdateOperationsInput | $Enums.CardType
+    packName?: NullableStringFieldUpdateOperationsInput | string | null
     description?: NullableStringFieldUpdateOperationsInput | string | null
     hp?: NullableIntFieldUpdateOperationsInput | number | null
     type?: NullableEnumPokemonTypeFieldUpdateOperationsInput | $Enums.PokemonType | null
@@ -2726,6 +2751,7 @@ export namespace Prisma {
     rarity?: EnumCardRarityFieldUpdateOperationsInput | $Enums.CardRarity
     image?: StringFieldUpdateOperationsInput | string
     cardType?: EnumCardTypeFieldUpdateOperationsInput | $Enums.CardType
+    packName?: NullableStringFieldUpdateOperationsInput | string | null
     description?: NullableStringFieldUpdateOperationsInput | string | null
     hp?: NullableIntFieldUpdateOperationsInput | number | null
     type?: NullableEnumPokemonTypeFieldUpdateOperationsInput | $Enums.PokemonType | null
@@ -2838,6 +2864,7 @@ export namespace Prisma {
     rarity?: SortOrder
     image?: SortOrder
     cardType?: SortOrder
+    packName?: SortOrder
     description?: SortOrder
     hp?: SortOrder
     type?: SortOrder
@@ -2870,6 +2897,7 @@ export namespace Prisma {
     rarity?: SortOrder
     image?: SortOrder
     cardType?: SortOrder
+    packName?: SortOrder
     description?: SortOrder
     hp?: SortOrder
     type?: SortOrder
@@ -2897,6 +2925,7 @@ export namespace Prisma {
     rarity?: SortOrder
     image?: SortOrder
     cardType?: SortOrder
+    packName?: SortOrder
     description?: SortOrder
     hp?: SortOrder
     type?: SortOrder

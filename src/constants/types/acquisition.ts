@@ -6,11 +6,6 @@ export const ACQUISITION = {
   A2_b: 'A2b', // A2b
   A3: 'A3', // A3
   P_A: 'P-A', // P-A
-  // A3_SOLGALEO: 'Solgaleo pack', // A3
-  // A3_LUNALA: '双天の守護者 ルナアーラ', // A3
-  // A3_Common: 'A3_common', // A3
-  // A3_SOLGALEO: '双天の守護者 ソルガレオ', // A3
-  // A3_LUNALA: '双天の守護者 ルナアーラ', // A3
 } as const;
 
 export const ACQUISITION_LIST = [

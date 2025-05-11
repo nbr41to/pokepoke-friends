@@ -24,4 +24,9 @@ export const POKEMON_RETREAT_COST_LIST = [0, 1, 2, 3, 4] as const;
 export type PokemonRetreatCost = (typeof POKEMON_RETREAT_COST_LIST)[number];
 
 export const POKEMON_EVOLVE_STAGE_LIST = ['base', 'stage1', 'stage2'] as const;
+export const POKEMON_EVOLVE_STAGE_LABEL = {
+  base: 'たね',
+  stage1: '1進化',
+  stage2: '2進化',
+} as const;
 export type PokemonEvolveStage = (typeof POKEMON_EVOLVE_STAGE_LIST)[number];

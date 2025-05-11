@@ -1,5 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { CARD_TYPE_LIST } from '../src/constants/types/card-types';
+import { POKEMON_TYPE_LIST } from '../src/constants/types/pokemon-types';
 import { PrismaClient } from '../src/generated/prisma';
 
 // PrismaClientのインスタンスを作成
@@ -21,12 +23,13 @@ async function exportCardData(
         id: 'asc',
       },
       select: {
-        // id: true,
+        id: true,
         numbering: true,
         cardType: true,
         name: true,
         image: true,
         rarity: true,
+        packName: true,
         description: true,
         type: true,
         evolveStage: true,
@@ -48,9 +51,55 @@ async function exportCardData(
 
     console.info(`${cards.length}件のカードデータを取得しました`);
 
+    // 3段階のソートを実行
+    // 1. まずidでソート
+    let sortedCards = [...cards].sort((a, b) => {
+      return a.id.localeCompare(b.id);
+    });
+
+    // 2. 次にPOKEMON_TYPEでソート
+    sortedCards = sortedCards.sort((a, b) => {
+      if (a.type && b.type) {
+        const typeIndexA = POKEMON_TYPE_LIST.indexOf(a.type as any);
+        const typeIndexB = POKEMON_TYPE_LIST.indexOf(b.type as any);
+
+        if (
+          typeIndexA !== -1 &&
+          typeIndexB !== -1 &&
+          typeIndexA !== typeIndexB
+        ) {
+          return typeIndexA - typeIndexB;
+        }
+      } else if (a.type && !b.type) {
+        return -1; // typeがあるものを先に
+      } else if (!a.type && b.type) {
+        return 1; // typeがないものを後に
+      }
+      return 0; // 変更なし
+    });
+
+    // 3. 最後にCARD_TYPEでソート
+    sortedCards = sortedCards.sort((a, b) => {
+      const cardTypeIndexA = CARD_TYPE_LIST.indexOf(a.cardType as any);
+      const cardTypeIndexB = CARD_TYPE_LIST.indexOf(b.cardType as any);
+
+      if (
+        cardTypeIndexA !== -1 &&
+        cardTypeIndexB !== -1 &&
+        cardTypeIndexA !== cardTypeIndexB
+      ) {
+        return cardTypeIndexA - cardTypeIndexB;
+      }
+      return 0; // 変更なし
+    });
+
     // JSONとして保存
     const absolutePath = path.resolve(outputPath);
-    fs.writeFileSync(absolutePath, JSON.stringify(cards, null, 2), 'utf8');
+    fs.writeFileSync(
+      absolutePath,
+      JSON.stringify(sortedCards, null, 2),
+      'utf8',
+    );
 
     console.info(`カードデータを正常に保存しました: ${absolutePath}`);
   } catch (error) {

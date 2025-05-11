@@ -4,12 +4,13 @@ import { Button } from '@/components/ui/button';
 import { Toggle } from '@/components/ui/toggle';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import type { CARD_DATA } from '@/constants/data/converted';
-import JA_DATA from '@/constants/data/scraped/gw/gw.json';
+import JA_DATA from '@/constants/data/scraped/ja/ja.json';
 import { ACQUISITION_LABEL } from '@/constants/types/acquisition';
 import type { Card } from '@/generated/prisma';
 import { cn } from '@/utils/classnames';
 import { Database, Eye, Filter, Search, SearchCheckIcon } from 'lucide-react';
 import { useCallback, useMemo, useState } from 'react';
+import { toast } from 'sonner';
 import { mergedData } from '../_utils';
 import { upsertCards } from '../actions';
 import { MergeInserter } from './merge-inserter';
@@ -46,7 +47,8 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
         );
         // 名前だけでマッチする日本語のデータを探す
         const nameOnlyMatched = JA_DATA.filter(
-          (jaData) => jaData.name === card.name.replace(/ /g, ''),
+          (jaData) =>
+            jaData.name === card.name.replace(/ /g, '').replace(/・/g, ''),
         );
 
         // 現在のDBに保存されているカード
@@ -78,8 +80,11 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
     return aggregate;
   }, [cards, jaCards, dbCards, condition]);
 
+  const [loading, setLoading] = useState(false);
   const handleOnSave = useCallback(async () => {
-    await upsertCards(
+    if (loading) return;
+    setLoading(true);
+    const result = await upsertCards(
       filteredCardAggregates
         .map((aggregate) => {
           if (aggregate.matchedCards.length === 0) return;
@@ -87,7 +92,13 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
         })
         .filter((card) => !!card),
     );
-  }, [filteredCardAggregates]);
+    if (result) {
+      toast.success('一括データの登録に成功しました');
+    } else {
+      toast.error('一括データの登録に失敗しました');
+    }
+    setLoading(false);
+  }, [filteredCardAggregates, loading]);
 
   return (
     <div>
@@ -160,7 +171,7 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
         </div>
 
         <Button
-          disabled={filteredCardAggregates.length === 0}
+          disabled={filteredCardAggregates.length === 0 || loading}
           onClick={handleOnSave}
         >
           DBに保存 / 上書き
