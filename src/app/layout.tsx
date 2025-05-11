@@ -1,6 +1,6 @@
 import { Footer } from '@/components/layout/footer';
 import { Header } from '@/components/layout/header';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Hachi_Maru_Pop } from 'next/font/google';
 import { NuqsAdapter } from 'nuqs/adapters/next/app';
 
@@ -19,6 +19,13 @@ export const metadata: Metadata = {
   description: 'めざせマスターランク',
 };
 
+export const viewport: Viewport = {
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  width: 'device-width',
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,12 +33,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className="touch-manipulation">
-      <head>
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1.0,maximum-scale=1.0"
-        />
-      </head>
       <body className={`${hachiMaruPop.variable} antialiased`}>
         <NuqsAdapter>
           <div className="mx-auto max-w-2xl md:max-w-full">
