@@ -3,16 +3,19 @@
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import CARD_DATA from '@/constants/data/all_cards.json';
 import { Grid2X2, Grid3X3, TableProperties } from 'lucide-react';
-import { useState } from 'react';
+import { useQueryState } from 'nuqs';
 import { CardList } from './card-list';
 import { GridList } from './grid-list';
 import { useFilterdCards } from './use-filterd-cards';
 
 export const SearchResults = () => {
   const filteredCards = useFilterdCards();
-  const [viewMode, setViewMode] = useState<
-    'small-grid' | 'large-grid' | 'list'
-  >('large-grid');
+  const [viewMode, setViewMode] = useQueryState('view', {
+    defaultValue: '',
+  });
+  // const [viewMode, setViewMode] = useState<
+  //   'small-grid' | 'large-grid' | 'list'
+  // >('large-grid');
   const allLengths = CARD_DATA.length;
 
   return (
@@ -24,10 +27,11 @@ export const SearchResults = () => {
         <ToggleGroup
           variant="outline"
           type="single"
-          value={viewMode}
-          onValueChange={(value) =>
-            setViewMode(value as 'small-grid' | 'large-grid' | 'list')
-          }
+          value={viewMode === '' ? 'large-grid' : viewMode}
+          onValueChange={(value) => {
+            if (!value) return;
+            setViewMode(value === 'large-grid' ? '' : value);
+          }}
           className="bg-background"
         >
           <ToggleGroupItem value="large-grid" aria-label="Grid view">
@@ -42,13 +46,13 @@ export const SearchResults = () => {
         </ToggleGroup>
       </div>
 
-      {viewMode === 'small-grid' && (
+      {viewMode === 'list' ? (
+        <CardList cards={filteredCards} />
+      ) : viewMode === 'small-grid' ? (
         <GridList size="small" cards={filteredCards} />
-      )}
-      {viewMode === 'large-grid' && (
+      ) : (
         <GridList size="large" cards={filteredCards} />
       )}
-      {viewMode === 'list' && <CardList cards={filteredCards} />}
     </div>
   );
 };
