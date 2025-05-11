@@ -3,11 +3,8 @@ import { SearchResults } from './_components/search-results';
 
 export default function Page() {
   return (
-    <div className="">
-      <div>
-        <SearchForm />
-      </div>
-
+    <div className="space-y-6">
+      <SearchForm />
       <SearchResults />
     </div>
   );

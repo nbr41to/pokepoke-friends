@@ -1,4 +1,4 @@
-import { Calculator, Search, UserRoundSearch } from 'lucide-react';
+import { Search } from 'lucide-react';
 import Link from 'next/link';
 import PokeBall from '../icons/PokeBall';
 
@@ -9,12 +9,12 @@ export const Footer = () => {
         <Link href="/" className="grid h-full grow place-content-center">
           <PokeBall size={24} />
         </Link>
-        <Link href="/friends" className="grid h-full grow place-content-center">
+        {/* <Link href="/friends" className="grid h-full grow place-content-center">
           <UserRoundSearch size={24} />
         </Link>
         <Link href="/" className="grid h-full grow place-content-center">
           <Calculator size={24} />
-        </Link>
+        </Link> */}
         <Link href="/search" className="grid h-full grow place-content-center">
           <Search size={24} />
         </Link>

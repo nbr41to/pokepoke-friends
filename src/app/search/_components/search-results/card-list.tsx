@@ -8,7 +8,7 @@ type Props = {
 };
 export const CardList = ({ cards }: Props) => {
   return (
-    <div className="divide-y">
+    <div className="divide-y divide-blue-300">
       {cards.map((card) => (
         <CardListItem key={card.numbering} card={card} />
       ))}

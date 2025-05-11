@@ -44,6 +44,15 @@ export const useFilterdCards = () => {
           ((move1powerNum && move1powerNum <= movePower[1]) ||
             (move2powerNum && move2powerNum <= movePower[1]));
 
+        // カードのキーワードをカナに変換
+        const keywordsKatakana = query.keywords.replace(
+          /[\u3041-\u3096]/g,
+          (match) => {
+            const katakana = String.fromCharCode(match.charCodeAt(0) + 96);
+            return katakana;
+          },
+        );
+
         return (
           /**
            * pokemonTypes
@@ -87,7 +96,9 @@ export const useFilterdCards = () => {
           /**
            * packName
            */
-          (packName.length !== 0 ? packName.includes(card.packName) : true) &&
+          (packName.length !== 0
+            ? packName.some((name) => card.packName.startsWith(name))
+            : true) &&
           /**
            * keywords
            */
@@ -100,7 +111,16 @@ export const useFilterdCards = () => {
               card.move1description?.includes(query.keywords) ||
               card.move2name?.includes(query.keywords) ||
               card.move2description?.includes(query.keywords) ||
-              card.packName?.includes(query.keywords)
+              card.packName?.includes(query.keywords) ||
+              // 変換したカタカナと比較
+              card.name.includes(keywordsKatakana) ||
+              card.description?.includes(keywordsKatakana) ||
+              card.abilityName?.includes(keywordsKatakana) ||
+              card.abilityDescription?.includes(keywordsKatakana) ||
+              card.move1name?.includes(keywordsKatakana) ||
+              card.move1description?.includes(keywordsKatakana) ||
+              card.move2name?.includes(keywordsKatakana) ||
+              card.move2description?.includes(keywordsKatakana)
             : true)
         );
       }),

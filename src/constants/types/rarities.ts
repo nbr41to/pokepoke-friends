@@ -1,4 +1,4 @@
-export const CARD_RARUTIES = {
+export const CARD_RARITIES = {
   DIA_1: 'd1', // ♦1
   DIA_2: 'd2', // ♦2
   DIA_3: 'd3', // ♦3
@@ -12,28 +12,28 @@ export const CARD_RARUTIES = {
   PROMO: 'promo', // プロモ
 } as const;
 
-export const CARD_RARUTIES_LIST = [
-  CARD_RARUTIES.DIA_1,
-  CARD_RARUTIES.DIA_2,
-  CARD_RARUTIES.DIA_3,
-  CARD_RARUTIES.DIA_4,
-  CARD_RARUTIES.STAR_1,
-  CARD_RARUTIES.STAR_2,
-  CARD_RARUTIES.STAR_3,
-  CARD_RARUTIES.CROWN,
-  CARD_RARUTIES.PROMO,
+export const CARD_RARITIES_LIST = [
+  CARD_RARITIES.DIA_1,
+  CARD_RARITIES.DIA_2,
+  CARD_RARITIES.DIA_3,
+  CARD_RARITIES.DIA_4,
+  CARD_RARITIES.STAR_1,
+  CARD_RARITIES.STAR_2,
+  CARD_RARITIES.STAR_3,
+  CARD_RARITIES.CROWN,
+  CARD_RARITIES.PROMO,
 ] as const;
 
-export const CARD_RARUTIES_LABEL = {
-  [CARD_RARUTIES.DIA_1]: '♦',
-  [CARD_RARUTIES.DIA_2]: '♦♦',
-  [CARD_RARUTIES.DIA_3]: '♦♦♦',
-  [CARD_RARUTIES.DIA_4]: '♦♦♦♦',
-  [CARD_RARUTIES.STAR_1]: '★',
-  [CARD_RARUTIES.STAR_2]: '★★',
-  [CARD_RARUTIES.STAR_3]: '★★★',
-  [CARD_RARUTIES.CROWN]: '♚',
-  [CARD_RARUTIES.PROMO]: 'PROMO',
+export const CARD_RARITIES_LABEL = {
+  [CARD_RARITIES.DIA_1]: '♢',
+  [CARD_RARITIES.DIA_2]: '♢♢',
+  [CARD_RARITIES.DIA_3]: '♢♢♢',
+  [CARD_RARITIES.DIA_4]: '♢♢♢♢',
+  [CARD_RARITIES.STAR_1]: '☆',
+  [CARD_RARITIES.STAR_2]: '☆☆',
+  [CARD_RARITIES.STAR_3]: '☆☆☆',
+  [CARD_RARITIES.CROWN]: '♚',
+  [CARD_RARITIES.PROMO]: 'PROMO',
 } as const;
 
-export type CardRarity = (typeof CARD_RARUTIES)[keyof typeof CARD_RARUTIES];
+export type CardRarity = (typeof CARD_RARITIES)[keyof typeof CARD_RARITIES];

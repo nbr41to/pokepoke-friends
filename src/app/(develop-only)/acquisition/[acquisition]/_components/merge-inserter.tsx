@@ -3,7 +3,7 @@
 import { EnergyIcons } from '@/components/enegy-icons';
 import { Button } from '@/components/ui/button';
 import type { CARD_DATA } from '@/constants/data/converted';
-import type JA_DATA from '@/constants/data/scraped/gw/gw.json';
+import type JA_DATA from '@/constants/data/scraped/ja/ja.json';
 import type { Card } from '@/generated/prisma';
 import { cn } from '@/utils/classnames';
 import { ChevronRight } from 'lucide-react';
@@ -91,7 +91,10 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
       <ChevronRight className="mt-14 size-6" />
 
       {matchedCards.map((data) => (
-        <div key={data.id} className="flex flex-col items-center gap-y-2">
+        <div
+          key={card.id + data.id}
+          className="flex flex-col items-center gap-y-2"
+        >
           <button
             type="button"
             className={cn(

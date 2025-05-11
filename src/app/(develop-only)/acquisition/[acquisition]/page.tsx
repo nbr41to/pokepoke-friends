@@ -1,5 +1,5 @@
 import { CARD_DATA } from '@/constants/data/converted';
-import JA_DATA from '@/constants/data/scraped/gw/gw.json';
+import JA_DATA from '@/constants/data/scraped/ja/ja.json';
 import { ACQUISITION_LABEL } from '@/constants/types/acquisition';
 import prisma from '@/libs/prisma/client';
 import { DataManager } from './_components/data-manager';

@@ -1,8 +1,8 @@
 export const CARD_TYPE = {
   POKEMON: 'pokemon', // ポケモン
-  TRAINERS_GOODS: 'trainers-goods', // トレーナーズ | グッズ
-  TRAINERS_SUPPORT: 'trainers-support', // トレーナーズ | サポート
-  TRAINERS_POKEMON_TOOLS: 'trainers-pokemon-tools', // トレーナーズ | ポケモンのどうぐ
+  TRAINERS_GOODS: 'trainers_goods', // トレーナーズ | グッズ
+  TRAINERS_SUPPORT: 'trainers_support', // トレーナーズ | サポート
+  TRAINERS_POKEMON_TOOLS: 'trainers_pokemon_tools', // トレーナーズ | ポケモンのどうぐ
 } as const;
 
 export const CARD_TYPE_LIST = [

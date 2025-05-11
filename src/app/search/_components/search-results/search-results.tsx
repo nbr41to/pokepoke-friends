@@ -1,6 +1,7 @@
 'use client';
 
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import CARD_DATA from '@/constants/data/all_cards.json';
 import { Grid2X2, Grid3X3, TableProperties } from 'lucide-react';
 import { useState } from 'react';
 import { CardList } from './card-list';
@@ -12,18 +13,22 @@ export const SearchResults = () => {
   const [viewMode, setViewMode] = useState<
     'small-grid' | 'large-grid' | 'list'
   >('large-grid');
+  const allLengths = CARD_DATA.length;
 
   return (
-    <div className="space-y-2">
-      <div className="flex items-end justify-end gap-x-3">
-        <div>{filteredCards.length} cards found</div>
+    <div className="space-y-4 bg-blue-100 py-4">
+      <div className="flex justify-between gap-x-3 px-3 sm:px-6">
+        <div className="font-hachiMaru text-sm">
+          {filteredCards.length} / {allLengths} 件
+        </div>
         <ToggleGroup
+          variant="outline"
           type="single"
           value={viewMode}
           onValueChange={(value) =>
             setViewMode(value as 'small-grid' | 'large-grid' | 'list')
           }
-          className="border"
+          className="bg-background"
         >
           <ToggleGroupItem value="large-grid" aria-label="Grid view">
             <Grid2X2 className="size-5" />

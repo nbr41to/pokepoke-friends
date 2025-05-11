@@ -82,7 +82,7 @@ def parse_pokemon_card(card_element) -> Dict[str, Any]:
                 if rarity_match:
                     result["rarity"] = rarity_match.group(1)
         elif "PRO" in tag_element.text:
-            result["rarity"] = "PRO"  # プロモーション
+            result["rarity"] = "promo"  # プロモーション
     
     # カードタイプを確認（ポケモンかグッズなど）
     type_element = inner_table.find("div", class_="_t-type")
@@ -186,9 +186,8 @@ def main():
     project_root = os.path.dirname(script_dir)
     
     # 入力パターンと出力のパスを設定
-    html_file_pattern = os.path.join(script_dir, "ja-*.html")
-    output_file = os.path.join(project_root, "scripts/gw.json")
-    # output_file = os.path.join(project_root, "src/constants/data/scraped/GW.json") #ここは変更しないでください
+    html_file_pattern = os.path.join(script_dir, "./target/ja-*.html")
+    output_file = os.path.join(project_root, "src/constants/data/scraped/ja/ja.json") #ここは変更しないでください
     
     # 「ja-」で始まるすべてのHTMLファイルを検索
     html_files = glob.glob(html_file_pattern)

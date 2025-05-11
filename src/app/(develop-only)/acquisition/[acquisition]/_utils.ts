@@ -1,5 +1,5 @@
 import type { CARD_DATA } from '@/constants/data/converted';
-import type JA_DATA from '@/constants/data/scraped/gw/gw.json';
+import type JA_DATA from '@/constants/data/scraped/ja/ja.json';
 import type { Prisma } from '@/generated/prisma';
 
 /**

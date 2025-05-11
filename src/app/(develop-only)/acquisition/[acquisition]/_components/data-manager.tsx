@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Toggle } from '@/components/ui/toggle';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import type { CARD_DATA } from '@/constants/data/converted';
-import JA_DATA from '@/constants/data/scraped/gw/gw.json';
+import JA_DATA from '@/constants/data/scraped/ja/ja.json';
 import { ACQUISITION_LABEL } from '@/constants/types/acquisition';
 import type { Card } from '@/generated/prisma';
 import { cn } from '@/utils/classnames';

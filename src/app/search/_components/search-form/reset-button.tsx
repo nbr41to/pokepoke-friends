@@ -8,7 +8,7 @@ export const ResetButton = () => {
   return (
     <Button variant="secondary" onClick={resetQuery}>
       <ListX />
-      条件をリセットする
+      条件をすべてリセットする
     </Button>
   );
 };
