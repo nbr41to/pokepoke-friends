@@ -7,6 +7,7 @@ import { KeywordForm } from './keyword-form';
 import { MovePowerForm } from './move-power-form';
 import { PokemonTypeForm } from './pokemon-type-form';
 import { RarityForm } from './rarity-form';
+import { ResetButton } from './reset-button';
 import { RetreatCostForm } from './retreat-cost-form';
 
 export const SearchForm = () => {
@@ -22,6 +23,7 @@ export const SearchForm = () => {
       <RetreatCostForm />
       <AcquisitionForm />
       <KeywordForm />
+      <ResetButton />
     </div>
   );
 };

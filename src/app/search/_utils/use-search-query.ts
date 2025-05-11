@@ -1,5 +1,4 @@
 'use client';
-import type { Acquisition } from '@/constants/types/acquisition';
 import type { CardType } from '@/constants/types/card-types';
 import type { PokemonType } from '@/constants/types/pokemon-types';
 import type { CardRarity } from '@/constants/types/rarities';
@@ -13,9 +12,9 @@ const DEFAUT_QUERY = {
   hitpoints: [null, null] as [number | null, number | null],
   movePower: [null, null] as [number | null, number | null],
   attack: [null, null] as [number | null, number | null],
-  retreteCost: null as number | null,
+  retreatCost: null as number | null,
   rarities: [] as CardRarity[],
-  acquisition: [] as Acquisition[],
+  packName: [] as string[],
   keywords: '',
 };
 // const DEFAUT_QUERY = {
@@ -44,5 +43,6 @@ export const useSearchQuery = () => {
     query: xorDecrypt<typeof DEFAUT_QUERY>(query, PASSWORD),
     setQuery: (newQuery: typeof DEFAUT_QUERY) =>
       setQuery(xorEncrypt(newQuery, PASSWORD)),
+    resetQuery: () => setQuery(xorEncrypt(DEFAUT_QUERY, PASSWORD)),
   };
 };

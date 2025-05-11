@@ -8,7 +8,7 @@ export const RetreatCostForm = () => {
   const { query, setQuery } = useSearchQuery();
 
   const handleOnValueChange = (value: number | null) => {
-    setQuery({ ...query, retreteCost: value });
+    setQuery({ ...query, retreatCost: value });
   };
 
   return (
@@ -17,10 +17,10 @@ export const RetreatCostForm = () => {
       <div className="flex flex-grow items-center gap-x-1">
         <CounterForm
           options={[...POKEMON_RETREAT_COST_LIST]}
-          value={query.retreteCost}
+          value={query.retreatCost}
           onValueChange={handleOnValueChange}
           label="にげる"
-          renge={1}
+          range={1}
         />
       </div>
     </div>

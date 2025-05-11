@@ -9,8 +9,14 @@ export const useFilterdCards = () => {
   const filteredCards = useMemo(
     () =>
       CARD_DATA.filter((card) => {
-        const { cardTypes, pokemonTypes, rarities, hitpoints, movePower } =
-          query;
+        const {
+          cardTypes,
+          pokemonTypes,
+          rarities,
+          hitpoints,
+          movePower,
+          packName,
+        } = query;
         const { move1power, move2power } = card;
         const move1powerNum = move1power
           ? move1power?.endsWith('×') || move1power?.endsWith('+')
@@ -40,17 +46,23 @@ export const useFilterdCards = () => {
 
         return (
           /**
+           * pokemonTypes
+           * cardTypesがあるか、cardTypesがpokemonの時のみ有効
+           */
+          (pokemonTypes.length !== 0 && isPokemonOnly
+            ? pokemonTypes.includes(card.type as (typeof pokemonTypes)[0])
+            : true) &&
+          /**
            * cardTypes
            */
           (cardTypes.length !== 0
             ? cardTypes.includes(card.cardType as (typeof cardTypes)[0])
             : true) &&
           /**
-           * pokemonTypes
-           * cardTypesがあるか、cardTypesがpokemonの時のみ有効
+           * rarities
            */
-          (pokemonTypes.length !== 0 && isPokemonOnly
-            ? pokemonTypes.includes(card.type as (typeof pokemonTypes)[0])
+          (rarities.length !== 0
+            ? rarities.includes(card.rarity as (typeof rarities)[0])
             : true) &&
           /**
            * hitpoints
@@ -67,10 +79,28 @@ export const useFilterdCards = () => {
             ? lessThanMaxMovePower
             : true) &&
           /**
-           * rarities
+           * retreatCost
            */
-          (rarities.length !== 0
-            ? rarities.includes(card.rarity as (typeof rarities)[0])
+          (query.retreatCost !== null
+            ? card.retreat === query.retreatCost
+            : true) &&
+          /**
+           * packName
+           */
+          (packName.length !== 0 ? packName.includes(card.packName) : true) &&
+          /**
+           * keywords
+           */
+          (query.keywords !== ''
+            ? card.name.includes(query.keywords) ||
+              card.description?.includes(query.keywords) ||
+              card.abilityName?.includes(query.keywords) ||
+              card.abilityDescription?.includes(query.keywords) ||
+              card.move1name?.includes(query.keywords) ||
+              card.move1description?.includes(query.keywords) ||
+              card.move2name?.includes(query.keywords) ||
+              card.move2description?.includes(query.keywords) ||
+              card.packName?.includes(query.keywords)
             : true)
         );
       }),

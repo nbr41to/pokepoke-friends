@@ -3,6 +3,7 @@
 import { EnergyIcons } from '@/components/enegy-icons';
 import PokeBall from '@/components/icons/PokeBall';
 import { CARD_TYPE } from '@/constants/types/card-types';
+import { POKEMON_MOVE_ENERGY } from '@/constants/types/pokemon-status';
 import { CARD_RARUTIES_LABEL } from '@/constants/types/rarities';
 import { $Enums, type Card } from '@/generated/prisma';
 import { HardHat, Sprout, SquareUserRound, Wrench } from 'lucide-react';
@@ -13,6 +14,11 @@ type Props = {
   card: Card;
 };
 export const CardListItem = ({ card }: Props) => {
+  const weaknessSymbol =
+    Object.entries(POKEMON_MOVE_ENERGY).find(
+      ([, value]) => value === card.weakness,
+    )?.[0] ?? null;
+
   return (
     <Link
       className="flex items-center gap-x-1 py-1 transition-colors hover:bg-gray-100"
@@ -44,8 +50,7 @@ export const CardListItem = ({ card }: Props) => {
 
             <h2 className="font-bold">{card.name}</h2>
 
-            <span>（{card.evolveStage}）</span>
-
+            {card.evolveStage && <span>（{card.evolveStage}）</span>}
             {card.retreat != null && (
               <>
                 <span className="text-sm">にげる:</span>
@@ -59,7 +64,11 @@ export const CardListItem = ({ card }: Props) => {
             {card.cardType === CARD_TYPE.POKEMON && (
               <>
                 <span className="text-sm">弱点:</span>
-                {card.weakness || '　'}
+                {weaknessSymbol ? (
+                  <EnergyIcons energies={weaknessSymbol} size={14} />
+                ) : (
+                  '　'
+                )}
               </>
             )}
           </div>
@@ -116,7 +125,9 @@ export const CardListItem = ({ card }: Props) => {
         )}
 
         {/* ポケモン以外のカードの効果 */}
-        <p className="text-xs text-gray-500">{card.description}</p>
+        {card.cardType !== $Enums.CardType.pokemon && card.description && (
+          <p className="text-xs text-gray-800">{card.description}</p>
+        )}
       </div>
     </Link>
   );

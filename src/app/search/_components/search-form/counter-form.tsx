@@ -1,4 +1,5 @@
 'use client';
+
 import { Button } from '@/components/ui/button';
 import {
   Select,
@@ -16,14 +17,14 @@ type Props = {
   value: number | null;
   onValueChange: (value: number | null) => void;
   label?: string;
-  renge?: number;
+  range?: number;
 };
 export const CounterForm = ({
   options,
   value,
   onValueChange,
   label,
-  renge = 10,
+  range = 10,
 }: Props) => {
   const handleOnValueChange = (newValue: string) => {
     if (newValue === 'null') {
@@ -38,12 +39,12 @@ export const CounterForm = ({
   const handleIncrement = () => {
     const minCount = Math.min(...options);
     const maxCount = Math.max(...options);
-    if (!value) {
+    if (value === null) {
       onValueChange(minCount);
       return;
     }
     if (value < maxCount) {
-      onValueChange(value + renge);
+      onValueChange(value + range);
     } else {
       onValueChange(null);
     }
@@ -51,12 +52,12 @@ export const CounterForm = ({
   const handleDecrement = () => {
     const minCount = Math.min(...options);
     const maxCount = Math.max(...options);
-    if (!value) {
+    if (value === null) {
       onValueChange(maxCount);
       return;
     }
     if (value > minCount) {
-      onValueChange(value - renge);
+      onValueChange(value - range);
     } else {
       onValueChange(null);
     }
@@ -68,7 +69,7 @@ export const CounterForm = ({
         <MinusCircle className="size-5" />
       </Button>
       <Select
-        value={value?.toString() || 'null'}
+        value={value === null ? 'null' : value.toString()}
         onValueChange={handleOnValueChange}
       >
         <SelectTrigger className="w-20">
@@ -80,7 +81,7 @@ export const CounterForm = ({
             <SelectItem value="null">-</SelectItem>
             {options.map((option) => (
               <SelectItem key={option} value={option.toString()}>
-                {option}
+                {option.toString()}
               </SelectItem>
             ))}
           </SelectGroup>

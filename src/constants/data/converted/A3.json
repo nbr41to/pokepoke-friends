@@ -27,7 +27,7 @@
   {
     "id": 2,
     "cardNumber": "A3 #2",
-    "name": "Alolan Exeggutor",
+    "name": "アローラナッシー",
     "nameEn": "Alolan Exeggutor",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_002_EN.webp",
@@ -652,7 +652,7 @@
   {
     "id": 27,
     "cardNumber": "A3 #27",
-    "name": "Alolan Marowak",
+    "name": "アローラガラガラ",
     "nameEn": "Alolan Marowak",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_027_EN.webp",
@@ -927,7 +927,7 @@
   {
     "id": 38,
     "cardNumber": "A3 #38",
-    "name": "Alolan Sandshrew",
+    "name": "アローラサンド",
     "nameEn": "Alolan Sandshrew",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_038_EN.webp",
@@ -952,7 +952,7 @@
   {
     "id": 39,
     "cardNumber": "A3 #39",
-    "name": "Alolan Sandslash",
+    "name": "アローラサンドパン",
     "nameEn": "Alolan Sandslash",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_039_EN.webp",
@@ -977,7 +977,7 @@
   {
     "id": 40,
     "cardNumber": "A3 #40",
-    "name": "Alolan Vulpix",
+    "name": "アローラロコン",
     "nameEn": "Alolan Vulpix",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_040_EN.webp",
@@ -1002,7 +1002,7 @@
   {
     "id": 41,
     "cardNumber": "A3 #41",
-    "name": "Alolan Ninetales",
+    "name": "アローラキュウコン",
     "nameEn": "Alolan Ninetales",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_041_EN.webp",
@@ -1427,7 +1427,7 @@
   {
     "id": 58,
     "cardNumber": "A3 #58",
-    "name": "Alolan Raichu ex",
+    "name": "アローラライチュウ ex",
     "nameEn": "Alolan Raichu ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_058_EN.webp",
@@ -1452,7 +1452,7 @@
   {
     "id": 59,
     "cardNumber": "A3 #59",
-    "name": "Alolan Geodude",
+    "name": "アローライシツブテ",
     "nameEn": "Alolan Geodude",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_059_EN.webp",
@@ -1477,7 +1477,7 @@
   {
     "id": 60,
     "cardNumber": "A3 #60",
-    "name": "Alolan Graveler",
+    "name": "アローラゴローン",
     "nameEn": "Alolan Graveler",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_060_EN.webp",
@@ -1502,7 +1502,7 @@
   {
     "id": 61,
     "cardNumber": "A3 #61",
-    "name": "Alolan Golem",
+    "name": "アローラゴローニャ",
     "nameEn": "Alolan Golem",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_061_EN.webp",
@@ -2627,7 +2627,7 @@
   {
     "id": 106,
     "cardNumber": "A3 #106",
-    "name": "Alolan Rattata",
+    "name": "アローラコラッタ",
     "nameEn": "Alolan Rattata",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_106_EN.webp",
@@ -2652,7 +2652,7 @@
   {
     "id": 107,
     "cardNumber": "A3 #107",
-    "name": "Alolan Raticate",
+    "name": "アローララッタ",
     "nameEn": "Alolan Raticate",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_107_EN.webp",
@@ -2677,7 +2677,7 @@
   {
     "id": 108,
     "cardNumber": "A3 #108",
-    "name": "Alolan Meowth",
+    "name": "アローラニャース",
     "nameEn": "Alolan Meowth",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_108_EN.webp",
@@ -2702,7 +2702,7 @@
   {
     "id": 109,
     "cardNumber": "A3 #109",
-    "name": "Alolan Persian",
+    "name": "アローラペルシアン",
     "nameEn": "Alolan Persian",
     "rarity": "d3",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_109_EN.webp",
@@ -2727,7 +2727,7 @@
   {
     "id": 110,
     "cardNumber": "A3 #110",
-    "name": "Alolan Grimer",
+    "name": "アローラベトベター",
     "nameEn": "Alolan Grimer",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_110_EN.webp",
@@ -2752,7 +2752,7 @@
   {
     "id": 111,
     "cardNumber": "A3 #111",
-    "name": "Alolan Muk ex",
+    "name": "アローラベトベトン ex",
     "nameEn": "Alolan Muk ex",
     "rarity": "d4",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_111_EN.webp",
@@ -2902,7 +2902,7 @@
   {
     "id": 117,
     "cardNumber": "A3 #117",
-    "name": "Alolan Diglett",
+    "name": "アローラディグダ",
     "nameEn": "Alolan Diglett",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_117_EN.webp",
@@ -2927,7 +2927,7 @@
   {
     "id": 118,
     "cardNumber": "A3 #118",
-    "name": "Alolan Dugtrio",
+    "name": "アローラダグトリオ",
     "nameEn": "Alolan Dugtrio",
     "rarity": "d1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_118_EN.webp",
@@ -3527,7 +3527,7 @@
   {
     "id": 142,
     "cardNumber": "A3 #142",
-    "name": "Big Malasada",
+    "name": "おおきいマラサダ",
     "nameEn": "Big Malasada",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_142_EN.webp",
@@ -3537,7 +3537,7 @@
   {
     "id": 143,
     "cardNumber": "A3 #143",
-    "name": "Fishing Net",
+    "name": "おさかなネット",
     "nameEn": "Fishing Net",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_143_EN.webp",
@@ -3547,7 +3547,7 @@
   {
     "id": 144,
     "cardNumber": "A3 #144",
-    "name": "Rare Candy",
+    "name": "ふしぎなアメ",
     "nameEn": "Rare Candy",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_144_EN.webp",
@@ -3557,7 +3557,7 @@
   {
     "id": 145,
     "cardNumber": "A3 #145",
-    "name": "Rotom Dex",
+    "name": "ロトム図鑑",
     "nameEn": "Rotom Dex",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_145_EN.webp",
@@ -3567,22 +3567,22 @@
   {
     "id": 146,
     "cardNumber": "A3 #146",
-    "name": "Poison Barb",
+    "name": "どくバリ",
     "nameEn": "Poison Barb",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_146_EN.webp",
     "description": "If the Pokémon this card is attached to is your Active Pokémon and is damaged by an attack from your opponent's Pokémon, the Attacking Pokémon is now Poisoned.",
-    "cardType": "trainers-goods"
+    "cardType": "trainers-pokemon-tools"
   },
   {
     "id": 147,
     "cardNumber": "A3 #147",
-    "name": "Leaf Cape",
+    "name": "リーフマント",
     "nameEn": "Leaf Cape",
     "rarity": "d2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_147_EN.webp",
     "description": "The[G]Pokémon this card is attached to gets +30 HP.",
-    "cardType": "trainers-goods"
+    "cardType": "trainers-pokemon-tools"
   },
   {
     "id": 148,
@@ -3667,7 +3667,7 @@
   {
     "id": 156,
     "cardNumber": "A3 #156",
-    "name": "Alolan Exeggutor",
+    "name": "アローラナッシー",
     "nameEn": "Alolan Exeggutor",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_156_EN.webp",
@@ -3767,7 +3767,7 @@
   {
     "id": 160,
     "cardNumber": "A3 #160",
-    "name": "Alolan Marowak",
+    "name": "アローラガラガラ",
     "nameEn": "Alolan Marowak",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_160_EN.webp",
@@ -3817,7 +3817,7 @@
   {
     "id": 162,
     "cardNumber": "A3 #162",
-    "name": "Alolan Vulpix",
+    "name": "アローラロコン",
     "nameEn": "Alolan Vulpix",
     "rarity": "s1",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_162_EN.webp",
@@ -4392,7 +4392,7 @@
   {
     "id": 185,
     "cardNumber": "A3 #185",
-    "name": "Alolan Raichu ex",
+    "name": "アローラライチュウ ex",
     "nameEn": "Alolan Raichu ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_185_EN.webp",
@@ -4467,7 +4467,7 @@
   {
     "id": 188,
     "cardNumber": "A3 #188",
-    "name": "Alolan Muk ex",
+    "name": "アローラベトベトン ex",
     "nameEn": "Alolan Muk ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_188_EN.webp",
@@ -4722,7 +4722,7 @@
   {
     "id": 203,
     "cardNumber": "A3 #203",
-    "name": "Alolan Raichu ex",
+    "name": "アローラライチュウ ex",
     "nameEn": "Alolan Raichu ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_203_EN.webp",
@@ -4797,7 +4797,7 @@
   {
     "id": 206,
     "cardNumber": "A3 #206",
-    "name": "Alolan Muk ex",
+    "name": "アローラベトベトン ex",
     "nameEn": "Alolan Muk ex",
     "rarity": "s2",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3/A3_206_EN.webp",

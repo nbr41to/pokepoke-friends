@@ -9,7 +9,9 @@ import { useFilterdCards } from './use-filterd-cards';
 
 export const SearchResults = () => {
   const filteredCards = useFilterdCards();
-  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+  const [viewMode, setViewMode] = useState<
+    'small-grid' | 'large-grid' | 'list'
+  >('large-grid');
 
   return (
     <div className="space-y-2">
@@ -18,13 +20,15 @@ export const SearchResults = () => {
         <ToggleGroup
           type="single"
           value={viewMode}
-          onValueChange={(value) => setViewMode(value as 'grid' | 'list')}
+          onValueChange={(value) =>
+            setViewMode(value as 'small-grid' | 'large-grid' | 'list')
+          }
           className="border"
         >
-          <ToggleGroupItem value="grid" aria-label="Grid view">
+          <ToggleGroupItem value="large-grid" aria-label="Grid view">
             <Grid2X2 className="size-5" />
           </ToggleGroupItem>
-          <ToggleGroupItem value="grid" aria-label="Grid view">
+          <ToggleGroupItem value="small-grid" aria-label="Grid view">
             <Grid3X3 className="size-5" />
           </ToggleGroupItem>
           <ToggleGroupItem value="list" aria-label="List view">
@@ -33,7 +37,12 @@ export const SearchResults = () => {
         </ToggleGroup>
       </div>
 
-      {viewMode === 'grid' && <GridList cards={filteredCards} />}
+      {viewMode === 'small-grid' && (
+        <GridList size="small" cards={filteredCards} />
+      )}
+      {viewMode === 'large-grid' && (
+        <GridList size="large" cards={filteredCards} />
+      )}
       {viewMode === 'list' && <CardList cards={filteredCards} />}
     </div>
   );

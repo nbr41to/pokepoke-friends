@@ -33,7 +33,7 @@ EVOLVE_STAGE_MAPPING = {
 TRAINER_TYPE_MAPPING = {
     "Item": "trainers-goods",
     "Supporter": "trainers-support",
-    "Pokémon Tool": "trainers-pokemon-tools",
+    "Tool": "trainers-pokemon-tools",
 }
 
 # レア度のマッピング
@@ -82,11 +82,21 @@ def convert_pokemon_name(name: str, pokemon_names_map: Dict[str, str]) -> str:
         suffix = ex_suffix_match.group(0)  # 空白を含む接尾辞（例: " ex"）
         base_name = name[:ex_suffix_match.start()]
     
+    # Alolan形式のポケモン名を検出（例: "Alolan Vulpix"）
+    alolan_prefix = ""
+    if base_name.startswith("Alolan "):
+        alolan_prefix = "アローラ"  # 日本語の接頭辞
+        base_name = base_name[len("Alolan "):]  # "Alolan "を取り除く
+    
     # 名前の先頭に数字やアルファベットがある場合、それを除去して検索（例: "1.Bulbasaur" -> "Bulbasaur"）
     cleaned_name = re.sub(r'^[\d\W]+\.?\s*', '', base_name)
     
     # 基本名を翻訳
     translated_base = pokemon_names_map.get(cleaned_name, base_name)
+    
+    # アローラ形式の場合、接頭辞を追加
+    if alolan_prefix:
+        translated_base = alolan_prefix + translated_base
     
     # 接尾辞がある場合は、翻訳した基本名に接尾辞を再結合
     if suffix:

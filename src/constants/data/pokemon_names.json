@@ -2724,11 +2724,11 @@
     "en": "Porygon"
   },
   {
-    "ja": "ポリゴンＺ",
+    "ja": "ポリゴンZ",
     "en": "Porygon-Z"
   },
   {
-    "ja": "ポリゴン２",
+    "ja": "ポリゴン2",
     "en": "Porygon2"
   },
   {
@@ -4100,6 +4100,26 @@
     "en": "Zygarde"
   },
   {
+    "ja": "ヒートロトム",
+    "en": "Heat Rotom"
+  },
+  {
+    "ja": "フロストロトム",
+    "en": "Frost Rotom"
+  },
+  {
+    "ja": "ウォッシュロトム",
+    "en": "Wash Rotom"
+  },
+  {
+    "ja": "スピンロトム",
+    "en": "Fan Rotom"
+  },
+  {
+    "ja": "カットロトム",
+    "en": "Mow Rotom"
+  },
+  {
     "ja": "エリカ",
     "en": "Erika"
   },
@@ -4262,5 +4282,54 @@
   {
     "ja": "幻の石板",
     "en": "Mythical Slab"
+  },
+  {
+    "ja": "ずがいの化石",
+    "en": "Skull Fossil"
+  },
+  {
+    "ja": "たての化石",
+    "en": "Armor Fossil"
+  },
+  {
+    "ja": "ポケモン通信",
+    "en": "Pokémon Communication"
+  },
+  {
+    "ja": "大きなマント",
+    "en": "Giant Cape"
+  },
+  {
+    "ja": "ゴツゴツメット",
+    "en": "Rocky Helmet"
+  },
+  {
+    "ja": "ラムのみ",
+    "en": "Lum Berry"
+  },
+
+  {
+    "ja": "おおきいマラサダ",
+    "en": "Big Malasada"
+  },
+  {
+    "ja": "おさかなネット",
+    "en": "Fishing Net"
+  },
+  {
+    "ja": "ふしぎなアメ",
+    "en": "Rare Candy"
+  },
+  {
+    "ja": "ロトム図鑑",
+    "en": "Rotom Dex"
+  },
+  {
+    "ja": "どくバリ",
+    "en": "Poison Barb"
+  },
+  {
+    "ja": "リーフマント",
+    "en": "Leaf Cape"
   }
 ]
