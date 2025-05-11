@@ -16,6 +16,11 @@ export const useFilterdCards = () => {
           hitpoints,
           movePower,
           packName,
+          moveEnergy,
+          moveColorlessEnergy,
+          retreatCost,
+          keywords,
+          hasAbility,
         } = query;
         const { move1power, move2power } = card;
         const move1powerNum = move1power
@@ -45,7 +50,7 @@ export const useFilterdCards = () => {
             (move2powerNum && move2powerNum <= movePower[1]));
 
         // カードのキーワードをカナに変換
-        const keywordsKatakana = query.keywords.replace(
+        const keywordsKatakana = keywords.replace(
           /[\u3041-\u3096]/g,
           (match) => {
             const katakana = String.fromCharCode(match.charCodeAt(0) + 96);
@@ -88,10 +93,32 @@ export const useFilterdCards = () => {
             ? lessThanMaxMovePower
             : true) &&
           /**
+           * moveEnergy
+           */
+          (moveEnergy !== null && isPokemonOnly
+            ? card.move1energy?.length === moveEnergy ||
+              card.move2energy?.length === moveEnergy
+            : true) &&
+          /**
+           * moveNoneColorlessEnergy
+           */
+          (moveColorlessEnergy !== null && isPokemonOnly
+            ? card.move1energy?.split('').filter((energy) => energy === 'C')
+                .length === moveColorlessEnergy ||
+              card.move2energy?.split('').filter((energy) => energy === 'C')
+                .length === moveColorlessEnergy
+            : true) &&
+          /**
            * retreatCost
            */
-          (query.retreatCost !== null
-            ? card.retreat === query.retreatCost
+          (retreatCost !== null ? card.retreat === retreatCost : true) &&
+          /**
+           * hasAbility
+           */
+          (hasAbility !== null && isPokemonOnly
+            ? hasAbility
+              ? card.abilityName !== null && card.abilityDescription !== null
+              : card.abilityName === null && card.abilityDescription === null
             : true) &&
           /**
            * packName
@@ -102,16 +129,16 @@ export const useFilterdCards = () => {
           /**
            * keywords
            */
-          (query.keywords !== ''
-            ? card.name.includes(query.keywords) ||
-              card.description?.includes(query.keywords) ||
-              card.abilityName?.includes(query.keywords) ||
-              card.abilityDescription?.includes(query.keywords) ||
-              card.move1name?.includes(query.keywords) ||
-              card.move1description?.includes(query.keywords) ||
-              card.move2name?.includes(query.keywords) ||
-              card.move2description?.includes(query.keywords) ||
-              card.packName?.includes(query.keywords) ||
+          (keywords !== ''
+            ? card.name.includes(keywords) ||
+              card.description?.includes(keywords) ||
+              card.abilityName?.includes(keywords) ||
+              card.abilityDescription?.includes(keywords) ||
+              card.move1name?.includes(keywords) ||
+              card.move1description?.includes(keywords) ||
+              card.move2name?.includes(keywords) ||
+              card.move2description?.includes(keywords) ||
+              card.packName?.includes(keywords) ||
               // 変換したカタカナと比較
               card.name.includes(keywordsKatakana) ||
               card.description?.includes(keywordsKatakana) ||

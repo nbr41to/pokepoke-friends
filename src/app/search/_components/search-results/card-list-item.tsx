@@ -74,11 +74,37 @@ export const CardListItem = ({ card }: Props) => {
           </div>
         </div>
 
+        {/* その他のステータス */}
+        {card.cardType === CARD_TYPE.POKEMON && (
+          <div className="flex items-end gap-x-4 sm:justify-start">
+            <div className="flex items-end gap-x-px">
+              <span className="pb-px text-xs">HP</span>
+              <span className="font-bold">{card.hp}</span>
+            </div>
+            <div className="flex items-center gap-x-1">
+              <span className="text-xs">弱点</span>
+              {weaknessSymbol ? (
+                <EnergyIcons energies={weaknessSymbol} size={16} />
+              ) : (
+                '　'
+              )}
+            </div>
+            <div className="flex items-center gap-x-1">
+              <span className="text-xs">にげる</span>
+              {card.retreat && card.retreat > 0 ? (
+                <EnergyIcons energies={'C'.repeat(card.retreat)} size={16} />
+              ) : (
+                '　'
+              )}
+            </div>
+          </div>
+        )}
+
         {/* わざ1 */}
         {card.move1name && card.move1energy && (
           <div className="space-y-1 py-1 text-sm">
             <p className="flex items-center gap-x-2">
-              <EnergyIcons energies={card.move1energy} />
+              <EnergyIcons size={16} energies={card.move1energy} />
               <span className="font-bold">{card.move1name}</span>
               <span className="font-bold">{card.move1power}</span>
             </p>
@@ -90,7 +116,7 @@ export const CardListItem = ({ card }: Props) => {
         {card.move2name && card.move2energy && (
           <div className="space-y-1 py-1 text-sm">
             <p className="flex items-center gap-x-2">
-              <EnergyIcons energies={card.move2energy} />
+              <EnergyIcons size={16} energies={card.move2energy} />
               <span className="font-bold">{card.move2name}</span>
               <span className="font-bold">{card.move2power}</span>
             </p>
@@ -111,27 +137,6 @@ export const CardListItem = ({ card }: Props) => {
         {/* ポケモン以外のカードの効果 */}
         {card.cardType !== $Enums.CardType.pokemon && card.description && (
           <p className="py-1 text-xs text-gray-800">{card.description}</p>
-        )}
-        {card.cardType === CARD_TYPE.POKEMON && (
-          <div className="flex items-center justify-between gap-x-4 sm:justify-start">
-            <div className="flex items-center gap-x-1">
-              <span className="text-xs">弱点</span>
-              {weaknessSymbol ? (
-                <EnergyIcons energies={weaknessSymbol} size={14} />
-              ) : (
-                '　'
-              )}
-            </div>
-
-            <div className="flex items-center gap-x-1">
-              <span className="text-xs">にげる</span>
-              {card.retreat && card.retreat > 0 ? (
-                <EnergyIcons energies={'C'.repeat(card.retreat)} size={14} />
-              ) : (
-                '　'
-              )}
-            </div>
-          </div>
         )}
       </div>
     </Link>
