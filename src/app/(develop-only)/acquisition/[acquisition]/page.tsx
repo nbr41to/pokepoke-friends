@@ -8,7 +8,6 @@ export default async function Page({
   params,
 }: {
   params: Promise<{ acquisition: string }>;
-  searchParams: { [key: string]: string | string[] | undefined };
 }) {
   const { acquisition } = await params;
   const cardPackName =

@@ -1,5 +1,4 @@
 'use client';
-
 import { AcquisitionForm } from './acquisition-form';
 import { CardTypeForm } from './card-type-form';
 import { HitpointsForm } from './hitpoints-form';

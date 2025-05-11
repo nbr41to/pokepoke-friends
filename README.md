@@ -10,6 +10,11 @@ bun dev
 
 ## Generate Data
 
+0.create basic data
+```bash
+python3 scripts/get_data.py && python3 scripts/convert_card_data.py && python3 scripts/get_data_ja.py
+```
+
 1.scraping
 
 ```bash
