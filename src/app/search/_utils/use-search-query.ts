@@ -1,36 +1,81 @@
 'use client';
-import type { PokemonType } from '@/constants/types/pokemon-types';
 import type { CardRarity } from '@/constants/types/rarities';
-import type { CardType } from '@/generated/prisma';
+import type {
+  CardType,
+  PokemonEvolveStage,
+  PokemonType,
+} from '@/generated/prisma';
 import { xorDecrypt, xorEncrypt } from '@/utils/crypto';
 import { useQueryState } from 'nuqs';
 
 const PASSWORD = 'password';
-const DEFAUT_QUERY = {
-  cardTypes: [] as CardType[],
-  pokemonTypes: [] as PokemonType[],
-  hitpoints: [null, null] as [number | null, number | null],
-  movePower: [null, null] as [number | null, number | null],
-  moveEnergy: null as number | null,
-  moveNoneColorlessEnergy: null as number | null,
-  moveColorlessEnergy: null as number | null,
-  hasAbility: null as boolean | null,
-  attack: [null, null] as [number | null, number | null],
-  retreatCost: null as number | null,
-  rarities: [] as CardRarity[],
-  packName: [] as string[],
+
+type Condition = {
+  cardTypes?: CardType[];
+  pokemonTypes?: PokemonType[];
+  evolveStages?: PokemonEvolveStage[];
+  hitpoints?: [number | null, number | null];
+  movePower?: [number | null, number | null];
+  moveEnergy?: number | null;
+  moveColorlessEnergy?: number | null;
+  hasAbility?: boolean | null;
+  attack?: [number | null, number | null];
+  retreatCost?: number | null;
+  rarities?: CardRarity[];
+  packName?: string[];
+  keywords?: string;
+};
+const DEFAULT_QUERY: Condition = {
+  cardTypes: [],
+  pokemonTypes: [],
+  evolveStages: [],
+  hitpoints: [null, null],
+  movePower: [null, null],
+  moveEnergy: null,
+  moveColorlessEnergy: null,
+  hasAbility: null,
+  attack: [null, null],
+  retreatCost: null,
+  rarities: [],
+  packName: [],
   keywords: '',
+} as const;
+
+const conditionToQuery = (condition: Condition) => {
+  for (const [key, value] of Object.entries(condition)) {
+    if (value === null) {
+      delete condition[key as keyof Condition];
+    }
+    if (Array.isArray(value)) {
+      if (value.length === 0) {
+        delete condition[key as keyof Condition];
+      }
+      if (value[0] === null && value[1] === null) {
+        delete condition[key as keyof Condition];
+      }
+    }
+  }
+
+  return xorEncrypt(condition, PASSWORD);
+};
+
+const queryToCondition = (query: string) => {
+  const decryptedCondition = xorDecrypt<Condition>(query, PASSWORD);
+
+  return {
+    ...DEFAULT_QUERY,
+    ...decryptedCondition,
+  };
 };
 
 export const useSearchQuery = () => {
   const [query, setQuery] = useQueryState('query', {
-    defaultValue: xorEncrypt(DEFAUT_QUERY, PASSWORD),
+    defaultValue: conditionToQuery({}),
   });
 
   return {
-    query: xorDecrypt<typeof DEFAUT_QUERY>(query, PASSWORD),
-    setQuery: (newQuery: typeof DEFAUT_QUERY) =>
-      setQuery(xorEncrypt(newQuery, PASSWORD)),
-    resetQuery: () => setQuery(xorEncrypt(DEFAUT_QUERY, PASSWORD)),
+    query: queryToCondition(query),
+    setQuery: (newQuery: Condition) => setQuery(conditionToQuery(newQuery)),
+    resetQuery: () => setQuery(xorEncrypt({}, PASSWORD)),
   };
 };

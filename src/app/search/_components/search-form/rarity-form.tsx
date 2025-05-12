@@ -16,7 +16,7 @@ export const RarityForm = () => {
   const handleOnValueChange = (value: string[]) => {
     setQuery({ ...query, rarities: value as CardRarity[] });
   };
-  const isCleared = query.rarities.length === 0;
+  const isCleared = query.rarities?.length === 0;
 
   return (
     <div className="flex items-center gap-x-1">

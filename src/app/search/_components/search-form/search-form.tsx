@@ -1,6 +1,7 @@
 'use client';
 import { AcquisitionForm } from './acquisition-form';
 import { CardTypeForm } from './card-type-form';
+import { EvolveStageForm } from './evolve-stage-form';
 import { HasAbilityForm } from './has-ability-form';
 import { HitpointsForm } from './hitpoints-form';
 import { KeywordForm } from './keyword-form';
@@ -20,6 +21,7 @@ export const SearchForm = () => {
       <div className="flex flex-wrap items-center justify-center gap-3">
         <RarityForm />
         <CardTypeForm />
+        <EvolveStageForm />
       </div>
       <HitpointsForm />
       <MovePowerForm />

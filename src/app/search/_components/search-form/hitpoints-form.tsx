@@ -7,10 +7,10 @@ export const HitpointsForm = () => {
   const { query, setQuery } = useSearchQuery();
 
   const handleOnValueChangeMin = (value: number | null) => {
-    setQuery({ ...query, hitpoints: [value, query.hitpoints[1]] });
+    setQuery({ ...query, hitpoints: [value, query.hitpoints?.[1] || null] });
   };
   const handleOnValueChangeMax = (value: number | null) => {
-    setQuery({ ...query, hitpoints: [query.hitpoints[0], value] });
+    setQuery({ ...query, hitpoints: [query.hitpoints?.[0] || null, value] });
   };
 
   return (
@@ -21,14 +21,14 @@ export const HitpointsForm = () => {
       <div className="flex items-center gap-x-1">
         <CounterForm
           options={[...POKEMON_HITPOINTS_LIST]}
-          value={query.hitpoints[0]}
+          value={query.hitpoints?.[0] || null}
           onValueChange={handleOnValueChangeMin}
           label="HP最小"
         />
         <span>〜</span>
         <CounterForm
           options={[...POKEMON_HITPOINTS_LIST]}
-          value={query.hitpoints[1]}
+          value={query.hitpoints?.[1] || null}
           onValueChange={handleOnValueChangeMax}
           label="HP最大"
         />

@@ -47,7 +47,7 @@ const LazyCardListItem = ({ card }: LazyCardListItemProps) => {
   }, []);
 
   return (
-    <div className="h-[102px]" ref={ref}>
+    <div className="min-h-[102px]" ref={ref}>
       {isVisible ? <CardListItem card={card} /> : <></>}
     </div>
   );
