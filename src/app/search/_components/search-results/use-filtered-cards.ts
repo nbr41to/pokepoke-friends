@@ -1,9 +1,9 @@
 import CARD_DATA from '@/constants/data/all_cards.json';
-import type { Card } from '@/generated/prisma';
+import type { Card, PokemonEvolveStage } from '@/generated/prisma';
 import { useMemo } from 'react';
 import { useSearchQuery } from '../../_utils/use-search-query';
 
-export const useFilterdCards = () => {
+export const useFilteredCards = () => {
   const { query } = useSearchQuery();
 
   const filteredCards = useMemo(
@@ -13,6 +13,7 @@ export const useFilterdCards = () => {
           cardTypes,
           pokemonTypes,
           rarities,
+          evolveStages,
           hitpoints,
           movePower,
           packName,
@@ -77,6 +78,12 @@ export const useFilterdCards = () => {
            */
           (rarities.length !== 0
             ? rarities.includes(card.rarity as (typeof rarities)[0])
+            : true) &&
+          /**
+           * evolveStages
+           */
+          (evolveStages.length !== 0 && isPokemonOnly
+            ? evolveStages.includes(card.evolveStage as PokemonEvolveStage)
             : true) &&
           /**
            * hitpoints

@@ -11,21 +11,20 @@ import { useQueryState } from 'nuqs';
 const PASSWORD = 'password';
 
 type Condition = {
-  cardTypes?: CardType[];
-  pokemonTypes?: PokemonType[];
-  evolveStages?: PokemonEvolveStage[];
-  hitpoints?: [number | null, number | null];
-  movePower?: [number | null, number | null];
-  moveEnergy?: number | null;
-  moveColorlessEnergy?: number | null;
-  hasAbility?: boolean | null;
-  attack?: [number | null, number | null];
-  retreatCost?: number | null;
-  rarities?: CardRarity[];
-  packName?: string[];
-  keywords?: string;
+  cardTypes: CardType[];
+  pokemonTypes: PokemonType[];
+  evolveStages: PokemonEvolveStage[];
+  hitpoints: [number | null, number | null];
+  movePower: [number | null, number | null];
+  moveEnergy: number | null;
+  moveColorlessEnergy: number | null;
+  hasAbility: boolean | null;
+  retreatCost: number | null;
+  rarities: CardRarity[];
+  packName: string[];
+  keywords: string;
 };
-const DEFAULT_QUERY: Condition = {
+const DEFAULT_CONDITION: Condition = {
   cardTypes: [],
   pokemonTypes: [],
   evolveStages: [],
@@ -34,7 +33,6 @@ const DEFAULT_QUERY: Condition = {
   moveEnergy: null,
   moveColorlessEnergy: null,
   hasAbility: null,
-  attack: [null, null],
   retreatCost: null,
   rarities: [],
   packName: [],
@@ -63,19 +61,19 @@ const queryToCondition = (query: string) => {
   const decryptedCondition = xorDecrypt<Condition>(query, PASSWORD);
 
   return {
-    ...DEFAULT_QUERY,
+    ...DEFAULT_CONDITION,
     ...decryptedCondition,
-  };
+  } as Condition;
 };
 
 export const useSearchQuery = () => {
   const [query, setQuery] = useQueryState('query', {
-    defaultValue: conditionToQuery({}),
+    defaultValue: xorEncrypt(DEFAULT_CONDITION, PASSWORD),
   });
 
   return {
     query: queryToCondition(query),
     setQuery: (newQuery: Condition) => setQuery(conditionToQuery(newQuery)),
-    resetQuery: () => setQuery(xorEncrypt({}, PASSWORD)),
+    resetQuery: () => setQuery(xorEncrypt(DEFAULT_CONDITION, PASSWORD)),
   };
 };

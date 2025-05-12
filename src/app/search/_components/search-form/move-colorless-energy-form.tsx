@@ -37,7 +37,7 @@ export const MoveColorlessEnergyForm = () => {
       <div className="flex items-center gap-x-1">
         <CounterForm
           options={[...MOVE_COLORLESS_ENERGY_LIST]}
-          value={query.moveColorlessEnergy || null}
+          value={query.moveColorlessEnergy}
           onValueChange={handleOnValueChange}
           label="わざのノーマルエネ数"
           range={1}

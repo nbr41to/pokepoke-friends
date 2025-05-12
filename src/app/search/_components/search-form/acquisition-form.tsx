@@ -34,7 +34,7 @@ export const AcquisitionForm = () => {
         }))}
         placeholder="選択してください"
         emptyMessage="該当するパックはありません"
-        value={query.packName || []}
+        value={query.packName}
         onChange={handleOnChange}
       />
     </div>

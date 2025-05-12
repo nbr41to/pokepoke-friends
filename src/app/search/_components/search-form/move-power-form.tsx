@@ -7,10 +7,10 @@ export const MovePowerForm = () => {
   const { query, setQuery } = useSearchQuery();
 
   const handleOnValueChangeMin = (value: number | null) => {
-    setQuery({ ...query, movePower: [value, query.movePower?.[1] || null] });
+    setQuery({ ...query, movePower: [value, query.movePower[1]] });
   };
   const handleOnValueChangeMax = (value: number | null) => {
-    setQuery({ ...query, movePower: [query.movePower?.[0] || null, value] });
+    setQuery({ ...query, movePower: [query.movePower[0], value] });
   };
 
   return (
@@ -21,14 +21,14 @@ export const MovePowerForm = () => {
       <div className="flex items-center gap-x-1">
         <CounterForm
           options={[...POKEMON_MOVE_POWER_LIST]}
-          value={query.movePower?.[0] || null}
+          value={query.movePower[0]}
           onValueChange={handleOnValueChangeMin}
           label="わざ威力最小"
         />
         <span>〜</span>
         <CounterForm
           options={[...POKEMON_MOVE_POWER_LIST]}
-          value={query.movePower?.[1] || null}
+          value={query.movePower[1]}
           onValueChange={handleOnValueChangeMax}
           label="わざ威力最大"
         />

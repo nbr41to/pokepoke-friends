@@ -17,7 +17,7 @@ export const PokemonTypeForm = () => {
   const handleOnValueChange = (value: string[]) => {
     setQuery({ ...query, pokemonTypes: value as PokemonType[] });
   };
-  const isCleared = query.pokemonTypes?.length === 0;
+  const isCleared = query.pokemonTypes.length === 0;
 
   return (
     <div className="flex justify-center gap-x-1">

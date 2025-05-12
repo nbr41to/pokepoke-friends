@@ -6,10 +6,10 @@ import { Grid2X2, Grid3X3, TableProperties } from 'lucide-react';
 import { useQueryState } from 'nuqs';
 import { CardList } from './card-list';
 import { GridList } from './grid-list';
-import { useFilterdCards } from './use-filterd-cards';
+import { useFilteredCards } from './use-filtered-cards';
 
 export const SearchResults = () => {
-  const filteredCards = useFilterdCards();
+  const filteredCards = useFilteredCards();
   const [viewMode, setViewMode] = useQueryState('view', {
     defaultValue: '',
   });
