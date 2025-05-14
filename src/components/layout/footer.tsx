@@ -4,7 +4,7 @@ import PokeBall from '../icons/PokeBall';
 
 export const Footer = () => {
   return (
-    <footer className="fixed bottom-0 z-10 h-12 w-full max-w-2xl border-t bg-white">
+    <footer className="fixed bottom-0 z-10 h-12 w-full border-t bg-white md:hidden">
       <nav className="flex h-full items-center justify-around divide-x">
         <Link href="/" className="grid h-full grow place-content-center">
           <PokeBall size={24} />
