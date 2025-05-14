@@ -20,6 +20,7 @@
 # production
 /build
 gw.html
+scripts/target/
 
 # misc
 .DS_Store
