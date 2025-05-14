@@ -65,8 +65,8 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
         <Image
           src={card.image}
           alt="card"
-          width={86}
-          height={120}
+          width={0}
+          height={0}
           style={{ width: 'auto', height: '120px' }}
           unoptimized
         />
@@ -75,8 +75,8 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
             className="absolute top-16 right-0 group-hover:opacity-0"
             src={current.image}
             alt="card"
-            width={30}
-            height={60}
+            width={0}
+            height={0}
             style={{ width: 'auto', height: '60px' }}
             unoptimized
           />
@@ -106,8 +106,8 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
             <Image
               src={data.image_url}
               alt="card"
-              width={86}
-              height={120}
+              width={0}
+              height={0}
               style={{ width: 'auto', height: '120px' }}
               unoptimized
             />
@@ -153,11 +153,7 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
       </div>
       <div className="mt-auto ml-auto">
         <Button variant="link" size="lg" asChild>
-          <Link
-            href={`/acquisition/${params.numbering.split('#')[0]}/${params.numbering.split('#')[1]}`}
-          >
-            個別で編集
-          </Link>
+          <Link href={`/edit-card/${params.name}`}>個別で編集</Link>
         </Button>
 
         <Button
