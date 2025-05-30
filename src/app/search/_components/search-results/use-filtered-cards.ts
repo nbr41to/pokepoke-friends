@@ -8,7 +8,7 @@ export const useFilteredCards = () => {
 
   const filteredCards = useMemo(
     () =>
-      CARD_DATA.filter((card) => {
+      (CARD_DATA as Card[]).filter((card) => {
         const {
           cardTypes,
           pokemonTypes,
@@ -131,7 +131,7 @@ export const useFilteredCards = () => {
            * packName
            */
           (packName.length !== 0
-            ? packName.some((name) => card.packName.startsWith(name))
+            ? packName.some((name) => card.packName?.startsWith(name))
             : true) &&
           /**
            * keywords

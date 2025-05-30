@@ -2,12 +2,13 @@
 
 import { EnergyIcons } from '@/components/enegy-icons';
 import CARD_DATA from '@/constants/data/all_cards.json';
+import type { Card } from '@/generated/prisma';
 import { useSearchQuery } from '../../_utils/use-search-query';
 import { CounterForm } from './counter-form';
 
 const MOVE_COLORLESS_ENERGY_LIST = [
   ...new Set(
-    CARD_DATA.flatMap((card) => {
+    (CARD_DATA as Card[]).flatMap((card) => {
       const move1Energy = card.move1energy
         ? card.move1energy.split('').filter((e) => e !== 'C').length
         : null;
