@@ -15,10 +15,13 @@ import {
   ACQUISITION_LABEL,
   ACQUISITION_LIST,
 } from '@/constants/types/acquisition';
+import type { Card } from '@/generated/prisma';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
-const pokemonNames = [...new Set(ALL_CARDS.map((card) => card.name))].sort();
+const pokemonNames = [
+  ...new Set((ALL_CARDS as Card[]).map((card) => card.name)),
+].sort();
 
 export function DevCommand() {
   const router = useRouter();

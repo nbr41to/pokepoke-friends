@@ -52,7 +52,7 @@ RARITY_MAPPING = {
 }
 
 # 変換対象のシリーズリスト（デフォルト）
-DEFAULT_SERIES_LIST = ["A1", "A1a", "A2", "A2a", "A2b", "A3", "P-A"]
+DEFAULT_SERIES_LIST = ["A1", "A1a", "A2", "A2a", "A2b", "A3", "A3a", "P-A"]
 
 def load_pokemon_names(script_dir: Path) -> Dict[str, str]:
     """ポケモンの英語名と日本語名のマッピングを読み込む"""

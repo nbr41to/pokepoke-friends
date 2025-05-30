@@ -188,6 +188,20 @@ export const EditForm = ({ card }: Props) => {
             />
             <FormField
               control={form.control}
+              name="tags"
+              render={({ field: { value, ...field } }) => (
+                <FormItem className="col-span-2">
+                  <FormLabel>tags</FormLabel>
+                  <FormControl>
+                    <Input value={value || ''} {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <div className="col-span-2" />
+            <FormField
+              control={form.control}
               name="type"
               render={({ field: { value, onChange, ...field } }) => (
                 <FormItem>

@@ -1,0 +1,2561 @@
+[
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Seed Bomb",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_001_EN.webp",
+    "name": "Petilil",
+    "numbering": "A3a #1",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/1",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "GC",
+        "name": "Cut",
+        "damage": "60",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+    "evole_stage": "Stage 1",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_002_EN.webp",
+    "name": "Lilligant",
+    "numbering": "A3a #2",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/2",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Fury Attack",
+        "damage": "10x",
+        "description": "Flip 3 coins. This attack does 10 damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_003_EN.webp",
+    "name": "Rowlet",
+    "numbering": "A3a #3",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/3",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Skill Dive",
+        "damage": null,
+        "description": "This attack does 20 damage to 1 of your opponent's Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This narcissistic Pokémon is a clean freak. If you don’t groom it diligently, it may stop listening to you.",
+    "evole_stage": "Stage 1",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_004_EN.webp",
+    "name": "Dartrix",
+    "numbering": "A3a #4",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/4",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "GG",
+        "name": "Sniping Arrow",
+        "damage": null,
+        "description": "This attack does 70 damage to 1 of your opponent's Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It nocks its arrow quills and shoots them at opponents. When it simply can’t afford to miss, it tugs the vine on its head to improve its focus.",
+    "evole_stage": "Stage 2",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_005_EN.webp",
+    "name": "Decidueye",
+    "numbering": "A3a #5",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/5",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Punch",
+        "damage": "30",
+        "description": null
+      },
+      {
+        "energy": "GGC",
+        "name": "Big Beat",
+        "damage": "120",
+        "description": "During your next turn, this Pokémon can't use Big Beat."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_006_EN.webp",
+    "name": "Buzzwole ex",
+    "numbering": "A3a #6",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "◊◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/6",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Jump Blues",
+        "damage": "20",
+        "description": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "A life-form that lives in another world, its body is thin and supple, but it also possesses great power.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_007_EN.webp",
+    "name": "Pheromosa",
+    "numbering": "A3a #7",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/7",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Thrash Metal",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This Ultra Beast’s body, which is as thin as paper, is like a sharpened sword.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_008_EN.webp",
+    "name": "Kartana",
+    "numbering": "A3a #8",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/8",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "RRC",
+        "name": "Beat Punk",
+        "damage": "130",
+        "description": "This Pokémon also does 70 damage to itself."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast.",
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_009_EN.webp",
+    "name": "Blacephalon",
+    "numbering": "A3a #9",
+    "pack": "Common",
+    "pokemon_type": "Fire",
+    "rarity": "◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/9",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "WC",
+        "name": "Surf",
+        "damage": "50",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet.",
+    "evole_stage": "Basic",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_010_EN.webp",
+    "name": "Mantine",
+    "numbering": "A3a #10",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/10",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "W",
+        "name": "Bite",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It won’t attack while it’s alone—not even if it spots prey. Instead, it waits for other Carvanha to join it, and then the Pokémon attack as a group.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_011_EN.webp",
+    "name": "Carvanha",
+    "numbering": "A3a #11",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/11",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "WC",
+        "name": "Crunch",
+        "damage": "50",
+        "description": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "As soon as it catches the scent of prey, Sharpedo will jet seawater from its backside, hurtling toward the target to attack at 75 mph.",
+    "evole_stage": "Stage 1",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_012_EN.webp",
+    "name": "Sharpedo",
+    "numbering": "A3a #12",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/12",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Bite",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_013_EN.webp",
+    "name": "Shinx",
+    "numbering": "A3a #13",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/13",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "LL",
+        "name": "Head Bolt",
+        "damage": "50",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+    "evole_stage": "Stage 1",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_014_EN.webp",
+    "name": "Luxio",
+    "numbering": "A3a #14",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/14",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon do −20 damage.",
+    "ability_name": "Intimidating Fang",
+    "attacks": [
+      {
+        "energy": "LLC",
+        "name": "Electric Ball",
+        "damage": "90",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It can see clearly through walls to track down its prey and seek its lost young.",
+    "evole_stage": "Stage 2",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_015_EN.webp",
+    "name": "Luxray",
+    "numbering": "A3a #15",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/15",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "LL",
+        "name": "Rear Kick",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_016_EN.webp",
+    "name": "Blitzle",
+    "numbering": "A3a #16",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/16",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "LL",
+        "name": "Head Bolt",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+    "evole_stage": "Stage 1",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_017_EN.webp",
+    "name": "Zebstrika",
+    "numbering": "A3a #17",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/17",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Static Shock",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_018_EN.webp",
+    "name": "Emolga",
+    "numbering": "A3a #18",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/18",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Plasma Hurricane",
+        "damage": "20",
+        "description": "Take a[L]Energy from your Energy Zone and attach it to this Pokémon."
+      },
+      {
+        "energy": "LLC",
+        "name": "Mach Bolt",
+        "damage": "90",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_019_EN.webp",
+    "name": "Tapu Koko ex",
+    "numbering": "A3a #19",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊◊◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/19",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "LCC",
+        "name": "Electronica",
+        "damage": "60",
+        "description": "Your opponent's Active Pokémon is now Confused."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_020_EN.webp",
+    "name": "Xurkitree",
+    "numbering": "A3a #20",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/20",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": "At the end of your first turn, take a[L]Energy from your Energy Zone and attach it to this Pokémon.",
+    "ability_name": "Thunderclap Flash",
+    "attacks": [
+      {
+        "energy": "LL",
+        "name": "Lightning Claw",
+        "damage": "50",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks.",
+    "evole_stage": "Basic",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_021_EN.webp",
+    "name": "Zeraora",
+    "numbering": "A3a #21",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "◊◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/21",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Pound",
+        "damage": "10",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_022_EN.webp",
+    "name": "Clefairy",
+    "numbering": "A3a #22",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/22",
+    "weakness": "Metal"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "PC",
+        "name": "Moon Kick",
+        "damage": "60",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+    "evole_stage": "Stage 1",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_023_EN.webp",
+    "name": "Clefable",
+    "numbering": "A3a #23",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/23",
+    "weakness": "Metal"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "PC",
+        "name": "Spooky Shot",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "With a voice like a human child’s, it cries out to lure adults deep into the forest, getting them lost among the trees.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_024_EN.webp",
+    "name": "Phantump",
+    "numbering": "A3a #24",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/24",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "PCC",
+        "name": "Wrack Down",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it’s kind.",
+    "evole_stage": "Stage 1",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_025_EN.webp",
+    "name": "Trevenant",
+    "numbering": "A3a #25",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/25",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "P",
+        "name": "Hook",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+    "evole_stage": "Basic",
+    "hp": 50,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_026_EN.webp",
+    "name": "Morelull",
+    "numbering": "A3a #26",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/26",
+    "weakness": "Metal"
+  },
+  {
+    "ability_description": "Once during your turn, you may put a random Pokémon from your deck into your hand.",
+    "ability_name": "Illuminate",
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Gentle Slap",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips.",
+    "evole_stage": "Stage 1",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_027_EN.webp",
+    "name": "Shiinotic",
+    "numbering": "A3a #27",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/27",
+    "weakness": "Metal"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "F",
+        "name": "Trip Over",
+        "damage": "10+",
+        "description": "Flip a coin. If heads, this attack does 20 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It never skips its daily yoga training. It heightens its inner strength through meditation.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_028_EN.webp",
+    "name": "Meditite",
+    "numbering": "A3a #28",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/28",
+    "weakness": "Psychic"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "F",
+        "name": "High Jump Kick",
+        "damage": "50",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Through yoga training, it gained the psychic power to predict its foe’s next move.",
+    "evole_stage": "Stage 1",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_029_EN.webp",
+    "name": "Medicham",
+    "numbering": "A3a #29",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/29",
+    "weakness": "Psychic"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Spinning Attack",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_030_EN.webp",
+    "name": "Baltoy",
+    "numbering": "A3a #30",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/30",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": "Pokémon(both yours and your opponent's)can't be healed.",
+    "ability_name": "Heal Block",
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Power Beam",
+        "damage": "50",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+    "evole_stage": "Stage 1",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_031_EN.webp",
+    "name": "Claydol",
+    "numbering": "A3a #31",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/31",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FC",
+        "name": "Rock Throw",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This Pokémon is very friendly when it’s young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_032_EN.webp",
+    "name": "Rockruff",
+    "numbering": "A3a #32",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/32",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FFC",
+        "name": "Lycanfang",
+        "damage": "130",
+        "description": "Discard a[F]Energy from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_033_EN.webp",
+    "name": "Lycanroc ex",
+    "numbering": "A3a #33",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/33",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FF",
+        "name": "Let’s Throw",
+        "damage": "40+",
+        "description": "If Passimian is on your Bench, this attack does 40 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This Pokémon battles by throwing hard berries. It won’t obey a Trainer who throws Poké Balls without skill.",
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_034_EN.webp",
+    "name": "Passimian",
+    "numbering": "A3a #34",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/34",
+    "weakness": "Psychic"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FC",
+        "name": "Sandy Shot",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "If it loses its shovel, it will stick something else—like a branch—in its head to make do until it finds another shovel.",
+    "evole_stage": "Basic",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_035_EN.webp",
+    "name": "Sandygast",
+    "numbering": "A3a #35",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/35",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FCCC",
+        "name": "Sand Tomb",
+        "damage": "90",
+        "description": "During your opponent's next turn, the Defending Pokémon can't retreat."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
+    "evole_stage": "Stage 1",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_036_EN.webp",
+    "name": "Palossand",
+    "numbering": "A3a #36",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "◊◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/36",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "Meddle",
+        "damage": null,
+        "description": "Discard a random Pokémon Tool card from your opponent's hand."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It’s accustomed to luxury because it used to live with Alolan royalty. As a result, it’s very picky about food.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_037_EN.webp",
+    "name": "Alolan Meowth",
+    "numbering": "A3a #37",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/37",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "DC",
+        "name": "Fake Out",
+        "damage": "50",
+        "description": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "The round face of Alolan Persian is considered to be a symbol of prosperity in the Alola region, so these Pokémon are very well cared for.",
+    "evole_stage": "Stage 1",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_038_EN.webp",
+    "name": "Alolan Persian",
+    "numbering": "A3a #38",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/38",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "Bite",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_039_EN.webp",
+    "name": "Sandile",
+    "numbering": "A3a #39",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/39",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "DC",
+        "name": "Light Punch",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+    "evole_stage": "Stage 1",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_040_EN.webp",
+    "name": "Krokorok",
+    "numbering": "A3a #40",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/40",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "DDC",
+        "name": "Poaching Fangs",
+        "damage": "90",
+        "description": "Flip 3 coins. For each heads, a card is chosen at random from your opponent's hand. Your opponent reveals that card and shuffles it into their deck."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
+    "evole_stage": "Stage 2",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_041_EN.webp",
+    "name": "Krookodile",
+    "numbering": "A3a #41",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/41",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": "Your opponent's Active Pokémon takes +10 damage from being Poisoned.",
+    "ability_name": "More Poison",
+    "attacks": [
+      {
+        "energy": "DC",
+        "name": "New Wave",
+        "damage": "30",
+        "description": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "A life-form from another world, it was dubbed a UB and is thought to produce a strong neurotoxin.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_042_EN.webp",
+    "name": "Nihilego",
+    "numbering": "A3a #42",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/42",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Grindcore",
+        "damage": "30",
+        "description": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
+      },
+      {
+        "energy": "DDDC",
+        "name": "Tyrannical Hole",
+        "damage": "120",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 170,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_043_EN.webp",
+    "name": "Guzzlord ex",
+    "numbering": "A3a #43",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊◊◊◊",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/43",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "2-Step",
+        "damage": "20x",
+        "description": "Flip 2 coins. This attack does 20 damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_044_EN.webp",
+    "name": "Poipole",
+    "numbering": "A3a #44",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/44",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "Electro House",
+        "damage": "40",
+        "description": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+    "evole_stage": "Stage 1",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_045_EN.webp",
+    "name": "Naganadel",
+    "numbering": "A3a #45",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/45",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "M",
+        "name": "Happened to Headbutt",
+        "damage": "40",
+        "description": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "The metal-rich geology of this Pokémon’s habitat caused it to develop steel whiskers on its head.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_046_EN.webp",
+    "name": "Alolan Diglett",
+    "numbering": "A3a #46",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/46",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MC",
+        "name": "Triplet Headbutt",
+        "damage": "60x",
+        "description": "Flip 3 coins. This attack does 60 damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_047_EN.webp",
+    "name": "Alolan Dugtrio ex",
+    "numbering": "A3a #47",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "◊◊◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/47",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MC",
+        "name": "Headbutt",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It eats iron ore—and sometimes railroad tracks— to build up the steel armor that protects its body.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_048_EN.webp",
+    "name": "Aron",
+    "numbering": "A3a #48",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/48",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MMC",
+        "name": "Lunge Out",
+        "damage": "60",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies.",
+    "evole_stage": "Stage 1",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_049_EN.webp",
+    "name": "Lairon",
+    "numbering": "A3a #49",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/49",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MMCC",
+        "name": "Giga Impact",
+        "damage": "150",
+        "description": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Aggron has a horn sharp enough to perforate thick iron sheets. It brings down its opponents by ramming into them horn first.",
+    "evole_stage": "Stage 2",
+    "hp": 160,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_050_EN.webp",
+    "name": "Aggron",
+    "numbering": "A3a #50",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "◊◊",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/50",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MC",
+        "name": "Spike Sting",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_051_EN.webp",
+    "name": "Ferroseed",
+    "numbering": "A3a #51",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/51",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
+    "ability_name": "Steel Spikes",
+    "attacks": [
+      {
+        "energy": "MMC",
+        "name": "Spinning Attack",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
+    "evole_stage": "Stage 1",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_052_EN.webp",
+    "name": "Ferrothorn",
+    "numbering": "A3a #52",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "◊◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/52",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MC",
+        "name": "Brass Rock",
+        "damage": "40",
+        "description": "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+    "evole_stage": "Basic",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_053_EN.webp",
+    "name": "Stakataka",
+    "numbering": "A3a #53",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "◊◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/53",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Tackle",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This Pokémon is courageous but also cautious. It uses the soft fur covering its face to collect information about its surroundings.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_054_EN.webp",
+    "name": "Lillipup",
+    "numbering": "A3a #54",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/54",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Bite",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Herdier is a very smart and friendly Pokémon. So much so that there’s a theory that Herdier was the first Pokémon to partner with people.",
+    "evole_stage": "Stage 1",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_055_EN.webp",
+    "name": "Herdier",
+    "numbering": "A3a #55",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/55",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost 1[C]more.",
+    "ability_name": "Guard Dog Visage",
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Sharp Fang",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "These Pokémon seem to enjoy living with humans. Even a Stoutland caught in the wild will warm up to people in about three days.",
+    "evole_stage": "Stage 2",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_056_EN.webp",
+    "name": "Stoutland",
+    "numbering": "A3a #56",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/56",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Ram",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_057_EN.webp",
+    "name": "Stufful",
+    "numbering": "A3a #57",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/57",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Superpowered Hug",
+        "damage": null,
+        "description": "Flip 2 coins. If both of them are heads, your opponent's Active Pokémon is Knocked Out."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones.",
+    "evole_stage": "Stage 1",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_058_EN.webp",
+    "name": "Bewear",
+    "numbering": "A3a #58",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/58",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Hammer In",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.",
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_059_EN.webp",
+    "name": "Oranguru",
+    "numbering": "A3a #59",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/59",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Quick Blow",
+        "damage": "20+",
+        "description": "Flip a coin. If heads, this attack does 20 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "A Pokémon weapon developed for a specific mission, it went berserk during an experiment, so it was cryogenically frozen.",
+    "evole_stage": "Basic",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_060_EN.webp",
+    "name": "Type: Null",
+    "numbering": "A3a #60",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/60",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Brave Buddies",
+        "damage": "50+",
+        "description": "If you played a Supporter card from your hand during this turn, this attack does 50 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This is its form once it has awakened and evolved. Freed from its heavy mask, its speed is greatly increased.",
+    "evole_stage": "Stage 1",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_061_EN.webp",
+    "name": "Silvally",
+    "numbering": "A3a #61",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/61",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": "Once during your turn, you may switch your Active Ultra Beast with 1 of your Benched Ultra Beasts.",
+    "ability_name": "Ultra Thrusters",
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Moombahton",
+        "damage": "100",
+        "description": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "One of the dangerous UBs, high energy readings can be detected coming from both of its huge arms.",
+    "evole_stage": "Basic",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_062_EN.webp",
+    "name": "Celesteela",
+    "numbering": "A3a #62",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊◊◊",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/62",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Item",
+    "description": "You can use this card only if your opponent hasn't gotten any points.During your opponent's next turn, all of your Ultra Beasts take −20 damage from attacks from your opponent's Pokémon.",
+    "evole_stage": "Item",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_063_EN.webp",
+    "name": "Beast Wall",
+    "numbering": "A3a #63",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "◊◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/63",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Item",
+    "description": "Switch out your opponent's Active Basic Pokémon to the Bench.(Your opponent chooses the new Active Pokémon.)",
+    "evole_stage": "Item",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_064_EN.webp",
+    "name": "Repel",
+    "numbering": "A3a #64",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "◊◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/64",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Tool",
+    "description": "If the[L]Pokémon this card is attached to is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move 2[L]Energy from that Pokémon and attach 1 Energy each to 2 of your Benched Pokémon.",
+    "evole_stage": "Tool",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_065_EN.webp",
+    "name": "Electrical Cord",
+    "numbering": "A3a #65",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "◊◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/65",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Tool",
+    "description": "Attacks used by the Ultra Beast this card is attached to do +10 damage to your opponent's Active Pokémon for each point you have gotten.",
+    "evole_stage": "Tool",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_066_EN.webp",
+    "name": "Beastite",
+    "numbering": "A3a #66",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "◊◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/66",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
+    "description": "Put 1 random Type: Null or Silvally from your deck into your hand.",
+    "evole_stage": "Supporter",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_067_EN.webp",
+    "name": "Gladion",
+    "numbering": "A3a #67",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "◊◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/67",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
+    "description": "Your opponent reveals all of the Supporter cards in their deck.",
+    "evole_stage": "Supporter",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_068_EN.webp",
+    "name": "Looker",
+    "numbering": "A3a #68",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "◊◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/68",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
+    "description": "You can use this card only if your opponent has gotten at least 1 point.Choose 1 of your Ultra Beasts. Attach 2 random Energy from your discard pile to that Pokémon.",
+    "evole_stage": "Supporter",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_069_EN.webp",
+    "name": "Lusamine",
+    "numbering": "A3a #69",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "◊◊",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/69",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Fury Attack",
+        "damage": "10x",
+        "description": "Flip 3 coins. This attack does 10 damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_070_EN.webp",
+    "name": "Rowlet",
+    "numbering": "A3a #70",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/70",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Jump Blues",
+        "damage": "20",
+        "description": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "A life-form that lives in another world, its body is thin and supple, but it also possesses great power.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_071_EN.webp",
+    "name": "Pheromosa",
+    "numbering": "A3a #71",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/71",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "RRC",
+        "name": "Beat Punk",
+        "damage": "130",
+        "description": "This Pokémon also does 70 damage to itself."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast.",
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_072_EN.webp",
+    "name": "Blacephalon",
+    "numbering": "A3a #72",
+    "pack": "Common",
+    "pokemon_type": "Fire",
+    "rarity": "☆",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/72",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "Meddle",
+        "damage": null,
+        "description": "Discard a random Pokémon Tool card from your opponent's hand."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It’s accustomed to luxury because it used to live with Alolan royalty. As a result, it’s very picky about food.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_073_EN.webp",
+    "name": "Alolan Meowth",
+    "numbering": "A3a #73",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/73",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Brave Buddies",
+        "damage": "50+",
+        "description": "If you played a Supporter card from your hand during this turn, this attack does 50 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This is its form once it has awakened and evolved. Freed from its heavy mask, its speed is greatly increased.",
+    "evole_stage": "Stage 1",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_074_EN.webp",
+    "name": "Silvally",
+    "numbering": "A3a #74",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/74",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": "Once during your turn, you may switch your Active Ultra Beast with 1 of your Benched Ultra Beasts.",
+    "ability_name": "Ultra Thrusters",
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Moombahton",
+        "damage": "100",
+        "description": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "One of the dangerous UBs, high energy readings can be detected coming from both of its huge arms.",
+    "evole_stage": "Basic",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_075_EN.webp",
+    "name": "Celesteela",
+    "numbering": "A3a #75",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "☆",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/75",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Punch",
+        "damage": "30",
+        "description": null
+      },
+      {
+        "energy": "GGC",
+        "name": "Big Beat",
+        "damage": "120",
+        "description": "During your next turn, this Pokémon can't use Big Beat."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_076_EN.webp",
+    "name": "Buzzwole ex",
+    "numbering": "A3a #76",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "☆☆",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/76",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Plasma Hurricane",
+        "damage": "20",
+        "description": "Take a[L]Energy from your Energy Zone and attach it to this Pokémon."
+      },
+      {
+        "energy": "LLC",
+        "name": "Mach Bolt",
+        "damage": "90",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_077_EN.webp",
+    "name": "Tapu Koko ex",
+    "numbering": "A3a #77",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "☆☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/77",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FFC",
+        "name": "Lycanfang",
+        "damage": "130",
+        "description": "Discard a[F]Energy from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_078_EN.webp",
+    "name": "Lycanroc ex",
+    "numbering": "A3a #78",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "☆☆",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/78",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Grindcore",
+        "damage": "30",
+        "description": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
+      },
+      {
+        "energy": "DDDC",
+        "name": "Tyrannical Hole",
+        "damage": "120",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 170,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_079_EN.webp",
+    "name": "Guzzlord ex",
+    "numbering": "A3a #79",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "☆☆",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/79",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MC",
+        "name": "Triplet Headbutt",
+        "damage": "60x",
+        "description": "Flip 3 coins. This attack does 60 damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_080_EN.webp",
+    "name": "Alolan Dugtrio ex",
+    "numbering": "A3a #80",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "☆☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/80",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
+    "description": "Put 1 random Type: Null or Silvally from your deck into your hand.",
+    "evole_stage": "Supporter",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_081_EN.webp",
+    "name": "Gladion",
+    "numbering": "A3a #81",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "☆☆",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/81",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
+    "description": "Your opponent reveals all of the Supporter cards in their deck.",
+    "evole_stage": "Supporter",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_082_EN.webp",
+    "name": "Looker",
+    "numbering": "A3a #82",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "☆☆",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/82",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [],
+    "card_type": "Trainer - Supporter",
+    "description": "You can use this card only if your opponent has gotten at least 1 point.Choose 1 of your Ultra Beasts. Attach 2 random Energy from your discard pile to that Pokémon.",
+    "evole_stage": "Supporter",
+    "hp": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_083_EN.webp",
+    "name": "Lusamine",
+    "numbering": "A3a #83",
+    "pack": "Common",
+    "pokemon_type": null,
+    "rarity": "☆☆",
+    "retreat": null,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/83",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Plasma Hurricane",
+        "damage": "20",
+        "description": "Take a[L]Energy from your Energy Zone and attach it to this Pokémon."
+      },
+      {
+        "energy": "LLC",
+        "name": "Mach Bolt",
+        "damage": "90",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_084_EN.webp",
+    "name": "Tapu Koko ex",
+    "numbering": "A3a #84",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "☆☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/84",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "FFC",
+        "name": "Lycanfang",
+        "damage": "130",
+        "description": "Discard a[F]Energy from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_085_EN.webp",
+    "name": "Lycanroc ex",
+    "numbering": "A3a #85",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "☆☆",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/85",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Grindcore",
+        "damage": "30",
+        "description": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
+      },
+      {
+        "energy": "DDDC",
+        "name": "Tyrannical Hole",
+        "damage": "120",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 170,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_086_EN.webp",
+    "name": "Guzzlord ex",
+    "numbering": "A3a #86",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "☆☆",
+    "retreat": 4,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/86",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MC",
+        "name": "Triplet Headbutt",
+        "damage": "60x",
+        "description": "Flip 3 coins. This attack does 60 damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_087_EN.webp",
+    "name": "Alolan Dugtrio ex",
+    "numbering": "A3a #87",
+    "pack": "Common",
+    "pokemon_type": "Metal",
+    "rarity": "☆☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/87",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Punch",
+        "damage": "30",
+        "description": null
+      },
+      {
+        "energy": "GGC",
+        "name": "Big Beat",
+        "damage": "120",
+        "description": "During your next turn, this Pokémon can't use Big Beat."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_088_EN.webp",
+    "name": "Buzzwole ex",
+    "numbering": "A3a #88",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "☆☆☆",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/88",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Bite",
+        "damage": "20",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_089_EN.webp",
+    "name": "Growlithe",
+    "numbering": "A3a #89",
+    "pack": "Common",
+    "pokemon_type": "Fire",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/89",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "RRC",
+        "name": "Heat Tackle",
+        "damage": "100",
+        "description": "This Pokémon also does 20 damage to itself."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+    "evole_stage": "Stage 1",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_090_EN.webp",
+    "name": "Arcanine",
+    "numbering": "A3a #90",
+    "pack": "Common",
+    "pokemon_type": "Fire",
+    "rarity": "☆",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/90",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Flop",
+        "damage": "10",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_091_EN.webp",
+    "name": "Froakie",
+    "numbering": "A3a #91",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/91",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Water Drip",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It can throw bubble-covered pebbles with precise  control, hitting empty cans up to a hundred feet away.",
+    "evole_stage": "Stage 1",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_092_EN.webp",
+    "name": "Frogadier",
+    "numbering": "A3a #92",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/92",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon.",
+    "ability_name": "Water Shuriken",
+    "attacks": [
+      {
+        "energy": "WC",
+        "name": "Mist Slash",
+        "damage": "60",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It creates throwing stars out of compressed water.  When it spins them and throws them at high speed,  these stars can split metal in two.",
+    "evole_stage": "Stage 2",
+    "hp": 120,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_093_EN.webp",
+    "name": "Greninja",
+    "numbering": "A3a #93",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/93",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "PC",
+        "name": "Psychic",
+        "damage": "30+",
+        "description": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.",
+    "evole_stage": "Basic",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_094_EN.webp",
+    "name": "Jynx",
+    "numbering": "A3a #94",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/94",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Gust",
+        "damage": "10",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_095_EN.webp",
+    "name": "Pidgey",
+    "numbering": "A3a #95",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/95",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Gust",
+        "damage": "30",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
+    "evole_stage": "Stage 1",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_096_EN.webp",
+    "name": "Pidgeotto",
+    "numbering": "A3a #96",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/96",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench.(Your opponent chooses the new Active Pokémon.)",
+    "ability_name": "Drive Off",
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Wing Attack",
+        "damage": "70",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+    "evole_stage": "Stage 2",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_097_EN.webp",
+    "name": "Pidgeot",
+    "numbering": "A3a #97",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/97",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Primal Wingbeat",
+        "damage": null,
+        "description": "Flip a coin. If heads, your opponent shuffles their Active Pokémon back into their deck."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This is a ferocious Pokémon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.",
+    "evole_stage": "Stage 1",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_098_EN.webp",
+    "name": "Aerodactyl",
+    "numbering": "A3a #98",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/98",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "GC",
+        "name": "Powerful Bloom",
+        "damage": "50x",
+        "description": "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 130,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_099_EN.webp",
+    "name": "Celebi ex",
+    "numbering": "A3a #99",
+    "pack": "Common",
+    "pokemon_type": "Grass",
+    "rarity": "☆☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/99",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "RRC",
+        "name": "Inferno Onrush",
+        "damage": "120",
+        "description": "This Pokémon also does 20 damage to itself."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_100_EN.webp",
+    "name": "Arcanine ex",
+    "numbering": "A3a #100",
+    "pack": "Common",
+    "pokemon_type": "Fire",
+    "rarity": "☆☆",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/100",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": "Your opponent can't play any Pokémon from their hand to evolve their Active Pokémon.",
+    "ability_name": "Primeval Law",
+    "attacks": [
+      {
+        "energy": "FC",
+        "name": "Land Crush",
+        "damage": "80",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 140,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_101_EN.webp",
+    "name": "Aerodactyl ex",
+    "numbering": "A3a #101",
+    "pack": "Common",
+    "pokemon_type": "Fighting",
+    "rarity": "☆☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/101",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Scattering Cyclone",
+        "damage": "80+",
+        "description": "This attack does 20 more damage for each of your opponent's Benched Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 2",
+    "hp": 170,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_102_EN.webp",
+    "name": "Pidgeot ex",
+    "numbering": "A3a #102",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "☆☆",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/102",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": "Your opponent's Active Pokémon takes +10 damage from being Poisoned.",
+    "ability_name": "More Poison",
+    "attacks": [
+      {
+        "energy": "DC",
+        "name": "New Wave",
+        "damage": "30",
+        "description": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "A life-form from another world, it was dubbed a UB and is thought to produce a strong neurotoxin.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3a/A3a_103_EN.webp",
+    "name": "Nihilego",
+    "numbering": "A3a #103",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "Crown Rare",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/A3a/103",
+    "weakness": "Fighting"
+  }
+]
