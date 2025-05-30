@@ -127,6 +127,7 @@ exports.Prisma.CardScalarFieldEnum = {
   rarity: 'rarity',
   image: 'image',
   cardType: 'cardType',
+  tags: 'tags',
   packName: 'packName',
   description: 'description',
   hp: 'hp',

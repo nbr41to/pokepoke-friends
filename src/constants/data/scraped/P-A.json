@@ -1779,5 +1779,261 @@
     "retreat": 2,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/73",
     "weakness": "Lightning"
+  },
+  {
+    "ability_description": "At the end of your first turn, take a[L]Energy from your Energy Zone and attach it to this Pokémon.",
+    "ability_name": "Thunderclap Flash",
+    "attacks": [
+      {
+        "energy": "LL",
+        "name": "Lightning Claw",
+        "damage": "50",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks.",
+    "evole_stage": "Basic",
+    "hp": 90,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_074_EN.webp",
+    "name": "Zeraora",
+    "numbering": "P-A #74",
+    "pack": "Common",
+    "pokemon_type": "Lightning",
+    "rarity": "PROMO",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/74",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "G",
+        "name": "Thrash Metal",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This Ultra Beast’s body, which is as thin as paper, is like a sharpened sword.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_075_EN.webp",
+    "name": "Kartana",
+    "numbering": "P-A #75",
+    "pack": "Promo pack",
+    "pokemon_type": "Grass",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/75",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "RRC",
+        "name": "Beat Punk",
+        "damage": "130",
+        "description": "This Pokémon also does 70 damage to itself."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast.",
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_076_EN.webp",
+    "name": "Blacephalon",
+    "numbering": "P-A #76",
+    "pack": "Promo pack",
+    "pokemon_type": "Fire",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/76",
+    "weakness": "Water"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "LCC",
+        "name": "Electronica",
+        "damage": "60",
+        "description": "Your opponent's Active Pokémon is now Confused."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_077_EN.webp",
+    "name": "Xurkitree",
+    "numbering": "P-A #77",
+    "pack": "Promo pack",
+    "pokemon_type": "Lightning",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/77",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "PCC",
+        "name": "Psychobilly",
+        "damage": "100",
+        "description": "This Pokémon also does 30 damage to itself."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
+    "evole_stage": "Basic",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_078_EN.webp",
+    "name": "Dawn Wings Necrozma",
+    "numbering": "P-A #78",
+    "pack": "Promo pack",
+    "pokemon_type": "Psychic",
+    "rarity": "◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/78",
+    "weakness": "Darkness"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MCC",
+        "name": "Black Metal",
+        "damage": "100",
+        "description": "Discard a[M]Energy from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.",
+    "evole_stage": "Basic",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_079_EN.webp",
+    "name": "Dusk Mane Necrozma",
+    "numbering": "P-A #79",
+    "pack": "Promo pack",
+    "pokemon_type": "Metal",
+    "rarity": "◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/79",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "MC",
+        "name": "Brass Rock",
+        "damage": "40",
+        "description": "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+    "evole_stage": "Basic",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_080_EN.webp",
+    "name": "Stakataka",
+    "numbering": "P-A #80",
+    "pack": "Promo pack",
+    "pokemon_type": "Metal",
+    "rarity": "◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/80",
+    "weakness": "Fire"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCC",
+        "name": "Photon Claw",
+        "damage": "60",
+        "description": null
+      },
+      {
+        "energy": "PPMM",
+        "name": "Shoegaze",
+        "damage": "120",
+        "description": "Discard the top 5 cards of each player's deck."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Basic",
+    "hp": 150,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_081_EN.webp",
+    "name": "Ultra Necrozma ex",
+    "numbering": "P-A #81",
+    "pack": "Promo pack",
+    "pokemon_type": "Dragon",
+    "rarity": "◊◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/81",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "2-Step",
+        "damage": "20x",
+        "description": "Flip 2 coins. This attack does 20 damage for each heads."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_082_EN.webp",
+    "name": "Poipole",
+    "numbering": "P-A #82",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊◊◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/82",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CC",
+        "name": "Ram",
+        "damage": "40",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation.",
+    "evole_stage": "Basic",
+    "hp": 70,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_083_EN.webp",
+    "name": "Stufful",
+    "numbering": "P-A #83",
+    "pack": "Common",
+    "pokemon_type": "Colorless",
+    "rarity": "◊◊◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/83",
+    "weakness": "Fighting"
   }
 ]

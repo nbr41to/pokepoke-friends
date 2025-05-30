@@ -28,6 +28,7 @@ export const schema = z.object({
     CardType.trainers_pokemon_tools,
   ]),
   numbering: z.string().min(1, { message: 'Numbering is required' }),
+  tags: z.array(z.string()),
   packName: z.string().nullish(),
   description: z.string().nullish(),
   hp: z.coerce.number().nullish(),

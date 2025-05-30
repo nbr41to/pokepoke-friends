@@ -28,26 +28,30 @@ def parse_pokemon_card(card_element) -> Dict[str, Any]:
         "description": None
     }
     
-    # カードの基本情報を取得
-    inner_table = card_element.find("div", class_="_inner-table")
-    
-    # カード名を取得
-    name_element = inner_table.find("a", class_="_name")
-    if name_element:
-        result["name"] = name_element.text.strip()
-    
-    # 画像URLを取得
-    img_link = inner_table.find("icard").find("a")
-    if img_link:
-        image_url = img_link.get("href")
-        result["image_url"] = image_url
+    try:
+        # カードの基本情報を取得
+        inner_table = card_element.find("div", class_="_inner-table")
+        if not inner_table:
+            return result
         
-        # 画像URLから数値のIDを抽出
-        if image_url:
-            # 例: https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/l882.png から 882 を抽出
-            id_match = re.search(r'l(\d+)\.png$', image_url)
-            if id_match:
-                result["id"] = int(id_match.group(1))
+        # カード名を取得
+        name_element = inner_table.find("a", class_="_name")
+        if name_element:
+            result["name"] = name_element.text.strip()
+        
+        # 画像URLを取得
+        img_link = inner_table.find("icard")
+        if img_link and img_link.find("a"):
+            image_url = img_link.find("a").get("href")
+            result["image_url"] = image_url
+            
+            # 画像URLから数値のIDを抽出
+            if image_url:
+                id_match = re.search(r'l(\d+)\.png$', image_url)
+                if id_match:
+                    result["id"] = int(id_match.group(1))
+    except Exception as e:
+        print(f"カード解析中にエラーが発生しました: {e}")
     
     # 入手パックを取得
     icard_element = inner_table.find("icard")

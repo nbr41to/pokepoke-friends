@@ -4120,6 +4120,10 @@
     "en": "Mow Rotom"
   },
   {
+    "ja": "タイプヌル",
+    "en": "Type: Null"
+  },
+  {
     "ja": "エリカ",
     "en": "Erika"
   },
@@ -4264,6 +4268,18 @@
     "en": "Lillie"
   },
   {
+    "ja": "グラジオ",
+    "en": "Gladion"
+  },
+  {
+    "ja": "ハンサム",
+    "en": "Looker"
+  },
+  {
+    "ja": "ルザミーネ",
+    "en": "Lusamine"
+  },
+  {
     "ja": "博士の研究",
     "en": "Professor's Research"
   },
@@ -4359,5 +4375,21 @@
   {
     "ja": "リーフマント",
     "en": "Leaf Cape"
+  },
+  {
+    "ja": "ビーストウォール",
+    "en": "Beast Wall"
+  },
+  {
+    "ja": "むしよけスプレー",
+    "en": "Repel"
+  },
+  {
+    "ja": "エレキコード",
+    "en": "Electrical Cord"
+  },
+  {
+    "ja": "ビーストナイト",
+    "en": "Beastite"
   }
 ]

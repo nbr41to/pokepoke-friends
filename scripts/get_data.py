@@ -593,7 +593,7 @@ def order_card_properties(cards_data):
 
 if __name__ == "__main__":
     # スクレイピング対象のシリーズリスト
-    series_list = ["A1","A1a","A2","A2a","A2b","A3","P-A"]  # デフォルトでは1つのシリーズのみ
+    series_list = ["A1","A1a","A2","A2a","A2b","A3","A3a","P-A"]
     
     # コマンドライン引数からシリーズリストを取得できるようにする
     import sys

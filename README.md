@@ -11,8 +11,15 @@ bun dev
 ## Generate Data
 
 0.create basic data
+
 ```bash
-python3 scripts/get_data.py && python3 scripts/convert_card_data.py && python3 scripts/get_data_ja.py
+source ./venv/bin/activate && python3 scripts/get_data.py && python3 scripts/convert_card_data.py && python3 scripts/get_data_ja.py
+```
+
+or
+
+```
+chmod +x scripts/run_all_scripts.sh
 ```
 
 1.scraping
@@ -30,5 +37,5 @@ python3 scripts/convert_card_data.py
 3.export json (after save DB)
 
 ```bash
-python3 scripts/export_card_data.py
+bun scripts/export_card_data.ts
 ```

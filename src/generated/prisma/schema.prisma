@@ -16,6 +16,7 @@ model Card {
   rarity             CardRarity
   image              String
   cardType           CardType
+  tags               String[]
   packName           String?
   description        String?
   hp                 Int?
