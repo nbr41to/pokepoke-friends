@@ -17,7 +17,7 @@ export const RetreatCostForm = () => {
       <div className="flex items-center gap-x-1">
         <CounterForm
           options={[...POKEMON_RETREAT_COST_LIST]}
-          value={query.retreatCost || null}
+          value={query.retreatCost ?? null}
           onValueChange={handleOnValueChange}
           label="にげる"
           range={1}
