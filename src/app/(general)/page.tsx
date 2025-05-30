@@ -16,6 +16,7 @@ const ACQUISITIONS_PATH = {
   A2a: '/search?query=C0MDEhQEPAUdBFFJLE3ot7flhK/jgJ7lhKhRLltNGQEJFhwBExxQXlJDDg==',
   A2b: '/search?query=C0MDEhQEPAUdBFFJLE3jg4Xjgofjg5TjgqrjgoDjg4Pjgrjjg4tQOVxDGBYOGB0WFBJRSVVNDw==',
   A3: '/search?query=C0MDEhQEPAUdBFFJLE3ljr7lpY3jgJ7lr6norITogbZVMl5GGwQKBBgdFhdSW1FRCg==',
+  A3a: '/search?query=C0MDEhQEPAUdBFFJLE3nlILmrYXlhLPjg47jgprjg5fjg4Djg5ZQOVxDGBYOGB0WFBJRSVVNDw==',
   'P-A': '/search?query=C0MDEhQEPAUdBFFJLE0iNj8sPF42TS9IUgoWCgAAAAADQ0lRVRI=',
 } as const;
 
