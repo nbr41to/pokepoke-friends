@@ -44,6 +44,9 @@ const conditionToQuery = (condition: Condition) => {
     if (value === null) {
       delete condition[key as keyof Condition];
     }
+    if (value === '') {
+      delete condition[key as keyof Condition];
+    }
     if (Array.isArray(value)) {
       if (value.length === 0) {
         delete condition[key as keyof Condition];
@@ -59,7 +62,6 @@ const conditionToQuery = (condition: Condition) => {
 
 const queryToCondition = (query: string) => {
   const decryptedCondition = xorDecrypt<Condition>(query, PASSWORD);
-
   return {
     ...DEFAULT_CONDITION,
     ...decryptedCondition,

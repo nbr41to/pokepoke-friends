@@ -2,9 +2,8 @@ import type { Card, PokemonEvolveStage } from '@/generated/prisma';
 import { useMemo } from 'react';
 import { useSearchQuery } from './use-search-query';
 
-export const useFilteredCards = ({ cards}:{cards:Card[]}) => {
+export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
   const { query } = useSearchQuery();
-
   const filteredCards = useMemo(
     () =>
       (cards as Card[]).filter((card) => {
@@ -144,6 +143,7 @@ export const useFilteredCards = ({ cards}:{cards:Card[]}) => {
               card.move1description?.includes(keywords) ||
               card.move2name?.includes(keywords) ||
               card.move2description?.includes(keywords) ||
+              card.tags?.includes(keywords) ||
               card.packName?.includes(keywords) ||
               // 変換したカタカナと比較
               card.name.includes(keywordsKatakana) ||
@@ -153,11 +153,12 @@ export const useFilteredCards = ({ cards}:{cards:Card[]}) => {
               card.move1name?.includes(keywordsKatakana) ||
               card.move1description?.includes(keywordsKatakana) ||
               card.move2name?.includes(keywordsKatakana) ||
-              card.move2description?.includes(keywordsKatakana)
+              card.move2description?.includes(keywordsKatakana) ||
+              card.tags?.includes(keywordsKatakana)
             : true)
         );
       }),
-    [query],
+    [query, cards],
   );
 
   return filteredCards as Card[];
