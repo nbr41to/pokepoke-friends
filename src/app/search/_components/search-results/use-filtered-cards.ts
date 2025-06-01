@@ -145,6 +145,7 @@ export const useFilteredCards = () => {
               card.move1description?.includes(keywords) ||
               card.move2name?.includes(keywords) ||
               card.move2description?.includes(keywords) ||
+              card.tags?.includes(keywords) ||
               card.packName?.includes(keywords) ||
               // 変換したカタカナと比較
               card.name.includes(keywordsKatakana) ||
@@ -154,7 +155,8 @@ export const useFilteredCards = () => {
               card.move1name?.includes(keywordsKatakana) ||
               card.move1description?.includes(keywordsKatakana) ||
               card.move2name?.includes(keywordsKatakana) ||
-              card.move2description?.includes(keywordsKatakana)
+              card.move2description?.includes(keywordsKatakana) ||
+              card.tags?.includes(keywordsKatakana)
             : true)
         );
       }),
