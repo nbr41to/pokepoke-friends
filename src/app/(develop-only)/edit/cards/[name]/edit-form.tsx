@@ -37,8 +37,8 @@ import Image from 'next/image';
 import { useActionState } from 'react';
 import { useTransition } from 'react';
 import { Form, FormProvider } from 'react-hook-form';
-import { updateCard } from '../_actions';
-import { useCustomForm } from '../_utils/useCustomForm';
+import { updateCard } from './_actions';
+import { useCustomForm } from './_utils/useCustomForm';
 
 type Props = {
   card: Card;
