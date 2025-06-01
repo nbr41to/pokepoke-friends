@@ -60,6 +60,18 @@ export function DevCommand() {
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
 
+          <CommandGroup>
+            <CommandItem
+              keywords={['カード一括操作']}
+              onSelect={() => {
+                router.push('/edit/cards');
+                setOpen(false);
+              }}
+            >
+              一括操作
+            </CommandItem>
+          </CommandGroup>
+
           <CommandGroup heading="Pack list">
             {ACQUISITION_LIST.map((acquisition) => (
               <CommandItem
@@ -87,7 +99,7 @@ export function DevCommand() {
                   }),
                 ]}
                 onSelect={() => {
-                  router.push(`/pokemon/${name}`);
+                  router.push(`/edit/cards/${name}`);
                   setOpen(false);
                 }}
               >

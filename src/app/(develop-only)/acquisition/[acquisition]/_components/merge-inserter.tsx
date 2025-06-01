@@ -153,7 +153,7 @@ export const MergeInserter = ({ current, card, matchedCards }: Props) => {
       </div>
       <div className="mt-auto ml-auto">
         <Button variant="link" size="lg" asChild>
-          <Link href={`/edit-card/${params.name}`}>個別で編集</Link>
+          <Link href={`/edit/cards/${params.name}`}>個別で編集</Link>
         </Button>
 
         <Button
