@@ -19,12 +19,12 @@
 
 # production
 /build
-gw.html
-scripts/target/
 
 # misc
 .DS_Store
 *.pem
+scripts/target/
+
 
 # debug
 npm-debug.log*
