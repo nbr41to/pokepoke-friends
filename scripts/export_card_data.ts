@@ -2,7 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { CARD_TYPE_LIST } from '../src/constants/types/card-types';
 import { POKEMON_TYPE_LIST } from '../src/constants/types/pokemon-types';
-import { PrismaClient } from '../src/generated/prisma';
+import {
+  type CardType,
+  type PokemonType,
+  PrismaClient,
+} from '../src/generated/prisma';
 
 // PrismaClientのインスタンスを作成
 const prisma = new PrismaClient();
@@ -10,6 +14,7 @@ const prisma = new PrismaClient();
 /**
  * Cardテーブルからデータを取得してJSONファイルとして保存する関数
  * @param outputPath 出力ファイルのパス（デフォルト：'./exported_cards.json'）
+ * カード検索画面を高速化するために、カードデータをJSONファイルとして使用
  */
 async function exportCardData(
   outputPath = './src/constants/data/all_cards.json',
@@ -60,8 +65,8 @@ async function exportCardData(
     // 2. 次にPOKEMON_TYPEでソート
     sortedCards = sortedCards.sort((a, b) => {
       if (a.type && b.type) {
-        const typeIndexA = POKEMON_TYPE_LIST.indexOf(a.type as any);
-        const typeIndexB = POKEMON_TYPE_LIST.indexOf(b.type as any);
+        const typeIndexA = POKEMON_TYPE_LIST.indexOf(a.type as PokemonType);
+        const typeIndexB = POKEMON_TYPE_LIST.indexOf(b.type as PokemonType);
 
         if (
           typeIndexA !== -1 &&
@@ -80,8 +85,8 @@ async function exportCardData(
 
     // 3. 最後にCARD_TYPEでソート
     sortedCards = sortedCards.sort((a, b) => {
-      const cardTypeIndexA = CARD_TYPE_LIST.indexOf(a.cardType as any);
-      const cardTypeIndexB = CARD_TYPE_LIST.indexOf(b.cardType as any);
+      const cardTypeIndexA = CARD_TYPE_LIST.indexOf(a.cardType as CardType);
+      const cardTypeIndexB = CARD_TYPE_LIST.indexOf(b.cardType as CardType);
 
       if (
         cardTypeIndexA !== -1 &&

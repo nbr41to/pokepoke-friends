@@ -11,6 +11,25 @@ import sys
 import os
 import difflib
 import tempfile
+from dotenv import load_dotenv
+
+# .envファイルから環境変数を読み込む
+load_dotenv()
+
+def get_base_url():
+    """
+    .envファイルおよび環境変数からベースURLを取得する関数
+    
+    Returns:
+        str: ベースURL
+        
+    Raises:
+        EnvironmentError: 環境変数BASE_URLが設定されていない場合
+    """
+    base_url = os.environ.get("BASE_URL")
+    if not base_url:
+        raise EnvironmentError("環境変数BASE_URLが設定されていません。.envファイルにBASE_URLを設定してください。")
+    return base_url
 
 def scrape_pokemon_cards(series):
     """
@@ -23,8 +42,9 @@ def scrape_pokemon_cards(series):
     Returns:
         list or None: カード情報のリスト。エラー時はNone
     """
-    # スクレイピング対象のURL
-    url = f"https://pocket.limitlesstcg.com/cards/{series}?display=full"
+    # スクレイピング対象のURL - 環境変数から取得
+    base_url = get_base_url()
+    url = f"{base_url}/cards/{series}?display=full"
     
     try:
         # リクエストを送信してHTMLを取得
@@ -223,7 +243,8 @@ def extract_basic_info(section, card_info):
         card_info['name'] = name_elem.get_text(strip=True)
         card_url = name_elem.get('href')
         if card_url:
-            card_info['url'] = f"https://pocket.limitlesstcg.com{card_url}"
+            base_url = get_base_url()
+            card_info['url'] = f"{base_url}{card_url}"
     
     # カードタイプと進化段階を取得
     card_type_elem = section.select_one('.card-text-type')
@@ -466,7 +487,8 @@ def test_output_consistency(series, test_only=False):
         temp_file.close()
         
         # 現在のスクレイピング結果を取得
-        url = f"https://pocket.limitlesstcg.com/cards/{series}?display=full"
+        base_url = get_base_url()
+        url = f"{base_url}/cards/{series}?display=full"
         headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
         }
@@ -592,8 +614,18 @@ def order_card_properties(cards_data):
     return ordered_cards
 
 if __name__ == "__main__":
-    # スクレイピング対象のシリーズリスト
-    series_list = ["A1","A1a","A2","A2a","A2b","A3","A3a","P-A"]
+    # スクレイピング対象のシリーズリストをJSONから読み込む
+    try:
+        series_json_path = Path(__file__).parent.parent / "src" / "constants" / "series.json"
+        with open(series_json_path, 'r', encoding='utf-8') as f:
+            # JSONファイルからシリーズリストを読み込む
+            series_list = json.load(f)
+        print(f"series.jsonからシリーズリストを読み込みました: {', '.join(series_list)}")
+    except Exception as e:
+        # 読み込みに失敗した場合はエラーを発生させる
+        error_message = f"src/constants/series.jsonの読み込みに失敗しました: {e}"
+        print(f"エラー: {error_message}")
+        sys.exit(1)  # エラーコード1で終了
     
     # コマンドライン引数からシリーズリストを取得できるようにする
     import sys

@@ -10,16 +10,20 @@ bun dev
 
 ## Generate Data
 
-0.create basic data
+```bash
+scripts/run_all_scripts.sh
+```
+
+or
 
 ```bash
 source ./venv/bin/activate && python3 scripts/get_data.py && python3 scripts/convert_card_data.py && python3 scripts/get_data_ja.py
 ```
 
-or
+0.create basic data
 
-```
-chmod +x scripts/run_all_scripts.sh
+```bash
+source ./venv/bin/activate
 ```
 
 1.scraping
