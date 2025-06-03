@@ -7,9 +7,9 @@ import {
   type PokemonType,
 } from '@/constants/types/pokemon-types';
 import { cn } from '@/utils/classnames';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { X } from 'lucide-react';
 import Image from 'next/image';
-import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const PokemonTypeForm = () => {
   const { query, setQuery } = useSearchQuery();
@@ -20,7 +20,7 @@ export const PokemonTypeForm = () => {
   const isCleared = query.pokemonTypes.length === 0;
 
   return (
-    <div className="flex justify-center gap-x-1">
+    <div className="flex min-w-[402px] items-center gap-x-1">
       <ToggleGroup
         type="multiple"
         value={query.pokemonTypes}
@@ -32,7 +32,7 @@ export const PokemonTypeForm = () => {
             key={type}
             value={type}
             aria-label={`Toggle ${type}`}
-            className="data-[state=off]:opacity-60 data-[state=off]:grayscale"
+            className="flex-none data-[state=off]:opacity-60 data-[state=off]:grayscale"
           >
             <Image
               src={`/type${index + 1}.png`}

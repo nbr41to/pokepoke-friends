@@ -1,6 +1,6 @@
 'use client';
 import { POKEMON_MOVE_POWER_LIST } from '@/constants/types/pokemon-status';
-import { useSearchQuery } from '../../_utils/use-search-query';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { CounterForm } from './counter-form';
 
 export const MovePowerForm = () => {
@@ -14,7 +14,7 @@ export const MovePowerForm = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center gap-x-3 gap-y-1 sm:flex-row">
+    <div className="flex flex-col items-center gap-x-3 gap-y-1 sm:flex-row">
       <span className="w-full text-center text-sm font-bold sm:w-20 sm:text-right">
         わざ威力
       </span>

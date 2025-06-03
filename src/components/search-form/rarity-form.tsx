@@ -7,8 +7,8 @@ import {
   type CardRarity,
 } from '@/constants/types/rarities';
 import { cn } from '@/utils/classnames';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { Crown, Diamond, Star, X } from 'lucide-react';
-import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const RarityForm = () => {
   const { query, setQuery } = useSearchQuery();

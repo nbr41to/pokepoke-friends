@@ -35,6 +35,7 @@ async function exportCardData(
         image: true,
         rarity: true,
         packName: true,
+        tags: true,
         description: true,
         type: true,
         evolveStage: true,

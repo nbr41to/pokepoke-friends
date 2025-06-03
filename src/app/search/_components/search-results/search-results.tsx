@@ -2,20 +2,17 @@
 
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import CARD_DATA from '@/constants/data/all_cards.json';
+import { useFilteredCards } from '@/utils/use-filtered-cards';
 import { Grid2X2, Grid3X3, TableProperties } from 'lucide-react';
 import { useQueryState } from 'nuqs';
 import { CardList } from './card-list';
 import { GridList } from './grid-list';
-import { useFilteredCards } from './use-filtered-cards';
 
 export const SearchResults = () => {
-  const filteredCards = useFilteredCards();
+  const filteredCards = useFilteredCards({ cards: CARD_DATA });
   const [viewMode, setViewMode] = useQueryState('view', {
     defaultValue: '',
   });
-  // const [viewMode, setViewMode] = useState<
-  //   'small-grid' | 'large-grid' | 'list'
-  // >('large-grid');
   const allLengths = CARD_DATA.length;
 
   return (

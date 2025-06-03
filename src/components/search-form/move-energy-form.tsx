@@ -1,7 +1,7 @@
 'use client';
 
 import CARD_DATA from '@/constants/data/all_cards.json';
-import { useSearchQuery } from '../../_utils/use-search-query';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { CounterForm } from './counter-form';
 
 const MOVE_ENERGY_LIST = [
@@ -24,7 +24,7 @@ export const MoveEnergyForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center gap-3">
+    <div className="flex items-center gap-3">
       <span className="w-20 text-right text-sm font-bold">わざエネ数</span>
       <div className="flex items-center gap-x-1">
         <CounterForm
