@@ -1,12 +1,14 @@
+'use client';
+
 import { Button } from '@/components/ui/button';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { ListX } from 'lucide-react';
-import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const ResetButton = () => {
   const { resetQuery } = useSearchQuery();
 
   return (
-    <Button variant="secondary" onClick={resetQuery}>
+    <Button className="h-[42px]" variant="secondary" onClick={resetQuery}>
       <ListX />
       条件をすべてリセットする
     </Button>

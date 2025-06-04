@@ -2,7 +2,7 @@
 
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { PokemonEvolveStage } from '@/generated/prisma';
-import { useSearchQuery } from '../../_utils/use-search-query';
+import { useSearchQuery } from '@/utils/use-search-query';
 
 export const EvolveStageForm = () => {
   const { query, setQuery } = useSearchQuery();

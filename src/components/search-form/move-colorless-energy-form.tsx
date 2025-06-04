@@ -3,7 +3,7 @@
 import { EnergyIcons } from '@/components/enegy-icons';
 import CARD_DATA from '@/constants/data/all_cards.json';
 import type { Card } from '@/generated/prisma';
-import { useSearchQuery } from '../../_utils/use-search-query';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { CounterForm } from './counter-form';
 
 const MOVE_COLORLESS_ENERGY_LIST = [
@@ -30,7 +30,7 @@ export const MoveColorlessEnergyForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center gap-3">
+    <div className="flex items-center gap-3">
       <span className="inline-flex w-20 items-center gap-x-1 text-right text-sm font-bold">
         わざの
         <EnergyIcons energies="C" />数

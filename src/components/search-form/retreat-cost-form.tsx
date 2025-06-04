@@ -1,7 +1,7 @@
 'use client';
 
 import { POKEMON_RETREAT_COST_LIST } from '@/constants/types/pokemon-status';
-import { useSearchQuery } from '../../_utils/use-search-query';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { CounterForm } from './counter-form';
 
 export const RetreatCostForm = () => {
@@ -12,7 +12,7 @@ export const RetreatCostForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center gap-3">
+    <div className="flex items-center gap-3">
       <span className="w-20 text-right text-sm font-bold">にげる</span>
       <div className="flex items-center gap-x-1">
         <CounterForm

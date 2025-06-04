@@ -1,9 +1,9 @@
 'use client';
-import {} from '@/components/ui/radio-group';
+
 import { Toggle } from '@/components/ui/toggle';
 import { cn } from '@/utils/classnames';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { CircleCheckBig, CircleDashed } from 'lucide-react';
-import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const HasAbilityForm = () => {
   const { query, setQuery } = useSearchQuery();
@@ -24,7 +24,7 @@ export const HasAbilityForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center gap-x-4">
+    <div className="flex items-center gap-x-4">
       <Toggle
         className="rounded-full px-4"
         variant="outline"

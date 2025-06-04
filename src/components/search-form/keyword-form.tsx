@@ -1,8 +1,8 @@
 'use client';
 
 import { Input } from '@/components/ui/input';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { useState } from 'react';
-import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const KeywordForm = () => {
   const { query, setQuery } = useSearchQuery();
@@ -19,6 +19,7 @@ export const KeywordForm = () => {
       className="h-[42px] w-full max-w-[694px] text-sm"
     >
       <Input
+        className="h-[42px]"
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         placeholder="キーワード検索"

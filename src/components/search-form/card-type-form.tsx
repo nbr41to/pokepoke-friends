@@ -3,8 +3,8 @@
 import PokeBall from '@/components/icons/PokeBall';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { CardType } from '@/generated/prisma';
+import { useSearchQuery } from '@/utils/use-search-query';
 import { HardHat, SquareUserRound, Wrench } from 'lucide-react';
-import { useSearchQuery } from '../../_utils/use-search-query';
 
 export const CardTypeForm = () => {
   const { query, setQuery } = useSearchQuery();

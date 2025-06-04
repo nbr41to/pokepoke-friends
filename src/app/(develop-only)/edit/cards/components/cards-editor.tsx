@@ -3,10 +3,10 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import type { Card } from '@/generated/prisma';
+import { useFilteredCards } from '@/utils/use-filtered-cards';
 import { CircleX } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { addTagSelectedCards, removeTagSelectedCards } from '../actions';
-import { useFilteredCards } from '../utils/use-filtered-cards';
 import { CardList } from './card-list';
 import { SearchForm } from './search-form';
 
@@ -49,15 +49,14 @@ export const CardEditor = ({ cards }: Props) => {
   }, [selectedCards]);
 
   return (
-    <div className="relative space-y-2">
-      <div>
-        <SearchForm />
-      </div>
+    <div className="relative space-y-6">
+      <SearchForm />
 
       {selectedCards.length > 0 && (
         <div className="sticky top-2 z-10 space-y-2 rounded border-2 bg-white/90 p-3">
           <h2 className="font-semibold">Selected</h2>
           <CardList cards={selectedCards} onClick={handleOnRemove} />
+
           <div>
             <h3>Tagsを一括追加</h3>
             <div className="flex w-80 items-center gap-2">
@@ -102,13 +101,11 @@ export const CardEditor = ({ cards }: Props) => {
         </div>
       )}
 
-      <div className="flex flex-wrap gap-2">
-        <CardList
-          cards={filteredCards}
-          selectedCards={selectedCards}
-          onClick={handleOnSelect}
-        />
-      </div>
+      <CardList
+        cards={filteredCards}
+        selectedCards={selectedCards}
+        onClick={handleOnSelect}
+      />
     </div>
   );
 };

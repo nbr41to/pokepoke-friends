@@ -51,8 +51,17 @@ RARITY_MAPPING = {
     "Crown Rare": "crown",    # クラウン
 }
 
-# 変換対象のシリーズリスト（デフォルト）
-DEFAULT_SERIES_LIST = ["A1", "A1a", "A2", "A2a", "A2b", "A3", "A3a", "P-A"]
+def load_series_list(script_dir: Path) -> list:
+    """series.jsonからシリーズリストを読み込む"""
+    series_json_path = script_dir / "../src/constants/series.json"
+    try:
+        with open(series_json_path, 'r', encoding='utf-8') as f:
+            series_list = json.load(f)
+        return series_list
+    except Exception as e:
+        error_message = f"src/constants/series.jsonの読み込みに失敗しました: {e}"
+        print(f"エラー: {error_message}")
+        sys.exit(1)  # エラーコード1で終了
 
 def load_pokemon_names(script_dir: Path) -> Dict[str, str]:
     """ポケモンの英語名と日本語名のマッピングを読み込む"""
@@ -263,7 +272,7 @@ if __name__ == "__main__":
     script_dir = Path(__file__).parent
     
     # コマンドライン引数からシリーズリストを取得（引数がなければデフォルトを使用）
-    series_list = sys.argv[1:] if len(sys.argv) > 1 else DEFAULT_SERIES_LIST
+    series_list = sys.argv[1:] if len(sys.argv) > 1 else load_series_list(script_dir)
     
     # 出力先ディレクトリを作成
     converted_dir = script_dir / "../src/constants/data/converted"
