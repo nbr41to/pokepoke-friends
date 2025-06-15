@@ -70,6 +70,15 @@ export function DevCommand() {
             >
               一括操作
             </CommandItem>
+            <CommandItem
+              keywords={['未登録カード一覧']}
+              onSelect={() => {
+                router.push('/edit/unregister');
+                setOpen(false);
+              }}
+            >
+              未登録カード一覧
+            </CommandItem>
           </CommandGroup>
 
           <CommandGroup heading="Pack list">
