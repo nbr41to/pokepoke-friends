@@ -2,6 +2,7 @@ import type { Card, PokemonEvolveStage } from '@/generated/prisma';
 import { useMemo } from 'react';
 import { useSearchQuery } from './use-search-query';
 
+/* カードを絞り込むロジックをここに集約 */
 export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
   const { query } = useSearchQuery();
   const filteredCards = useMemo(
