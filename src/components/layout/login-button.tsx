@@ -10,7 +10,7 @@ export function LoginButton() {
 
   return (
     <Button
-      className="fixed top-2 right-2 size-9 w-auto rounded-full font-bold md:relative md:top-auto md:right-auto md:rounded-md md:pt-1"
+      className="fixed top-2 right-2 w-9 rounded-full font-bold md:relative md:top-auto md:right-auto md:w-auto md:rounded-md md:pt-1"
       onClick={async () => {
         try {
           await signInWithGoogle(pathname);

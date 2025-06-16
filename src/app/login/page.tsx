@@ -8,12 +8,12 @@ export default async function Page({
   const redirect = (await searchParams).redirect;
 
   return (
-    <div className="p-4">
-      <h1 className="flex justify-between border-b">ログインして使えるよ</h1>
-      <div className="mt-4 flex flex-col items-center justify-center gap-y-4">
-        <p>ログインする必要があります。</p>
+    <div className="flex w-full items-center justify-center p-5">
+      <div className="flex w-fit flex-col items-center justify-center gap-y-4 rounded-md border p-4">
+        <p className="text-center text-sm font-bold">
+          この機能を使用するためには、Googleアカウントでログインする必要があります。
+        </p>
         <LoginButton redirectUrl={redirect} />
-        <p>Googleログインのみ対応だよ</p>
       </div>
     </div>
   );
