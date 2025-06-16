@@ -8,6 +8,7 @@ import {
 import prisma from '@/libs/prisma/client';
 import { Search } from 'lucide-react';
 import Link from 'next/link';
+import { LoginButton } from './_components/login-button';
 
 const ACQUISITIONS_PATH = {
   A1: '/search?query=C0MDEhQEPAUdBFFJLE3mnbLlvZPjgJ7pgJvkva7lrKNVMl5GGwQKBBgdFhdSW1FRCg==',
@@ -70,6 +71,8 @@ export default async function Home() {
       <Separator />
 
       <h2 className="text-xl">- ログインしてつかう -</h2>
+
+      <LoginButton />
 
       <p className="py-8">開発中だよ</p>
     </div>

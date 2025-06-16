@@ -1,9 +1,19 @@
-import { GalleryHorizontalEnd, LogIn, Search, UsersRound } from 'lucide-react';
+import { createClient } from '@/libs/supabase/server';
+import { GalleryHorizontalEnd, Search, UsersRound } from 'lucide-react';
+
 import Link from 'next/link';
 import PokeBall from '../icons/PokeBall';
 import { Button } from '../ui/button';
+import { LoginButton } from './login-button';
+import { MenuButton } from './menu-button';
 
-export const Header = () => {
+export const Header = async () => {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  const isLoggedIn = !!user;
+
   return (
     <header className="font-hachiMaru flex items-center justify-center border-b px-6 py-3 md:justify-between">
       <Link href="/" className="flex items-center gap-x-3">
@@ -26,10 +36,11 @@ export const Header = () => {
           デッキ構築
         </Button>
       </div>
-      <Button disabled className="hidden pt-1 font-bold md:flex">
-        <LogIn className="mt-1" />
-        ログイン
-      </Button>
+      {isLoggedIn ? (
+        <MenuButton avatarUrl={user.user_metadata.avatar_url} />
+      ) : (
+        <LoginButton />
+      )}
     </header>
   );
 };
