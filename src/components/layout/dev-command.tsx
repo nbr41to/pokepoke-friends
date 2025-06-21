@@ -38,6 +38,8 @@ export function DevCommand() {
     return () => document.removeEventListener('keydown', down);
   }, []);
 
+  if (process.env.NODE_ENV === 'production') return null;
+
   return (
     <CommandDialog open={open} onOpenChange={setOpen}>
       <Command
@@ -69,6 +71,15 @@ export function DevCommand() {
               }}
             >
               一括操作
+            </CommandItem>
+            <CommandItem
+              keywords={['未登録カード一覧']}
+              onSelect={() => {
+                router.push('/edit/unregister');
+                setOpen(false);
+              }}
+            >
+              未登録カード一覧
             </CommandItem>
           </CommandGroup>
 

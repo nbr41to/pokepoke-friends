@@ -10,6 +10,8 @@ bun dev
 
 ## Generate Data
 
+1. scraping & converting
+
 ```bash
 scripts/run_all_scripts.sh
 ```
@@ -20,25 +22,22 @@ or
 source ./venv/bin/activate && python3 scripts/get_data.py && python3 scripts/convert_card_data.py && python3 scripts/get_data_ja.py
 ```
 
-0.create basic data
+初期設定→scraping→converting→日本語対応
+
+
+2. Save DB (手動)
 
 ```bash
-source ./venv/bin/activate
+bun scripts/export_card_data.ts
 ```
 
-1.scraping
+3. 画像を保存
 
 ```bash
-python3 scripts/get_data.py
+bun src/migrate-images-to-supabase.ts
 ```
 
-2.converting
-
-```bash
-python3 scripts/convert_card_data.py
-```
-
-3.export json (after save DB)
+4. export json (after save DB)
 
 ```bash
 bun scripts/export_card_data.ts

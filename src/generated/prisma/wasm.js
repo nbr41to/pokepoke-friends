@@ -149,6 +149,15 @@ exports.Prisma.CardScalarFieldEnum = {
   updatedAt: 'updatedAt'
 };
 
+exports.Prisma.PlayerScalarFieldEnum = {
+  id: 'id',
+  friendId: 'friendId',
+  playerName: 'playerName',
+  secretWord: 'secretWord',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -202,7 +211,8 @@ exports.PokemonEvolveStage = exports.$Enums.PokemonEvolveStage = {
 };
 
 exports.Prisma.ModelName = {
-  Card: 'Card'
+  Card: 'Card',
+  Player: 'Player'
 };
 
 /**

@@ -3,11 +3,11 @@ import prisma from '@/libs/prisma/client';
 import { createClient } from '@supabase/supabase-js';
 
 // Supabaseの設定
-const SUPABASE_URL = process.env.SUPABASE_URL!;
+const NEXT_PUBLIC_SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY!;
 const SUPABASE_BUCKET = 'card-images';
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+const supabase = createClient(NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_KEY);
 
 async function migrateImages() {
   // 1. 全カード取得
@@ -15,7 +15,7 @@ async function migrateImages() {
     where: {
       image: {
         not: {
-          startsWith: SUPABASE_URL,
+          startsWith: NEXT_PUBLIC_SUPABASE_URL,
         },
       },
     },
@@ -26,7 +26,7 @@ async function migrateImages() {
     if (!imageUrl) continue;
 
     // すでにSupabaseのURLならスキップ
-    if (imageUrl.includes(SUPABASE_URL)) continue;
+    if (imageUrl.includes(NEXT_PUBLIC_SUPABASE_URL)) continue;
 
     try {
       // 2. 画像ダウンロード
