@@ -33,48 +33,69 @@ export default async function Home() {
   });
 
   return (
-    <div className="font-hachiMaru space-y-8 p-4 text-center">
-      <h2 className="text-xl">- しゅうろくカードたち -</h2>
+    <div>
+      <div className="font-hachiMaru space-y-8 p-4 text-center">
+        <h2 className="text-xl">- しゅうろくカードたち -</h2>
 
-      <div className="flex flex-col items-center justify-center gap-y-2">
-        {ACQUISITION_LIST.map((acquisition) => (
-          <Link
-            key={acquisition}
-            href={ACQUISITIONS_PATH[acquisition]}
-            aria-label={ACQUISITION_LABEL[acquisition]}
-            className="font-hachiMaru flex gap-x-3 border-2 border-b-2 border-white px-4 py-2 text-xl transition-colors hover:border-b-gray-600"
-          >
-            <span>{ACQUISITION_LABEL[acquisition]}</span>
-            <Badge className="rounded-full pb-1 text-sm font-bold">
-              {acquisition}
-            </Badge>
+        <div className="flex flex-col items-center justify-center gap-y-2">
+          {ACQUISITION_LIST.map((acquisition) => (
+            <Link
+              key={acquisition}
+              href={ACQUISITIONS_PATH[acquisition]}
+              aria-label={ACQUISITION_LABEL[acquisition]}
+              className="font-hachiMaru flex gap-x-3 border-2 border-b-2 border-white px-4 py-2 text-xl transition-colors hover:border-b-gray-600"
+            >
+              <span>{ACQUISITION_LABEL[acquisition]}</span>
+              <Badge className="rounded-full pb-1 text-sm font-bold">
+                {acquisition}
+              </Badge>
+            </Link>
+          ))}
+        </div>
+
+        <p className="text-xs">
+          最終更新:{' '}
+          {new Date(latestData?.[0].updatedAt).toLocaleString('ja-JP')}
+        </p>
+
+        <Button
+          size="lg"
+          variant="outline"
+          className="rounded-full px-8 font-bold"
+          asChild
+        >
+          <Link href="/search">
+            <Search />
+            カードをけんさくする
           </Link>
-        ))}
+        </Button>
       </div>
 
-      <p className="text-xs">
-        最終更新: {new Date(latestData?.[0].updatedAt).toLocaleString('ja-JP')}
-      </p>
-
-      <Button
-        size="lg"
-        variant="outline"
-        className="rounded-full px-8 font-bold"
-        asChild
-      >
-        <Link href="/search">
-          <Search />
-          カードをけんさくする
-        </Link>
-      </Button>
+      {/* <Separator />
+      <div className="font-hachiMaru space-y-8 p-4 text-center">
+        <h2 className="font-hachiMaru text-xl">- リリースノート -</h2>
+      </div> */}
 
       <Separator />
 
-      <h2 className="text-xl">- ログインしてつかう -</h2>
+      <div className="space-y-8 p-4 text-center">
+        <h2 className="font-hachiMaru text-xl">- ログインすると -</h2>
 
-      <LoginButton />
+        <ul className="font-hachiMaru">
+          <li className="font-bold text-blue-500">
+            デッキをつくることができる
+          </li>
+          <li className="font-bold text-orange-500">プレイヤー検索ができる</li>
+          <li className="font-bold text-green-500 line-through">
+            掲示板でいろいろできる
+          </li>
+        </ul>
 
-      <p className="py-8">開発中だよ</p>
+        <div className="space-y-1">
+          <LoginButton />
+          <p className="text-xs font-bold">※Google ログインのみ</p>
+        </div>
+      </div>
     </div>
   );
 }
