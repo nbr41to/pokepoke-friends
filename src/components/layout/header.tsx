@@ -1,5 +1,10 @@
 import { createClient } from '@/libs/supabase/server';
-import { GalleryHorizontalEnd, Search, UsersRound } from 'lucide-react';
+import {
+  GalleryHorizontalEnd,
+  Search,
+  Settings,
+  UsersRound,
+} from 'lucide-react';
 
 import Link from 'next/link';
 import PokeBall from '../icons/PokeBall';
@@ -27,14 +32,22 @@ export const Header = async () => {
             カード検索
           </Link>
         </Button>
-        <Button disabled variant="link" className="text-lg">
-          <UsersRound className="mt-1" />
-          掲示板
-        </Button>
-        <Button disabled variant="link" className="text-lg">
-          <GalleryHorizontalEnd className="mt-1 rotate-180" />
-          デッキ構築
-        </Button>
+        {isLoggedIn && (
+          <>
+            <Button variant="link" className="text-lg">
+              <GalleryHorizontalEnd className="mt-1 rotate-180" />
+              デッキ構築
+            </Button>
+            <Button disabled variant="link" className="text-lg">
+              <UsersRound className="mt-1" />
+              掲示板
+            </Button>
+            <Button variant="link" className="text-lg">
+              <Settings className="mt-1" />
+              マイページ
+            </Button>
+          </>
+        )}
       </div>
       {isLoggedIn ? (
         <MenuButton avatarUrl={user.user_metadata.avatar_url} />

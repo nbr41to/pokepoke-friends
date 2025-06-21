@@ -21,7 +21,12 @@ export default async function Page({
     <div className="font-hachiMaru flex flex-col items-center space-y-4 p-4">
       <h1 className="text-xl font-bold">プレイヤー検索</h1>
       <Form action="/players" className="flex items-center gap-2">
-        <Input name="himitu" placeholder="ひみつのことば" className="w-64" />
+        <Input
+          type="search"
+          name="himitu"
+          placeholder="ひみつのことば"
+          className="w-64"
+        />
         <Button type="submit">検索</Button>
       </Form>
       <Separator />

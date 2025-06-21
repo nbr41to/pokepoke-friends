@@ -2,7 +2,7 @@
 
 import { Input } from '@/components/ui/input';
 import { useSearchQuery } from '@/utils/use-search-query';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export const KeywordForm = () => {
   const { query, setQuery } = useSearchQuery();
@@ -12,6 +12,13 @@ export const KeywordForm = () => {
     e.preventDefault();
     setQuery({ ...query, keywords: inputValue });
   };
+
+  useEffect(() => {
+    // 入力値が空の場合は、queryからkeywordsを削除
+    if (!query.keywords) {
+      setInputValue('');
+    }
+  }, [query.keywords]);
 
   return (
     <form
