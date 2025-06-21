@@ -38,6 +38,8 @@ export function DevCommand() {
     return () => document.removeEventListener('keydown', down);
   }, []);
 
+  if (process.env.NODE_ENV === 'production') return null;
+
   return (
     <CommandDialog open={open} onOpenChange={setOpen}>
       <Command
