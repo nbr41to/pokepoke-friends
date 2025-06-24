@@ -17,7 +17,7 @@ export const signInWithGoogle = async (redirectUrl?: string) => {
   const { data } = await supabase.auth.signInWithOAuth({
     provider: 'google',
     options: {
-      redirectTo: `${baseUrl}/auth/callback?redirect=${encodeURIComponent(redirectUrl || '/setting')}`,
+      redirectTo: `https://pokepoke-friends.vercel.app/auth/callback?redirect=${encodeURIComponent(redirectUrl || '/setting')}`,
     },
   });
   if (data.url) {
