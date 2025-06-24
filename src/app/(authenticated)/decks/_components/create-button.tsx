@@ -3,7 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { Plus } from 'lucide-react';
 import { nanoid } from 'nanoid';
-import { redirect } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { upsertDeck } from '../[id]/edit/action';
 
@@ -12,6 +12,7 @@ type Props = {
 };
 export const CreateButton = ({ disabled }: Props) => {
   const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const handleCreateDeck = async () => {
     try {
@@ -26,7 +27,7 @@ export const CreateButton = ({ disabled }: Props) => {
         cardIds: [],
       });
 
-      redirect(`/decks/${id}`);
+      router.push(`/decks/${id}/edit`);
     } catch (error) {
       console.error('デッキの作成に失敗しました:', error);
     } finally {
@@ -37,7 +38,7 @@ export const CreateButton = ({ disabled }: Props) => {
   return (
     <Button
       variant="outline"
-      className="h-32 w-24"
+      className="w-full py-8"
       disabled={disabled || loading}
       onClick={handleCreateDeck}
     >

@@ -19,23 +19,24 @@ export default async function Page() {
         {decks.map((deck) => (
           <Link
             key={deck.id}
-            className="flex h-32 w-24 flex-col items-center rounded-md border"
+            className="flex w-[180px] flex-none flex-col gap-1 rounded border p-2 transition-transform hover:scale-105"
             href={`/decks/${deck.id}`}
           >
             {deck.thumbnail1 ? (
               <Image
-                src={deck.thumbnail1}
+                src={`https://pkhquuguchymresgmtey.supabase.co/storage/v1/object/public/card-images/${deck.thumbnail1.replace('#', '_')}.png`}
                 alt={deck.name}
                 width={96}
                 height={128}
               />
             ) : (
-              <div className="flex h-full w-full items-center justify-center bg-gray-200">
+              <div className="flex h-32 w-24 items-center justify-center bg-gray-200">
                 <PokeBall className="size-10" />
               </div>
             )}
             {/* Uncomment the line below if you want to display the deck name */}
-            {/* <h2 className="text-lg font-bold">{deck.name}</h2> */}
+            <h2 className="text-sm font-bold">{deck.name}</h2>
+            <p className="text-xs">{deck.memo}</p>
           </Link>
         ))}
       </div>
