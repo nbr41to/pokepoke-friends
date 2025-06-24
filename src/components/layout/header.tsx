@@ -45,7 +45,7 @@ export const Header = async () => {
               掲示板
             </Button>
             <Button variant="link" className="text-lg" asChild>
-              <Link href="/settings">
+              <Link href="/setting">
                 <Settings className="mt-1" />
                 マイページ
               </Link>
