@@ -9,10 +9,6 @@ import { redirect } from 'next/navigation';
  * @param redirectPath ログイン後に戻したいパス（例: '/edit/unregister'）
  */
 export const signInWithGoogle = async (redirectUrl?: string) => {
-  console.log(
-    'signInWithGoogle called with redirectUrl:',
-    `${baseUrl}/auth/callback?redirect=${encodeURIComponent(redirectUrl || '/setting')}`,
-  );
   const supabase = await createClient();
   const { data } = await supabase.auth.signInWithOAuth({
     provider: 'google',
