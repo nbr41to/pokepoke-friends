@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import type { Deck } from '@/constants/types/deck';
 import Link from 'next/link';
 import { CardWithDetailModal } from './_components/card-with-detail-modal';
+import { DeleteButton } from './_components/delete-button';
 
 export default async function Page({
   params,
@@ -25,16 +26,20 @@ export default async function Page({
       <p>メモ: {deck.memo}</p>
       <Separator />
       <div className="space-y-3">
-        <div className="flex items-center justify-end">
+        <div className="flex items-center justify-end gap-x-2">
           <Button>
             <Link href={`/decks/${deck.id}/edit`}>編集する</Link>
           </Button>
+          <DeleteButton deckId={deck.id} />
         </div>
         <div className="flex flex-wrap gap-2">
           {deck.cardIds.map((cardId, index) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <CardWithDetailModal key={cardId + index} cardId={cardId} />
           ))}
+          {deck.cardIds.length === 0 && (
+            <div className="py-8 text-gray-500">カードが登録されていません</div>
+          )}
         </div>
       </div>
     </div>

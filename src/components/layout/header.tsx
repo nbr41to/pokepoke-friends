@@ -34,17 +34,21 @@ export const Header = async () => {
         </Button>
         {isLoggedIn && (
           <>
-            <Button variant="link" className="text-lg">
-              <GalleryHorizontalEnd className="mt-1 rotate-180" />
-              デッキ構築
+            <Button variant="link" className="text-lg" asChild>
+              <Link href="/decks">
+                <GalleryHorizontalEnd className="mt-1 rotate-180" />
+                デッキ構築
+              </Link>
             </Button>
             <Button disabled variant="link" className="text-lg">
               <UsersRound className="mt-1" />
               掲示板
             </Button>
-            <Button variant="link" className="text-lg">
-              <Settings className="mt-1" />
-              マイページ
+            <Button variant="link" className="text-lg" asChild>
+              <Link href="/settings">
+                <Settings className="mt-1" />
+                マイページ
+              </Link>
             </Button>
           </>
         )}
