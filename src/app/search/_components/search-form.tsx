@@ -4,7 +4,6 @@ import {
   EvolveStageForm,
   HasAbilityForm,
   HitpointsForm,
-  KeywordForm,
   MoveColorlessEnergyForm,
   MoveEnergyForm,
   MovePowerForm,
@@ -13,6 +12,7 @@ import {
   ResetButton,
   RetreatCostForm,
 } from '@/components/search-form';
+import { KeywordDebounceForm } from '@/components/search-form/keyword-debounce-form';
 
 export const SearchForm = () => {
   return (
@@ -37,7 +37,7 @@ export const SearchForm = () => {
 
       <div className="mx-auto w-full max-w-[600px] space-y-3">
         <AcquisitionForm />
-        <KeywordForm />
+        <KeywordDebounceForm />
       </div>
 
       <div className="flex flex-col items-center justify-center gap-y-3">

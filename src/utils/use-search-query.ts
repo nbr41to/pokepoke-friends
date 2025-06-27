@@ -41,7 +41,7 @@ const DEFAULT_CONDITION: Condition = {
 
 const conditionToQuery = (condition: Condition) => {
   for (const [key, value] of Object.entries(condition)) {
-    if (value === null) {
+    if (value === null || value === '') {
       delete condition[key as keyof Condition];
     }
     if (Array.isArray(value)) {
@@ -54,7 +54,7 @@ const conditionToQuery = (condition: Condition) => {
     }
   }
 
-  return xorEncrypt(condition, PASSWORD);
+  return xorEncrypt({ ...DEFAULT_CONDITION, ...condition }, PASSWORD);
 };
 
 const queryToCondition = (query: string) => {
