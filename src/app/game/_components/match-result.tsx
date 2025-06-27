@@ -19,6 +19,7 @@ export const MatchResult = ({ correctName, answer }: Props) => {
 
           return (
             <div
+              // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
               key={index}
               className={cn(
                 'flex size-8 items-center justify-center rounded-md border font-bold text-white md:size-12 md:text-2xl',
