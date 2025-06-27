@@ -38,7 +38,7 @@ export async function updateSession(request: NextRequest) {
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  const unautherizedPathPrefix = ['/login', '/auth', '/search'];
+  const unautherizedPathPrefix = ['/login', '/auth', '/search', '/game'];
 
   if (
     !user &&
