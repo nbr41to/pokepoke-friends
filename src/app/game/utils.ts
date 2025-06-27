@@ -20,7 +20,8 @@ export const getDefaultGameData = (
 /**
  * PokeAPIからランダムに日本語名が5文字のPokémonの名前を取得する
  */
-export const getFiveCharPokemonCards = () => {
+export const getRandomPokemon = async () => {
+  // TODO: PokeAPIから取得する
   const pokemonCards = (CARD_DATA as Card[]).filter((pokemon) => {
     const name = pokemon.name.replace(' ex', '');
     // カタカナ5文字かチェック
@@ -34,27 +35,6 @@ export const getFiveCharPokemonCards = () => {
       /^[\u30A0-\u30FF]+$/.test(name)
     );
   });
-  // 名前が重複しているものを除去
-  const uniquePokemonCards = pokemonCards.filter(
-    (card, index, self) =>
-      index ===
-      self.findIndex(
-        (c) => c.name.replace(' ex', '') === card.name.replace(' ex', ''),
-      ),
-  );
-
-  return uniquePokemonCards;
-};
-export const FIVE_CHAR_POKEMON_NAMES = getFiveCharPokemonCards().map(
-  (p) => p.name,
-);
-
-/**
- * PokeAPIからランダムに日本語名が5文字のPokémonの名前を取得する
- */
-export const getFiveCharRandomPokemon = async () => {
-  // TODO: PokeAPIから取得する
-  const pokemonCards = getFiveCharPokemonCards();
   const randomIndex = Math.floor(Math.random() * pokemonCards.length);
 
   return {

@@ -18,8 +18,8 @@ export default async function Page({
   }
 
   return (
-    <div className="flex flex-col items-center space-y-4 p-4">
-      <h1 className="font-hachiMaru text-xl font-bold">デッキつくるよ</h1>
+    <div className="font-hachiMaru flex flex-col items-center space-y-4 p-4">
+      <h1 className="text-xl font-bold">デッキつくるよ</h1>
       <Separator />
       <DeckEditor deck={deck} />
     </div>

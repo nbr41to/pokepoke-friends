@@ -50,9 +50,11 @@ export const KeywordDebounceForm = () => {
   }, []);
 
   return (
-    <form onSubmit={handleOnSubmit} className="h-[42px] w-full text-sm">
+    <form
+      onSubmit={handleOnSubmit}
+      className="h-[42px] w-full max-w-[694px] text-sm"
+    >
       <Input
-        type="search"
         className="h-[42px]"
         value={inputValue}
         onChange={handleInputChange}

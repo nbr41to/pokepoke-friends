@@ -24,7 +24,7 @@ import { signOut } from './action';
 export function MenuButton({ avatarUrl }: { avatarUrl: string }) {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className="fixed top-1.5 right-2 z-20 rounded-full border bg-white p-1 md:relative md:top-auto md:right-auto">
+      <DropdownMenuTrigger className="fixed top-1.5 right-2 rounded-full border p-1 md:relative md:top-auto md:right-auto">
         <Image
           src={avatarUrl}
           alt="User Avatar"

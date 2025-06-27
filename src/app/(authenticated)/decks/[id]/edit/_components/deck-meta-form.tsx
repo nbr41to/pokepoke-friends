@@ -27,7 +27,7 @@ export const DeckMetaForm = ({ deck }: Props) => {
 
   return (
     <form
-      className="font-hachiMaru mx-auto flex flex-wrap justify-center gap-4"
+      className="mx-auto flex flex-wrap justify-center gap-4"
       action={action}
     >
       {thumbnail1 ? (

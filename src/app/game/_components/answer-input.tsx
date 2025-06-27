@@ -3,37 +3,39 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Lightbulb, Send } from 'lucide-react';
-import { useActionState, useEffect } from 'react';
+import { useState } from 'react';
 import { updateGame } from '../action';
 
 export const AnswerInput = () => {
-  const [state, action, pending] = useActionState(updateGame, null);
-
-  useEffect(() => {
-    if (state) {
-      alert(state);
-    }
-  }, [state]);
+  const [answer, setAnswer] = useState('');
 
   return (
-    <form className="flex gap-x-2" action={action}>
+    <div className="flex gap-x-1">
       <Input
-        placeholder="ポケモンのなまえ"
         className="bg-white font-bold"
-        name="answer"
+        value={answer}
+        onChange={(e) => setAnswer(e.target.value)}
+        onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
+          if (e.key !== 'Enter' || e.nativeEvent.isComposing) return;
+          const value = e.currentTarget.value.trim();
+          if (value.length !== 5 || !/^[\u30A0-\u30FF]+$/.test(value)) {
+            alert('カタカナ5文字で入力してください。');
+            return;
+          }
+          e.preventDefault();
+          updateGame(answer);
+        }}
       />
-      <Button type="submit" size="icon" variant="default">
+      <Button
+        size="icon"
+        variant="secondary"
+        onClick={() => updateGame(answer)}
+      >
         <Send className="size-5" />
       </Button>
-      <Button size="icon" type="button" variant="outline" hidden>
+      <Button size="icon">
         <Lightbulb className="size-5" />
       </Button>
-      {pending && (
-        <div className="absolute inset-0 flex items-center justify-center bg-white/50">
-          {/* くるくるまわるやつ */}
-          <div className="size-6 animate-spin rounded-full border-4 border-gray-300 border-t-gray-700" />
-        </div>
-      )}
-    </form>
+    </div>
   );
 };

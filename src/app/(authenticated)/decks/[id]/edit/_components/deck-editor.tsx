@@ -53,15 +53,12 @@ export const DeckEditor = ({ deck }: Props) => {
     [deck, selectedCardIds, addOptimistic],
   );
 
-  const handleOnClearDeck = useCallback(async () => {
-    startTransition(async () => {
-      addOptimistic([]);
-      await upsertDeck({
-        ...deck,
-        cardIds: [],
-      });
+  const handleOnClearDeck = async () => {
+    await upsertDeck({
+      ...deck,
+      cardIds: [],
     });
-  }, [deck, addOptimistic]);
+  };
 
   return (
     <div className="space-y-8">
