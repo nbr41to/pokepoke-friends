@@ -33,7 +33,10 @@ export const InputField = ({
       name={name}
       render={({ field }) => (
         <FormItem>
-          <FormLabel>{label}</FormLabel>
+          <FormLabel>
+            {label}
+            {!required && <span className="text-xs text-gray-500">(任意)</span>}
+          </FormLabel>
 
           <FormControl>
             <Input

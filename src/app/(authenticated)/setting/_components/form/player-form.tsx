@@ -38,7 +38,7 @@ export const PlayerForm = ({ player, onClose }: Props) => {
     <Form {...formMethods}>
       <form
         noValidate
-        className="font-hachiMaru w-fit space-y-3 rounded-md border p-4"
+        className="font-hachiMaru w-fit max-w-[290px] space-y-3 rounded-md border p-4"
         onSubmit={formMethods.handleSubmit(handleOnSubmit)}
       >
         <InputField

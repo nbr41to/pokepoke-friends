@@ -9,6 +9,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import {
+  Gamepad2,
   LogOut,
   LucideGalleryHorizontalEnd,
   Search,
@@ -55,9 +56,15 @@ export function MenuButton({ avatarUrl }: { avatarUrl: string }) {
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild disabled>
-          <Link href="/">
+          <Link href="/socials">
             <UsersRound />
             <span className="pb-1">掲示板</span>
+          </Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem asChild>
+          <Link href="/game">
+            <Gamepad2 />
+            <span className="pb-1">ミニゲーム</span>
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
