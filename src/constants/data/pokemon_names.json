@@ -4292,6 +4292,14 @@
     "en": "Lusamine"
   },
   {
+    "ja": "ハウ",
+    "en": "Hau"
+  },
+  {
+    "ja": "ボタン",
+    "en": "Penny"
+  },
+  {
     "ja": "博士の研究",
     "en": "Professor's Research"
   },
@@ -4363,7 +4371,6 @@
     "ja": "ラムのみ",
     "en": "Lum Berry"
   },
-
   {
     "ja": "おおきいマラサダ",
     "en": "Big Malasada"
@@ -4403,5 +4410,13 @@
   {
     "ja": "ビーストナイト",
     "en": "Beastite"
+  },
+  {
+    "ja": "イーブイのバッグ",
+    "en": "Eevee Bag"
+  },
+  {
+    "ja": "たべのこし",
+    "en": "Leftovers"
   }
 ]

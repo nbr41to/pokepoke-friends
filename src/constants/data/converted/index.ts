@@ -5,6 +5,7 @@ import A2aJSON from './A2a.json';
 import A2bJSON from './A2b.json';
 import A3JSON from './A3.json';
 import A3aJSON from './A3a.json';
+import A3bJSON from './A3b.json';
 import P_AJSON from './P-A.json';
 
 export const CARD_DATA = [
@@ -15,5 +16,6 @@ export const CARD_DATA = [
   ...A2bJSON,
   ...A3JSON,
   ...A3aJSON,
+  ...A3bJSON,
   ...P_AJSON,
 ];
