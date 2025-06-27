@@ -31,7 +31,7 @@ export const DeckCardsForm = ({
           <p className="">{selectedCardIds.length} / 20 枚</p>
         </div>
         <div className="w-full overflow-x-scroll rounded border">
-          <div className="grid h-[212px] w-fit grid-cols-10 items-start justify-start gap-1 overflow-x-scroll p-2">
+          <div className="grid h-[212px] w-max grid-cols-10 items-start justify-start gap-1 overflow-x-scroll p-2">
             {selectedCardIds.map((cardId, index) => (
               <button
                 // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
