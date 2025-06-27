@@ -1,6 +1,7 @@
 import { createClient } from '@/libs/supabase/server';
 import {
   GalleryHorizontalEnd,
+  Gamepad2,
   Search,
   Settings,
   UsersRound,
@@ -41,8 +42,16 @@ export const Header = async () => {
               </Link>
             </Button>
             <Button disabled variant="link" className="text-lg">
+              {/* <Link href="/socials"> */}
               <UsersRound className="mt-1" />
               掲示板
+              {/* </Link> */}
+            </Button>
+            <Button variant="link" className="text-lg" asChild>
+              <Link href="/game">
+                <Gamepad2 className="mt-1" />
+                ミニゲーム
+              </Link>
             </Button>
             <Button variant="link" className="text-lg" asChild>
               <Link href="/setting">

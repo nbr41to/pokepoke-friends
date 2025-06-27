@@ -6,6 +6,17 @@ First, run the development server:
 bun dev
 ```
 
+## Update Manual
+1. edit `src/constants/series.json`, `src/constants/types/acquisition.ts`
+2. add `scripts/target/ja-{SERIES}.html`
+3. `scripts/run_all_scripts.sh`
+4. edit `src/constants/data/converted/index.ts`
+5. edit new words at `src/constants/data/pokemon_names.json`
+6. `bun dev`
+7. `bun src/migrate-images-to-supabase.ts`
+8. `bun scripts/export_card_data.ts`
+9. edit top page
+
 ## Generate Data
 
 1. scraping & converting
@@ -23,10 +34,10 @@ source ./venv/bin/activate && python3 scripts/get_data.py && python3 scripts/con
 初期設定→scraping→converting→日本語対応
 
 
-2. Save DB (手動)
+2. Save DB (Manual)
 
 ```bash
-bun scripts/export_card_data.ts
+bun dev
 ```
 
 3. 画像を保存

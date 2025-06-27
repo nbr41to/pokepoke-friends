@@ -4,6 +4,7 @@ import { Input } from '@/components/ui/input';
 import { useSearchQuery } from '@/utils/use-search-query';
 import { useEffect, useState } from 'react';
 
+// KeywordDebounceFormへの移行を検討中で、すでに使用されてない。
 export const KeywordForm = () => {
   const { query, setQuery } = useSearchQuery();
   const [inputValue, setInputValue] = useState(query.keywords || '');

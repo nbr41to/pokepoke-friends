@@ -3,11 +3,11 @@ import {
   CardTypeForm,
   EvolveStageForm,
   HasAbilityForm,
-  KeywordForm,
   PokemonTypeForm,
   RarityForm,
   ResetButton,
 } from '@/components/search-form';
+import { KeywordDebounceForm } from '@/components/search-form/keyword-debounce-form';
 
 export const SearchForm = () => {
   return (
@@ -18,7 +18,7 @@ export const SearchForm = () => {
       <EvolveStageForm />
       <HasAbilityForm />
       <AcquisitionForm />
-      <KeywordForm />
+      <KeywordDebounceForm />
       <ResetButton />
     </div>
   );
