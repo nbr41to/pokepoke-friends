@@ -25,7 +25,7 @@ export const DeckCardsFilter = ({ selectedCardIds, onCardSelect }: Props) => {
             className="relative"
             onClick={() => onCardSelect(card.id)}
           >
-            <Image src={card.image} alt={card.name} width={98} height={98} />
+            <Image src={card.image} alt={card.name} width={88} height={88} />
             {selectedCount > 0 && (
               <div className="absolute top-0 right-0 grid h-full w-full place-content-center bg-black/70 opacity-40">
                 <span className="grid size-12 place-content-center rounded-full bg-black font-mono text-3xl font-bold text-white">
