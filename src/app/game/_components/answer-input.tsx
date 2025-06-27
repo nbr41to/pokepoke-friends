@@ -30,7 +30,6 @@ export const AnswerInput = () => {
       </Button>
       {pending && (
         <div className="absolute inset-0 flex items-center justify-center bg-white/50">
-          {/* くるくるまわるやつ */}
           <div className="size-6 animate-spin rounded-full border-4 border-gray-300 border-t-gray-700" />
         </div>
       )}
