@@ -19,7 +19,7 @@ export default async function Page() {
         {decks.map((deck) => (
           <Link
             key={deck.id}
-            className="flex w-[180px] flex-none flex-col gap-1 rounded border p-2 transition-transform hover:scale-105"
+            className="flex w-[172px] flex-none flex-col gap-1 rounded border p-2 transition-transform hover:scale-105"
             href={`/decks/${deck.id}`}
           >
             {deck.thumbnail1 ? (
