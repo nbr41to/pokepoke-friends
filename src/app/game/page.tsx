@@ -44,12 +44,13 @@ export default async function Page() {
           <div className="grid grid-flow-col grid-cols-2 grid-rows-5 gap-2">
             {gameData.answers.map((answer, index) => (
               <MatchResult
+                // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
                 key={index}
                 correctName={gameData.correctName}
                 answer={answer}
               />
             ))}
-            <div className="fixed right-0 bottom-12 left-0 z-10 flex items-center justify-center bg-gray-800 p-4 md:bottom-0">
+            <div className="fixed right-0 bottom-0 left-0 z-50 flex items-center justify-center bg-gray-800 p-4 md:bottom-0">
               <AnswerInput />
             </div>
           </div>

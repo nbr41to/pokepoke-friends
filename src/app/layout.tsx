@@ -38,7 +38,7 @@ export default function RootLayout({
         <NuqsAdapter>
           <div className="mx-auto max-w-2xl md:max-w-full">
             <Header />
-            <div className="min-h-screen pb-16">{children}</div>
+            <div className="min-h-svh pb-16">{children}</div>
             <Footer />
           </div>
         </NuqsAdapter>
