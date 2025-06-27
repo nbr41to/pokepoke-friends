@@ -15,6 +15,7 @@ bun dev
 6. `bun dev`
 7. `bun src/migrate-images-to-supabase.ts`
 8. `bun scripts/export_card_data.ts`
+9. edit top page
 
 ## Generate Data
 
