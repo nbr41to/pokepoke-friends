@@ -9,12 +9,12 @@ bun dev
 ## Update Manual
 1. edit `src/constants/series.json`, `src/constants/types/acquisition.ts`
 2. add `scripts/target/ja-{SERIES}.html`
-3. `scripts/run_all_scripts.sh`
+3. run `scripts/run_all_scripts.sh`
 4. edit `src/constants/data/converted/index.ts`
 5. edit new words at `src/constants/data/pokemon_names.json`
-6. `bun dev`
-7. `bun src/migrate-images-to-supabase.ts`
-8. `bun scripts/export_card_data.ts`
+6. run `bun dev`
+7. run `bun src/migrate-images-to-supabase.ts`
+8. run `bun scripts/export_card_data.ts`
 9. edit top page
 
 ## Generate Data
@@ -31,7 +31,7 @@ or
 source ./venv/bin/activate && python3 scripts/get_data.py && python3 scripts/convert_card_data.py && python3 scripts/get_data_ja.py
 ```
 
-初期設定→scraping→converting→日本語対応
+初期設定 → scraping → converting → 日本語対応
 
 
 2. Save DB (Manual)
