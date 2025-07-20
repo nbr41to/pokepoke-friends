@@ -16,7 +16,7 @@ export const SearchResults = () => {
   const allLengths = CARD_DATA.length;
 
   return (
-    <div className="space-y-4 bg-blue-100 py-4">
+    <div className="space-y-4 bg-blue-100 pt-4 pb-80">
       <div className="flex justify-between gap-x-3 px-3 sm:px-6">
         <div className="font-hachiMaru text-sm">
           {filteredCards.length} / {allLengths} 件
