@@ -103,7 +103,9 @@ export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
            */
           (moveEnergy !== null && isPokemonOnly
             ? card.move1energy?.length === moveEnergy ||
-              card.move2energy?.length === moveEnergy
+              card.move2energy?.length === moveEnergy ||
+              (moveEnergy === 0 &&
+                (card.move1energy === '0' || card.move2energy === '0'))
             : true) &&
           /**
            * moveNoneColorlessEnergy
@@ -145,7 +147,6 @@ export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
               card.move2name?.includes(keywords) ||
               card.move2description?.includes(keywords) ||
               card.tags?.includes(keywords) ||
-              card.packName?.includes(keywords) ||
               // 変換したカタカナと比較
               card.name.includes(keywordsKatakana) ||
               card.description?.includes(keywordsKatakana) ||

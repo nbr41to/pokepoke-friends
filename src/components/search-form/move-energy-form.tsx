@@ -1,15 +1,20 @@
 'use client';
 
 import CARD_DATA from '@/constants/data/all_cards.json';
+import type { Card } from '@/generated/prisma';
 import { useSearchQuery } from '@/utils/use-search-query';
 import { CounterForm } from './counter-form';
 
 const MOVE_ENERGY_LIST = [
   ...new Set(
-    CARD_DATA.flatMap((card) => {
-      const move1Energy = card.move1energy ? card.move1energy.length : null;
-      const move2Energy = card.move2energy ? card.move2energy.length : null;
-      return [move1Energy, move2Energy];
+    (CARD_DATA as Card[]).flatMap((card) => {
+      const usedEnergyLengths: number[] = [];
+      card.move1energy ? usedEnergyLengths.push(card.move1energy.length) : null;
+      card.move2energy ? usedEnergyLengths.push(card.move2energy.length) : null;
+      if (card.move1energy === '0' || card.move2energy === '0') {
+        usedEnergyLengths.push(0);
+      }
+      return usedEnergyLengths;
     }),
   ),
 ]
