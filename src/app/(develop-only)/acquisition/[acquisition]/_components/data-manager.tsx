@@ -36,20 +36,28 @@ export const DataManager = ({ cards, jaCards, dbCards }: Props) => {
           ACQUISITION_LABEL[
             card.cardNumber.split(' ')[0] as keyof typeof ACQUISITION_LABEL
           ];
-        const matchedJaCards = jaCards.filter((jaData) =>
-          (jaData.name + jaData.acquisition_pack).startsWith(
+        const matchedJaCards = jaCards.filter((jaData) => {
+          const translateName = jaData.name.startsWith('アンノーン') // アンノーン*の場合に語尾の「*」を除去 （例: 「アンノーンG」→「アンノーン」）
+            ? 'アンノーン'
+            : jaData.name;
+
+          return (translateName + jaData.acquisition_pack).startsWith(
             (card.name + cardPackLabel).replace(/ /g, ''),
-          ),
-        );
+          );
+        });
         // 更にレアリティがマッチする日本語のカードを探す
         const moreRarityMatched = matchedJaCards.filter(
           (jaData) => jaData.rarity === card.rarity,
         );
         // 名前だけでマッチする日本語のデータを探す
-        const nameOnlyMatched = JA_DATA.filter(
-          (jaData) =>
-            jaData.name === card.name.replace(/ /g, '').replace(/・/g, ''),
-        );
+        const nameOnlyMatched = JA_DATA.filter((jaData) => {
+          const translateName = jaData.name.startsWith('アンノーン') // アンノーン*の場合に語尾の「*」を除去 （例: 「アンノーンG」→「アンノーン」）
+            ? 'アンノーン'
+            : jaData.name;
+          return (
+            translateName === card.name.replace(/ /g, '').replace(/・/g, '')
+          );
+        });
 
         // 現在のDBに保存されているカード
         const currentSaved =

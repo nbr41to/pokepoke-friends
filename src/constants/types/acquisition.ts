@@ -7,6 +7,7 @@ export const ACQUISITION = {
   A3: 'A3', // A3
   A3_a: 'A3a', // A3a
   A3_b: 'A3b', // A3b
+  A4: 'A4', // A4
   P_A: 'P-A', // P-A
 } as const;
 
@@ -19,6 +20,7 @@ export const ACQUISITION_LIST = [
   ACQUISITION.A3,
   ACQUISITION.A3_a,
   ACQUISITION.A3_b,
+  ACQUISITION.A4,
   ACQUISITION.P_A,
 ] as const;
 
@@ -31,6 +33,7 @@ export const ACQUISITION_LABEL = {
   [ACQUISITION.A3]: '双天の守護者',
   [ACQUISITION.A3_a]: '異次元クライシス',
   [ACQUISITION.A3_b]: 'イーブイガーデン',
+  [ACQUISITION.A4]: '空と海の導き',
   [ACQUISITION.P_A]: 'PROMO-A',
 } as const;
 
@@ -82,6 +85,12 @@ export const ACQUISITION_OPTIONS = [
     label: 'イーブイガーデン',
     kana: 'いーぶいがーでん',
     romaji: 'i-bui ga-den',
+  },
+  {
+    value: 'A4',
+    label: '空と海の導き',
+    kana: 'そらとうみのみちびき',
+    romaji: 'sora to umi no michibiki',
   },
   { value: 'P-A', label: 'Promo-A', kana: 'ぷろもえー', romaji: 'puromo a' },
 ];
