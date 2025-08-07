@@ -35,6 +35,8 @@ export const CardListItem = ({ card }: Props) => {
         height={80}
         style={{ width: '60px', height: '80px' }}
         unoptimized
+        loading="lazy"
+        className="animate-pulse bg-gray-300"
       />
 
       <div className="grow space-y-1 pr-2">

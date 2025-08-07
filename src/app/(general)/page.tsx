@@ -23,16 +23,28 @@ const ACQUISITIONS_PATH = {
   'P-A': '/search?query=C0MDEhQEPAUdBFFJLE0iNj8sPF42TS9IUgoWCgAAAAADQ0lRVRI=',
 } as const;
 
+const getLatestData = async () => {
+  try {
+    const result = await prisma.card.findMany({
+      orderBy: { createdAt: 'desc' },
+      take: 1,
+      select: {
+        id: true,
+        name: true,
+        updatedAt: true,
+      },
+    });
+
+    if (result.length > 0) return result[0];
+
+    return null;
+  } catch (error) {
+    return null;
+  }
+};
+
 export default async function Home() {
-  const latestData = await prisma.card.findMany({
-    orderBy: { createdAt: 'desc' },
-    take: 1,
-    select: {
-      id: true,
-      name: true,
-      updatedAt: true,
-    },
-  });
+  const latestData = await getLatestData();
 
   return (
     <div>
@@ -57,7 +69,9 @@ export default async function Home() {
 
         <p className="text-xs">
           最終更新:{' '}
-          {new Date(latestData?.[0].updatedAt).toLocaleString('ja-JP')}
+          {latestData
+            ? new Date(latestData.updatedAt).toLocaleString('ja-JP')
+            : '-'}
         </p>
 
         <Button
