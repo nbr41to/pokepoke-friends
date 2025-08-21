@@ -15,9 +15,9 @@ export const SearchResults = () => {
   const { query } = useSearchQuery();
   const hasConditions = hasSearchConditions(query);
   const [isLoading, setIsLoading] = useState(false);
-  const [debouncedQuery, setDebouncedQuery] = useState(query);
+  const [shouldShowCards, setShouldShowCards] = useState(hasConditions);
   
-  const filteredCards = useFilteredCards({ cards: hasConditions ? CARD_DATA : [] });
+  const filteredCards = useFilteredCards({ cards: shouldShowCards ? CARD_DATA : [] });
   const [viewMode, setViewMode] = useQueryState('view', {
     defaultValue: '',
   });
@@ -26,14 +26,14 @@ export const SearchResults = () => {
   // 検索条件の変更をデバウンス
   useEffect(() => {
     if (!hasConditions) {
-      setDebouncedQuery(query);
+      setShouldShowCards(false);
       setIsLoading(false);
       return;
     }
 
     setIsLoading(true);
     const timer = setTimeout(() => {
-      setDebouncedQuery(query);
+      setShouldShowCards(true);
       setIsLoading(false);
     }, 300);
 
