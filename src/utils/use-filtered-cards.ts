@@ -1,13 +1,36 @@
 import type { Card, PokemonEvolveStage } from '@/generated/prisma';
-import { useMemo } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { useSearchQuery } from './use-search-query';
+import { hasActiveSearchConditions } from './has-active-search-conditions';
 
 /* カードを絞り込むロジックをここに集約 */
 export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
   const { query } = useSearchQuery();
+  const [isLoading, setIsLoading] = useState(false);
+  
+  // 検索条件がアクティブかどうかを判定
+  const hasActiveConditions = hasActiveSearchConditions(query);
+  
+  // 検索条件が変更されたときにローディング状態を管理
+  useEffect(() => {
+    if (hasActiveConditions) {
+      setIsLoading(true);
+      // 短い遅延でローディング状態を解除（計算完了を待つ）
+      const timer = setTimeout(() => setIsLoading(false), 100);
+      return () => clearTimeout(timer);
+    } else {
+      setIsLoading(false);
+    }
+  }, [query, hasActiveConditions]);
+  
   const filteredCards = useMemo(
-    () =>
-      (cards as Card[]).filter((card) => {
+    () => {
+      // 検索条件がない場合は空配列を返す（パフォーマンス最適化）
+      if (!hasActiveConditions) {
+        return [];
+      }
+
+      return (cards as Card[]).filter((card) => {
         const {
           cardTypes,
           pokemonTypes,
@@ -159,9 +182,14 @@ export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
               card.tags?.includes(keywordsKatakana)
             : true)
         );
-      }),
-    [query, cards],
+      });
+    },
+    [query, cards, hasActiveConditions],
   );
 
-  return filteredCards as Card[];
+  return { 
+    filteredCards: filteredCards as Card[], 
+    isLoading,
+    hasActiveConditions
+  };
 };
