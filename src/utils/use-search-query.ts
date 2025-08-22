@@ -71,13 +71,9 @@ export const useSearchQuery = () => {
     defaultValue: xorEncrypt(DEFAULT_CONDITION, PASSWORD),
   });
 
-  const condition = queryToCondition(query);
-  const hasConditions = query !== xorEncrypt(DEFAULT_CONDITION, PASSWORD);
-
   return {
-    query: condition,
+    query: queryToCondition(query),
     setQuery: (newQuery: Condition) => setQuery(conditionToQuery(newQuery)),
     resetQuery: () => setQuery(xorEncrypt(DEFAULT_CONDITION, PASSWORD)),
-    hasConditions,
   };
 };
