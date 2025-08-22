@@ -1,32 +1,13 @@
 import type { Card, PokemonEvolveStage } from '@/generated/prisma';
 import { useMemo } from 'react';
-import { useQueryState } from 'nuqs';
-import { xorEncrypt } from '@/utils/crypto';
+import { useSearchParams } from 'next/navigation';
 import { useSearchQuery } from './use-search-query';
-
-const PASSWORD = 'password';
-const DEFAULT_CONDITION = {
-  cardTypes: [],
-  pokemonTypes: [],
-  evolveStages: [],
-  hitpoints: [null, null],
-  movePower: [null, null],
-  moveEnergy: null,
-  moveColorlessEnergy: null,
-  hasAbility: null,
-  retreatCost: null,
-  rarities: [],
-  packName: [],
-  keywords: '',
-} as const;
 
 /* カードを絞り込むロジックをここに集約 */
 export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
   const { query } = useSearchQuery();
-  const [urlQuery] = useQueryState('query', {
-    defaultValue: xorEncrypt(DEFAULT_CONDITION, PASSWORD),
-  });
-  const hasConditions = urlQuery !== xorEncrypt(DEFAULT_CONDITION, PASSWORD);
+  const searchParams = useSearchParams();
+  const hasConditions = searchParams.has('query');
 
   const filteredCards = useMemo(
     () => {
@@ -187,7 +168,7 @@ export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
         );
       });
     },
-    [query, cards, hasConditions, urlQuery],
+    [query, cards, hasConditions, searchParams],
   );
 
   return filteredCards as Card[];
