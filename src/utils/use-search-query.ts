@@ -66,14 +66,34 @@ const queryToCondition = (query: string) => {
   } as Condition;
 };
 
+const hasSearchConditions = (condition: Condition) => {
+  return Object.values(condition).some(value => {
+    if (value === null || value === '') {
+      return false;
+    }
+    if (Array.isArray(value)) {
+      if (value.length === 0) {
+        return false;
+      }
+      if (value.every(v => v === null)) {
+        return false;
+      }
+    }
+    return true;
+  });
+};
+
 export const useSearchQuery = () => {
   const [query, setQuery] = useQueryState('query', {
     defaultValue: xorEncrypt(DEFAULT_CONDITION, PASSWORD),
   });
 
+  const condition = queryToCondition(query);
+
   return {
-    query: queryToCondition(query),
+    query: condition,
     setQuery: (newQuery: Condition) => setQuery(conditionToQuery(newQuery)),
     resetQuery: () => setQuery(xorEncrypt(DEFAULT_CONDITION, PASSWORD)),
+    hasConditions: hasSearchConditions(condition),
   };
 };

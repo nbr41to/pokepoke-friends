@@ -4,10 +4,14 @@ import { useSearchQuery } from './use-search-query';
 
 /* カードを絞り込むロジックをここに集約 */
 export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
-  const { query } = useSearchQuery();
+  const { query, hasConditions } = useSearchQuery();
+
   const filteredCards = useMemo(
-    () =>
-      (cards as Card[]).filter((card) => {
+    () => {
+      if (!hasConditions) {
+        return [];
+      }
+      return (cards as Card[]).filter((card) => {
         const {
           cardTypes,
           pokemonTypes,
@@ -159,8 +163,9 @@ export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
               card.tags?.includes(keywordsKatakana)
             : true)
         );
-      }),
-    [query, cards],
+      });
+    },
+    [query, cards, hasConditions],
   );
 
   return filteredCards as Card[];
