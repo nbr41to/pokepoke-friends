@@ -2266,5 +2266,205 @@
     "retreat": 1,
     "url": "https://pocket.limitlesstcg.com/cards/P-A/92",
     "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "0",
+        "name": "Twinkly Call",
+        "damage": null,
+        "description": "Put a random Pokémon from your deck into your hand."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "According to local rumors, Cleffa are often seen in places where shooting stars have fallen.",
+    "evole_stage": "Basic",
+    "hp": 30,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_093_EN_SM.webp",
+    "name": "Cleffa",
+    "numbering": "P-A #93",
+    "pack": "Common",
+    "pokemon_type": "Psychic",
+    "rarity": "PROMO",
+    "retreat": 0,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/93",
+    "weakness": null
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "W",
+        "name": "Water Arrow",
+        "damage": null,
+        "description": "This attack does 10 damage to 1 of your opponent's Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_094_EN_SM.webp",
+    "name": "Horsea",
+    "numbering": "P-A #94",
+    "pack": "Promo pack",
+    "pokemon_type": "Water",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/94",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "L",
+        "name": "Luring Glow",
+        "damage": null,
+        "description": "Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_095_EN_SM.webp",
+    "name": "Chinchou",
+    "numbering": "P-A #95",
+    "pack": "Promo pack",
+    "pokemon_type": "Lightning",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/95",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "DDD",
+        "name": "Diving Swipe",
+        "damage": "70",
+        "description": "Discard a random card from your opponent's hand."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+    "evole_stage": "Stage 1",
+    "hp": 110,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_096_EN_SM.webp",
+    "name": "Houndoom",
+    "numbering": "P-A #96",
+    "pack": "Promo pack",
+    "pokemon_type": "Darkness",
+    "rarity": "◊",
+    "retreat": 2,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/96",
+    "weakness": "Grass"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Cross-Cut",
+        "damage": "20+",
+        "description": "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 40 more damage."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Although it’s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
+    "evole_stage": "Basic",
+    "hp": 100,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_097_EN_SM.webp",
+    "name": "Kangaskhan",
+    "numbering": "P-A #97",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/97",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "CCCC",
+        "name": "Happy Punch",
+        "damage": "100",
+        "description": "Flip a coin. If heads, heal 60 damage from this Pokémon."
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": null,
+    "evole_stage": "Stage 1",
+    "hp": 180,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_098_EN_SM.webp",
+    "name": "Blissey ex",
+    "numbering": "P-A #98",
+    "pack": "Promo pack",
+    "pokemon_type": "Colorless",
+    "rarity": "◊",
+    "retreat": 3,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/98",
+    "weakness": "Fighting"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "C",
+        "name": "Tackle",
+        "damage": "10",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+    "evole_stage": "Basic",
+    "hp": 60,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_099_EN_SM.webp",
+    "name": "Marill",
+    "numbering": "P-A #99",
+    "pack": "Common",
+    "pokemon_type": "Water",
+    "rarity": "◊",
+    "retreat": 1,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/99",
+    "weakness": "Lightning"
+  },
+  {
+    "ability_description": null,
+    "ability_name": null,
+    "attacks": [
+      {
+        "energy": "D",
+        "name": "Slash",
+        "damage": "50",
+        "description": null
+      }
+    ],
+    "card_type": "Pokémon",
+    "description": "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+    "evole_stage": "Stage 1",
+    "hp": 80,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_100_EN_SM.webp",
+    "name": "Weavile",
+    "numbering": "P-A #100",
+    "pack": "Common",
+    "pokemon_type": "Darkness",
+    "rarity": "◊",
+    "retreat": 0,
+    "url": "https://pocket.limitlesstcg.com/cards/P-A/100",
+    "weakness": "Grass"
   }
 ]
