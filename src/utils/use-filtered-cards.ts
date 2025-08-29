@@ -6,13 +6,11 @@ import { useSearchQuery } from './use-search-query';
 /* カードを絞り込むロジックをここに集約 */
 export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
   const { query } = useSearchQuery();
-  const searchParams = useSearchParams();
-  const hasConditions = searchParams.has('query');
+  const hasConditions = useSearchParams().get('query');
 
   const filteredCards = useMemo(() => {
-    if (!hasConditions) {
-      return [];
-    }
+    if (!hasConditions) return [];
+
     return (cards as Card[]).filter((card) => {
       const {
         cardTypes,

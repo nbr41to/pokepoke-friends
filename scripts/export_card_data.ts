@@ -103,7 +103,7 @@ async function exportCardData(
     const absolutePath = path.resolve(outputPath);
     fs.writeFileSync(
       absolutePath,
-      JSON.stringify(sortedCards, null, 2),
+      JSON.stringify(sortedCards),
       'utf8',
     );
 

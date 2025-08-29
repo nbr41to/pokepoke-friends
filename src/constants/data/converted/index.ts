@@ -7,6 +7,7 @@ import A3JSON from './A3.json';
 import A3aJSON from './A3a.json';
 import A3bJSON from './A3b.json';
 import A4JSON from './A4.json';
+import A4aJSON from './A4a.json';
 import P_AJSON from './P-A.json';
 
 export const CARD_DATA = [
@@ -19,5 +20,6 @@ export const CARD_DATA = [
   ...A3aJSON,
   ...A3bJSON,
   ...A4JSON,
+  ...A4aJSON,
   ...P_AJSON,
 ];

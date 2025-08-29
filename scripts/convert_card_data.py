@@ -101,6 +101,10 @@ def convert_pokemon_name(name: str, pokemon_names_map: Dict[str, str]) -> str:
     elif base_name.startswith("Alolan "):
         prefix = "アローラ"  # 日本語の接頭辞
         base_name = base_name[len("Alolan "):]  # "Alolan "を取り除く
+    # ガラル地方のポケモン名を検出（例: "Galarian Corsola"）
+    elif base_name.startswith("Galarian "):
+        prefix = "ガラル"  # 日本語の接頭辞
+        base_name = base_name[len("Galarian "):]  # "Galarian "を取り除く
     # パルデア地方のポケモン名を検出（例: "Paldean Wooper"）
     elif base_name.startswith("Paldean "):
         prefix = "パルデア"  # 日本語の接頭辞
