@@ -1,15 +1,15 @@
 import type { Card, PokemonEvolveStage } from '@/generated/prisma';
+import { useSearchParams } from 'next/navigation';
 import { useMemo } from 'react';
 import { useSearchQuery } from './use-search-query';
-import { useSearchParams } from 'next/navigation';
 
 /* カードを絞り込むロジックをここに集約 */
 export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
   const { query } = useSearchQuery();
-  const queryParams = useSearchParams().get('query');
+  const hasConditions = useSearchParams().get('query');
 
   const filteredCards = useMemo(() => {
-    if (!queryParams) return [];
+    if (!hasConditions) return [];
 
     return (cards as Card[]).filter((card) => {
       const {
@@ -161,7 +161,7 @@ export const useFilteredCards = ({ cards }: { cards: Card[] }) => {
           : true)
       );
     });
-  }, [query, cards]);
+  }, [query, cards, hasConditions]);
 
   return filteredCards as Card[];
 };
